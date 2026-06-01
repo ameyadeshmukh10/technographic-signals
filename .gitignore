@@ -1,0 +1,33 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Playwright
+.cache/ms-playwright/
+playwright-report/
+test-results/
+
+# Test fixtures (we commit a few selectively with `git add -f`)
+tests/fixtures/*.html
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

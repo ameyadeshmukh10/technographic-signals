@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FlowMetric &mdash; Product Analytics Platform</title>
+
+<!-- Segment -->
+<script type="text/javascript">
+!function(){
+  var analytics = window.analytics = window.analytics || [];
+  if (!analytics.initialize) {
+    if (analytics.invoked) {
+      window.console && console.error && console.error("Segment snippet included twice.");
+    } else {
+      analytics.invoked = !0;
+      analytics.methods = ["trackSubmit","trackClick","trackLink","trackForm","pageview",
+        "identify","reset","group","track","ready","alias","debug","page","once","off","on"];
+      analytics.factory = function(t) {
+        return function() {
+          var e = Array.prototype.slice.call(arguments);
+          e.unshift(t); analytics.push(e); return analytics;
+        };
+      };
+      for (var t = 0; t < analytics.methods.length; t++) {
+        var e = analytics.methods[t]; analytics[e] = analytics.factory(e);
+      }
+      analytics.load = function(t, e) {
+        var n = document.createElement("script");
+        n.type = "text/javascript"; n.async = !0;
+        n.src = "https://cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+        var a = document.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(n, a);
+        analytics._loadOptions = e;
+      };
+      analytics.SNIPPET_VERSION = "4.1.0";
+      analytics.load("abc123writekey");
+      analytics.page();
+    }
+  }
+}();
+</script>
+
+<!-- Mixpanel -->
+<script type="text/javascript">
+(function(f, b) {
+  if (!b.__SV) {
+    var e, g, i, h;
+    window.mixpanel = b; b._i = [];
+    b.init = function(e, f, c) {
+      var g = c;
+      "undefined" !== typeof c || (c = "mixpanel");
+      g = b;
+      "undefined" !== typeof c ? g = b[c] = [] : c = "mixpanel";
+      g.people = g.people || [];
+      g.toString = function(b) {
+        var a = "mixpanel";
+        "mixpanel" !== c && (a += "." + c);
+        b || (a += " (stub)");
+        return a;
+      };
+      b._i.push([e, f, c]);
+    };
+    b.__SV = 1.2;
+    e = f.createElement("script"); e.type = "text/javascript"; e.async = !0;
+    e.src = "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+    g = f.getElementsByTagName("script")[0];
+    g.parentNode.insertBefore(e, g);
+  }
+})(document, window.mixpanel || []);
+mixpanel.init("abcdef0123456789");
+</script>
+
+<!-- Intercom -->
+<script type="text/javascript">
+window.intercomSettings = { app_id: "xyz789" };
+(function() {
+  var w = window; var ic = w.Intercom;
+  if (typeof ic === "function") {
+    ic('reattach_activator');
+    ic('update', w.intercomSettings);
+  } else {
+    var d = document;
+    var i = function() { i.c(arguments); };
+    i.q = []; i.c = function(args) { i.q.push(args); };
+    w.Intercom = i;
+    var l = function() {
+      var s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true;
+      s.src = 'https://widget.intercom.io/widget/xyz789';
+      var x = d.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    };
+    if (document.readyState === 'complete') { l(); }
+    else if (w.attachEvent) { w.attachEvent('onload', l); }
+    else { w.addEventListener('load', l, false); }
+  }
+})();
+Intercom('boot', { app_id: 'xyz789' });
+</script>
+</head>
+
+<body>
+<header><h1>FlowMetric</h1></header>
+
+<main>
+  <p>Product analytics for modern engineering teams.</p>
+
+  <section>
+    <h2>Book a demo</h2>
+    <!-- Calendly inline widget -->
+    <div class="calendly-inline-widget"
+         data-url="https://calendly.com/flowmetric/30min?hide_event_type_details=1"
+         style="min-width:320px;height:630px;"></div>
+    <script type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
+
+  <section>
+    <h2>Customers</h2>
+    <p>Trusted by engineering teams at companies large and small.
+       We help product teams understand user behavior at scale.</p>
+  </section>
+</main>
+
+<footer><p>&copy; 2025 FlowMetric.</p></footer>
+</body>
+</html>
