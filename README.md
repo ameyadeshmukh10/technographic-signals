@@ -8,6 +8,11 @@ property called `technographic_signals`.
 Detection is signature-based — no third-party enrichment API like BuiltWith
 is used. The signature library lives in [src/detectors/signatures.py](src/detectors/signatures.py).
 
+**See also:**
+- [AGENTS.md](AGENTS.md) — entry doc for agents / contributors working on the codebase.
+- [SKILLS.md](SKILLS.md) — operational playbooks (which command to run for what).
+- [ARCHITECTURE.md](ARCHITECTURE.md) — deep technical reference (data flow, module map, schemas, extension points).
+
 ## Stack
 
 - Python 3.11+ (also runs on 3.9 thanks to `from __future__ import annotations`)

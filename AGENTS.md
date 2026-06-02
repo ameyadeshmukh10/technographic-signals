@@ -4,6 +4,12 @@ This file is the entry point for any AI agent (Claude, or anything that
 reads `AGENTS.md`) working on this project. Read it before doing
 anything destructive.
 
+**For operational playbooks** — when to run which command, how to handle
+each user request shape — see [SKILLS.md](SKILLS.md).
+**For a deep technical reference** — data flow, every module's
+responsibility, schemas, error taxonomy, extension points — see
+[ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## What this project does
 
 The pipeline pulls a list of companies from HubSpot, visits each
