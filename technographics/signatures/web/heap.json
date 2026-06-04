@@ -1,0 +1,33 @@
+{
+  "vendor_id": "heap",
+  "js_globals": [
+    {
+      "value": "heap.version.heapJsVersion",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "cdn\\.heapanalytics\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)"
+    },
+    {
+      "value": "heap-\\d+\\.js",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

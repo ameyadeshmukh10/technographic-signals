@@ -1,0 +1,1067 @@
+{
+  "34sp_com": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 34SP.com)",
+        "strength": 1.0,
+        "value": "ns(?:\\d+)?\\.34sp\\.com"
+      }
+    ],
+    "vendor_id": "34sp_com"
+  },
+  "all_inkl": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ALL-INKL)",
+        "strength": 1.0,
+        "value": "\\.kasserver\\.com"
+      }
+    ],
+    "vendor_id": "all_inkl"
+  },
+  "amazon_cloudfront": {
+    "cname_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS CNAME; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amazon CloudFront)",
+        "strength": 1.0,
+        "value": "^[a-z0-9]+\\.cloudfront.net\\.?$"
+      }
+    ],
+    "vendor_id": "amazon_cloudfront"
+  },
+  "amazon_ses": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amazon SES)",
+        "strength": 1.0,
+        "value": "amazonses\\.com"
+      }
+    ],
+    "vendor_id": "amazon_ses"
+  },
+  "amazon_web_services": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amazon Web Services)",
+        "strength": 1.0,
+        "value": "\\.awsdns-"
+      }
+    ],
+    "vendor_id": "amazon_web_services"
+  },
+  "ans": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ANS)",
+        "strength": 1.0,
+        "value": "\\.ukfast\\.net"
+      }
+    ],
+    "vendor_id": "ans"
+  },
+  "apple_icloud_mail": {
+    "mx_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS MX; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apple iCloud Mail)",
+        "strength": 1.0,
+        "value": "mail\\.icloud\\.com"
+      }
+    ],
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apple iCloud Mail)",
+        "strength": 1.0,
+        "value": "apple-domain"
+      },
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apple iCloud Mail)",
+        "strength": 1.0,
+        "value": "redirect=icloud\\.com"
+      }
+    ],
+    "vendor_id": "apple_icloud_mail"
+  },
+  "aruba_it": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Aruba.it)",
+        "strength": 1.0,
+        "value": "\\.technorail\\.com"
+      }
+    ],
+    "vendor_id": "aruba_it"
+  },
+  "atlassian_statuspage": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Atlassian Statuspage)",
+        "strength": 1.0,
+        "value": "status-page-domain-verification="
+      }
+    ],
+    "vendor_id": "atlassian_statuspage"
+  },
+  "azion": {
+    "cname_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS CNAME; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Azion)",
+        "strength": 1.0,
+        "value": "azioncdn\\.net\\.?$"
+      }
+    ],
+    "vendor_id": "azion"
+  },
+  "azure": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Azure)",
+        "strength": 1.0,
+        "value": "\\.azure-dns\\."
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Azure)",
+        "strength": 1.0,
+        "value": "azuredns-cloud\\.net"
+      }
+    ],
+    "vendor_id": "azure"
+  },
+  "bluehost": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Bluehost)",
+        "strength": 1.0,
+        "value": "\\.bluehost\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Bluehost)",
+        "strength": 1.0,
+        "value": "\\.bluehost\\.com"
+      }
+    ],
+    "vendor_id": "bluehost"
+  },
+  "bugcrowd": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Bugcrowd)",
+        "strength": 1.0,
+        "value": "bugcrowd-verification"
+      }
+    ],
+    "vendor_id": "bugcrowd"
+  },
+  "cloudflare": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)",
+        "strength": 1.0,
+        "value": "\\.cloudflare\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)",
+        "strength": 1.0,
+        "value": "\\.cloudflare\\.com"
+      }
+    ],
+    "vendor_id": "cloudflare"
+  },
+  "contabo": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Contabo)",
+        "strength": 1.0,
+        "value": "\\.contabo\\.net"
+      }
+    ],
+    "vendor_id": "contabo"
+  },
+  "detectify": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Detectify)",
+        "strength": 1.0,
+        "value": "detectify-verification"
+      }
+    ],
+    "vendor_id": "detectify"
+  },
+  "docusign": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: DocuSign)",
+        "strength": 1.0,
+        "value": "docusign"
+      }
+    ],
+    "vendor_id": "docusign"
+  },
+  "domainfactory": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: DomainFactory)",
+        "strength": 1.0,
+        "value": "ns(?:\\d+)?\\.namespace4you\\.de"
+      }
+    ],
+    "vendor_id": "domainfactory"
+  },
+  "dreamhost": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: DreamHost)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.dreamhost\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: DreamHost)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.dreamhost\\.com"
+      }
+    ],
+    "vendor_id": "dreamhost"
+  },
+  "dropbox": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Dropbox)",
+        "strength": 1.0,
+        "value": "dropbox-domain-verification"
+      }
+    ],
+    "vendor_id": "dropbox"
+  },
+  "fastcomet": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: FastComet)",
+        "strength": 1.0,
+        "value": "\\.fcomet\\.com"
+      }
+    ],
+    "vendor_id": "fastcomet"
+  },
+  "funding_choices": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Funding Choices)",
+        "strength": 1.0,
+        "value": "fundingchoicesmessages"
+      }
+    ],
+    "vendor_id": "funding_choices"
+  },
+  "godaddy": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy)",
+        "strength": 1.0,
+        "value": "\\.domaincontrol\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy)",
+        "strength": 1.0,
+        "value": "\\.domaincontrol\\.com"
+      }
+    ],
+    "vendor_id": "godaddy"
+  },
+  "google_workspace": {
+    "mx_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS MX; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Workspace)",
+        "strength": 1.0,
+        "value": "aspmx\\.l\\.google\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "DNS MX; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Workspace)",
+        "strength": 1.0,
+        "value": "googlemail\\.com"
+      }
+    ],
+    "vendor_id": "google_workspace"
+  },
+  "gumroad": {
+    "cname_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS CNAME; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "\\.gumroad\\.com"
+      }
+    ],
+    "vendor_id": "gumroad"
+  },
+  "helhost": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helhost)",
+        "strength": 1.0,
+        "value": "\\.helhost\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helhost)",
+        "strength": 1.0,
+        "value": "\\.helhost\\.com"
+      }
+    ],
+    "vendor_id": "helhost"
+  },
+  "heroku": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heroku)",
+        "strength": 1.0,
+        "value": "heroku-domain-verification"
+      }
+    ],
+    "vendor_id": "heroku"
+  },
+  "hetzner": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hetzner)",
+        "strength": 1.0,
+        "value": "\\.ns\\.hetzner\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hetzner)",
+        "strength": 1.0,
+        "value": "\\.hetzner\\.com"
+      }
+    ],
+    "vendor_id": "hetzner"
+  },
+  "hostens": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostens)",
+        "strength": 1.0,
+        "value": "\\.hostens\\.com"
+      }
+    ],
+    "vendor_id": "hostens"
+  },
+  "hosteurope": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HostEurope)",
+        "strength": 1.0,
+        "value": "\\.hosteurope\\.com"
+      }
+    ],
+    "vendor_id": "hosteurope"
+  },
+  "hostgator": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostgator)",
+        "strength": 1.0,
+        "value": "\\.hostgator\\.com"
+      }
+    ],
+    "vendor_id": "hostgator"
+  },
+  "hosting_ukraine": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hosting Ukraine)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.ukraine\\.com\\.ua"
+      }
+    ],
+    "vendor_id": "hosting_ukraine"
+  },
+  "hostinger": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger)",
+        "strength": 1.0,
+        "value": "\\.(?:dns-parking|hostinger)\\.com"
+      }
+    ],
+    "vendor_id": "hostinger"
+  },
+  "hostiq": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostiq)",
+        "strength": 1.0,
+        "value": "\\.hostiq\\.ua"
+      }
+    ],
+    "vendor_id": "hostiq"
+  },
+  "hostpoint": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostpoint)",
+        "strength": 1.0,
+        "value": "\\.hostpoint\\.ch"
+      }
+    ],
+    "vendor_id": "hostpoint"
+  },
+  "hubspot": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "hubspot-developer-verification"
+      },
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "hubspot-domain-verification"
+      },
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "hubspotemail\\.net"
+      }
+    ],
+    "vendor_id": "hubspot"
+  },
+  "idcloudhost": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: idCloudHost)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.cloudhost\\.id"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: idCloudHost)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.cloudhost\\.id"
+      }
+    ],
+    "vendor_id": "idcloudhost"
+  },
+  "imgix": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Imgix)",
+        "strength": 1.0,
+        "value": "\\.imgix\\.net"
+      }
+    ],
+    "vendor_id": "imgix"
+  },
+  "infomaniak": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Infomaniak)",
+        "strength": 1.0,
+        "value": "\\.infomaniak\\.ch"
+      }
+    ],
+    "vendor_id": "infomaniak"
+  },
+  "ionos": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: IONOS)",
+        "strength": 1.0,
+        "value": "ns1\\d+\\.ui-dns\\.(?:de|org|biz|com)"
+      }
+    ],
+    "vendor_id": "ionos"
+  },
+  "keybase": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keybase)",
+        "strength": 1.0,
+        "value": "keybase-site-verification"
+      }
+    ],
+    "vendor_id": "keybase"
+  },
+  "kmk": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KMK)",
+        "strength": 1.0,
+        "value": "ns\\d\\.kmkhosting\\.net"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KMK)",
+        "strength": 1.0,
+        "value": "ns\\d\\.kmkhosting\\.net"
+      }
+    ],
+    "vendor_id": "kmk"
+  },
+  "leaseweb": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaseweb)",
+        "strength": 1.0,
+        "value": "\\.leaseweb\\.nl"
+      }
+    ],
+    "vendor_id": "leaseweb"
+  },
+  "liquid_web": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liquid Web)",
+        "strength": 1.0,
+        "value": "\\.liquidweb\\.com"
+      }
+    ],
+    "vendor_id": "liquid_web"
+  },
+  "loom": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loom)",
+        "strength": 1.0,
+        "value": "loom-verification"
+      }
+    ],
+    "vendor_id": "loom"
+  },
+  "mailchimp": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: MailChimp)",
+        "strength": 1.0,
+        "value": "spf\\.mandrillapp\\.com"
+      }
+    ],
+    "vendor_id": "mailchimp"
+  },
+  "mailgun": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Mailgun)",
+        "strength": 1.0,
+        "value": "mailgun\\.org"
+      }
+    ],
+    "vendor_id": "mailgun"
+  },
+  "mailjet": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Mailjet)",
+        "strength": 1.0,
+        "value": "mailjet\\.com"
+      }
+    ],
+    "vendor_id": "mailjet"
+  },
+  "microsoft_365": {
+    "mx_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS MX; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Microsoft 365)",
+        "strength": 1.0,
+        "value": "outlook\\.com"
+      }
+    ],
+    "vendor_id": "microsoft_365"
+  },
+  "mittwald": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Mittwald)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.agenturserver\\.(?:de|co|it)"
+      }
+    ],
+    "vendor_id": "mittwald"
+  },
+  "mixpanel": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Mixpanel)",
+        "strength": 1.0,
+        "value": "mixpanel-domain-verify"
+      }
+    ],
+    "vendor_id": "mixpanel"
+  },
+  "one_com": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: One.com)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.one\\.com"
+      }
+    ],
+    "vendor_id": "one_com"
+  },
+  "onetrust": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "onetrust-domain-verification="
+      }
+    ],
+    "vendor_id": "onetrust"
+  },
+  "ovhcloud": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OVHcloud)",
+        "strength": 1.0,
+        "value": "\\d+\\.ovh\\.net"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OVHcloud)",
+        "strength": 1.0,
+        "value": "\\d+\\.ovh\\.net"
+      }
+    ],
+    "vendor_id": "ovhcloud"
+  },
+  "proton_mail": {
+    "mx_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS MX; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Proton Mail)",
+        "strength": 1.0,
+        "value": "\\.protonmail\\.ch"
+      }
+    ],
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Proton Mail)",
+        "strength": 1.0,
+        "value": "protonmail-verification="
+      }
+    ],
+    "vendor_id": "proton_mail"
+  },
+  "quic_cloud": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QUIC.cloud)",
+        "strength": 1.0,
+        "value": "\\.quicns\\.(?:net|com)"
+      }
+    ],
+    "vendor_id": "quic_cloud"
+  },
+  "reg_ru": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: REG.RU)",
+        "strength": 1.0,
+        "value": "(?:\\.hosting)?\\.reg\\.ru"
+      }
+    ],
+    "vendor_id": "reg_ru"
+  },
+  "render_better": {
+    "cname_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS CNAME; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Render Better)",
+        "strength": 1.0,
+        "value": "\\.renderbetter\\.app"
+      }
+    ],
+    "vendor_id": "render_better"
+  },
+  "saba_host": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Saba.Host)",
+        "strength": 1.0,
+        "value": "\\.saba\\.host"
+      }
+    ],
+    "vendor_id": "saba_host"
+  },
+  "sakura_internet": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Sakura Internet)",
+        "strength": 1.0,
+        "value": "\\.gslbN\\.sakura\\.ne\\.jp"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Sakura Internet)",
+        "strength": 1.0,
+        "value": "tech\\.sakura\\.ad\\.jp"
+      }
+    ],
+    "vendor_id": "sakura_internet"
+  },
+  "salesforce": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)",
+        "strength": 1.0,
+        "value": "salesforce\\.com"
+      }
+    ],
+    "vendor_id": "salesforce"
+  },
+  "salesforce_marketing_cloud_account_engagement": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce Marketing Cloud Account Engagement)",
+        "strength": 1.0,
+        "value": "pardot"
+      }
+    ],
+    "vendor_id": "salesforce_marketing_cloud_account_engagement"
+  },
+  "segment": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)",
+        "strength": 1.0,
+        "value": "segment-site-verification"
+      }
+    ],
+    "vendor_id": "segment"
+  },
+  "sendgrid": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Sendgrid)",
+        "strength": 1.0,
+        "value": "sendgrid\\.net"
+      }
+    ],
+    "vendor_id": "sendgrid"
+  },
+  "sendinblue": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Sendinblue)",
+        "strength": 1.0,
+        "value": "Sendinblue-code"
+      },
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Sendinblue)",
+        "strength": 1.0,
+        "value": "\\.sendinblue\\.com"
+      }
+    ],
+    "vendor_id": "sendinblue"
+  },
+  "siteground": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: SiteGround)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.c\\d+\\.sgvps\\.net"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: SiteGround)",
+        "strength": 1.0,
+        "value": "\\.siteground\\.net"
+      }
+    ],
+    "vendor_id": "siteground"
+  },
+  "sparkpost": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: SparkPost)",
+        "strength": 1.0,
+        "value": "sparkpostmail\\.com"
+      }
+    ],
+    "vendor_id": "sparkpost"
+  },
+  "strato": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Strato)",
+        "strength": 1.0,
+        "value": "\\.strato-rz\\.de"
+      }
+    ],
+    "vendor_id": "strato"
+  },
+  "stripe": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Stripe)",
+        "strength": 1.0,
+        "value": "stripe-verification="
+      }
+    ],
+    "vendor_id": "stripe"
+  },
+  "tangled_network": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Tangled Network)",
+        "strength": 1.0,
+        "value": "\\.tanglednetwork\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Tangled Network)",
+        "strength": 1.0,
+        "value": "\\.tanglednetwork\\.com"
+      }
+    ],
+    "vendor_id": "tangled_network"
+  },
+  "ukfast": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UKFast)",
+        "strength": 1.0,
+        "value": "\\.ukfast\\.net"
+      }
+    ],
+    "vendor_id": "ukfast"
+  },
+  "ventraip": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentraIP)",
+        "strength": 1.0,
+        "value": "\\.(?:nameserver|hostingplatform)\\.net\\.au"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentraIP)",
+        "strength": 1.0,
+        "value": "\\.(?:nameserver|hostingplatform)\\.net\\.au"
+      }
+    ],
+    "vendor_id": "ventraip"
+  },
+  "vercel": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel)",
+        "strength": 1.0,
+        "value": "\\.vercel-dns\\.com"
+      }
+    ],
+    "vendor_id": "vercel"
+  },
+  "vultr": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vultr)",
+        "strength": 1.0,
+        "value": "\\.vultr\\.com"
+      }
+    ],
+    "vendor_id": "vultr"
+  },
+  "webhostuk": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: WebHostUK)",
+        "strength": 1.0,
+        "value": "ns2\\d\\.dnshostcentral\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: WebHostUK)",
+        "strength": 1.0,
+        "value": "ns2\\d\\.dnshostcentral\\.com"
+      }
+    ],
+    "vendor_id": "webhostuk"
+  },
+  "world4you": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: World4You)",
+        "strength": 1.0,
+        "value": "ns\\d+\\.world4you\\.at"
+      }
+    ],
+    "vendor_id": "world4you"
+  },
+  "xserver": {
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xserver)",
+        "strength": 1.0,
+        "value": "\\.xserver\\.jp"
+      }
+    ],
+    "vendor_id": "xserver"
+  },
+  "yalinhost": {
+    "ns_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS NS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YalinHost)",
+        "strength": 1.0,
+        "value": "\\.yalinhost\\.com"
+      }
+    ],
+    "soa_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS SOA; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YalinHost)",
+        "strength": 1.0,
+        "value": "\\.yalinhost\\.com"
+      }
+    ],
+    "vendor_id": "yalinhost"
+  },
+  "zendesk": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "mail\\.zendesk\\.com"
+      }
+    ],
+    "vendor_id": "zendesk"
+  },
+  "zoho": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho)",
+        "strength": 1.0,
+        "value": "\\.zoho\\.com"
+      }
+    ],
+    "vendor_id": "zoho"
+  },
+  "zoho_mail": {
+    "txt_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "DNS TXT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho Mail)",
+        "strength": 1.0,
+        "value": "transmail\\.net"
+      }
+    ],
+    "vendor_id": "zoho_mail"
+  }
+}

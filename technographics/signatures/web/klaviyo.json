@@ -1,0 +1,33 @@
+{
+  "vendor_id": "klaviyo",
+  "js_globals": [
+    {
+      "value": "KlaviyoSubscribe",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)"
+    },
+    {
+      "value": "klaviyo",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "klaviyo\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

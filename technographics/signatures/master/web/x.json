@@ -1,0 +1,784 @@
+{
+  "x_ai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X.ai)",
+        "strength": 1.0,
+        "value": "xdotaiAction"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X.ai)",
+        "strength": 1.0,
+        "value": "xdotaiButton"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X.ai)",
+        "strength": 1.0,
+        "value": "(?:cdn)?x\\.ai/.*/xdotai-embed\\.js"
+      }
+    ],
+    "vendor_id": "x_ai"
+  },
+  "x_cart": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X-Cart)",
+        "strength": 1.0,
+        "value": "xcart_web_dir"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X-Cart)",
+        "strength": 1.0,
+        "value": "xliteConfig"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X-Cart)",
+          "strength": 1.0,
+          "value": "X-Cart(?: (\\d+))?"
+        }
+      ]
+    },
+    "vendor_id": "x_cart"
+  },
+  "x_clacks_overhead": {
+    "header_patterns": {
+      "x-clacks-overhead": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Clacks-Overhead; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: X-Clacks-Overhead)",
+          "strength": 1.0,
+          "value": "^GNU Terry Pratchett$"
+        }
+      ]
+    },
+    "vendor_id": "x_clacks_overhead"
+  },
+  "xajax": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xajax)",
+        "strength": 1.0,
+        "value": "xajax_core.*\\.js"
+      }
+    ],
+    "vendor_id": "xajax"
+  },
+  "xampp": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XAMPP)",
+        "strength": 1.0,
+        "value": "<title>XAMPP(?: Version ([\\d\\.]+))?</title>"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XAMPP)",
+          "strength": 0.1,
+          "value": "Kai Oswald Seidler"
+        }
+      ]
+    },
+    "vendor_id": "xampp"
+  },
+  "xanario": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xanario)",
+          "strength": 1.0,
+          "value": "xanario shopsoftware"
+        }
+      ]
+    },
+    "vendor_id": "xanario"
+  },
+  "xano": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xano)",
+        "strength": 1.0,
+        "value": "XanoBaseStorage"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xano)",
+        "strength": 1.0,
+        "value": "XanoClient"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xano)",
+        "strength": 1.0,
+        "value": "XanoCookieStorage"
+      }
+    ],
+    "vendor_id": "xano"
+  },
+  "xcharts": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xCharts)",
+        "properties": {},
+        "selector": "link[href*='xcharts.css'], link[href*='xcharts.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xCharts)",
+        "strength": 1.0,
+        "value": "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xCharts)",
+        "strength": 1.0,
+        "value": "xChart"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xCharts)",
+        "strength": 1.0,
+        "value": "xcharts\\.js"
+      }
+    ],
+    "vendor_id": "xcharts"
+  },
+  "xenforo": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "strength": 1.0,
+        "value": "xf_csrf"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "strength": 1.0,
+        "value": "xf_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "properties": {},
+        "selector": "html[id*='XenForo'], html[id*='XF']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "strength": 1.0,
+        "value": "(?:jQuery\\.extend\\(true, XenForo|<a[^>]+>Forum software by XenForo\u2122|<!--XF:branding|<html[^>]+id=\"XenForo\")"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "strength": 1.0,
+        "value": "<html id=\"XF\" "
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XenForo)",
+        "strength": 1.0,
+        "value": "XF.GuestUsername"
+      }
+    ],
+    "vendor_id": "xenforo"
+  },
+  "xenioo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xenioo)",
+        "strength": 1.0,
+        "value": "Xenioo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xenioo)",
+        "strength": 1.0,
+        "value": "static\\.xenioo\\.com"
+      }
+    ],
+    "vendor_id": "xenioo"
+  },
+  "xeno_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeno Chat)",
+        "strength": 1.0,
+        "value": "_xeno._Utils"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeno Chat)",
+        "strength": 1.0,
+        "value": "_xenoLoader"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeno Chat)",
+        "strength": 1.0,
+        "value": "cdn\\.xeno\\.app"
+      }
+    ],
+    "vendor_id": "xeno_chat"
+  },
+  "xeora": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeora)",
+        "properties": {},
+        "selector": "input[type='hidden'][name^='_sys_bind_'][id^='_sys_bind_']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeora)",
+          "strength": 1.0,
+          "value": "XeoraEngine"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeora)",
+          "strength": 1.0,
+          "value": "XeoraCube"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeora)",
+        "strength": 1.0,
+        "value": "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xeora)",
+        "strength": 1.0,
+        "value": "/_bi_sps_v.+\\.js"
+      }
+    ],
+    "vendor_id": "xeora"
+  },
+  "xgen_ai": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XGen Ai)",
+        "strength": 1.0,
+        "value": "//assets\\.xgen\\.dev/"
+      }
+    ],
+    "vendor_id": "xgen_ai"
+  },
+  "xitami": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xitami)",
+          "strength": 1.0,
+          "value": "Xitami(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "xitami"
+  },
+  "xiuno_bbs": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xiuno BBS)",
+          "strength": 1.0,
+          "value": "XiunoBBS\\s([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "xiuno_bbs"
+  },
+  "xmb": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XMB)",
+        "strength": 1.0,
+        "value": "xmblva"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XMB)",
+        "strength": 1.0,
+        "value": "xmblvb"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XMB)",
+        "strength": 1.0,
+        "value": "<!-- Powered by XMB"
+      }
+    ],
+    "vendor_id": "xmb"
+  },
+  "xonic": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xonic)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"http://www\\.xonic-solutions\\.de/index\\.php\" target=\"_blank\">xonic-solutions Shopsoftware</a>"
+      }
+    ],
+    "meta_patterns": {
+      "keywords": [
+        {
+          "match_type": "regex",
+          "notes": "meta keywords; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xonic)",
+          "strength": 1.0,
+          "value": "xonic-solutions"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xonic)",
+        "strength": 1.0,
+        "value": "core/jslib/jquery\\.xonic\\.js\\.php"
+      }
+    ],
+    "vendor_id": "xonic"
+  },
+  "xoops": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XOOPS)",
+        "strength": 1.0,
+        "value": "xoops"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XOOPS)",
+          "strength": 1.0,
+          "value": "XOOPS"
+        }
+      ]
+    },
+    "vendor_id": "xoops"
+  },
+  "xpressengine": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XpressEngine)",
+          "strength": 1.0,
+          "value": "XpressEngine"
+        }
+      ]
+    },
+    "vendor_id": "xpressengine"
+  },
+  "xpresslane": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xpresslane)",
+            "strength": 1.0,
+            "value": "cdn\\.shopify\\.com/.+/assets/xpresslane\\.css"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xpresslane)",
+        "properties": {},
+        "selector": "link[href*='/assets/xpresslane.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xpresslane)",
+        "strength": 1.0,
+        "value": "apps\\.xpresslane\\.in/"
+      }
+    ],
+    "vendor_id": "xpresslane"
+  },
+  "xregexp": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XRegExp)",
+        "strength": 1.0,
+        "value": "XRegExp.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XRegExp)",
+        "strength": 1.0,
+        "value": "/([\\d.]+)/xregexp(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XRegExp)",
+        "strength": 1.0,
+        "value": "xregexp.*\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XRegExp)",
+        "strength": 1.0,
+        "value": "xregexp[.-]([\\d.]*\\d)[^/]*\\.js"
+      }
+    ],
+    "vendor_id": "xregexp"
+  },
+  "xretail": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xretail)",
+          "strength": 1.0,
+          "value": "^Xretail team$"
+        }
+      ]
+    },
+    "vendor_id": "xretail"
+  },
+  "xslt": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XSLT)",
+        "strength": 1.0,
+        "value": "<xsl[^>]* version=\"(.+)\""
+      }
+    ],
+    "vendor_id": "xslt"
+  },
+  "xsolla": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xsolla)",
+        "strength": 1.0,
+        "value": "\\.xsolla\\.(com|net)"
+      }
+    ],
+    "vendor_id": "xsolla"
+  },
+  "xtcommerce": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xtCommerce)",
+        "strength": 1.0,
+        "value": "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xtCommerce)",
+        "strength": 1.0,
+        "value": "XT.version.version"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: xtCommerce)",
+          "strength": 1.0,
+          "value": "xt:Commerce"
+        }
+      ]
+    },
+    "vendor_id": "xtcommerce"
+  },
+  "xtime": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "properties": {},
+        "selector": "a[data-modified-by='xtime']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "properties": {},
+        "selector": "iframe[src*='x-time']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "properties": {},
+        "selector": "iframe[src*='xtime.net.au']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+          "strength": 1.0,
+          "value": "\\.xtime\\.net"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "strength": 1.0,
+        "value": "xtime"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "strength": 1.0,
+        "value": "\\.xtime\\.com/scheduling"
+      }
+    ],
+    "vendor_id": "xtime",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtime)",
+        "strength": 1.0,
+        "value": "xtime\\.net\\.au"
+      }
+    ]
+  },
+  "xtra": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtra)",
+            "strength": 1.0,
+            "value": "/wp-content/themes/xtra/.+core(?:-laptop|-mobile)?\\.css(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtra)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/xtra/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtra)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/xtra/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "xtra"
+  },
+  "xtremepush": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xtremepush)",
+        "strength": 1.0,
+        "value": "xtremepush"
+      }
+    ],
+    "vendor_id": "xtremepush"
+  },
+  "xtrixui": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XtrixUI)",
+        "strength": 1.0,
+        "value": "XtrixUI"
+      }
+    ],
+    "vendor_id": "xtrixui"
+  },
+  "xverify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xverify)",
+        "strength": 1.0,
+        "value": "user_xverify_my_domain"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xverify)",
+        "strength": 1.0,
+        "value": "www\\.xverify\\.com"
+      }
+    ],
+    "vendor_id": "xverify"
+  },
+  "xwiki": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XWiki)",
+        "properties": {},
+        "selector": "html[data-xwiki-]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XWiki)",
+        "strength": 1.0,
+        "value": "<html[^>]data-xwiki-[^>]>"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XWiki)",
+        "strength": 1.0,
+        "value": "XWiki.mainWiki"
+      }
+    ],
+    "meta_patterns": {
+      "wiki": [
+        {
+          "match_type": "regex",
+          "notes": "meta wiki; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XWiki)",
+          "strength": 1.0,
+          "value": "xwiki"
+        }
+      ]
+    },
+    "vendor_id": "xwiki"
+  },
+  "xyzscripts": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: XYZScripts)",
+        "properties": {},
+        "selector": "a[href*='xyzscripts.com/'] + a[href*='www.xyzscripts.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "xyzscripts"
+  },
+  "xzero_analytics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xzero Analytics)",
+        "strength": 1.0,
+        "value": "xzero-analytics"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xzero Analytics)",
+        "strength": 1.0,
+        "value": "analytics\\.xzero\\.co\\.uk"
+      }
+    ],
+    "vendor_id": "xzero_analytics"
+  },
+  "xzero_js": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Xzero JS)",
+        "strength": 1.0,
+        "value": "xzero-js@([\\d.]+)/xzero\\.min\\.js.*"
+      }
+    ],
+    "vendor_id": "xzero_js"
+  }
+}

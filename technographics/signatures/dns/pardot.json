@@ -1,0 +1,28 @@
+{
+  "vendor_id": "pardot",
+  "subdomains_to_probe": [
+    "go",
+    "info",
+    "pages",
+    "email",
+    "try",
+    "www2",
+    "marketing"
+  ],
+  "cname_patterns": [
+    {
+      "value": "pardot.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Pardot tracker domain CNAMEs to *.pardot.com (e.g. go.<domain>)"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

@@ -1,0 +1,58 @@
+{
+  "vendor_id": "intercom",
+  "subdomains_to_probe": [
+    "help",
+    "support",
+    "email",
+    "mail",
+    "community"
+  ],
+  "cname_patterns": [
+    {
+      "value": "custom.intercom.help",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Help Center custom domain \u2014 paid feature"
+    },
+    {
+      "value": "mail.intercom.com",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Email custom domain target"
+    },
+    {
+      "value": "customers.intercom.com",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Intercom-hosted custom subdomain target"
+    }
+  ],
+  "txt_patterns": [
+    {
+      "value": "intercom-domain-verification",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Intercom domain-verification TXT token"
+    },
+    {
+      "value": "intercom-verification",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Intercom verification TXT token variant"
+    }
+  ],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [
+    {
+      "value": "custom.intercom.help",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Custom Help Center domain is available on Pro+ plans"
+    }
+  ],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

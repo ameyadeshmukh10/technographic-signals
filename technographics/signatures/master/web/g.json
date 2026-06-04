@@ -1,0 +1,5796 @@
+{
+  "gallabox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallabox)",
+        "strength": 1.0,
+        "value": "gbwawc"
+      }
+    ],
+    "vendor_id": "gallabox"
+  },
+  "gallery": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "properties": {},
+        "selector": "div[class*='gcBorder1']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "properties": {},
+        "selector": "div[id*='gsNavBar']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "strength": 1.0,
+        "value": "<a href=\"http://gallery\\.sourceforge\\.net\"><img[^>]+Powered by Gallery\\s*(?:(?:v|Version)\\s*([0-9.]+))?"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "strength": 1.0,
+        "value": "<div id=\"gsNavBar\" class=\"gcBorder1\">"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "strength": 1.0,
+        "value": "$.fn.gallery_valign"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gallery)",
+        "strength": 1.0,
+        "value": "galleryAuthToken"
+      }
+    ],
+    "vendor_id": "gallery"
+  },
+  "gambio": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gambio)",
+        "properties": {},
+        "selector": "link[href*='templates/gambio/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gambio)",
+        "strength": 1.0,
+        "value": "(?:<link[^>]* href=\"templates/gambio/|<a[^>]content\\.php\\?coID=\\d|<!-- gambio eof -->|<!--[\\s=]+Shopsoftware by Gambio GmbH \\(c\\))"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gambio)",
+        "strength": 1.0,
+        "value": "gambio"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gambio)",
+        "strength": 1.0,
+        "value": "gm_javascript\\.js\\.php"
+      }
+    ],
+    "vendor_id": "gambio"
+  },
+  "gameball": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gameball)",
+        "strength": 1.0,
+        "value": "GbSdk.settings.shop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gameball)",
+        "strength": 1.0,
+        "value": "gbReferralCodeInput"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gameball)",
+        "strength": 1.0,
+        "value": "assets\\.gameball\\.co/"
+      }
+    ],
+    "vendor_id": "gameball"
+  },
+  "gamma": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gamma)",
+        "strength": 1.0,
+        "value": "gamma_visitor_id"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gamma)",
+        "strength": 1.0,
+        "value": "gammaSiteAnimationsInitialized"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gamma)",
+        "strength": 1.0,
+        "value": "gammaTiming"
+      }
+    ],
+    "vendor_id": "gamma"
+  },
+  "gamooga": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gamooga)",
+        "strength": 1.0,
+        "value": "triggerGamoogaInFooter"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gamooga)",
+        "strength": 1.0,
+        "value": "triggerGamoogaInFooterChat"
+      }
+    ],
+    "vendor_id": "gamooga"
+  },
+  "ganipara": {
+    "meta_patterns": {
+      "apple-mobile-web-app-title": [
+        {
+          "match_type": "regex",
+          "notes": "meta apple-mobile-web-app-title; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GaniPara)",
+          "strength": 1.0,
+          "value": "^Ganipara$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GaniPara)",
+        "strength": 1.0,
+        "value": "\\.ganipara\\.com/"
+      }
+    ],
+    "vendor_id": "ganipara"
+  },
+  "gannett_cms": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gannett CMS)",
+        "strength": 1.0,
+        "value": "gannett-d\\.openx\\.net"
+      }
+    ],
+    "vendor_id": "gannett_cms"
+  },
+  "gastronaut": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gastronaut)",
+        "strength": 1.0,
+        "value": "api\\.gastronaut\\.ai/"
+      }
+    ],
+    "vendor_id": "gastronaut"
+  },
+  "gator": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gator)",
+        "strength": 1.0,
+        "value": "GatorLegacy"
+      }
+    ],
+    "vendor_id": "gator"
+  },
+  "gatsby": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gatsby)",
+        "properties": {},
+        "selector": "div#___gatsby, style#gatsby-inlined-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gatsby)",
+          "strength": 1.0,
+          "value": "^Gatsby(?: ([0-9.]+))?$"
+        }
+      ]
+    },
+    "vendor_id": "gatsby"
+  },
+  "gatsby_cloud_image_cdn": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gatsby Cloud Image CDN)",
+        "properties": {},
+        "selector": "img[srcset*='/_gatsby/image/'], source[srcset*='/_gatsby/image/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "gatsby_cloud_image_cdn"
+  },
+  "gauges": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gauges)",
+        "strength": 1.0,
+        "value": "_gauges_"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gauges)",
+        "strength": 1.0,
+        "value": "_gauges"
+      }
+    ],
+    "vendor_id": "gauges"
+  },
+  "gbooking": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GBooking)",
+        "strength": 1.0,
+        "value": "cdn\\.gbooking\\.ru"
+      }
+    ],
+    "vendor_id": "gbooking"
+  },
+  "gcore": {
+    "header_patterns": {
+      "x-id": [
+        {
+          "match_type": "regex",
+          "notes": "header x-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gcore)",
+          "strength": 1.0,
+          "value": "^[\\w-]+-gc\\d{2}$"
+        }
+      ],
+      "x-id-fe": [
+        {
+          "match_type": "regex",
+          "notes": "header x-id-fe; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gcore)",
+          "strength": 1.0,
+          "value": "^[\\w-]+-gc\\d{2}$"
+        }
+      ]
+    },
+    "vendor_id": "gcore"
+  },
+  "gdpr_cookie_consent_plugin_by_webtoffee": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GDPR Cookie Consent Plugin by Webtoffee)",
+        "strength": 1.0,
+        "value": "wt_consent"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GDPR Cookie Consent Plugin by Webtoffee)",
+        "strength": 1.0,
+        "value": "webtoffee._wccConsentStore"
+      }
+    ],
+    "vendor_id": "gdpr_cookie_consent_plugin_by_webtoffee"
+  },
+  "geetest": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeeTest)",
+          "strength": 1.0,
+          "value": "\\.geetest\\.com"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeeTest)",
+        "strength": 1.0,
+        "value": "\\.geetest\\.com/"
+      }
+    ],
+    "vendor_id": "geetest"
+  },
+  "geggio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geggio)",
+        "strength": 1.0,
+        "value": "geggio.addElement"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geggio)",
+        "strength": 1.0,
+        "value": "\\.geggio\\.com"
+      }
+    ],
+    "vendor_id": "geggio"
+  },
+  "gekosale": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gekosale)",
+        "strength": 1.0,
+        "value": "\\bgekosale(?:\\.libs)?(?:\\.min)?\\.js\\b"
+      }
+    ],
+    "vendor_id": "gekosale"
+  },
+  "gelato": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gelato)",
+        "strength": 1.0,
+        "value": "\\.live\\.gelato\\.tech"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gelato)",
+        "strength": 1.0,
+        "value": "\\.live\\.gelato\\.tech"
+      }
+    ],
+    "vendor_id": "gelato"
+  },
+  "gemius": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "<a [^>]*onclick=\"gemius_hit"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "gemius_hit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "gemius_init"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "gemius_pending"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "pp_gemius_hit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 0.8,
+        "value": "hit\\.gemius\\.pl"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 1.0,
+        "value": "hit\\.gemius\\.pl/xgemius\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gemius)",
+        "strength": 0.3,
+        "value": "xgemius\\.js"
+      }
+    ],
+    "vendor_id": "gemius"
+  },
+  "gempages": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GemPages)",
+        "strength": 1.0,
+        "value": "GEMSTORE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GemPages)",
+        "strength": 1.0,
+        "value": "GEMVENDOR"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GemPages)",
+        "strength": 1.0,
+        "value": "/files/gempagev\\d+\\.js"
+      }
+    ],
+    "vendor_id": "gempages"
+  },
+  "generateblocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GenerateBlocks)",
+        "properties": {},
+        "selector": "link#generateblocks-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "generateblocks"
+  },
+  "generatepress": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "properties": {},
+        "selector": "body[class*='generatepress-theme']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+            "strength": 1.0,
+            "value": "generatepress\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "properties": {},
+        "selector": "link[id*='generate-style']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+            "strength": 1.0,
+            "value": "generatepress\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "properties": {},
+        "selector": "link[id*='generatepress']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "strength": 1.0,
+        "value": "generatepressMenu"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "strength": 1.0,
+        "value": "generatepressNavSearch"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress)",
+        "strength": 1.0,
+        "value": "themes/generatepress\\S*\\.js(?:\\?ver=([0-9.]+))?"
+      }
+    ],
+    "vendor_id": "generatepress"
+  },
+  "generatepress_gp_premium": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneratePress GP Premium)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/gp-premium/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "generatepress_gp_premium"
+  },
+  "genesis_blocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis blocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/atomic-blocks']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis blocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/genesis-blocks']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis blocks)",
+        "strength": 1.0,
+        "value": "<div[^>]+class=[\"']wp-block-atomic-blocks-*"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis blocks)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/genesis-blocks/lib/js/"
+      }
+    ],
+    "vendor_id": "genesis_blocks"
+  },
+  "genesis_theme": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis theme)",
+        "strength": 1.0,
+        "value": "genesisBlocksShare"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis theme)",
+        "strength": 1.0,
+        "value": "genesis_responsive_menu"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesis theme)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/genesis/lib/js/"
+      }
+    ],
+    "vendor_id": "genesis_theme"
+  },
+  "genesys_chat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesys Chat)",
+        "strength": 1.0,
+        "value": "\\.boldchat\\.com/"
+      }
+    ],
+    "vendor_id": "genesys_chat"
+  },
+  "genesys_cloud": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesys Cloud)",
+        "strength": 1.0,
+        "value": "PURECLOUD_WEBCHAT_FRAME_CONFIG"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesys Cloud)",
+        "strength": 1.0,
+        "value": "apps\\.mypurecloud\\.\\w+"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genesys Cloud)",
+        "strength": 1.0,
+        "value": "apps\\.mypurecloud\\.\\w+/widgets/([\\d.]+)"
+      }
+    ],
+    "vendor_id": "genesys_cloud"
+  },
+  "genexus": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneXus)",
+        "properties": {},
+        "selector": "link[id^='gxtheme_css_reference']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneXus)",
+        "strength": 1.0,
+        "value": "<link[^>]+?id=\"gxtheme_css_reference\""
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneXus)",
+        "strength": 1.0,
+        "value": "gx.gxVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneXus)",
+        "strength": 1.0,
+        "value": "/static/gxgral\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GeneXus)",
+        "strength": 1.0,
+        "value": "/static/gxtimezone\\.js"
+      }
+    ],
+    "vendor_id": "genexus"
+  },
+  "genezio": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: genezio)",
+          "strength": 1.0,
+          "value": "^genezio$"
+        }
+      ]
+    },
+    "vendor_id": "genezio"
+  },
+  "genially": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genially)",
+          "strength": 1.0,
+          "value": "\\.genially\\.com"
+        }
+      ],
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Genially)",
+          "strength": 1.0,
+          "value": "^Genially"
+        }
+      ]
+    },
+    "vendor_id": "genially"
+  },
+  "geniee": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geniee)",
+        "properties": {},
+        "selector": "img[src*='.gssprt.jp/'], link[href*='.gssprt.jp']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geniee)",
+        "strength": 1.0,
+        "value": "\\.gsspcln\\.jp/"
+      }
+    ],
+    "vendor_id": "geniee"
+  },
+  "geniee_chat": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geniee Chat)",
+        "strength": 1.0,
+        "value": "\\.chamo-chat\\.com/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geniee Chat)",
+        "strength": 1.0,
+        "value": "GenooCSS.add"
+      }
+    ],
+    "vendor_id": "geniee_chat"
+  },
+  "geniewords": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GenieWords)",
+        "strength": 1.0,
+        "value": "admin\\.geniewords\\.com/"
+      }
+    ],
+    "vendor_id": "geniewords"
+  },
+  "gentoo": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gentoo)",
+          "strength": 1.0,
+          "value": "gentoo"
+        }
+      ]
+    },
+    "vendor_id": "gentoo"
+  },
+  "geo_targetly": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geo Targetly)",
+        "strength": 1.0,
+        "value": "geotargetly\\.co/"
+      }
+    ],
+    "vendor_id": "geo_targetly"
+  },
+  "geoapify": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geoapify)",
+        "strength": 1.0,
+        "value": "api\\.geoapify\\.com"
+      }
+    ],
+    "vendor_id": "geoapify"
+  },
+  "geobytes": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geobytes)",
+        "strength": 1.0,
+        "value": "gd\\.geobytes\\.com"
+      }
+    ],
+    "vendor_id": "geobytes"
+  },
+  "geodis": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GEODIS)",
+        "strength": 1.0,
+        "value": "\\bGeodis\\b"
+      }
+    ],
+    "vendor_id": "geodis"
+  },
+  "geonetric": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geonetric)",
+        "strength": 1.0,
+        "value": "Geonetric.DOM"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Geonetric)",
+        "strength": 1.0,
+        "value": "Geonetric_DoPostBack"
+      }
+    ],
+    "vendor_id": "geonetric"
+  },
+  "geovendas": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GEOvendas)",
+        "properties": {},
+        "selector": "a[href*='geovendas.com.br'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "geovendas"
+  },
+  "gerrit": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+        "strength": 1.0,
+        "value": "<(?:div|style) id=\"gerrit_"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+        "strength": 1.0,
+        "value": ">Gerrit Code Review</a>\\s*\"\\s*\\(([0-9.]+)\\)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+        "strength": 1.0,
+        "value": "Gerrit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+        "strength": 1.0,
+        "value": "gerrit_ui"
+      }
+    ],
+    "meta_patterns": {
+      "title": [
+        {
+          "match_type": "regex",
+          "notes": "meta title; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+          "strength": 1.0,
+          "value": "^Gerrit Code Review$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gerrit)",
+        "strength": 1.0,
+        "value": "^gerrit_ui/gerrit_ui"
+      }
+    ],
+    "vendor_id": "gerrit"
+  },
+  "gesio": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gesio)",
+          "strength": 1.0,
+          "value": "www\\.gesio\\.com"
+        }
+      ]
+    },
+    "vendor_id": "gesio"
+  },
+  "gestim": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gestim)",
+        "strength": 1.0,
+        "value": "stats\\.gestim\\.biz"
+      }
+    ],
+    "vendor_id": "gestim"
+  },
+  "get_satisfaction": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Get Satisfaction)",
+        "strength": 1.0,
+        "value": "GSFN"
+      }
+    ],
+    "vendor_id": "get_satisfaction"
+  },
+  "get_siimple": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Get Siimple)",
+        "strength": 1.0,
+        "value": "analytics\\.getsiimple\\.com/"
+      }
+    ],
+    "vendor_id": "get_siimple"
+  },
+  "getauto": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetAuto)",
+        "properties": {},
+        "selector": "link[href*='cdn.getauto.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "getauto"
+  },
+  "getback": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Getback)",
+        "strength": 1.0,
+        "value": "www\\.getback\\.ch"
+      }
+    ],
+    "vendor_id": "getback"
+  },
+  "getbutton": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetButton)",
+        "strength": 1.0,
+        "value": "\\.getbutton\\.io/"
+      }
+    ],
+    "vendor_id": "getbutton"
+  },
+  "getchat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetChat)",
+        "strength": 1.0,
+        "value": "getchat\\.app/"
+      }
+    ],
+    "vendor_id": "getchat"
+  },
+  "getcommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetCommerce)",
+        "strength": 1.0,
+        "value": "getCommerce.version"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetCommerce)",
+          "strength": 1.0,
+          "value": "getCommerce ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "getcommerce"
+  },
+  "getfeedback": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetFeedback)",
+        "strength": 1.0,
+        "value": "usabilla_live"
+      }
+    ],
+    "vendor_id": "getfeedback"
+  },
+  "getgabs": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Getgabs)",
+        "strength": 1.0,
+        "value": "app\\.getgabs\\.com"
+      }
+    ],
+    "vendor_id": "getgabs"
+  },
+  "getintent": {
+    "vendor_id": "getintent",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Getintent)",
+        "strength": 1.0,
+        "value": "\\.adhigh\\.net"
+      }
+    ]
+  },
+  "getmeashop": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetMeAShop)",
+        "properties": {},
+        "selector": "link[href*='.getmeashop.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetMeAShop)",
+        "strength": 1.0,
+        "value": "gmas_base_url"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetMeAShop)",
+        "strength": 1.0,
+        "value": "search_api_base_uri"
+      }
+    ],
+    "vendor_id": "getmeashop"
+  },
+  "getmorestudents": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetMoreStudents)",
+        "strength": 1.0,
+        "value": "app\\.getmorestudents\\.net"
+      }
+    ],
+    "vendor_id": "getmorestudents"
+  },
+  "getresponse": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetResponse)",
+        "properties": {},
+        "selector": "form[action*='.getresponse.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetResponse)",
+        "strength": 1.0,
+        "value": "GRAPP"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetResponse)",
+        "strength": 1.0,
+        "value": "GRWF2"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetResponse)",
+        "strength": 1.0,
+        "value": "\\.getresponse\\.com/"
+      }
+    ],
+    "vendor_id": "getresponse"
+  },
+  "getreview": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetReview)",
+        "strength": 1.0,
+        "value": "app\\.getreview\\.pl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetReview)",
+        "strength": 1.0,
+        "value": "app\\.getreview\\.pl"
+      }
+    ],
+    "vendor_id": "getreview"
+  },
+  "getro": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Getro)",
+        "strength": 1.0,
+        "value": "an\\.getro\\.com/"
+      }
+    ],
+    "vendor_id": "getro"
+  },
+  "getrooster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetRooster)",
+        "strength": 1.0,
+        "value": "_GT_config.gt_host"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetRooster)",
+        "strength": 1.0,
+        "value": "//app\\.getrooster\\.com/"
+      }
+    ],
+    "vendor_id": "getrooster"
+  },
+  "getsimple_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetSimple CMS)",
+          "strength": 1.0,
+          "value": "GetSimple"
+        }
+      ]
+    },
+    "vendor_id": "getsimple_cms"
+  },
+  "getsitecontrol": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Getsitecontrol)",
+        "strength": 1.0,
+        "value": "\\.getsitecontrol\\.com/"
+      }
+    ],
+    "vendor_id": "getsitecontrol"
+  },
+  "getsocial": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetSocial)",
+        "strength": 1.0,
+        "value": "GETSOCIAL_VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetSocial)",
+        "strength": 1.0,
+        "value": "api\\.at\\.getsocial\\.io"
+      }
+    ],
+    "vendor_id": "getsocial"
+  },
+  "getterms": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetTerms)",
+        "strength": 1.0,
+        "value": "app\\.getterms\\.io"
+      }
+    ],
+    "vendor_id": "getterms"
+  },
+  "getubetter": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: getUBetter)",
+        "strength": 1.0,
+        "value": "app\\.getubetter\\.com"
+      }
+    ],
+    "vendor_id": "getubetter"
+  },
+  "getyourguide": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+            "strength": 1.0,
+            "value": "\\.getyourguide\\.\\w+/\\?partner_id="
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+        "properties": {},
+        "selector": "a[href*='.getyourguide.']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+        "properties": {},
+        "selector": "img[src*='cdn.getyourguide.com/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+        "properties": {},
+        "selector": "link[href*='cdn.getyourguide.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GetYourGuide)",
+        "strength": 1.0,
+        "value": "\\.getyourguide\\.com/"
+      }
+    ],
+    "vendor_id": "getyourguide"
+  },
+  "gevme": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gevme)",
+        "strength": 1.0,
+        "value": "GEVME.analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gevme)",
+        "strength": 1.0,
+        "value": "GevmeActivityFeed"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gevme)",
+          "strength": 1.0,
+          "value": "^GEVME Analytics$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gevme)",
+        "strength": 1.0,
+        "value": "analytics\\.gevme\\.com"
+      }
+    ],
+    "vendor_id": "gevme"
+  },
+  "ghost": {
+    "header_patterns": {
+      "x-ghost-cache-status": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Ghost-Cache-Status; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ghost)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ghost)",
+          "strength": 1.0,
+          "value": "Ghost(?:\\s([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "ghost"
+  },
+  "gigalixir": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gigalixir)",
+        "strength": 1.0,
+        "value": "\\.gigalixirapp\\.com"
+      }
+    ],
+    "vendor_id": "gigalixir"
+  },
+  "gijgo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gijgo)",
+        "strength": 1.0,
+        "value": "/gijgo@([\\d\\.]+)/js/gijgo\\.min\\.js"
+      }
+    ],
+    "vendor_id": "gijgo"
+  },
+  "giosg": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Giosg)",
+        "strength": 1.0,
+        "value": "service\\.giosg\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Giosg)",
+        "strength": 1.0,
+        "value": "giosgWebpackJsonp"
+      }
+    ],
+    "vendor_id": "giosg"
+  },
+  "giscus": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Giscus)",
+        "properties": {},
+        "selector": "link[href*='giscus.app'], div[class^='giscus-container']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "giscus"
+  },
+  "gist": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gist)",
+        "strength": 1.0,
+        "value": "gist.options.versionNumber"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gist)",
+        "strength": 1.0,
+        "value": "\\.getgist\\.com"
+      }
+    ],
+    "vendor_id": "gist"
+  },
+  "gist_giftship": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gist Giftship)",
+        "strength": 1.0,
+        "value": "assets/js/giftship\\.([\\d\\.]+)\\.js"
+      }
+    ],
+    "vendor_id": "gist_giftship"
+  },
+  "gista": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gista)",
+        "strength": 1.0,
+        "value": "$gista.config"
+      }
+    ],
+    "vendor_id": "gista"
+  },
+  "git": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: git)",
+          "strength": 1.0,
+          "value": "\\bgit/([\\d.]+\\d)"
+        }
+      ]
+    },
+    "vendor_id": "git"
+  },
+  "gitbook": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitBook)",
+        "strength": 1.0,
+        "value": "__GITBOOK_INITIAL_PROPS__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitBook)",
+        "strength": 1.0,
+        "value": "__GITBOOK_INITIAL_STATE__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitBook)",
+        "strength": 1.0,
+        "value": "__GITBOOK_LAZY_MODULES__"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitBook)",
+          "strength": 1.0,
+          "value": "GitBook ([\\d.]+)?"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitBook)",
+        "strength": 1.0,
+        "value": "^https?://[^/]+\\.gitbook\\.com/"
+      }
+    ],
+    "vendor_id": "gitbook"
+  },
+  "gitea": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitea)",
+        "strength": 1.0,
+        "value": "i_like_gitea"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitea)",
+        "strength": 1.0,
+        "value": "<div class=\"ui left\">\\n\\s+\u00a9 Gitea Version: ([\\d.]+)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitea)",
+        "strength": 1.0,
+        "value": "window.config.assetVersionEncoded"
+      }
+    ],
+    "meta_patterns": {
+      "keywords": [
+        {
+          "match_type": "regex",
+          "notes": "meta keywords; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitea)",
+          "strength": 1.0,
+          "value": "^go,git,self-hosted,gitea$"
+        }
+      ]
+    },
+    "vendor_id": "gitea"
+  },
+  "github_pages": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitHub Pages)",
+          "strength": 1.0,
+          "value": "^GitHub\\.com$"
+        }
+      ],
+      "x-github-request-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-GitHub-Request-Id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitHub Pages)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitHub Pages)",
+        "strength": 1.0,
+        "value": "^https?://[^/]+\\.github\\.io"
+      }
+    ],
+    "vendor_id": "github_pages"
+  },
+  "gitiles": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitiles)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"https://gerrit\\.googlesource\\.com/gitiles/\">Gitiles<"
+      }
+    ],
+    "vendor_id": "gitiles"
+  },
+  "gitlab": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+        "strength": 1.0,
+        "value": "_gitlab_session"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+        "strength": 1.0,
+        "value": "<header class=\"navbar navbar-fixed-top navbar-gitlab with-horizontal-nav\">"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+        "strength": 1.0,
+        "value": "<meta content=\"https?://[^/]+/assets/gitlab_logo-"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+        "strength": 1.0,
+        "value": "GitLab"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+        "strength": 1.0,
+        "value": "gl.dashboardOptions"
+      }
+    ],
+    "meta_patterns": {
+      "og:site_name": [
+        {
+          "match_type": "regex",
+          "notes": "meta og:site_name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab)",
+          "strength": 1.0,
+          "value": "^GitLab$"
+        }
+      ]
+    },
+    "vendor_id": "gitlab"
+  },
+  "gitlab_ci_cd": {
+    "meta_patterns": {
+      "description": [
+        {
+          "match_type": "regex",
+          "notes": "meta description; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GitLab CI/CD)",
+          "strength": 1.0,
+          "value": "GitLab CI/CD is a tool built into GitLab for software development through continuous methodologies."
+        }
+      ]
+    },
+    "vendor_id": "gitlab_ci_cd"
+  },
+  "gitlist": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: gitlist)",
+        "strength": 1.0,
+        "value": "<p>Powered by <a[^>]+>GitList ([\\d.]+)"
+      }
+    ],
+    "vendor_id": "gitlist"
+  },
+  "gitter": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gitter)",
+        "strength": 1.0,
+        "value": "gitter.chat"
+      }
+    ],
+    "vendor_id": "gitter"
+  },
+  "gitweb": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: gitweb)",
+        "strength": 1.0,
+        "value": "<!-- git web interface version ([\\d.]+)?"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: gitweb)",
+          "strength": 1.0,
+          "value": "gitweb(?:/([\\d.]+\\d))?"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: gitweb)",
+        "strength": 1.0,
+        "value": "static/gitweb\\.js$"
+      }
+    ],
+    "vendor_id": "gitweb"
+  },
+  "givecampus": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveCampus)",
+        "properties": {},
+        "selector": "a[href*='.givecampus.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveCampus)",
+          "strength": 1.0,
+          "value": "^GiveCampus$"
+        }
+      ]
+    },
+    "vendor_id": "givecampus"
+  },
+  "giveffect": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Giveffect)",
+        "strength": 1.0,
+        "value": "\\.giveffect\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Giveffect)",
+        "strength": 1.0,
+        "value": "\\.giveffect\\.com"
+      }
+    ],
+    "vendor_id": "giveffect"
+  },
+  "givesmart": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveSmart)",
+        "properties": {},
+        "selector": "a[href*='.givesmart.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveSmart)",
+        "strength": 1.0,
+        "value": "\\.givesmart\\.com/"
+      }
+    ],
+    "vendor_id": "givesmart"
+  },
+  "givewp": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveWP)",
+        "strength": 1.0,
+        "value": "Give.donor"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveWP)",
+        "strength": 1.0,
+        "value": "giveApiSettings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GiveWP)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/give/.+give\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "givewp"
+  },
+  "givingfuel": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GivingFuel)",
+        "properties": {},
+        "selector": "a[href*='.givingfuel.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GivingFuel)",
+        "strength": 1.0,
+        "value": "\\.givingfuel\\.com/"
+      }
+    ],
+    "vendor_id": "givingfuel"
+  },
+  "gladly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gladly)",
+        "strength": 1.0,
+        "value": "Gladly"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gladly)",
+        "strength": 1.0,
+        "value": "cdn\\.gladly\\.com"
+      }
+    ],
+    "vendor_id": "gladly"
+  },
+  "glami": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glami)",
+        "strength": 1.0,
+        "value": "GlamiTrackerObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glami)",
+        "strength": 1.0,
+        "value": "GlamiTrackerObjectInstance"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glami)",
+        "strength": 1.0,
+        "value": "glami"
+      }
+    ],
+    "vendor_id": "glami"
+  },
+  "glampmanager": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlampManager)",
+        "strength": 1.0,
+        "value": "Glampmanager"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlampManager)",
+        "strength": 1.0,
+        "value": "bookings\\.glampmanager\\.com"
+      }
+    ],
+    "vendor_id": "glampmanager"
+  },
+  "glance": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glance)",
+        "strength": 1.0,
+        "value": "www\\.glancecdn\\.net"
+      }
+    ],
+    "vendor_id": "glance"
+  },
+  "glassbox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glassbox)",
+        "strength": 1.0,
+        "value": "SessionCamRecorder"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glassbox)",
+        "strength": 1.0,
+        "value": "sessioncamConfiguration"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glassbox)",
+        "strength": 1.0,
+        "value": "cdn\\.glassboxcdn\\.com/"
+      }
+    ],
+    "vendor_id": "glassbox"
+  },
+  "glassfish": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlassFish)",
+          "strength": 1.0,
+          "value": "GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "glassfish"
+  },
+  "glassix": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glassix)",
+        "strength": 1.0,
+        "value": "GlassixWidgetClient"
+      }
+    ],
+    "vendor_id": "glassix"
+  },
+  "gleam": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gleam)",
+        "strength": 1.0,
+        "value": "Gleam"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gleam)",
+        "strength": 1.0,
+        "value": "\\.gleamjs\\.io/"
+      }
+    ],
+    "vendor_id": "gleam"
+  },
+  "gleap": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gleap)",
+        "strength": 1.0,
+        "value": "Gleap"
+      }
+    ],
+    "vendor_id": "gleap"
+  },
+  "gleen": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gleen)",
+        "strength": 1.0,
+        "value": "gleenWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gleen)",
+        "strength": 1.0,
+        "value": "app\\.gleen\\.ai/"
+      }
+    ],
+    "vendor_id": "gleen"
+  },
+  "glia": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glia)",
+        "strength": 1.0,
+        "value": "api\\.glia\\.com/"
+      }
+    ],
+    "vendor_id": "glia"
+  },
+  "glide_js": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glide.js)",
+        "properties": {},
+        "selector": "div[data-glide-el]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glide.js)",
+        "strength": 1.0,
+        "value": "Glide"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glide.js)",
+        "strength": 1.0,
+        "value": "/@glidejs/glide(?:@([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "glide_js"
+  },
+  "glider_js": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glider.js)",
+        "strength": 1.0,
+        "value": "(?:/|@)?([\\d\\.]{2,})?/glider\\.min\\.js"
+      }
+    ],
+    "vendor_id": "glider_js"
+  },
+  "glitch": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glitch)",
+        "strength": 1.0,
+        "value": "https://[^.]+\\.glitch\\.me"
+      }
+    ],
+    "vendor_id": "glitch"
+  },
+  "glitchtip": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlitchTip)",
+        "strength": 1.0,
+        "value": "app\\.glitchtip\\.com"
+      }
+    ],
+    "vendor_id": "glitchtip"
+  },
+  "global_e": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "GlobalE_CT_Data"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "GlobalE_Data"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "GlobalE_SupportThirdPartCookies"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "GLOBALE_ENGINE_CONFIG"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "GlobalE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Global-e)",
+        "strength": 1.0,
+        "value": "\\.global-e\\.com"
+      }
+    ],
+    "vendor_id": "global_e"
+  },
+  "globalshopex": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlobalShopex)",
+        "strength": 1.0,
+        "value": "GSXMiniCheckout"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlobalShopex)",
+        "strength": 1.0,
+        "value": "GSXPreviewCheckout"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlobalShopex)",
+        "strength": 1.0,
+        "value": "//globalshopex\\.com/"
+      }
+    ],
+    "vendor_id": "globalshopex"
+  },
+  "globo_also_bought": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Globo Also Bought)",
+        "strength": 1.0,
+        "value": "assets/globo\\.alsobought\\.js"
+      }
+    ],
+    "vendor_id": "globo_also_bought"
+  },
+  "globo_color_swatch": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Globo Color Swatch)",
+        "strength": 1.0,
+        "value": "assets/globo\\.swatch\\.data\\.js"
+      }
+    ],
+    "vendor_id": "globo_color_swatch"
+  },
+  "globo_form_builder": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Globo Form Builder)",
+        "strength": 1.0,
+        "value": "/assets/globo\\.formbuilder\\.init\\.js"
+      }
+    ],
+    "vendor_id": "globo_form_builder"
+  },
+  "globo_pre_order": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Globo Pre-Order)",
+        "strength": 1.0,
+        "value": "GloboPreorderParams"
+      }
+    ],
+    "vendor_id": "globo_pre_order"
+  },
+  "globres": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlobRes)",
+        "strength": 1.0,
+        "value": "\\.globres\\.io"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlobRes)",
+        "strength": 1.0,
+        "value": "api\\.globres\\.io"
+      }
+    ],
+    "vendor_id": "globres"
+  },
+  "glofox": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glofox)",
+        "properties": {},
+        "selector": "a[href*='.glofox.com/'], iframe[src*='.glofox.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "glofox"
+  },
+  "gloo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gloo)",
+        "strength": 1.0,
+        "value": "__GLOO_ONLINE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gloo)",
+        "strength": 1.0,
+        "value": "\\.gloo\\.us/"
+      }
+    ],
+    "vendor_id": "gloo"
+  },
+  "glopal": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glopal)",
+        "strength": 1.0,
+        "value": "\\.glopal\\.com/"
+      }
+    ],
+    "vendor_id": "glopal"
+  },
+  "gloriafood": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GloriaFood)",
+        "strength": 1.0,
+        "value": "glfBindButtons"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GloriaFood)",
+        "strength": 1.0,
+        "value": "glfWidget"
+      }
+    ],
+    "vendor_id": "gloriafood"
+  },
+  "glow": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glow)",
+        "strength": 1.0,
+        "value": "www\\.glowloyalty\\.com"
+      }
+    ],
+    "vendor_id": "glow"
+  },
+  "glpi": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+        "properties": {},
+        "selector": "div[id*='footer-login'] > a",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+          "strength": 1.0,
+          "value": "GLPI\\s+version\\s+([\\d\\.]+)"
+        }
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+        "properties": {},
+        "selector": "input[name='_glpi_csrf_token']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+        "strength": 1.0,
+        "value": "glpiUnsavedFormChanges"
+      }
+    ],
+    "meta_patterns": {
+      "glpi:csrf_token": [
+        {
+          "match_type": "regex",
+          "notes": "meta glpi:csrf_token; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLPI)",
+        "strength": 1.0,
+        "value": "//.*glpi.+common\\.min\\.js\\?v=(\\d+\\.\\d+\\.\\d+)"
+      }
+    ],
+    "vendor_id": "glpi"
+  },
+  "gls": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GLS)",
+        "strength": 1.0,
+        "value": "\\bGLS\\b"
+      }
+    ],
+    "vendor_id": "gls"
+  },
+  "glueup": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GlueUp)",
+        "strength": 1.0,
+        "value": "\\.glueup\\.com/"
+      }
+    ],
+    "vendor_id": "glueup"
+  },
+  "glyphicons": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glyphicons)",
+        "properties": {},
+        "selector": "link[href*='glyphicons.css'], link[href*='glyphicons.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Glyphicons)",
+        "strength": 1.0,
+        "value": "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)"
+      }
+    ],
+    "vendor_id": "glyphicons"
+  },
+  "gnuboard": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+            "strength": 1.0,
+            "value": "(?:gnuboard/)?bbs/(?:gnu)?board\\.php"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "properties": {},
+        "selector": "a[href*='board.php']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "properties": {},
+        "selector": "link[href*='/gnuboard/style.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "strength": 1.0,
+        "value": "g4_bbs_img"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "strength": 1.0,
+        "value": "g4_is_admin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "strength": 1.0,
+        "value": "g5_is_admin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gnuboard)",
+        "strength": 1.0,
+        "value": "g5_js_ver"
+      }
+    ],
+    "vendor_id": "gnuboard"
+  },
+  "go_instore": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Go Instore)",
+          "strength": 1.0,
+          "value": "\\.goinstore\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Go Instore)",
+        "strength": 1.0,
+        "value": "GISAPP.videoJsCtrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Go Instore)",
+        "strength": 1.0,
+        "value": "gisAppLib.postRobot"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Go Instore)",
+        "strength": 1.0,
+        "value": "//gis\\.goinstore\\.com/"
+      }
+    ],
+    "vendor_id": "go_instore"
+  },
+  "goaffpro": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoAffPro)",
+        "strength": 1.0,
+        "value": "gfp_api_server"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoAffPro)",
+        "strength": 1.0,
+        "value": "api\\.goaffpro\\.com/loader\\.js"
+      }
+    ],
+    "vendor_id": "goaffpro"
+  },
+  "goahead": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoAhead)",
+          "strength": 1.0,
+          "value": "GoAhead"
+        }
+      ]
+    },
+    "vendor_id": "goahead"
+  },
+  "goanywhere": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoAnywhere)",
+          "strength": 1.0,
+          "value": "goanywhere"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoAnywhere)",
+        "strength": 1.0,
+        "value": "appContainer"
+      }
+    ],
+    "vendor_id": "goanywhere"
+  },
+  "goat_slider": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goat Slider)",
+        "strength": 1.0,
+        "value": "GoatSliderCarousel"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goat Slider)",
+        "strength": 1.0,
+        "value": "GoatSliderSlider"
+      }
+    ],
+    "vendor_id": "goat_slider"
+  },
+  "goat_systems": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goat Systems)",
+        "strength": 1.0,
+        "value": "app\\.thegoatsystems\\.com"
+      }
+    ],
+    "vendor_id": "goat_systems"
+  },
+  "goatcounter": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoatCounter)",
+        "strength": 1.0,
+        "value": "gc\\.zgo\\.at/count\\.js"
+      }
+    ],
+    "vendor_id": "goatcounter"
+  },
+  "gob2b": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOb2b)",
+        "strength": 1.0,
+        "value": "cdn\\.gob2b\\.com"
+      }
+    ],
+    "vendor_id": "gob2b"
+  },
+  "gobot": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gobot)",
+        "strength": 1.0,
+        "value": "_gobot"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gobot)",
+        "strength": 1.0,
+        "value": "gobot"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gobot)",
+        "strength": 1.0,
+        "value": "\\.getgobot\\.com/"
+      }
+    ],
+    "vendor_id": "gobot"
+  },
+  "gocache": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoCache)",
+          "strength": 1.0,
+          "value": "^gocache$"
+        }
+      ],
+      "x-gocache-cachestatus": [
+        {
+          "match_type": "regex",
+          "notes": "header X-GoCache-CacheStatus; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoCache)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "gocache"
+  },
+  "gocertify": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoCertify)",
+        "strength": 1.0,
+        "value": "_gocertify_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoCertify)",
+        "properties": {},
+        "selector": "a[href*='secure.gocertify.me']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoCertify)",
+        "strength": 1.0,
+        "value": "assets\\.gocertify\\.me/"
+      }
+    ],
+    "vendor_id": "gocertify"
+  },
+  "godaddy_coblocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy CoBlocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/coblocks/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy CoBlocks)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/coblocks/"
+      }
+    ],
+    "vendor_id": "godaddy_coblocks"
+  },
+  "godaddy_domain_parking": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Domain Parking)",
+        "strength": 1.0,
+        "value": "wsimg\\.com/parking-lander"
+      }
+    ],
+    "vendor_id": "godaddy_domain_parking"
+  },
+  "godaddy_escapade": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Escapade)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/escapade/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "godaddy_escapade"
+  },
+  "godaddy_go": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Go)",
+        "properties": {},
+        "selector": "link#go-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Go)",
+        "strength": 1.0,
+        "value": "goFrontend.openMenuOnHover"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Go)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/go/.+frontend\\.min\\.js(?:.+ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "godaddy_go"
+  },
+  "godaddy_lyrical": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Lyrical)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/lyrical/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "godaddy_lyrical"
+  },
+  "godaddy_online_store": {
+    "header_patterns": {
+      "via": [
+        {
+          "match_type": "regex",
+          "notes": "header via; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Online Store)",
+          "strength": 1.0,
+          "value": "^1\\.1 mysimplestore\\.com$"
+        }
+      ]
+    },
+    "vendor_id": "godaddy_online_store"
+  },
+  "godaddy_primer": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Primer)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/primer/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Primer)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/primer/.+navigation\\.min\\.js(?:.+ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "godaddy_primer"
+  },
+  "godaddy_uptown_style": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Uptown Style)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/uptown-style/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "godaddy_uptown_style"
+  },
+  "godaddy_website_builder": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Website Builder)",
+        "strength": 1.0,
+        "value": "dps_site_id"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoDaddy Website Builder)",
+          "strength": 1.0,
+          "value": "Go Daddy Website Builder (.+)"
+        }
+      ]
+    },
+    "vendor_id": "godaddy_website_builder"
+  },
+  "godot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Godot)",
+        "strength": 1.0,
+        "value": "GODOT_CONFIG"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Godot)",
+        "strength": 1.0,
+        "value": "Godot"
+      }
+    ],
+    "vendor_id": "godot"
+  },
+  "goftino": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goftino)",
+        "strength": 1.0,
+        "value": "Goftino.setWidget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goftino)",
+        "strength": 1.0,
+        "value": "goftinoRemoveLoad"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goftino)",
+        "strength": 1.0,
+        "value": "goftino_1"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goftino)",
+        "strength": 1.0,
+        "value": "goftino_getUrl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goftino)",
+        "strength": 1.0,
+        "value": "\\.goftino\\.com/"
+      }
+    ],
+    "vendor_id": "goftino"
+  },
+  "gogs": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gogs)",
+        "strength": 1.0,
+        "value": "i_like_gogits"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gogs)",
+        "strength": 1.0,
+        "value": "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gogs)",
+        "strength": 1.0,
+        "value": "<div class=\"ui left\">\\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:"
+      }
+    ],
+    "meta_patterns": {
+      "keywords": [
+        {
+          "match_type": "regex",
+          "notes": "meta keywords; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gogs)",
+          "strength": 1.0,
+          "value": "go, git, self-hosted, gogs"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gogs)",
+        "strength": 1.0,
+        "value": "js/gogs\\.js"
+      }
+    ],
+    "vendor_id": "gogs"
+  },
+  "gojs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoJS)",
+        "strength": 1.0,
+        "value": "go.GraphObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoJS)",
+        "strength": 1.0,
+        "value": "go.version"
+      }
+    ],
+    "vendor_id": "gojs"
+  },
+  "gokwik": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoKwik)",
+        "strength": 1.0,
+        "value": "gokwikBuyNow"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoKwik)",
+        "strength": 1.0,
+        "value": "gokwikCheckoutApp"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoKwik)",
+        "strength": 1.0,
+        "value": "gokwikSdk"
+      }
+    ],
+    "vendor_id": "gokwik"
+  },
+  "golden_volunteer": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Golden Volunteer)",
+        "properties": {},
+        "selector": "link[href*='.goldenvolunteer.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Golden Volunteer)",
+          "strength": 1.0,
+          "value": "\\.goldenvolunteer\\.com"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Golden Volunteer)",
+        "strength": 1.0,
+        "value": "\\.goldenvolunteer\\.com"
+      }
+    ],
+    "vendor_id": "golden_volunteer"
+  },
+  "gomag": {
+    "header_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "header author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gomag)",
+          "strength": 1.0,
+          "value": "^Gomag$"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gomag)",
+        "strength": 1.0,
+        "value": "$GomagConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gomag)",
+        "strength": 1.0,
+        "value": "GomagForm"
+      }
+    ],
+    "vendor_id": "gomag"
+  },
+  "gomage": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoMage)",
+        "strength": 1.0,
+        "value": "GomageNavigation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoMage)",
+        "strength": 1.0,
+        "value": "GomageNavigationClass"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoMage)",
+        "strength": 1.0,
+        "value": "gomageSpinnerModal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoMage)",
+        "strength": 1.0,
+        "value": "gomage_navigation_loadinfo_text"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoMage)",
+        "strength": 1.0,
+        "value": "gomage_navigation_urlhash"
+      }
+    ],
+    "vendor_id": "gomage"
+  },
+  "gong": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gong)",
+          "strength": 1.0,
+          "value": "app\\.gong\\.io"
+        }
+      ]
+    },
+    "vendor_id": "gong"
+  },
+  "goober": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goober)",
+        "properties": {},
+        "selector": "style#_goober",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goober)",
+        "strength": 1.0,
+        "value": "goober"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goober)",
+        "strength": 1.0,
+        "value": "gooberGlobal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goober)",
+        "strength": 1.0,
+        "value": "gooberPrefixer"
+      }
+    ],
+    "vendor_id": "goober"
+  },
+  "goodapi": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodAPI)",
+        "strength": 1.0,
+        "value": "\\.thegoodapi\\.com"
+      }
+    ],
+    "vendor_id": "goodapi"
+  },
+  "goodapps": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodApps)",
+        "strength": 1.0,
+        "value": "\\.goodapps\\.io"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodApps)",
+        "strength": 1.0,
+        "value": "\\.goodapps\\.io"
+      }
+    ],
+    "vendor_id": "goodapps"
+  },
+  "goodbits": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goodbits)",
+        "strength": 1.0,
+        "value": "_goodbits_session"
+      }
+    ],
+    "vendor_id": "goodbits"
+  },
+  "goodeshop": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodEshop)",
+        "strength": 1.0,
+        "value": "api\\.goodeshop\\.sk"
+      }
+    ],
+    "vendor_id": "goodeshop"
+  },
+  "goodreviews": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodReviews)",
+        "strength": 1.0,
+        "value": "app\\.goodreviews\\.io"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoodReviews)",
+        "strength": 1.0,
+        "value": "GoodReviewObject"
+      }
+    ],
+    "vendor_id": "goodreviews"
+  },
+  "goodsearch": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goodsearch)",
+        "strength": 1.0,
+        "value": "www\\.goodsearch\\.com"
+      }
+    ],
+    "vendor_id": "goodsearch"
+  },
+  "google_ads_conversion_tracking": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Ads Conversion Tracking)",
+        "strength": 1.0,
+        "value": "gtag\\([^)]+'(AW-)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Ads Conversion Tracking)",
+        "strength": 1.0,
+        "value": "google_trackConversion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Ads Conversion Tracking)",
+        "strength": 1.0,
+        "value": "\\.googleadservices\\.com/pagead/conversion_async\\.js"
+      }
+    ],
+    "vendor_id": "google_ads_conversion_tracking"
+  },
+  "google_adsense": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "properties": {},
+        "selector": "amp-ad[type='adsense']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "Goog_AdSense_"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "Goog_AdSense_OsdAdapter"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "__google_ad_urls"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "adsbygoogle"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "google_ad_"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "2mdn\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "ad\\.ca\\.doubleclick\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "ad\\.ca\\.doubleclick\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google AdSense)",
+        "strength": 1.0,
+        "value": "googlesyndication\\.com/"
+      }
+    ],
+    "vendor_id": "google_adsense"
+  },
+  "google_analytics": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "__utma"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "_ga"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "_ga_*"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "_gat"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "properties": {},
+        "selector": "amp-analytics[type*=googleanalytics]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "gtag\\([^)]+'(G-)"
+      },
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "gtag\\([^)]+'(UA-)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "GoogleAnalyticsObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "gaGlobal"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "google-analytics\\.com/(?:ga|urchin|analytics)\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics)",
+        "strength": 1.0,
+        "value": "googletagmanager\\.com/gtag/js"
+      }
+    ],
+    "vendor_id": "google_analytics"
+  },
+  "google_analytics_enhanced_ecommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics Enhanced eCommerce)",
+        "strength": 1.0,
+        "value": "gaplugins.EC"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Analytics Enhanced eCommerce)",
+        "strength": 1.0,
+        "value": "google-analytics\\.com\\/plugins\\/ua\\/(?:ec|ecommerce)\\.js"
+      }
+    ],
+    "vendor_id": "google_analytics_enhanced_ecommerce"
+  },
+  "google_call_conversion_tracking": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Call Conversion Tracking)",
+        "strength": 1.0,
+        "value": "_googCallTrackingImpl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Call Conversion Tracking)",
+        "strength": 1.0,
+        "value": "google_wcc_status"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Call Conversion Tracking)",
+        "strength": 1.0,
+        "value": "gstatic\\.com/call-tracking/.+\\.js"
+      }
+    ],
+    "vendor_id": "google_call_conversion_tracking"
+  },
+  "google_charts": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Charts)",
+        "strength": 1.0,
+        "value": "__googleVisualizationAbstractRendererElementsCount__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Charts)",
+        "strength": 1.0,
+        "value": "__gvizguard__"
+      }
+    ],
+    "vendor_id": "google_charts"
+  },
+  "google_cloud_cdn": {
+    "header_patterns": {
+      "via": [
+        {
+          "match_type": "regex",
+          "notes": "header Via; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Cloud CDN)",
+          "strength": 1.0,
+          "value": "^1\\.1 google$"
+        }
+      ]
+    },
+    "vendor_id": "google_cloud_cdn"
+  },
+  "google_cloud_load_balancing": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Cloud Load Balancing)",
+          "strength": 1.0,
+          "value": "^Google Frontend$"
+        }
+      ]
+    },
+    "vendor_id": "google_cloud_load_balancing"
+  },
+  "google_cloud_storage": {
+    "header_patterns": {
+      "x-goog-storage-class": [
+        {
+          "match_type": "regex",
+          "notes": "header x-goog-storage-class; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Cloud Storage)",
+          "strength": 1.0,
+          "value": "^\\w+$"
+        }
+      ]
+    },
+    "vendor_id": "google_cloud_storage"
+  },
+  "google_cloud_trace": {
+    "header_patterns": {
+      "x-cloud-trace-context": [
+        {
+          "match_type": "regex",
+          "notes": "header x-cloud-trace-context; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Cloud Trace)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "google_cloud_trace"
+  },
+  "google_code_prettify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Code Prettify)",
+        "strength": 1.0,
+        "value": "prettyPrint"
+      }
+    ],
+    "vendor_id": "google_code_prettify"
+  },
+  "google_customer_reviews": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Customer Reviews)",
+        "properties": {},
+        "selector": "iframe[src*='.google.com/shopping/customerreviews/'], a[href*='.google.com/shopping/customerreviews/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "google_customer_reviews"
+  },
+  "google_font_api": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+            "strength": 1.0,
+            "value": "fonts\\.(?:googleapis|google|gstatic)\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+        "properties": {},
+        "selector": "link[href*='fonts.g']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "data-href": {
+            "match_type": "regex",
+            "notes": "dom attr data-href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+            "strength": 1.0,
+            "value": "fonts\\.(?:googleapis|google|gstatic)\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+        "properties": {},
+        "selector": "style[data-href*='fonts.g']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+        "strength": 1.0,
+        "value": "WebFonts"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Font API)",
+        "strength": 1.0,
+        "value": "googleapis\\.com/.+webfont"
+      }
+    ],
+    "vendor_id": "google_font_api"
+  },
+  "google_forms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Forms)",
+        "properties": {},
+        "selector": "form[action*='docs.google.com/forms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "google_forms"
+  },
+  "google_hosted_libraries": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Hosted Libraries)",
+        "properties": {},
+        "selector": "link[href*='ajax.googleapis.com/ajax/libs']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Hosted Libraries)",
+        "strength": 1.0,
+        "value": "ajax\\.googleapis\\.com/ajax/libs/"
+      }
+    ],
+    "vendor_id": "google_hosted_libraries"
+  },
+  "google_maps": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Maps)",
+        "properties": {},
+        "selector": "iframe[src*='google.com/maps']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Maps)",
+        "strength": 1.0,
+        "value": "GoogleMap"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Maps)",
+        "strength": 1.0,
+        "value": "googleMapsConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Maps)",
+        "strength": 1.0,
+        "value": "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Maps)",
+        "strength": 1.0,
+        "value": "//maps\\.google(?:apis)?\\.com/maps/api/js"
+      }
+    ],
+    "vendor_id": "google_maps"
+  },
+  "google_my_business": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google My Business)",
+        "strength": 1.0,
+        "value": "https?://[^.]+\\.business\\.site"
+      }
+    ],
+    "vendor_id": "google_my_business"
+  },
+  "google_optimize": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Optimize)",
+        "strength": 1.0,
+        "value": "google_optimize"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Optimize)",
+        "strength": 1.0,
+        "value": "googleoptimize\\.com/optimize\\.js"
+      }
+    ],
+    "vendor_id": "google_optimize"
+  },
+  "google_pagespeed": {
+    "header_patterns": {
+      "x-mod-pagespeed": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Mod-Pagespeed; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google PageSpeed)",
+          "strength": 1.0,
+          "value": "([\\d.]+)"
+        }
+      ],
+      "x-page-speed": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Page-Speed; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google PageSpeed)",
+          "strength": 1.0,
+          "value": "(.+)"
+        }
+      ]
+    },
+    "vendor_id": "google_pagespeed"
+  },
+  "google_pay": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Pay)",
+        "properties": {},
+        "selector": "[aria-labelledby='pi-google_pay'], ul[data-shopify-buttoncontainer] li",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Pay)",
+        "strength": 1.0,
+        "value": "pay\\.google\\.com/([a-z/]+)/pay\\.js"
+      }
+    ],
+    "vendor_id": "google_pay"
+  },
+  "google_publisher_tag": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Publisher Tag)",
+        "strength": 1.0,
+        "value": "googletagservices\\.com/tag/js/gpt\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Publisher Tag)",
+        "strength": 1.0,
+        "value": "pagead2\\.googlesyndication\\.com/tag/js/gpt\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Publisher Tag)",
+        "strength": 1.0,
+        "value": "securepubads\\.g\\.doubleclick.net/tag/js/gpt\\.js"
+      }
+    ],
+    "vendor_id": "google_publisher_tag"
+  },
+  "google_sign_in": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sign-in)",
+        "properties": {},
+        "selector": "iframe[src*='accounts.google.com/o/oauth2'], a[href*='accounts.google.com/o/oauth2']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sign-in)",
+        "strength": 1.0,
+        "value": "googleSignInClientId"
+      }
+    ],
+    "meta_patterns": {
+      "google-signin-client_id": [
+        {
+          "match_type": "regex",
+          "notes": "meta google-signin-client_id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sign-in)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "google-signin-scope": [
+        {
+          "match_type": "regex",
+          "notes": "meta google-signin-scope; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sign-in)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sign-in)",
+        "strength": 1.0,
+        "value": "accounts\\.google\\.com/gsi/client"
+      }
+    ],
+    "vendor_id": "google_sign_in"
+  },
+  "google_sites": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sites)",
+        "properties": {},
+        "selector": "[data-abuse-proto*='https://sites.google.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Sites)",
+        "strength": 1.0,
+        "value": "^https?://sites\\.google\\.com"
+      }
+    ],
+    "vendor_id": "google_sites"
+  },
+  "google_tag_manager": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "<!-- (?:End )?Google Tag Manager -->"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "googletagmanager\\.com/ns\\.html[^>]+></iframe>"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "google_tag_data"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "google_tag_manager"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "googletag"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "\\.googletagmanager\\.com/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager)",
+        "strength": 1.0,
+        "value": "googletagmanager\\.com/gtm\\.js"
+      }
+    ],
+    "vendor_id": "google_tag_manager"
+  },
+  "google_tag_manager_for_wordpress": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager for WordPress)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/duracelltomi-google-tag-manager/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Tag Manager for WordPress)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/duracelltomi-google-tag-manager/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "google_tag_manager_for_wordpress"
+  },
+  "google_wallet": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Wallet)",
+        "strength": 1.0,
+        "value": "checkout\\.google\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Wallet)",
+        "strength": 1.0,
+        "value": "wallet\\.google\\.com"
+      }
+    ],
+    "vendor_id": "google_wallet"
+  },
+  "google_web_server": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Server)",
+          "strength": 1.0,
+          "value": "gws"
+        }
+      ]
+    },
+    "vendor_id": "google_web_server"
+  },
+  "google_web_toolkit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwt_"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwt_activeModules"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwt_getMetaProperty"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwt_isKnownPropertyValue"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwt_stylesLoaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+        "strength": 1.0,
+        "value": "__gwtlistener"
+      }
+    ],
+    "meta_patterns": {
+      "gwt:property": [
+        {
+          "match_type": "regex",
+          "notes": "meta gwt:property; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Google Web Toolkit)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "google_web_toolkit"
+  },
+  "goope": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goope)",
+        "properties": {},
+        "selector": "link[href*='cdn.goope.jp/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "goope"
+  },
+  "goprep": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoPrep)",
+        "strength": 1.0,
+        "value": "goprep_session"
+      }
+    ],
+    "vendor_id": "goprep"
+  },
+  "gorendezvous": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOrendezvous)",
+        "strength": 1.0,
+        "value": "www\\.gorendezvous\\.com"
+      }
+    ],
+    "vendor_id": "gorendezvous"
+  },
+  "gorgias": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gorgias)",
+        "strength": 1.0,
+        "value": "gorgiasChat"
+      }
+    ],
+    "vendor_id": "gorgias"
+  },
+  "gorilla_dash": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gorilla Dash)",
+        "strength": 1.0,
+        "value": "\\.gorilladash\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gorilla Dash)",
+        "strength": 1.0,
+        "value": "//gorilladash\\.com/"
+      }
+    ],
+    "vendor_id": "gorilla_dash"
+  },
+  "goshly": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Goshly)",
+        "strength": 1.0,
+        "value": "\\.goshlyanalytics\\.com/"
+      }
+    ],
+    "vendor_id": "goshly"
+  },
+  "gosquared": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoSquared)",
+        "strength": 1.0,
+        "value": "gosquared\\.js"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoSquared)",
+        "strength": 1.0,
+        "value": "GoSquared"
+      }
+    ],
+    "vendor_id": "gosquared"
+  },
+  "gostats": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoStats)",
+        "strength": 1.0,
+        "value": "_goStatsRun"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoStats)",
+        "strength": 1.0,
+        "value": "_go_track_src"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoStats)",
+        "strength": 1.0,
+        "value": "go_msie"
+      }
+    ],
+    "vendor_id": "gostats"
+  },
+  "gotipath": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GotiPath)",
+        "properties": {},
+        "selector": "img[src*='.gotipath.com/'], link[href*='.gpcdn.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GotiPath)",
+          "strength": 1.0,
+          "value": "\\.swiftserve\\.com"
+        }
+      ]
+    },
+    "vendor_id": "gotipath"
+  },
+  "gov_uk_elements": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Elements)",
+        "strength": 0.25,
+        "value": "<div[^>]+govuk-box-highlight"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Elements)",
+        "strength": 0.25,
+        "value": "<div[^>]+phase-banner-alpha"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Elements)",
+        "strength": 0.25,
+        "value": "<div[^>]+phase-banner-beta"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Elements)",
+        "strength": 0.25,
+        "value": "<link[^>]+elements-page[^>\"]+css"
+      }
+    ],
+    "vendor_id": "gov_uk_elements"
+  },
+  "gov_uk_frontend": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Frontend)",
+        "strength": 0.1,
+        "value": "<a[^>]+govuk-link"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Frontend)",
+        "strength": 0.8,
+        "value": "<body[^>]+govuk-template__body"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Frontend)",
+        "strength": 1.0,
+        "value": "<link[^>]* href=[^>]*?govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Frontend)",
+        "strength": 1.0,
+        "value": "GOVUKFrontend"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Frontend)",
+        "strength": 1.0,
+        "value": "govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "gov_uk_frontend"
+  },
+  "gov_uk_template": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "<link[^>]+govuk-template-ie6[^>\"]+css"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "<link[^>]+govuk-template-ie7[^>\"]+css"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "<link[^>]+govuk-template-ie8[^>\"]+css"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "<link[^>]+govuk-template-print[^>\"]+css"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "<link[^>]+govuk-template[^>\"]+css"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "GOVUK"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Template)",
+        "strength": 1.0,
+        "value": "govuk-template\\.js"
+      }
+    ],
+    "vendor_id": "gov_uk_template"
+  },
+  "gov_uk_toolkit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Toolkit)",
+        "strength": 1.0,
+        "value": "GOVUK.details"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Toolkit)",
+        "strength": 1.0,
+        "value": "GOVUK.modules"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GOV.UK Toolkit)",
+        "strength": 1.0,
+        "value": "GOVUK.primaryLinks"
+      }
+    ],
+    "vendor_id": "gov_uk_toolkit"
+  },
+  "govalo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Govalo)",
+        "strength": 1.0,
+        "value": "Govalo.meta"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Govalo)",
+        "strength": 1.0,
+        "value": "cdn\\.shopify\\.com/extensions/.+/([\\d\\.]+)/assets/govalo\\.min\\.js"
+      }
+    ],
+    "vendor_id": "govalo"
+  },
+  "govcms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: govCMS)",
+          "strength": 1.0,
+          "value": "Drupal ([\\d]+) \\(http:\\/\\/drupal\\.org\\) \\+ govCMS"
+        }
+      ]
+    },
+    "vendor_id": "govcms"
+  },
+  "govedia": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoVedia)",
+        "strength": 1.0,
+        "value": "\\.govedia\\.com"
+      }
+    ],
+    "vendor_id": "govedia"
+  },
+  "gozen_forms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoZen Forms)",
+        "strength": 1.0,
+        "value": "GzFormAjax.send"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoZen Forms)",
+        "strength": 1.0,
+        "value": "GzFormMain"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoZen Forms)",
+        "strength": 1.0,
+        "value": "GzFormPopup"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoZen Forms)",
+        "strength": 1.0,
+        "value": "GzForms"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GoZen Forms)",
+        "strength": 1.0,
+        "value": "signup-forms-cdn\\.app\\.gozen\\.io/"
+      }
+    ],
+    "vendor_id": "gozen_forms"
+  },
+  "gpt_ai_power": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GPT AI Power)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/gpt3-ai-content-generator/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "gpt_ai_power"
+  },
+  "grab_pay_later": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grab Pay Later)",
+        "strength": 1.0,
+        "value": "GrabWidget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grab Pay Later)",
+        "strength": 1.0,
+        "value": "grab_widget_money_format"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grab Pay Later)",
+        "strength": 1.0,
+        "value": "grab-paylater\\.js"
+      }
+    ],
+    "vendor_id": "grab_pay_later"
+  },
+  "grade_us": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grade.us)",
+        "properties": {},
+        "selector": "script#gradeus-wjs, iframe[src*='www.grade.us']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grade.us)",
+        "strength": 1.0,
+        "value": "\\.grade\\.us"
+      }
+    ],
+    "vendor_id": "grade_us"
+  },
+  "grafana": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grafana)",
+        "strength": 0.75,
+        "value": "latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grafana)",
+        "strength": 1.0,
+        "value": "__grafana_public_path__"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grafana)",
+        "strength": 1.0,
+        "value": "grafana\\..+\\.com/public/build/"
+      }
+    ],
+    "vendor_id": "grafana"
+  },
+  "graffiti_cms": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graffiti CMS)",
+        "strength": 1.0,
+        "value": "graffitibot"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graffiti CMS)",
+          "strength": 1.0,
+          "value": "Graffiti CMS ([^\"]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graffiti CMS)",
+        "strength": 1.0,
+        "value": "/graffiti\\.js"
+      }
+    ],
+    "vendor_id": "graffiti_cms"
+  },
+  "grain_harvest": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grain Harvest)",
+        "strength": 1.0,
+        "value": "cdn\\.harvest\\.graindata\\.com"
+      }
+    ],
+    "vendor_id": "grain_harvest"
+  },
+  "grandnode": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrandNode)",
+        "strength": 1.0,
+        "value": "Grand.customer"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrandNode)",
+        "strength": 1.0,
+        "value": "(?:<!--GrandNode |<a[^>]+grandnode - Powered by |Powered by: <a[^>]+nopcommerce)"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrandNode)",
+          "strength": 1.0,
+          "value": "grandnode"
+        }
+      ]
+    },
+    "vendor_id": "grandnode"
+  },
+  "granim_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Granim.js)",
+        "strength": 1.0,
+        "value": "Granim"
+      }
+    ],
+    "vendor_id": "granim_js"
+  },
+  "grapesjs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrapesJS)",
+        "strength": 1.0,
+        "value": "grapesjs.version"
+      }
+    ],
+    "vendor_id": "grapesjs"
+  },
+  "graphcms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphCMS)",
+        "properties": {},
+        "selector": ".graphcms-image-wrapper",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphCMS)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphCMS)",
+        "properties": {},
+        "selector": "img[src*='media.graphcms.com']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphCMS)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      }
+    ],
+    "vendor_id": "graphcms",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphCMS)",
+        "strength": 1.0,
+        "value": "\\.graphcms\\.com"
+      }
+    ]
+  },
+  "graphene": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graphene)",
+        "strength": 1.0,
+        "value": "grapheneGetInfScrollBtnLbl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graphene)",
+        "strength": 1.0,
+        "value": "grapheneJS.templateUrl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graphene)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/graphene(?:-plus)?/.+graphene\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "graphene"
+  },
+  "graphicsflow": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphicsFlow)",
+        "properties": {},
+        "selector": "iframe[src*='app.graphicsflow.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "set-cookie": [
+        {
+          "match_type": "regex",
+          "notes": "header Set-Cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphicsFlow)",
+          "strength": 1.0,
+          "value": "graphicsflowprodapi\\.azurewebsites\\.net"
+        }
+      ]
+    },
+    "vendor_id": "graphicsflow"
+  },
+  "graphly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graphly)",
+        "strength": 1.0,
+        "value": "GraphlyTracking"
+      }
+    ],
+    "vendor_id": "graphly"
+  },
+  "graphql": {
+    "meta_patterns": {
+      "store-config": [
+        {
+          "match_type": "regex",
+          "notes": "meta store-config; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphQL)",
+          "strength": 1.0,
+          "value": "graphqlMethod"
+        }
+      ]
+    },
+    "vendor_id": "graphql",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GraphQL)",
+        "strength": 1.0,
+        "value": "graphql\\.[\\w]+\\.(?:com|net)/"
+      }
+    ]
+  },
+  "graphy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Graphy)",
+        "strength": 1.0,
+        "value": "getGraphyCookie"
+      }
+    ],
+    "vendor_id": "graphy"
+  },
+  "grappos": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grappos)",
+        "strength": 1.0,
+        "value": "grapposConfig.autoSearch"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grappos)",
+        "strength": 1.0,
+        "value": "grapposLoadLocator"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grappos)",
+        "strength": 1.0,
+        "value": "locator\\.grappos\\.com"
+      }
+    ],
+    "vendor_id": "grappos"
+  },
+  "grasp": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grasp)",
+        "strength": 1.0,
+        "value": "CASENGO.widget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grasp)",
+        "strength": 1.0,
+        "value": "CASENGO_INLINE_COOKIE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grasp)",
+        "strength": 1.0,
+        "value": "casengoUpdateWidget"
+      }
+    ],
+    "vendor_id": "grasp"
+  },
+  "grav": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grav)",
+          "strength": 1.0,
+          "value": "GravCMS(?:\\s([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "grav"
+  },
+  "gravatar": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravatar)",
+        "strength": 1.0,
+        "value": "<[^>]+gravatar\\.com/avatar/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravatar)",
+        "strength": 1.0,
+        "value": "Gravatar"
+      }
+    ],
+    "vendor_id": "gravatar"
+  },
+  "gravitec": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravitec)",
+        "strength": 1.0,
+        "value": "Gravitec"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravitec)",
+        "strength": 1.0,
+        "value": "gravitecWebpackJsonp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravitec)",
+        "strength": 1.0,
+        "value": "(?:cdn|id)\\.gravitec\\.(?:media|net)"
+      }
+    ],
+    "vendor_id": "gravitec"
+  },
+  "gravito": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravito)",
+        "strength": 1.0,
+        "value": "gravitoSync"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravito)",
+        "strength": 1.0,
+        "value": "gravito.init"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravito)",
+        "strength": 1.0,
+        "value": "gravitoCMP"
+      }
+    ],
+    "vendor_id": "gravito"
+  },
+  "gravity": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity)",
+        "strength": 1.0,
+        "value": "gravi_api.chatMode"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity)",
+        "strength": 1.0,
+        "value": "gravi_init"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity)",
+        "strength": 1.0,
+        "value": "gravi_version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity)",
+        "strength": 1.0,
+        "value": "\\.gravi\\.org/"
+      }
+    ],
+    "vendor_id": "gravity"
+  },
+  "gravity_forms": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity Forms)",
+        "strength": 1.0,
+        "value": "<div class=(?:\"|')[^>]*gform_body"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity Forms)",
+        "strength": 1.0,
+        "value": "<div class=(?:\"|')[^>]*gform_wrapper"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity Forms)",
+        "strength": 1.0,
+        "value": "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/gravityforms/css/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity Forms)",
+        "strength": 1.0,
+        "value": "<ul [^>]*class=(?:\"|')[^>]*gform_fields"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gravity Forms)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/gravityforms/js/[^/]+\\.js\\?ver=([\\d.]+)$"
+      }
+    ],
+    "vendor_id": "gravity_forms"
+  },
+  "greatpages": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GreatPages)",
+        "strength": 1.0,
+        "value": "\\.greatpages\\.com\\.br/"
+      }
+    ],
+    "vendor_id": "greatpages"
+  },
+  "green_valley_cms": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Green Valley CMS)",
+        "strength": 1.0,
+        "value": "<img[^>]+/dsresource\\?objectid="
+      }
+    ],
+    "meta_patterns": {
+      "dc.identifier": [
+        {
+          "match_type": "regex",
+          "notes": "meta DC.identifier; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Green Valley CMS)",
+          "strength": 1.0,
+          "value": "/content\\.jsp\\?objectid="
+        }
+      ]
+    },
+    "vendor_id": "green_valley_cms"
+  },
+  "greenhouse": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greenhouse)",
+        "properties": {},
+        "selector": "link[href*='cdn\\.greenhouse\\.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greenhouse)",
+        "strength": 1.0,
+        "value": "populateGreenhouseJobs"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greenhouse)",
+        "strength": 1.0,
+        "value": "\\.greenhouse\\.io/"
+      }
+    ],
+    "vendor_id": "greenhouse"
+  },
+  "greenrope": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GreenRope)",
+        "strength": 1.0,
+        "value": "bfpd"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GreenRope)",
+        "strength": 1.0,
+        "value": "app\\.greenrope\\.com/"
+      }
+    ],
+    "vendor_id": "greenrope"
+  },
+  "greenstory": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GreenStory)",
+        "strength": 1.0,
+        "value": "webpackJsonpGreenStoryWidgets"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GreenStory)",
+        "strength": 1.0,
+        "value": "\\.greenstory\\.ca/"
+      }
+    ],
+    "vendor_id": "greenstory"
+  },
+  "greminders": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GReminders)",
+        "properties": {},
+        "selector": "iframe[src*='app.greminders.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GReminders)",
+        "strength": 1.0,
+        "value": "app\\.greminders\\.com/"
+      }
+    ],
+    "vendor_id": "greminders"
+  },
+  "greyd_suite": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greyd.Suite)",
+        "strength": 1.0,
+        "value": "\\.greyd\\.io"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greyd.Suite)",
+        "strength": 1.0,
+        "value": "greyd.animations"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Greyd.Suite)",
+        "strength": 1.0,
+        "value": "greydFormSettings"
+      }
+    ],
+    "vendor_id": "greyd_suite"
+  },
+  "griddo": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Griddo)",
+          "strength": 1.0,
+          "value": "^Griddo$"
+        }
+      ]
+    },
+    "vendor_id": "griddo"
+  },
+  "gridsome": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gridsome)",
+          "strength": 1.0,
+          "value": "^Gridsome v([\\d.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "gridsome"
+  },
+  "gridster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gridster)",
+        "strength": 1.0,
+        "value": "Gridster"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gridster)",
+        "strength": 1.0,
+        "value": "GridsterCollision"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gridster)",
+        "strength": 1.0,
+        "value": "GridsterCoords"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gridster)",
+        "strength": 1.0,
+        "value": "GridsterDraggable"
+      }
+    ],
+    "vendor_id": "gridster"
+  },
+  "grin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grin)",
+        "strength": 1.0,
+        "value": "Grin"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grin)",
+        "strength": 1.0,
+        "value": "grin-sdk\\.js"
+      }
+    ],
+    "vendor_id": "grin"
+  },
+  "grivy": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Grivy)",
+        "properties": {},
+        "selector": "link[href*='cdn.grivy.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "grivy"
+  },
+  "grocerkey": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrocerKey)",
+        "strength": 1.0,
+        "value": "\\.grocerywebsite\\.com/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrocerKey)",
+        "strength": 1.0,
+        "value": "grocerkey-widget\\.s3\\.amazonaws\\.com/"
+      }
+    ],
+    "vendor_id": "grocerkey"
+  },
+  "groobee": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groobee)",
+        "strength": 1.0,
+        "value": "groobee"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groobee)",
+        "strength": 1.0,
+        "value": "static\\.groobee\\.io/"
+      }
+    ],
+    "vendor_id": "groobee"
+  },
+  "groove": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groove)",
+        "strength": 1.0,
+        "value": "Groove"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groove)",
+        "strength": 1.0,
+        "value": "GrooveWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groove)",
+        "strength": 1.0,
+        "value": "\\.groovehq\\.com/"
+      }
+    ],
+    "vendor_id": "groove"
+  },
+  "groove_cm": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Groove.cm)",
+        "properties": {},
+        "selector": "iframe[src*='app.groove.cm']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "groove_cm"
+  },
+  "groovekart": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrooveKart)",
+          "strength": 1.0,
+          "value": "^GrooveKart$"
+        }
+      ]
+    },
+    "vendor_id": "groovekart"
+  },
+  "groovepages": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GroovePages)",
+        "properties": {},
+        "selector": "link[href*='//app.groove.cm/groovepages/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GroovePages)",
+        "strength": 1.0,
+        "value": "//app\\.groove\\.cm/groovepages/"
+      }
+    ],
+    "vendor_id": "groovepages"
+  },
+  "groupby": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GroupBy)",
+        "strength": 1.0,
+        "value": "cdn\\.groupbycloud\\.com"
+      }
+    ],
+    "vendor_id": "groupby"
+  },
+  "growave": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Growave)",
+        "strength": 1.0,
+        "value": "\\.socialshopwave\\.com/"
+      }
+    ],
+    "vendor_id": "growave"
+  },
+  "growcer": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Growcer)",
+        "strength": 1.0,
+        "value": "\\.yogrowcer\\.com"
+      }
+    ],
+    "vendor_id": "growcer"
+  },
+  "growform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Growform)",
+        "strength": 1.0,
+        "value": "embedGrowform"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Growform)",
+        "strength": 1.0,
+        "value": "growform.setHiddenField"
+      }
+    ],
+    "vendor_id": "growform"
+  },
+  "growing_good": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Growing Good)",
+        "strength": 1.0,
+        "value": "growinggood\\.ams3\\.digitaloceanspaces"
+      }
+    ],
+    "vendor_id": "growing_good"
+  },
+  "growingio": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowingIO)",
+        "strength": 1.0,
+        "value": "gr_user_id"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowingIO)",
+        "strength": 1.0,
+        "value": "grwng_uid"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowingIO)",
+        "strength": 1.0,
+        "value": "assets\\.growingio\\.com/([\\d.]+)/gio\\.js"
+      }
+    ],
+    "vendor_id": "growingio"
+  },
+  "growsurf": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowSurf)",
+        "strength": 1.0,
+        "value": "growsurf.init"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowSurf)",
+        "strength": 1.0,
+        "value": "\\.growsurf\\.com/"
+      }
+    ],
+    "vendor_id": "growsurf"
+  },
+  "growthbook": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowthBook)",
+        "properties": {},
+        "selector": "link[href*='cdn.growthbook.io']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowthBook)",
+        "strength": 1.0,
+        "value": "_growthbook.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowthBook)",
+        "strength": 1.0,
+        "value": "_siteSetting.growthBookApiHost"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GrowthBook)",
+        "strength": 1.0,
+        "value": "growthbook"
+      }
+    ],
+    "vendor_id": "growthbook"
+  },
+  "gruvi": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gruvi)",
+        "properties": {},
+        "selector": "link[href*='.gruvi.tv/movies/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "gruvi"
+  },
+  "gsap": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GSAP)",
+        "strength": 1.0,
+        "value": "TweenLite.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GSAP)",
+        "strength": 1.0,
+        "value": "TweenMax.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GSAP)",
+        "strength": 1.0,
+        "value": "gsap.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GSAP)",
+        "strength": 1.0,
+        "value": "gsapVersions"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GSAP)",
+        "strength": 1.0,
+        "value": "TweenMax(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "gsap"
+  },
+  "gtranslate": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GTranslate)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/gtranslate/'], img[src*='/wp-content/plugins/gtranslate/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "gtranslate"
+  },
+  "gtranslate_app": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GTranslate app)",
+        "properties": {},
+        "selector": "img[src*='gtranslate.io/shopify']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GTranslate app)",
+        "strength": 1.0,
+        "value": "gtranslate\\.io/shopify/"
+      }
+    ],
+    "vendor_id": "gtranslate_app"
+  },
+  "guardflame": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuardFlame)",
+          "strength": 1.0,
+          "value": "^GuardFlame$"
+        }
+      ]
+    },
+    "vendor_id": "guardflame"
+  },
+  "guest_suite": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guest Suite)",
+        "strength": 1.0,
+        "value": "guestsuite"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guest Suite)",
+        "strength": 1.0,
+        "value": "js\\.guestapp\\.me"
+      }
+    ],
+    "vendor_id": "guest_suite"
+  },
+  "guestonline": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guestonline)",
+        "properties": {},
+        "selector": "iframe[src*='ib.guestonline.']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guestonline)",
+        "strength": 1.0,
+        "value": "ib\\.guestonline\\.\\w+"
+      }
+    ],
+    "vendor_id": "guestonline"
+  },
+  "guesty": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guesty)",
+        "strength": 1.0,
+        "value": "guesty-muid"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guesty)",
+        "strength": 1.0,
+        "value": "guesty-utms"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guesty)",
+        "properties": {},
+        "selector": "script[id*='guesty-js-extra']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "guesty"
+  },
+  "guidap": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guidap)",
+        "properties": {},
+        "selector": "link[href*='//cart.guidap.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guidap)",
+        "strength": 1.0,
+        "value": "GUIDAP"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guidap)",
+        "strength": 1.0,
+        "value": "GUIDAPInitConfig"
+      }
+    ],
+    "vendor_id": "guidap"
+  },
+  "guideit": {
+    "header_patterns": {
+      "platform": [
+        {
+          "match_type": "regex",
+          "notes": "header platform; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuideIT)",
+          "strength": 1.0,
+          "value": "^GuideIT$"
+        }
+      ]
+    },
+    "vendor_id": "guideit"
+  },
+  "guildquality": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuildQuality)",
+        "properties": {},
+        "selector": "iframe[src*='guildquality.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuildQuality)",
+          "strength": 1.0,
+          "value": "www\\.guildquality\\.com"
+        }
+      ]
+    },
+    "vendor_id": "guildquality"
+  },
+  "gumgum": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GumGum)",
+        "properties": {},
+        "selector": "iframe[src*='gumgum.com'], img[src*='gumgum.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "gumgum",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GumGum)",
+        "strength": 1.0,
+        "value": "\\.gumgum\\.com"
+      }
+    ]
+  },
+  "gumlet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumlet)",
+        "strength": 1.0,
+        "value": "gumlet"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumlet)",
+        "strength": 1.0,
+        "value": "cdn\\.gumlet\\.com"
+      }
+    ],
+    "vendor_id": "gumlet"
+  },
+  "gumroad": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "_gumroad_app_session"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "_gumroad_guid"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "properties": {},
+        "selector": "iframe[src^='https://gumroad.com/l/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "GumroadOverlay"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "createGumroadOverlay"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "gumroad\\.com/js/gumroad-embed\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "gumroad\\.com/js/gumroad\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumroad)",
+        "strength": 1.0,
+        "value": "gumroad\\.com/packs/js/"
+      }
+    ],
+    "vendor_id": "gumroad"
+  },
+  "gumstack": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumstack)",
+        "strength": 1.0,
+        "value": "Gumstack"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gumstack)",
+        "strength": 1.0,
+        "value": "w\\.gumstack\\.com"
+      }
+    ],
+    "vendor_id": "gumstack"
+  },
+  "gunicorn": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: gunicorn)",
+          "strength": 1.0,
+          "value": "gunicorn(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "gunicorn"
+  },
+  "guppy": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta Author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuppY)",
+          "strength": 1.0,
+          "value": "^GuppY$"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta Generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GuppY)",
+          "strength": 1.0,
+          "value": "^GuppY$"
+        }
+      ]
+    },
+    "vendor_id": "guppy"
+  },
+  "gurucan": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gurucan)",
+        "strength": 1.0,
+        "value": "assets\\.gurucan\\.com"
+      }
+    ],
+    "vendor_id": "gurucan"
+  },
+  "gutenberg": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gutenberg)",
+            "strength": 1.0,
+            "value": "/wp-content/plugins/gutenberg/.+\\.css(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gutenberg)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/gutenberg/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Gutenberg)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/gutenberg/"
+      }
+    ],
+    "vendor_id": "gutenberg"
+  },
+  "guuru": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guuru)",
+        "strength": 1.0,
+        "value": "Guuru"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Guuru)",
+        "strength": 1.0,
+        "value": "guuru.init"
+      }
+    ],
+    "vendor_id": "guuru"
+  },
+  "gx_webmanager": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GX WebManager)",
+        "strength": 1.0,
+        "value": "<!--\\s+Powered by GX"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: GX WebManager)",
+          "strength": 1.0,
+          "value": "GX WebManager(?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "gx_webmanager"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "vendor_id": "reo",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "static\\.reo\\.dev",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "Reo.dev visitor de-anonymization / sales-intent loader. Ported from src/detectors/signatures.py"
+    }
+  ],
+  "cookie_patterns": [],
+  "header_patterns": {},
+  "html_patterns": [
+    {
+      "value": "Reo\\.init\\(",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "Reo.dev init call. Ported from src/detectors/signatures.py"
+    }
+  ],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

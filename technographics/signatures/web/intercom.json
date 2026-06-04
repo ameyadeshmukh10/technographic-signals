@@ -1,0 +1,65 @@
+{
+  "vendor_id": "intercom",
+  "js_globals": [
+    {
+      "value": "Intercom",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Intercom)"
+    },
+    {
+      "value": "intercomSettings",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "Intercom boot config global (vendor docs: developers.intercom.com)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "(?:api\\.intercom\\.io/api|static\\.intercomcdn\\.com/intercom\\.v1)",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Intercom)"
+    },
+    {
+      "value": "widget\\.intercom\\.io",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "Intercom widget loader host (vendor docs)"
+    },
+    {
+      "value": "js\\.intercomcdn\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "Intercom CDN host (vendor docs)"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "intercom-id-",
+      "match_type": "prefix",
+      "strength": 0.85,
+      "notes": "Intercom visitor id cookie prefix"
+    },
+    {
+      "value": "intercom-session-",
+      "match_type": "prefix",
+      "strength": 0.85,
+      "notes": "Intercom session cookie prefix"
+    }
+  ],
+  "html_patterns": [
+    {
+      "value": "id=[\"']intercom-frame[\"']",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "Intercom messenger iframe container element"
+    }
+  ],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

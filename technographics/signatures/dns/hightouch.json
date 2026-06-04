@@ -1,0 +1,14 @@
+{
+  "vendor_id": "hightouch",
+  "subdomains_to_probe": [],
+  "cname_patterns": [],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": [],
+  "_notes": "TODO: Hightouch is internal data infra; no customer-domain DNS footprint."
+}

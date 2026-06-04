@@ -1,0 +1,20 @@
+{
+  "final_url": "https://www.acme.example/",
+  "js_globals": ["Intercom", "intercomSettings", "analytics", "analytics.SNIPPET_VERSION"],
+  "script_srcs": [
+    "https://widget.intercom.io/widget/abc123",
+    "https://cdn.segment.com/analytics.js/v1/xyz/analytics.min.js",
+    "https://www.acme.example/static/app.js"
+  ],
+  "cookies": {
+    "intercom-id-abc123": "uuid-value",
+    "ajs_anonymous_id": "seg-value",
+    "session": "x"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "server": "cloudflare"
+  },
+  "html": "<div id=\"intercom-frame\"></div><body>...</body>",
+  "meta_tags": {}
+}

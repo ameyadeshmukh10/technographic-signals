@@ -1,0 +1,3106 @@
+{
+  "n1ed": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: N1ED)",
+        "strength": 1.0,
+        "value": "\\.public\\.n1ed\\.com/"
+      }
+    ],
+    "vendor_id": "n1ed"
+  },
+  "nabble": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nabble)",
+        "strength": 1.0,
+        "value": "Nabble.analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nabble)",
+        "strength": 1.0,
+        "value": "NabbleDropdown"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nabble)",
+        "strength": 1.0,
+        "value": "t_show_nabble_notice"
+      }
+    ],
+    "vendor_id": "nabble"
+  },
+  "nacelle": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nacelle)",
+        "properties": {},
+        "selector": "[class*='nacelle']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nacelle)",
+          "strength": 0.51,
+          "value": ".*"
+        }
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nacelle)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__.props.pageProps.page.nacelleEntryId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nacelle)",
+        "strength": 1.0,
+        "value": "nacelleEventData"
+      }
+    ],
+    "vendor_id": "nacelle",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nacelle)",
+        "strength": 1.0,
+        "value": "storefront\\.api\\.nacelle\\.com"
+      }
+    ]
+  },
+  "nacex": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NACEX)",
+        "strength": 1.0,
+        "value": "\\bNACEX\\b"
+      }
+    ],
+    "vendor_id": "nacex"
+  },
+  "nagacommerce": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NagaCommerce)",
+          "strength": 1.0,
+          "value": "^NagaCommerce$"
+        }
+      ]
+    },
+    "vendor_id": "nagacommerce"
+  },
+  "nagich": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nagich)",
+        "strength": 1.0,
+        "value": "interdeal.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nagich)",
+        "strength": 1.0,
+        "value": "\\.nagich\\.co(?:m|\\.il)/core/([\\d.]+)/accessibility\\.js"
+      }
+    ],
+    "vendor_id": "nagich"
+  },
+  "nagishli": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NagishLi)",
+        "strength": 1.0,
+        "value": "$NagishLi"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NagishLi)",
+        "strength": 1.0,
+        "value": "initNagishLi"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NagishLi)",
+        "strength": 1.0,
+        "value": "nagishli_commons.version"
+      }
+    ],
+    "vendor_id": "nagishli"
+  },
+  "naive_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "cssr-id": {
+            "match_type": "regex",
+            "notes": "dom attr cssr-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naive UI)",
+            "strength": 0.99,
+            "value": "^n-[a-z-]+$"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naive UI)",
+        "properties": {},
+        "selector": "style[cssr-id^='n-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "naive_ui"
+  },
+  "najva": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Najva)",
+        "strength": 1.0,
+        "value": "Najva.identifyEmailSubscriber"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Najva)",
+        "strength": 1.0,
+        "value": "app\\.najva\\.com/"
+      }
+    ],
+    "vendor_id": "najva"
+  },
+  "namastay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Namastay)",
+        "strength": 1.0,
+        "value": "closeNamastay"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Namastay)",
+        "strength": 1.0,
+        "value": "initNamastay"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Namastay)",
+        "strength": 1.0,
+        "value": "sdk\\.namastay\\.io"
+      }
+    ],
+    "vendor_id": "namastay"
+  },
+  "namelessmc": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NamelessMC)",
+        "properties": {},
+        "selector": "span.item > a[href*='//namelessmc.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "namelessmc"
+  },
+  "napps": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Napps)",
+        "strength": 1.0,
+        "value": "//napps-storage\\.b-cdn\\.net/scripts/smartbanner\\.js\\?napps=1"
+      }
+    ],
+    "vendor_id": "napps"
+  },
+  "narrativ": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Narrativ)",
+        "strength": 1.0,
+        "value": "static\\.narrativ\\.com/"
+      }
+    ],
+    "vendor_id": "narrativ"
+  },
+  "narvar": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Narvar)",
+        "properties": {},
+        "selector": "a[href*='.narvar.com/'], img[src*='.narvar.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Narvar)",
+          "strength": 1.0,
+          "value": "\\.narvar\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Narvar)",
+        "strength": 1.0,
+        "value": "NARVARJS_URL"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Narvar)",
+        "strength": 1.0,
+        "value": "narvar"
+      }
+    ],
+    "vendor_id": "narvar"
+  },
+  "nationbuilder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NationBuilder)",
+        "strength": 1.0,
+        "value": "NB.FBAppId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NationBuilder)",
+        "strength": 1.0,
+        "value": "NB.Liquid"
+      }
+    ],
+    "vendor_id": "nationbuilder"
+  },
+  "nativeforms": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NativeForms)",
+        "strength": 1.0,
+        "value": "script\\.nativeforms\\.com"
+      }
+    ],
+    "vendor_id": "nativeforms"
+  },
+  "nativo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nativo)",
+        "properties": {},
+        "selector": "link[href*='.postrelease.com/'], img[src*='.postrelease.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nativo)",
+        "strength": 1.0,
+        "value": "ntvConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nativo)",
+        "strength": 1.0,
+        "value": "\\.ntv\\.io/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nativo)",
+        "strength": 1.0,
+        "value": "\\.postrelease\\.com/"
+      }
+    ],
+    "vendor_id": "nativo"
+  },
+  "natural_intelligence": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Natural Intelligence)",
+        "strength": 1.0,
+        "value": "naturalint_tag"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Natural Intelligence)",
+        "strength": 1.0,
+        "value": "\\.naturalint\\.com/"
+      }
+    ],
+    "vendor_id": "natural_intelligence"
+  },
+  "naukri": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naukri)",
+        "strength": 1.0,
+        "value": "naukriWidget"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naukri)",
+          "strength": 1.0,
+          "value": "www\\.naukri\\.com"
+        }
+      ]
+    },
+    "vendor_id": "naukri"
+  },
+  "navegg": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navegg)",
+        "strength": 1.0,
+        "value": "tag\\.navdmp\\.com"
+      }
+    ],
+    "vendor_id": "navegg"
+  },
+  "naver_analytics": {
+    "meta_patterns": {
+      "naver-site-verification": [
+        {
+          "match_type": "regex",
+          "notes": "meta naver-site-verification; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naver Analytics)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naver Analytics)",
+        "strength": 1.0,
+        "value": "wcs\\.naver\\.net/wcslog\\.js"
+      }
+    ],
+    "vendor_id": "naver_analytics"
+  },
+  "naver_maps": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naver Maps)",
+        "strength": 1.0,
+        "value": "naver.maps"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naver Maps)",
+        "strength": 1.0,
+        "value": "openapi\\.map\\.naver\\.com/openapi/v([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "naver_maps"
+  },
+  "naver_rua": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naver RUA)",
+        "strength": 1.0,
+        "value": "rua-api\\.ncloud\\.com/"
+      }
+    ],
+    "vendor_id": "naver_rua"
+  },
+  "navidium_shipping_protection": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navidium Shipping Protection)",
+        "strength": 1.0,
+        "value": "nvdShop"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navidium Shipping Protection)",
+        "strength": 1.0,
+        "value": "^.*/navidium-extension-checker\\.js$"
+      }
+    ],
+    "vendor_id": "navidium_shipping_protection"
+  },
+  "naviga": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naviga)",
+        "properties": {},
+        "selector": "link[href*='.infomaker.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Naviga)",
+        "strength": 1.0,
+        "value": "\\.infomaker\\.io/"
+      }
+    ],
+    "vendor_id": "naviga"
+  },
+  "navu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navu)",
+        "strength": 1.0,
+        "value": "$_navuEmbedded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navu)",
+        "strength": 1.0,
+        "value": "$navuContext"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Navu)",
+        "strength": 1.0,
+        "value": "c\\.navu\\.co/"
+      }
+    ],
+    "vendor_id": "navu"
+  },
+  "neat_a_b_testing": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neat A/B testing)",
+        "strength": 1.0,
+        "value": "cdn\\.neatab\\.com/"
+      }
+    ],
+    "vendor_id": "neat_a_b_testing"
+  },
+  "nebula_sites": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nebula Sites)",
+        "properties": {},
+        "selector": "link[ns^='Nebula Sites']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "nebula_sites"
+  },
+  "need_street": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Need Street)",
+        "strength": 1.0,
+        "value": "data\\.needstreet\\.com"
+      }
+    ],
+    "vendor_id": "need_street"
+  },
+  "neexa": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neexa)",
+        "strength": 1.0,
+        "value": "neexa_xgmx_cc_wpq_ms"
+      }
+    ],
+    "vendor_id": "neexa"
+  },
+  "negate": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Negate)",
+        "strength": 1.0,
+        "value": "sapi\\.negate\\.io"
+      }
+    ],
+    "vendor_id": "negate"
+  },
+  "nelio_testing": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nelio Testing)",
+        "strength": 1.0,
+        "value": "nabUniqueViews"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nelio Testing)",
+        "strength": 1.0,
+        "value": "nabSettings"
+      }
+    ],
+    "vendor_id": "nelio_testing"
+  },
+  "nemu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nemu)",
+        "strength": 1.0,
+        "value": "trackingNemu"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nemu)",
+        "strength": 1.0,
+        "value": "trackings\\.nemu\\.com\\.br"
+      }
+    ],
+    "vendor_id": "nemu"
+  },
+  "neo_omnichannel_commerce_platform": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NEO - Omnichannel Commerce Platform)",
+        "properties": {},
+        "selector": "#svr[value^=\"NEOWEBV\"]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "powered": [
+        {
+          "match_type": "regex",
+          "notes": "header powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NEO - Omnichannel Commerce Platform)",
+          "strength": 1.0,
+          "value": "jet-neo"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NEO - Omnichannel Commerce Platform)",
+        "strength": 1.0,
+        "value": "\\.plataformaneo\\.com"
+      }
+    ],
+    "vendor_id": "neo_omnichannel_commerce_platform"
+  },
+  "neoasist": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NeoAsist)",
+        "strength": 1.0,
+        "value": "NeoAssistTag"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NeoAsist)",
+        "strength": 1.0,
+        "value": "\\.neoassist\\.com"
+      }
+    ],
+    "vendor_id": "neoasist"
+  },
+  "neon_crm": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neon CRM)",
+        "properties": {},
+        "selector": "a[href*='.app.neoncrm.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neon CRM)",
+        "strength": 1.0,
+        "value": "_neoncrm_ga"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neon CRM)",
+        "strength": 1.0,
+        "value": "neonPayCard"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neon CRM)",
+        "strength": 1.0,
+        "value": "neoncrm_email_ajax_object"
+      }
+    ],
+    "vendor_id": "neon_crm"
+  },
+  "neos_cms": {
+    "header_patterns": {
+      "x-flow-powered": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Flow-Powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neos CMS)",
+          "strength": 1.0,
+          "value": "Neos/?(.+)?$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neos CMS)",
+        "strength": 1.0,
+        "value": "/Neos\\.Neos/"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neos CMS)",
+        "strength": 1.0,
+        "value": "/neos/"
+      }
+    ],
+    "vendor_id": "neos_cms"
+  },
+  "neos_flow": {
+    "header_patterns": {
+      "x-flow-powered": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Flow-Powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neos Flow)",
+          "strength": 1.0,
+          "value": "Flow/?(.+)?$"
+        }
+      ]
+    },
+    "vendor_id": "neos_flow"
+  },
+  "neowize": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neowize)",
+        "strength": 1.0,
+        "value": "neowize_api_key"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neowize)",
+        "strength": 1.0,
+        "value": "neowize_cart_data"
+      }
+    ],
+    "vendor_id": "neowize"
+  },
+  "nepcha_analytics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nepcha Analytics)",
+        "strength": 1.0,
+        "value": "api\\.nepcha\\.com"
+      }
+    ],
+    "vendor_id": "nepcha_analytics"
+  },
+  "nepso": {
+    "header_patterns": {
+      "x-powered-cms": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-CMS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nepso)",
+          "strength": 1.0,
+          "value": "Nepso"
+        }
+      ]
+    },
+    "vendor_id": "nepso"
+  },
+  "neshan": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neshan)",
+        "strength": 1.0,
+        "value": "static\\.neshan\\.org"
+      }
+    ],
+    "vendor_id": "neshan"
+  },
+  "nestify": {
+    "header_patterns": {
+      "x-nestify-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-nestify-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nestify)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "nestify"
+  },
+  "net_results": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NET-RESULTS)",
+        "strength": 1.0,
+        "value": "\\.net-results\\.io/"
+      }
+    ],
+    "vendor_id": "net_results"
+  },
+  "netcore_cloud": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netcore Cloud)",
+        "strength": 1.0,
+        "value": "\\.netcoresmartech\\.com/"
+      }
+    ],
+    "vendor_id": "netcore_cloud"
+  },
+  "netdeal": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netdeal)",
+        "strength": 1.0,
+        "value": "NetdealBuildNumber"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netdeal)",
+        "strength": 1.0,
+        "value": "NetdealJs.paywall"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netdeal)",
+        "strength": 1.0,
+        "value": "netdealStartSession"
+      }
+    ],
+    "vendor_id": "netdeal"
+  },
+  "nethouse_website_builder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nethouse Website Builder)",
+        "strength": 1.0,
+        "value": "Nethouse"
+      }
+    ],
+    "vendor_id": "nethouse_website_builder"
+  },
+  "netlify": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify)",
+          "strength": 1.0,
+          "value": "^Netlify"
+        }
+      ],
+      "x-nf-request-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-NF-Request-ID; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify)",
+        "strength": 1.0,
+        "value": "^https?://[^/]+\\.netlify\\.(?:com|app)/"
+      }
+    ],
+    "vendor_id": "netlify",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify)",
+        "strength": 1.0,
+        "value": "cdn\\.netlify\\.com"
+      }
+    ]
+  },
+  "netlify_create": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+        "properties": {},
+        "selector": "[data-sb-object-id]",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "data-sb-field-path": {
+            "match_type": "regex",
+            "notes": "dom attr data-sb-field-path; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+        "properties": {},
+        "selector": "header[data-sb-field-path]",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+        "properties": {},
+        "selector": "script#__NEXT_DATA__",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+          "strength": 1.0,
+          "value": "stackbit"
+        }
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__.props.pageProps.withStackbit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Create)",
+        "strength": 1.0,
+        "value": "\\.stackbit\\.com"
+      }
+    ],
+    "vendor_id": "netlify_create"
+  },
+  "netlify_forms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netlify Forms)",
+        "properties": {},
+        "selector": "form[data-netlify]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "netlify_forms"
+  },
+  "neto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neto)",
+        "strength": 1.0,
+        "value": "NETO"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neto)",
+        "strength": 1.0,
+        "value": "jquery\\.neto.*\\.js"
+      }
+    ],
+    "vendor_id": "neto"
+  },
+  "netop": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netop)",
+        "strength": 1.0,
+        "value": "\\.netop\\.com"
+      }
+    ],
+    "vendor_id": "netop"
+  },
+  "netrox": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netrox)",
+        "strength": 1.0,
+        "value": "\\.netroxsc\\.ru"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netrox)",
+        "strength": 1.0,
+        "value": "\\.netroxsc\\.ru"
+      }
+    ],
+    "vendor_id": "netrox"
+  },
+  "netsuite": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NetSuite)",
+        "strength": 1.0,
+        "value": "NS_VER"
+      }
+    ],
+    "vendor_id": "netsuite"
+  },
+  "nette_framework": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "nette-browser"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "properties": {},
+        "selector": "input[data-nette-rules], div[id^='snippet-'], input[id^='frm-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+          "strength": 1.0,
+          "value": "^Nette Framework"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "<div[^>]+id=\"snippet-"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "<input[^>]+data-nette-rules"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "<input[^>]+id=\"frm-"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "Nette"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nette Framework)",
+        "strength": 1.0,
+        "value": "Nette.version"
+      }
+    ],
+    "vendor_id": "nette_framework"
+  },
+  "netvibes": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Netvibes)",
+        "strength": 1.0,
+        "value": "www\\.netvibes\\.com/"
+      }
+    ],
+    "vendor_id": "netvibes"
+  },
+  "network_for_good": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Network for Good)",
+        "properties": {},
+        "selector": "a[href*='.networkforgood.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Network for Good)",
+        "strength": 1.0,
+        "value": "\\.networkforgood\\.com/"
+      }
+    ],
+    "vendor_id": "network_for_good"
+  },
+  "neve": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neve)",
+        "properties": {},
+        "selector": "body[class*='neve-theme']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neve)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neve)",
+            "strength": 1.0,
+            "value": "neve\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neve)",
+        "properties": {},
+        "selector": "link[id*='neve-style']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Neve)",
+        "strength": 1.0,
+        "value": "themes/neve\\S*\\.js(?:\\?ver=([0-9.]+))?"
+      }
+    ],
+    "vendor_id": "neve"
+  },
+  "new_relic": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: New Relic)",
+        "properties": {},
+        "selector": "link[href*='.newrelic.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: New Relic)",
+        "strength": 1.0,
+        "value": "NREUM"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: New Relic)",
+        "strength": 1.0,
+        "value": "newrelic"
+      }
+    ],
+    "vendor_id": "new_relic"
+  },
+  "new_ui": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: New UI)",
+        "strength": 1.0,
+        "value": "data-new-ui-theme"
+      }
+    ],
+    "vendor_id": "new_ui"
+  },
+  "newo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Newo)",
+        "strength": 1.0,
+        "value": "static\\.newo\\.ai"
+      }
+    ],
+    "vendor_id": "newo"
+  },
+  "newspack": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Newspack)",
+        "properties": {},
+        "selector": "a.imprint[href*='newspack.pub']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "newspack"
+  },
+  "newspack_by_automattic": {
+    "header_patterns": {
+      "host-header": [
+        {
+          "match_type": "regex",
+          "notes": "header host-header; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Newspack by Automattic)",
+          "strength": 1.0,
+          "value": "Newspack"
+        }
+      ]
+    },
+    "vendor_id": "newspack_by_automattic"
+  },
+  "newstore": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NewStore)",
+        "strength": 1.0,
+        "value": "highstreetBanner.config"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NewStore)",
+        "strength": 1.0,
+        "value": "\\.api\\.highstreetapp\\.com/"
+      }
+    ],
+    "vendor_id": "newstore"
+  },
+  "newt": {
+    "vendor_id": "newt",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Newt)",
+        "strength": 1.0,
+        "value": "\\.newt\\.so"
+      }
+    ]
+  },
+  "nexcess": {
+    "header_patterns": {
+      "x-hostname": [
+        {
+          "match_type": "regex",
+          "notes": "header x-hostname; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nexcess)",
+          "strength": 1.0,
+          "value": "nxcli\\.net$"
+        }
+      ]
+    },
+    "vendor_id": "nexcess"
+  },
+  "nexive": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nexive)",
+        "strength": 1.0,
+        "value": "\\bNexive\\b"
+      }
+    ],
+    "vendor_id": "nexive"
+  },
+  "nexmind": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NexMind)",
+        "strength": 1.0,
+        "value": "cdn\\.nexmind\\.ai/"
+      }
+    ],
+    "vendor_id": "nexmind"
+  },
+  "next_basket": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next Basket)",
+          "strength": 1.0,
+          "value": "^NextBasket.com$"
+        }
+      ]
+    },
+    "vendor_id": "next_basket"
+  },
+  "next_js": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js)",
+        "strength": 1.0,
+        "value": "NEXT_LOCALE"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js)",
+          "strength": 1.0,
+          "value": "^Next\\.js ?([0-9.]+)?"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js)",
+        "strength": 1.0,
+        "value": "\\.next\\.react"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js)",
+        "strength": 1.0,
+        "value": "next.version"
+      }
+    ],
+    "vendor_id": "next_js"
+  },
+  "next_js_app_router": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js App Router)",
+        "strength": 1.0,
+        "value": "next.appDir"
+      }
+    ],
+    "vendor_id": "next_js_app_router"
+  },
+  "next_js_page_router_ssg": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js Page Router SSG)",
+        "strength": 1.0,
+        "value": ".__NEXT_DATA__.autoExport"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js Page Router SSG)",
+        "strength": 1.0,
+        "value": ".__NEXT_DATA__.gsp"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js Page Router SSG)",
+        "strength": 1.0,
+        "value": ".__NEXT_DATA__.nextExport"
+      }
+    ],
+    "vendor_id": "next_js_page_router_ssg"
+  },
+  "next_js_page_router_ssr": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js Page Router SSR)",
+        "strength": 1.0,
+        "value": ".__NEXT_DATA__.gip"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next.js Page Router SSR)",
+        "strength": 1.0,
+        "value": ".__NEXT_DATA__.gssp"
+      }
+    ],
+    "vendor_id": "next_js_page_router_ssr"
+  },
+  "next_total": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next Total)",
+        "strength": 1.0,
+        "value": "NextBasket.NextUnlimited"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next Total)",
+        "strength": 1.0,
+        "value": "NextFavourites.Busy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next Total)",
+        "strength": 1.0,
+        "value": "NextFavourites.Data.ShoppingLists"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Next Total)",
+        "strength": 1.0,
+        "value": "\\.nextdirect\\.com/"
+      }
+    ],
+    "vendor_id": "next_total"
+  },
+  "nextauth_js": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextAuth.js)",
+        "strength": 1.0,
+        "value": "__Host-next-auth.csrf-token"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextAuth.js)",
+        "strength": 1.0,
+        "value": "__Secure-next-auth.callback-url"
+      }
+    ],
+    "vendor_id": "nextauth_js"
+  },
+  "nextcloud": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextcloud)",
+        "strength": 1.0,
+        "value": " __Host-nc_sameSiteCookielax"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextcloud)",
+        "strength": 1.0,
+        "value": "__Host-nc_sameSiteCookiestrict"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextcloud)",
+        "strength": 1.0,
+        "value": "oc_config.version"
+      }
+    ],
+    "vendor_id": "nextcloud"
+  },
+  "nextdoor_ads": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextdoor Ads)",
+        "strength": 1.0,
+        "value": "ads\\.nextdoor\\.com/"
+      }
+    ],
+    "vendor_id": "nextdoor_ads"
+  },
+  "nextgen_gallery": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextGEN Gallery)",
+        "strength": 1.0,
+        "value": "<!-- <meta name=\"NextGEN\" version=\"([\\d.]+)\" /> -->"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextGEN Gallery)",
+        "strength": 1.0,
+        "value": "nextgen_lightbox_settings.static_path"
+      }
+    ],
+    "meta_patterns": {
+      "nextgen": [
+        {
+          "match_type": "regex",
+          "notes": "meta NextGEN; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextGEN Gallery)",
+          "strength": 1.0,
+          "value": "^([\\d.]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextGEN Gallery)",
+        "strength": 1.0,
+        "value": "/nextgen-gallery/js/"
+      }
+    ],
+    "vendor_id": "nextgen_gallery"
+  },
+  "nextra": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "properties": {},
+        "selector": "div.nextra-container",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "properties": {},
+        "selector": "div.nextra-nav-container",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "properties": {},
+        "selector": "div.nextra-sidebar-container",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "strength": 1.0,
+        "value": "nextra//.site/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "strength": 1.0,
+        "value": "__nextra_internal__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextra)",
+        "strength": 1.0,
+        "value": "__nextra_pageContext__"
+      }
+    ],
+    "vendor_id": "nextra"
+  },
+  "nextsale": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextsale)",
+        "strength": 1.0,
+        "value": "NextsaleObject"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nextsale)",
+        "strength": 1.0,
+        "value": "(?:api|sdk)\\.nextsale\\.io/"
+      }
+    ],
+    "vendor_id": "nextsale"
+  },
+  "nextui": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextUI)",
+        "strength": 1.0,
+        "value": "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NextUI)",
+        "properties": {},
+        "selector": "link[href*='nextui.org'][rel='canonical']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "nextui"
+  },
+  "nexusphp": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NexusPHP)",
+          "strength": 1.0,
+          "value": "^NexusPHP$"
+        }
+      ]
+    },
+    "vendor_id": "nexusphp"
+  },
+  "nexuspipe": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NexusPIPE)",
+          "strength": 1.0,
+          "value": "^Nexuspipe.com"
+        }
+      ]
+    },
+    "vendor_id": "nexuspipe"
+  },
+  "nexxt": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nexxt)",
+        "strength": 1.0,
+        "value": "_bydWto.host"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nexxt)",
+        "strength": 1.0,
+        "value": "\\.nexxt\\.com/"
+      }
+    ],
+    "vendor_id": "nexxt"
+  },
+  "nexxtmove": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nexxtmove)",
+        "strength": 1.0,
+        "value": "nexxtmove-313510\\.web\\.app"
+      }
+    ],
+    "vendor_id": "nexxtmove"
+  },
+  "ngage_live_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ngage Live Chat)",
+        "strength": 1.0,
+        "value": "NgageKillScript"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ngage Live Chat)",
+        "strength": 1.0,
+        "value": "StartNgageChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ngage Live Chat)",
+        "strength": 1.0,
+        "value": "messenger\\.ngageics\\.com"
+      }
+    ],
+    "vendor_id": "ngage_live_chat"
+  },
+  "nghttpx_http_2_proxy": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: nghttpx - HTTP/2 proxy)",
+          "strength": 1.0,
+          "value": "nghttpx nghttp2/?([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "nghttpx_http_2_proxy"
+  },
+  "nginx": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nginx)",
+          "strength": 1.0,
+          "value": "nginx(?:/([\\d.]+))?"
+        }
+      ],
+      "x-fastcgi-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Fastcgi-Cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nginx)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "nginx"
+  },
+  "niagahoster": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Niagahoster)",
+          "strength": 1.0,
+          "value": "Niagahoster"
+        }
+      ]
+    },
+    "vendor_id": "niagahoster"
+  },
+  "nibiru_ecommerce": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nibiru Ecommerce)",
+          "strength": 1.0,
+          "value": "^Nibiru Ecommerce$"
+        }
+      ]
+    },
+    "vendor_id": "nibiru_ecommerce"
+  },
+  "nicepage": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nicepage)",
+        "properties": {},
+        "selector": "link[href*='nicepage.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nicepage)",
+        "strength": 1.0,
+        "value": "_npAccordionInit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nicepage)",
+        "strength": 1.0,
+        "value": "_npDialogsInit"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nicepage)",
+          "strength": 1.0,
+          "value": "Nicepage\\s([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "nicepage"
+  },
+  "nido_tecnologia": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nido Tecnologia)",
+        "strength": 1.0,
+        "value": "\\.nidoimovel\\.com\\.br"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nido Tecnologia)",
+          "strength": 1.0,
+          "value": "^Nido Tecnologia$"
+        }
+      ]
+    },
+    "vendor_id": "nido_tecnologia"
+  },
+  "nidux": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nidux)",
+        "strength": 1.0,
+        "value": "assets\\.nidux\\.net/"
+      }
+    ],
+    "vendor_id": "nidux"
+  },
+  "nift": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nift)",
+        "strength": 1.0,
+        "value": "NiftAnalytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nift)",
+        "strength": 1.0,
+        "value": "NiftJS"
+      }
+    ],
+    "vendor_id": "nift"
+  },
+  "nightsbridge": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NightsBridge)",
+        "properties": {},
+        "selector": "a[target='_blank'][href*='.nightsbridge.co']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NightsBridge)",
+        "strength": 1.0,
+        "value": "webpackChunkNightsbridgeBookingForm"
+      }
+    ],
+    "vendor_id": "nightsbridge"
+  },
+  "niice": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Niice)",
+        "strength": 1.0,
+        "value": "niice\\.nl"
+      }
+    ],
+    "vendor_id": "niice"
+  },
+  "nimbata": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nimbata)",
+        "strength": 1.0,
+        "value": "\\.dni\\.nimbata\\.com/"
+      }
+    ],
+    "vendor_id": "nimbata"
+  },
+  "nimbu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nimbu)",
+        "strength": 1.0,
+        "value": "nimbuConsentManager"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nimbu)",
+        "strength": 1.0,
+        "value": "cdn\\.nimbu\\.io"
+      }
+    ],
+    "vendor_id": "nimbu"
+  },
+  "ninchat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninchat)",
+        "strength": 1.0,
+        "value": "Ninchat.ERROR"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninchat)",
+        "strength": 1.0,
+        "value": "NinchatAntics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninchat)",
+        "strength": 1.0,
+        "value": "NinchatAsyncInit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninchat)",
+        "strength": 1.0,
+        "value": "api\\.ninchat\\.com"
+      }
+    ],
+    "vendor_id": "ninchat"
+  },
+  "ninja_forms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninja Forms)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/ninja-forms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninja Forms)",
+        "strength": 1.0,
+        "value": "nfForms"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ninja Forms)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/ninja-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "ninja_forms"
+  },
+  "ninjacat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NinjaCat)",
+        "strength": 1.0,
+        "value": "scripts\\.ninjacat\\.io"
+      }
+    ],
+    "vendor_id": "ninjacat"
+  },
+  "nitropack": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NitroPack)",
+          "strength": 1.0,
+          "value": "NitroPack"
+        }
+      ]
+    },
+    "vendor_id": "nitropack"
+  },
+  "nocnok": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NOCNOK)",
+        "strength": 1.0,
+        "value": "static\\.nocnok\\.com"
+      }
+    ],
+    "vendor_id": "nocnok"
+  },
+  "nocodelytics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nocodelytics)",
+        "strength": 1.0,
+        "value": "__NOCODELYTICS_SITE_ID__"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nocodelytics)",
+        "strength": 1.0,
+        "value": "tracker\\.nocodelytics\\.com/"
+      }
+    ],
+    "vendor_id": "nocodelytics"
+  },
+  "noddus": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Noddus)",
+        "strength": 1.0,
+        "value": "noddus\\.com/"
+      }
+    ],
+    "vendor_id": "noddus"
+  },
+  "node_js": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Node.js)",
+        "properties": {},
+        "selector": "div.appVersion i.icon-nodejs",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "node_js"
+  },
+  "nodebb": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NodeBB)",
+          "strength": 1.0,
+          "value": "^NodeBB$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NodeBB)",
+        "strength": 1.0,
+        "value": "/nodebb\\.min\\.js\\?"
+      }
+    ],
+    "vendor_id": "nodebb"
+  },
+  "nodeping": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NodePing)",
+        "properties": {},
+        "selector": "footer#poweredbynodeping",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "nodeping"
+  },
+  "nody": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nody)",
+        "strength": 1.0,
+        "value": "cdn\\.mujnody\\.cz"
+      }
+    ],
+    "vendor_id": "nody"
+  },
+  "nofraud": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NoFraud)",
+        "strength": 1.0,
+        "value": "services\\.nofraud\\.com/"
+      }
+    ],
+    "vendor_id": "nofraud"
+  },
+  "nogin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nogin)",
+        "strength": 1.0,
+        "value": "NoginConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nogin)",
+        "strength": 1.0,
+        "value": "nogin.wishlist"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nogin)",
+        "strength": 1.0,
+        "value": "\\.nogin\\.com/"
+      }
+    ],
+    "vendor_id": "nogin"
+  },
+  "noibu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Noibu)",
+        "strength": 1.0,
+        "value": "NOIBUJS_CONFIG"
+      }
+    ],
+    "vendor_id": "noibu"
+  },
+  "nolt": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nolt)",
+        "strength": 1.0,
+        "value": "Nolt.initialized"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nolt)",
+        "strength": 1.0,
+        "value": "cdn\\.nolt\\.io"
+      }
+    ],
+    "vendor_id": "nolt"
+  },
+  "noodle_factory": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Noodle Factory)",
+        "strength": 1.0,
+        "value": "portalapi\\.noodlefactory\\.ai"
+      }
+    ],
+    "vendor_id": "noodle_factory"
+  },
+  "nookal": {
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nookal)",
+          "strength": 1.0,
+          "value": "bookings\\.nookal\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nookal)",
+        "strength": 1.0,
+        "value": "nookal"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nookal)",
+        "strength": 1.0,
+        "value": "nookal\\.bookings\\.js"
+      }
+    ],
+    "vendor_id": "nookal"
+  },
+  "nootiz": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nootiz)",
+        "strength": 1.0,
+        "value": "load\\.nootiz\\.com/"
+      }
+    ],
+    "vendor_id": "nootiz"
+  },
+  "nopaperforms": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NoPaperForms)",
+        "strength": 1.0,
+        "value": "track\\.nopaperforms\\.com"
+      }
+    ],
+    "vendor_id": "nopaperforms"
+  },
+  "nopcommerce": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: nopCommerce)",
+        "strength": 1.0,
+        "value": "Nop.customer"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: nopCommerce)",
+        "strength": 1.0,
+        "value": "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: nopCommerce)",
+          "strength": 1.0,
+          "value": "^nopCommerce$"
+        }
+      ]
+    },
+    "vendor_id": "nopcommerce"
+  },
+  "nopstation": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: nopStation)",
+        "properties": {},
+        "selector": "a[href*='.nop-station.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "nopstation"
+  },
+  "norby": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norby)",
+        "strength": 1.0,
+        "value": "norbyChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norby)",
+        "strength": 1.0,
+        "value": "chat\\.norby\\.io/"
+      }
+    ],
+    "vendor_id": "norby"
+  },
+  "norce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norce)",
+        "properties": {},
+        "selector": "aside#jetshop-branding",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norce)",
+        "properties": {},
+        "selector": "div#jetshop-branding",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norce)",
+        "properties": {},
+        "selector": "link[href*='.jetshop.io']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norce)",
+        "strength": 1.0,
+        "value": "<(?:div|aside) id=\"jetshop-branding\">"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norce)",
+        "strength": 1.0,
+        "value": "JetshopData"
+      }
+    ],
+    "vendor_id": "norce"
+  },
+  "nordcraft": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nordcraft)",
+          "strength": 1.0,
+          "value": "^Nordcraft$"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "application-name": [
+        {
+          "match_type": "regex",
+          "notes": "meta application-name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nordcraft)",
+          "strength": 1.0,
+          "value": "^Nordcraft$"
+        }
+      ]
+    },
+    "vendor_id": "nordcraft"
+  },
+  "normalize_css": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Normalize.css)",
+        "properties": {},
+        "selector": "link[href*='/assets/css/normalize.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "normalize_css"
+  },
+  "normi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Normi)",
+        "strength": 1.0,
+        "value": "app\\.normi\\.ca/"
+      }
+    ],
+    "vendor_id": "normi"
+  },
+  "norse_env": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norse Env)",
+          "strength": 1.0,
+          "value": "Norse Env"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norse Env)",
+          "strength": 1.0,
+          "value": "Norse Env"
+        }
+      ]
+    },
+    "vendor_id": "norse_env"
+  },
+  "northbeam": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Northbeam)",
+        "properties": {},
+        "selector": "script[data-src*='.northbeam.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Northbeam)",
+        "strength": 1.0,
+        "value": "\\.northbeam\\.io/"
+      }
+    ],
+    "vendor_id": "northbeam"
+  },
+  "northstar_civic": {
+    "meta_patterns": {
+      "cms": [
+        {
+          "match_type": "regex",
+          "notes": "meta cms; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NorthStar Civic)",
+          "strength": 1.0,
+          "value": "^NorthStar CMS$"
+        }
+      ]
+    },
+    "vendor_id": "northstar_civic"
+  },
+  "northstar_club_management": {
+    "header_patterns": {
+      "portal": [
+        {
+          "match_type": "regex",
+          "notes": "header Portal; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Northstar Club Management)",
+          "strength": 1.0,
+          "value": "^Northstar Connect"
+        }
+      ]
+    },
+    "vendor_id": "northstar_club_management"
+  },
+  "norton_shopping_guarantee": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norton Shopping Guarantee)",
+        "strength": 1.0,
+        "value": "DO_NORTON_SHOPPING"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Norton Shopping Guarantee)",
+        "strength": 1.0,
+        "value": "nsg\\.symantec\\.com/"
+      }
+    ],
+    "vendor_id": "norton_shopping_guarantee"
+  },
+  "nosto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto)",
+        "strength": 1.0,
+        "value": "nosto"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto)",
+        "strength": 1.0,
+        "value": "nostojs"
+      }
+    ],
+    "meta_patterns": {
+      "nosto-version": [
+        {
+          "match_type": "regex",
+          "notes": "meta nosto-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto)",
+          "strength": 1.0,
+          "value": "([\\d.]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto)",
+        "strength": 1.0,
+        "value": "connect\\.nosto\\.\\w+/"
+      }
+    ],
+    "vendor_id": "nosto"
+  },
+  "nosto_visual_ugc": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto Visual UGC)",
+        "strength": 1.0,
+        "value": "Stackla"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto Visual UGC)",
+        "strength": 1.0,
+        "value": "stacklaWidgetJsonp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nosto Visual UGC)",
+        "strength": 1.0,
+        "value": "\\.stackla\\.com/"
+      }
+    ],
+    "vendor_id": "nosto_visual_ugc"
+  },
+  "nostra": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nostra)",
+        "strength": 1.0,
+        "value": "Nostra"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nostra)",
+        "strength": 1.0,
+        "value": "NostraEventManager"
+      }
+    ],
+    "vendor_id": "nostra"
+  },
+  "noticeable": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Noticeable)",
+        "strength": 1.0,
+        "value": "noticeable"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Noticeable)",
+        "strength": 1.0,
+        "value": "sdk\\.noticeable\\.io/"
+      }
+    ],
+    "vendor_id": "noticeable"
+  },
+  "notie": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notie)",
+        "strength": 1.0,
+        "value": "notie"
+      }
+    ],
+    "vendor_id": "notie"
+  },
+  "notifly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notifly)",
+        "strength": 1.0,
+        "value": "NotiflyWebMessageRenderer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notifly)",
+        "strength": 1.0,
+        "value": "__notiflyCafe24Config"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notifly)",
+        "strength": 1.0,
+        "value": "notifly"
+      }
+    ],
+    "vendor_id": "notifly"
+  },
+  "notion": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notion)",
+        "properties": {},
+        "selector": "html.notion-html",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "notion"
+  },
+  "notix": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Notix)",
+        "strength": 1.0,
+        "value": "notix\\.io/ent"
+      }
+    ],
+    "vendor_id": "notix"
+  },
+  "nova_busca": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nova Busca)",
+        "strength": 1.0,
+        "value": "api\\.novabusca\\.com\\.br"
+      }
+    ],
+    "vendor_id": "nova_busca"
+  },
+  "novadb": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NovaDB)",
+          "strength": 1.0,
+          "value": "^NovaDB$"
+        }
+      ]
+    },
+    "vendor_id": "novadb"
+  },
+  "novaresa": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novaresa)",
+        "strength": 1.0,
+        "value": "jquery_novaresa.Animation"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novaresa)",
+        "strength": 1.0,
+        "value": "www\\.novaresa\\.net/"
+      }
+    ],
+    "vendor_id": "novaresa"
+  },
+  "novel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novel)",
+        "strength": 1.0,
+        "value": "__NOVEL_STOREFRONT_SCRIPT_HAS_RUN__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novel)",
+        "strength": 1.0,
+        "value": "__novel_cache__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novel)",
+        "strength": 1.0,
+        "value": "fetchNovelSession"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Novel)",
+        "strength": 1.0,
+        "value": "fetchNovelStorefrontData"
+      }
+    ],
+    "vendor_id": "novel"
+  },
+  "novomind_ishop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: novomind iSHOP)",
+        "strength": 1.0,
+        "value": "_ishopevents"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: novomind iSHOP)",
+        "strength": 1.0,
+        "value": "_ishopevents_url"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: novomind iSHOP)",
+        "strength": 1.0,
+        "value": "iShop.config.baseUrl"
+      }
+    ],
+    "vendor_id": "novomind_ishop"
+  },
+  "nowbuttons": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NowButtons)",
+        "properties": {},
+        "selector": "link[href*='static.callnowbutton.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NowButtons)",
+        "strength": 1.0,
+        "value": "static\\.callnowbutton\\.com"
+      }
+    ],
+    "vendor_id": "nowbuttons"
+  },
+  "nowfloats": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nowfloats)",
+        "strength": 1.0,
+        "value": "NOWFLOATS_POSITION"
+      }
+    ],
+    "vendor_id": "nowfloats"
+  },
+  "nprogress": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NProgress)",
+        "strength": 1.0,
+        "value": "NProgress.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NProgress)",
+        "strength": 1.0,
+        "value": "/nprogress\\.min\\.js"
+      }
+    ],
+    "vendor_id": "nprogress"
+  },
+  "nrdevo": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nrdevo)",
+          "strength": 1.0,
+          "value": "^Nrdevo(?: ([0-9.]+))?$"
+        }
+      ]
+    },
+    "vendor_id": "nrdevo"
+  },
+  "nsw_design_system": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NSW Design System)",
+        "properties": {},
+        "selector": ".nsw-container, .nsw-header, .nsw-icon, link[href*='nsw-design-system']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NSW Design System)",
+        "strength": 1.0,
+        "value": "NSW.initSite"
+      }
+    ],
+    "vendor_id": "nsw_design_system"
+  },
+  "ntlm": {
+    "header_patterns": {
+      "www-authenticate": [
+        {
+          "match_type": "regex",
+          "notes": "header WWW-Authenticate; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NTLM)",
+          "strength": 1.0,
+          "value": "^NTLM"
+        }
+      ]
+    },
+    "vendor_id": "ntlm"
+  },
+  "nucleus_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nucleus CMS)",
+          "strength": 1.0,
+          "value": "^Nucleus(?: CMS)?\\s+v?(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nucleus CMS)",
+        "strength": 1.0,
+        "value": "nucleuscms\\.er\\.cz/"
+      }
+    ],
+    "vendor_id": "nucleus_cms"
+  },
+  "nudgify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nudgify)",
+        "strength": 1.0,
+        "value": "nudgify.cart"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nudgify)",
+        "strength": 1.0,
+        "value": "\\.nudgify\\.com/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nudgify)",
+        "strength": 1.0,
+        "value": "cdn\\.convertize\\.com/nudgify-shopify\\.js"
+      }
+    ],
+    "vendor_id": "nudgify"
+  },
+  "nukeviet_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nukeviet CMS)",
+        "strength": 1.0,
+        "value": "nv_DigitalClock"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nukeviet CMS)",
+        "strength": 1.0,
+        "value": "nv_is_change_act_confirm"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nukeviet CMS)",
+          "strength": 1.0,
+          "value": "NukeViet v([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "nukeviet_cms"
+  },
+  "nuqlium": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuqlium)",
+        "strength": 1.0,
+        "value": "nuqliumObject"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuqlium)",
+        "strength": 1.0,
+        "value": "\\.nuqlium\\.com/api"
+      }
+    ],
+    "vendor_id": "nuqlium"
+  },
+  "nurture": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nurture)",
+        "strength": 1.0,
+        "value": "nurtureapi\\.nurturehq\\.com"
+      }
+    ],
+    "vendor_id": "nurture"
+  },
+  "nurture_boss": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nurture Boss)",
+        "strength": 1.0,
+        "value": "widget\\.nurtureboss\\.io/"
+      }
+    ],
+    "vendor_id": "nurture_boss"
+  },
+  "nuvemshop": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuvemshop)",
+        "properties": {},
+        "selector": "a[href*='www.nuvemshop.com.br'][title*='Nuvemshop'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuvemshop)",
+        "strength": 1.0,
+        "value": "LS.store.url"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuvemshop)",
+        "strength": 1.0,
+        "value": "nuvemShopIdProduct"
+      }
+    ],
+    "vendor_id": "nuvemshop"
+  },
+  "nuxt_js": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "properties": {},
+        "selector": "div[id^='__nuxt']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "<div [^>]*id=\"__nuxt\""
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "<script [^>]*>window\\.__NUXT__"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "$nuxt"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "__NUXT__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "useNuxtApp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt.js)",
+        "strength": 1.0,
+        "value": "/_nuxt/"
+      }
+    ],
+    "vendor_id": "nuxt_js"
+  },
+  "nuxt_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nuxt UI)",
+        "properties": {},
+        "selector": "style[id*='nuxt-ui-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "nuxt_ui"
+  },
+  "nvd3": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NVD3)",
+        "properties": {},
+        "selector": "link[href*='nv.d3.css'], link[href*='nv.d3.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NVD3)",
+        "strength": 1.0,
+        "value": "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NVD3)",
+        "strength": 1.0,
+        "value": "nv.addGraph"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NVD3)",
+        "strength": 1.0,
+        "value": "nv.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: NVD3)",
+        "strength": 1.0,
+        "value": "nv\\.d3(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "nvd3"
+  },
+  "nyehandel": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Nyehandel)",
+        "strength": 1.0,
+        "value": "nyehandelse_session"
+      }
+    ],
+    "vendor_id": "nyehandel"
+  }
+}

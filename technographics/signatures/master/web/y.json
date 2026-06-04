@@ -1,0 +1,1581 @@
+{
+  "yabb": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YaBB)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"[^>]+yabbforum"
+      }
+    ],
+    "vendor_id": "yabb"
+  },
+  "yachtsys": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YachtSys)",
+        "strength": 1.0,
+        "value": "apps\\.yachtsys\\.com/"
+      }
+    ],
+    "vendor_id": "yachtsys"
+  },
+  "yahoo_advertising": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "properties": {},
+        "selector": "link[href*='bc.yahoo.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "adxinserthtml"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "yahooCvLoad"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "yahoo_retargeting_pv_id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "yahoo_ydn_conv_label"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "yahoo_ydn_conv_transaction_id"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo Advertising)",
+        "strength": 1.0,
+        "value": "(?:adinterax|adserver\\.yahoo)\\.com"
+      }
+    ],
+    "vendor_id": "yahoo_advertising"
+  },
+  "yahoo_ecommerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Ecommerce)",
+        "properties": {},
+        "selector": "link[href*='store.yahoo.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-xrds-location": [
+        {
+          "match_type": "regex",
+          "notes": "header X-XRDS-Location; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Ecommerce)",
+          "strength": 1.0,
+          "value": "/ystore/"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Ecommerce)",
+        "strength": 1.0,
+        "value": "<link[^>]+store\\.yahoo\\.net"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Ecommerce)",
+        "strength": 1.0,
+        "value": "YStore"
+      }
+    ],
+    "vendor_id": "yahoo_ecommerce"
+  },
+  "yahoo_tag_manager": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Tag Manager)",
+        "strength": 1.0,
+        "value": "<!-- (?:End )?Yahoo! Tag Manager -->"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Tag Manager)",
+        "strength": 1.0,
+        "value": "b\\.yjtag\\.jp/iframe"
+      }
+    ],
+    "vendor_id": "yahoo_tag_manager"
+  },
+  "yahoo_web_analytics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Web Analytics)",
+        "strength": 1.0,
+        "value": "YWA"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yahoo! Web Analytics)",
+        "strength": 1.0,
+        "value": "d\\.yimg\\.com/mi/ywa\\.js"
+      }
+    ],
+    "vendor_id": "yahoo_web_analytics"
+  },
+  "yamada_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yamada UI)",
+        "properties": {},
+        "selector": "a[aria-label*='Yamada UI']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "yamada_ui"
+  },
+  "yampi_checkout": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yampi Checkout)",
+        "strength": 1.0,
+        "value": "yampiCheckoutUrl"
+      }
+    ],
+    "vendor_id": "yampi_checkout"
+  },
+  "yampi_virtual_store": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yampi Virtual store)",
+        "strength": 1.0,
+        "value": "Yampi.api_domain"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yampi Virtual store)",
+        "strength": 1.0,
+        "value": "Yampi.cart_token"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yampi Virtual store)",
+        "strength": 1.0,
+        "value": "cdn\\.yampi\\.io/"
+      }
+    ],
+    "vendor_id": "yampi_virtual_store"
+  },
+  "yandex_cloud_cdn": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Cloud CDN)",
+        "properties": {},
+        "selector": "[href*='storage.yandexcloud.net'], [src*='storage.yandexcloud.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "yandex_cloud_cdn"
+  },
+  "yandex_direct": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Direct)",
+        "properties": {},
+        "selector": "yatag[class*='ya-partner__ads']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Direct)",
+        "strength": 1.0,
+        "value": "<yatag class=\"ya-partner__ads\">"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Direct)",
+        "strength": 1.0,
+        "value": "yandex_ad_format"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Direct)",
+        "strength": 1.0,
+        "value": "yandex_partner_id"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Direct)",
+        "strength": 1.0,
+        "value": "//an\\.yandex\\.ru/"
+      }
+    ],
+    "vendor_id": "yandex_direct"
+  },
+  "yandex_messenger": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Messenger)",
+        "strength": 1.0,
+        "value": "yandexChatWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Messenger)",
+        "strength": 1.0,
+        "value": "chat\\.s3\\.yandex\\.net/widget\\.js"
+      }
+    ],
+    "vendor_id": "yandex_messenger"
+  },
+  "yandex_metrika": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Metrika)",
+        "strength": 1.0,
+        "value": "yandex_metrika"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Metrika)",
+        "strength": 1.0,
+        "value": "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex.Metrika)",
+        "strength": 1.0,
+        "value": "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js"
+      }
+    ],
+    "vendor_id": "yandex_metrika"
+  },
+  "yandex_smartcaptcha": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex SmartCaptcha)",
+        "properties": {},
+        "selector": "div#smartcaptcha-status",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-yandex-captcha": [
+        {
+          "match_type": "regex",
+          "notes": "header x-yandex-captcha; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex SmartCaptcha)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex SmartCaptcha)",
+        "strength": 1.0,
+        "value": "Yandex SmartCaptcha"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yandex SmartCaptcha)",
+        "strength": 1.0,
+        "value": "smartCaptcha"
+      }
+    ],
+    "vendor_id": "yandex_smartcaptcha"
+  },
+  "yapla": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yapla)",
+        "properties": {},
+        "selector": "a[href*='\\.yapla\\.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yapla)",
+        "strength": 1.0,
+        "value": "yaplaConsent.cookieName"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yapla)",
+          "strength": 1.0,
+          "value": "^Yapla\\sv([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "yapla"
+  },
+  "yaws": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yaws)",
+          "strength": 1.0,
+          "value": "Yaws(?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "yaws"
+  },
+  "yay_forms": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yay! Forms)",
+        "strength": 1.0,
+        "value": "embed\\.yayforms\\.link"
+      }
+    ],
+    "vendor_id": "yay_forms"
+  },
+  "ybug": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ybug)",
+        "strength": 1.0,
+        "value": "Ybug"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ybug)",
+        "strength": 1.0,
+        "value": "ybug_settings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ybug)",
+        "strength": 1.0,
+        "value": "\\.ybug\\.io/"
+      }
+    ],
+    "vendor_id": "ybug"
+  },
+  "yclas": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yclas)",
+          "strength": 1.0,
+          "value": "open-classifieds\\.com"
+        }
+      ],
+      "copyright": [
+        {
+          "match_type": "regex",
+          "notes": "meta copyright; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yclas)",
+          "strength": 1.0,
+          "value": "(?:Open Classifieds|Yclas)\\s([0-9.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "yclas"
+  },
+  "ycode": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ycode)",
+        "properties": {},
+        "selector": "link[href*='.ycodeapp.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ycode"
+  },
+  "yektanet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yektanet)",
+        "strength": 1.0,
+        "value": "yektanet"
+      }
+    ],
+    "meta_patterns": {
+      "yektanet_session_last_activity": [
+        {
+          "match_type": "regex",
+          "notes": "meta yektanet_session_last_activity; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yektanet)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "yektanet"
+  },
+  "yell_ecommerce": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yell eCommerce)",
+        "strength": 1.0,
+        "value": "business\\.yell\\.com"
+      }
+    ],
+    "vendor_id": "yell_ecommerce"
+  },
+  "yellow_ai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: yellow.ai)",
+        "strength": 1.0,
+        "value": "ymConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: yellow.ai)",
+        "strength": 1.0,
+        "value": "cdn\\.yellowmessenger\\.com"
+      }
+    ],
+    "vendor_id": "yellow_ai"
+  },
+  "yelp_reservations": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yelp Reservations)",
+            "strength": 1.0,
+            "value": "yelp(?:.com/reservations|reservations\\.com)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yelp Reservations)",
+        "properties": {},
+        "selector": "iframe[src*='yelp']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "yelp_reservations"
+  },
+  "yelp_review_badge": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yelp Review Badge)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yelp Review Badge)",
+        "properties": {},
+        "selector": "img[src*='dyn.yelpcdn.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yelp Review Badge)",
+        "strength": 1.0,
+        "value": "yelp\\.com/biz_badge_js"
+      }
+    ],
+    "vendor_id": "yelp_review_badge"
+  },
+  "yepcomm": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yepcomm)",
+          "strength": 1.0,
+          "value": "Yepcomm Tecnologia"
+        }
+      ],
+      "copyright": [
+        {
+          "match_type": "regex",
+          "notes": "meta copyright; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yepcomm)",
+          "strength": 1.0,
+          "value": "Yepcomm Tecnologia"
+        }
+      ]
+    },
+    "vendor_id": "yepcomm"
+  },
+  "yeps": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yeps)",
+        "strength": 1.0,
+        "value": "Yeps"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yeps)",
+        "strength": 1.0,
+        "value": "app\\.yeps\\.io/"
+      }
+    ],
+    "vendor_id": "yeps"
+  },
+  "yeswiki": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YesWiki)",
+        "properties": {},
+        "selector": "#yw-container",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YesWiki)",
+        "strength": 1.0,
+        "value": "javascripts/yeswiki-base\\.js"
+      }
+    ],
+    "vendor_id": "yeswiki"
+  },
+  "yett": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yett)",
+        "strength": 1.0,
+        "value": "YETT_BLACKLIST"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yett)",
+        "strength": 1.0,
+        "value": "/yett@([\\d\\.]+)/dist/yett\\.min\\.js"
+      }
+    ],
+    "vendor_id": "yett"
+  },
+  "yever": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yever)",
+        "strength": 1.0,
+        "value": "api\\.yever\\.com\\.br"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yever)",
+        "strength": 1.0,
+        "value": "currentUrlYever"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yever)",
+        "strength": 1.0,
+        "value": "getUtmsUrlYever"
+      }
+    ],
+    "vendor_id": "yever"
+  },
+  "yext": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "properties": {},
+        "selector": "form.yxt-SearchBar-form",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "ANSWERS._analyticsReporterService._baseUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "Yext.BaseUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "YextAnalyticsObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "yext.analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "yextAnalyticsEnabled"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yext)",
+        "strength": 1.0,
+        "value": "yext_analytics"
+      }
+    ],
+    "vendor_id": "yext"
+  },
+  "yieldify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yieldify)",
+        "strength": 1.0,
+        "value": "_yieldify"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yieldify)",
+        "strength": 1.0,
+        "value": "\\.yieldify\\.com"
+      }
+    ],
+    "vendor_id": "yieldify"
+  },
+  "yieldlab": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yieldlab)",
+        "strength": 1.0,
+        "value": "^https?://(?:[^/]+\\.)?yieldlab\\.net/"
+      }
+    ],
+    "vendor_id": "yieldlab"
+  },
+  "yii": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "YII_CSRF_TOKEN"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "properties": {},
+        "selector": "input[name='YII_CSRF_TOKEN'][type='hidden'], a[href*='//www.yiiframework.com/'][rel='external']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "<!\\[CDATA\\[YII-BLOCK-(?:HEAD|BODY-BEGIN|BODY-END)\\]"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "<input type=\"hidden\" value=\"[a-zA-Z0-9]{40}\" name=\"YII_CSRF_TOKEN\" \\/>"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"http://www\\.yiiframework\\.com/\" rel=\"external\">Yii Framework</a>"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "yii.init"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "/assets/[a-zA-Z0-9]{8}\\/yii\\.js$"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yii)",
+        "strength": 1.0,
+        "value": "yii(?:\\.|)?(?:validation|activeform)\\.js"
+      }
+    ],
+    "vendor_id": "yii"
+  },
+  "ym_cart": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YM Cart)",
+        "strength": 1.0,
+        "value": "exec_ymcart_collect"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YM Cart)",
+        "strength": 1.0,
+        "value": "ymcartDataLayer"
+      }
+    ],
+    "vendor_id": "ym_cart"
+  },
+  "ymq_product_options_variant_option": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YMQ Product Options Variant Option)",
+        "strength": 1.0,
+        "value": "ymq_option.v"
+      }
+    ],
+    "vendor_id": "ymq_product_options_variant_option"
+  },
+  "ynap_ecommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YNAP Ecommerce)",
+        "strength": 1.0,
+        "value": "yTos"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YNAP Ecommerce)",
+        "strength": 1.0,
+        "value": "ycookieApiUrl"
+      }
+    ],
+    "vendor_id": "ynap_ecommerce"
+  },
+  "yo_coach": {
+    "header_patterns": {
+      "set-cookie": [
+        {
+          "match_type": "regex",
+          "notes": "header Set-Cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yo!Coach)",
+          "strength": 1.0,
+          "value": "\\.yo-coach\\.com"
+        }
+      ]
+    },
+    "vendor_id": "yo_coach"
+  },
+  "yoapress": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YOAPress)",
+        "properties": {},
+        "selector": "link[href*='//api.yoa.ca']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YOAPress)",
+        "strength": 1.0,
+        "value": "yoa_cache_clear"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YOAPress)",
+        "strength": 1.0,
+        "value": "yoa_gallary"
+      }
+    ],
+    "vendor_id": "yoapress"
+  },
+  "yoast_duplicate_post": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast Duplicate Post)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/duplicate-post/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "yoast_duplicate_post"
+  },
+  "yoast_seo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO)",
+        "properties": {},
+        "selector": "script[class*='yoast-schema-graph']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO)",
+        "strength": 1.0,
+        "value": "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([^\\s]+) -"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO)",
+        "strength": 1.0,
+        "value": "<!-- This site is optimized with the Yoast SEO Premium plugin v(?:[^\\s]+) \\(Yoast SEO v([^\\s]+)\\) -"
+      }
+    ],
+    "vendor_id": "yoast_seo"
+  },
+  "yoast_seo_for_shopify": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO for Shopify)",
+        "properties": {},
+        "selector": "script#yoast-schema-graph",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO for Shopify)",
+        "strength": 1.0,
+        "value": "<!-- This site is optimized with Yoast SEO for Shopify -->"
+      }
+    ],
+    "vendor_id": "yoast_seo_for_shopify"
+  },
+  "yoast_seo_premium": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoast SEO Premium)",
+        "strength": 1.0,
+        "value": "<!-- This site is optimized with the Yoast SEO Premium plugin v([^\\s]+) "
+      }
+    ],
+    "vendor_id": "yoast_seo_premium"
+  },
+  "yodel": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yodel)",
+        "strength": 1.0,
+        "value": "\\bYodel\\b"
+      }
+    ],
+    "vendor_id": "yodel"
+  },
+  "yogatrail": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YogaTrail)",
+        "strength": 1.0,
+        "value": "widget\\.yogatrail\\.com"
+      }
+    ],
+    "vendor_id": "yogatrail"
+  },
+  "yola": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yola)",
+        "properties": {},
+        "selector": "script[data-url*='.yolacdn.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yola)",
+        "strength": 1.0,
+        "value": "\\.yola(?:cdn)?\\.(?:net|com)/"
+      }
+    ],
+    "vendor_id": "yola"
+  },
+  "yomdel": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yomdel)",
+        "strength": 1.0,
+        "value": "clients\\.yomdel\\.com/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yomdel)",
+        "strength": 1.0,
+        "value": "clients\\.yomdel\\.com/"
+      }
+    ],
+    "vendor_id": "yomdel"
+  },
+  "yonder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yonder)",
+        "strength": 1.0,
+        "value": "YONDER_APP_LOADED"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yonder)",
+        "strength": 1.0,
+        "value": "toggleYonderChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yonder)",
+        "strength": 1.0,
+        "value": "\\.yonderhq\\.com/"
+      }
+    ],
+    "vendor_id": "yonder"
+  },
+  "yoomoney": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YooMoney)",
+        "properties": {},
+        "selector": "a[href*='yoomoney.ru'][target='_blank'], iframe[src*='yoomoney.ru'], img[src*='yoomoney.ru']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YooMoney)",
+          "strength": 1.0,
+          "value": "\\.yoomoney\\.ru"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YooMoney)",
+        "strength": 1.0,
+        "value": "\\.yoomoney\\.ru/"
+      }
+    ],
+    "vendor_id": "yoomoney"
+  },
+  "yoori": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoori)",
+        "properties": {},
+        "selector": "div.yoori--cookies",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yoori)",
+        "strength": 1.0,
+        "value": "console\\.log\\(\\'Yoori-Ecommerce"
+      }
+    ],
+    "vendor_id": "yoori"
+  },
+  "yopify": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yopify)",
+        "strength": 1.0,
+        "value": "//yopify\\.com/"
+      }
+    ],
+    "vendor_id": "yopify"
+  },
+  "yoplanning": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YoPlanning)",
+        "strength": 1.0,
+        "value": "booking\\.yoplanning\\.pro"
+      }
+    ],
+    "vendor_id": "yoplanning"
+  },
+  "yotpo_loyalty_referrals": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Loyalty & Referrals)",
+        "strength": 1.0,
+        "value": "SwellConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Loyalty & Referrals)",
+        "strength": 1.0,
+        "value": "swellAPI"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Loyalty & Referrals)",
+        "strength": 1.0,
+        "value": "cdn(?:-loyalty)?\\.(?:swellrewards|yotpo)\\.com/"
+      }
+    ],
+    "vendor_id": "yotpo_loyalty_referrals"
+  },
+  "yotpo_reviews": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Reviews)",
+        "strength": 1.0,
+        "value": "yotpo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Reviews)",
+        "strength": 1.0,
+        "value": "(?!cdn-loyalty)\\.yotpo\\.com/"
+      }
+    ],
+    "vendor_id": "yotpo_reviews"
+  },
+  "yotpo_smsbump": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo SMSBump)",
+        "strength": 1.0,
+        "value": "/smsbump_timer\\.js"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo SMSBump)",
+        "strength": 1.0,
+        "value": "SMSBumpForm"
+      }
+    ],
+    "vendor_id": "yotpo_smsbump"
+  },
+  "yotpo_subscriptions": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yotpo Subscriptions)",
+        "strength": 1.0,
+        "value": "<!-- BEGIN app block: shopify://apps/yotpo-subscriptions/blocks/app-embed-block"
+      }
+    ],
+    "vendor_id": "yotpo_subscriptions"
+  },
+  "yottaa": {
+    "meta_patterns": {
+      "x-yottaa-metrics": [
+        {
+          "match_type": "regex",
+          "notes": "meta X-Yottaa-Metrics; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yottaa)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-yottaa-optimizations": [
+        {
+          "match_type": "regex",
+          "notes": "meta X-Yottaa-Optimizations; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yottaa)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yottaa)",
+        "strength": 1.0,
+        "value": "cdn\\.yottaa\\.\\w+/"
+      }
+    ],
+    "vendor_id": "yottaa"
+  },
+  "youcam_makeup": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCam Makeup)",
+        "strength": 1.0,
+        "value": "YMK.applyMakeupByLook"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCam Makeup)",
+        "strength": 1.0,
+        "value": "YMK.calDeltaE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCam Makeup)",
+        "strength": 1.0,
+        "value": "plugins-media\\.(?:perfectcorp|makeupar)\\.com/"
+      }
+    ],
+    "vendor_id": "youcam_makeup"
+  },
+  "youcan": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCan)",
+          "strength": 1.0,
+          "value": "Youcan\\.Private\\.DC/"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCan)",
+        "strength": 1.0,
+        "value": "YCPay"
+      }
+    ],
+    "vendor_id": "youcan"
+  },
+  "youcan_pay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouCan Pay)",
+        "strength": 1.0,
+        "value": "YCPay"
+      }
+    ],
+    "vendor_id": "youcan_pay"
+  },
+  "youcms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: youCMS)",
+          "strength": 1.0,
+          "value": "^youCMS(?:\\b|\\s|\\s*-)"
+        }
+      ]
+    },
+    "vendor_id": "youcms"
+  },
+  "youform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Youform)",
+        "strength": 1.0,
+        "value": "youForm.blurActiveElement"
+      }
+    ],
+    "vendor_id": "youform"
+  },
+  "youlead": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouLead)",
+        "strength": 1.0,
+        "value": "\\.youlead\\.pl"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouLead)",
+        "strength": 1.0,
+        "value": "YouLeadDynamicContent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouLead)",
+        "strength": 1.0,
+        "value": "YouLeadHtmlBlocks"
+      }
+    ],
+    "vendor_id": "youlead"
+  },
+  "youpay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouPay)",
+        "strength": 1.0,
+        "value": "YouPay.buttonWindow"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouPay)",
+        "strength": 1.0,
+        "value": "youpayReady"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouPay)",
+        "strength": 1.0,
+        "value": "youpayStatus"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouPay)",
+        "strength": 1.0,
+        "value": "app\\.youpay\\.ai/"
+      }
+    ],
+    "vendor_id": "youpay"
+  },
+  "yourgpt": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YourGPT)",
+        "strength": 1.0,
+        "value": "$yourgptChatbot"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YourGPT)",
+        "strength": 1.0,
+        "value": "YOURGPT_WIDGET_UID"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YourGPT)",
+        "strength": 1.0,
+        "value": "widget\\.yourgpt\\.ai"
+      }
+    ],
+    "vendor_id": "yourgpt"
+  },
+  "youtrack": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTrack)",
+        "properties": {},
+        "selector": "[no-title='YouTrack'], link[type='application/opensearchdescription+xml'][title='YouTrack']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTrack)",
+        "strength": 1.0,
+        "value": "data-reactid=\"[^\"]+\">youTrack ([0-9.]+)<"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTrack)",
+        "strength": 1.0,
+        "value": "no-title=\"YouTrack\">"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTrack)",
+        "strength": 1.0,
+        "value": "type=\"application/opensearchdescription\\+xml\" title=\"YouTrack\"/>"
+      }
+    ],
+    "vendor_id": "youtrack"
+  },
+  "youtube": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTube)",
+        "properties": {},
+        "selector": "embed[src*='youtube.com'], embed[src*='youtube-nocookie.com'], iframe[src*='youtube.com'], iframe[src*='youtube-nocookie.com'], param[value*='youtube.com'], param[value*='youtube-nocookie.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTube)",
+        "strength": 1.0,
+        "value": "<(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\\.com/(?:v|embed)"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YouTube)",
+        "strength": 1.0,
+        "value": "\\.youtube\\.com/"
+      }
+    ],
+    "vendor_id": "youtube"
+  },
+  "youzan": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Youzan)",
+        "strength": 1.0,
+        "value": "m\\.youzan\\.com"
+      }
+    ],
+    "vendor_id": "youzan"
+  },
+  "yui": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YUI)",
+        "strength": 1.0,
+        "value": "YAHOO.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YUI)",
+        "strength": 1.0,
+        "value": "YUI.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YUI)",
+        "strength": 1.0,
+        "value": "(?:/yui/|yui\\.yahooapis\\.com)"
+      }
+    ],
+    "vendor_id": "yui"
+  },
+  "yui_doc": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YUI Doc)",
+        "properties": {},
+        "selector": "body[class*='yui3-skin-sam']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YUI Doc)",
+        "strength": 1.0,
+        "value": "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)"
+      }
+    ],
+    "vendor_id": "yui_doc"
+  },
+  "yuno": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yuno)",
+        "strength": 1.0,
+        "value": "Yuno.threeDSecure"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yuno)",
+        "strength": 1.0,
+        "value": "sdk-web\\.y\\.uno"
+      }
+    ],
+    "vendor_id": "yuno"
+  },
+  "yunohost": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: YunoHost)",
+        "strength": 1.0,
+        "value": "/ynh_portal\\.js"
+      }
+    ],
+    "vendor_id": "yunohost"
+  },
+  "yupop": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yupop)",
+        "strength": 1.0,
+        "value": "\\.yupopstorecdn\\.com"
+      }
+    ],
+    "vendor_id": "yupop"
+  },
+  "yxper": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Yxper)",
+        "strength": 1.0,
+        "value": "analytics\\.yxper\\.com"
+      }
+    ],
+    "vendor_id": "yxper"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "vendor_id": "g2",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "tracking-api\\.g2\\.com/attribution_tracking",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "G2 Buyer Intent attribution tracker. Ported from src/detectors/signatures.py"
+    }
+  ],
+  "cookie_patterns": [],
+  "header_patterns": {},
+  "html_patterns": [],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

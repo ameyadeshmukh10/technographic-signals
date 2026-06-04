@@ -1,0 +1,2167 @@
+{
+  "j2store": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: J2Store)",
+        "strength": 1.0,
+        "value": "j2storeURL"
+      }
+    ],
+    "vendor_id": "j2store"
+  },
+  "jabmo": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jabmo)",
+        "strength": 1.0,
+        "value": "/jabmo\\.com"
+      }
+    ],
+    "vendor_id": "jabmo"
+  },
+  "jacklist": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jacklist)",
+        "strength": 1.0,
+        "value": "homepage_api_url"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jacklist)",
+        "strength": 1.0,
+        "value": "api\\.jacklist\\.jp/"
+      }
+    ],
+    "vendor_id": "jacklist"
+  },
+  "jade": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jade)",
+        "strength": 1.0,
+        "value": "JADE.components"
+      }
+    ],
+    "vendor_id": "jade"
+  },
+  "jadu": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jadu)",
+        "properties": {},
+        "selector": "a[href*='www.jadu.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "node": [
+        {
+          "match_type": "regex",
+          "notes": "header Node; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jadu)",
+          "strength": 1.0,
+          "value": "jadu-web-1"
+        }
+      ]
+    },
+    "vendor_id": "jadu"
+  },
+  "jadu_central_content": {
+    "meta_patterns": {
+      "author-template": [
+        {
+          "match_type": "regex",
+          "notes": "meta Author-Template; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jadu Central Content)",
+          "strength": 1.0,
+          "value": "^Jadu CSS design$"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jadu Central Content)",
+          "strength": 1.0,
+          "value": "www\\.jadu\\.net"
+        }
+      ]
+    },
+    "vendor_id": "jadu_central_content"
+  },
+  "jahia_dx": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jahia DX)",
+        "properties": {},
+        "selector": "script#staticAssetAggregatedJavascrip",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jahia DX)",
+        "strength": 1.0,
+        "value": "<script id=\"staticAssetAggregatedJavascrip"
+      }
+    ],
+    "vendor_id": "jahia_dx"
+  },
+  "jalbum": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JAlbum)",
+          "strength": 1.0,
+          "value": "JAlbum( [\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "jalbum"
+  },
+  "jalios": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jalios)",
+          "strength": 1.0,
+          "value": "Jalios"
+        }
+      ]
+    },
+    "vendor_id": "jalios"
+  },
+  "jameda": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jameda)",
+        "strength": 1.0,
+        "value": "cdn1\\.jameda-elements\\.de/"
+      }
+    ],
+    "vendor_id": "jameda"
+  },
+  "jamfeed": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JamFeed)",
+        "strength": 1.0,
+        "value": "cdn\\.jamfeed\\.com"
+      }
+    ],
+    "vendor_id": "jamfeed"
+  },
+  "janet": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JANet)",
+        "properties": {},
+        "selector": "img[src*='.j-a-net.jp'],img[data-src*='.j-a-net.jp']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "janet"
+  },
+  "jarvis_analytics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jarvis Analytics)",
+        "strength": 1.0,
+        "value": "schedule\\.jarvisanalytics\\.com"
+      }
+    ],
+    "vendor_id": "jarvis_analytics"
+  },
+  "java": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Java)",
+        "strength": 1.0,
+        "value": "JSESSIONID"
+      }
+    ],
+    "vendor_id": "java"
+  },
+  "java_servlet": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Java Servlet)",
+          "strength": 1.0,
+          "value": "Servlet(?:\\/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "java_servlet"
+  },
+  "javadoc": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Javadoc)",
+        "strength": 1.0,
+        "value": "<!-- Generated by javadoc -->"
+      }
+    ],
+    "vendor_id": "javadoc"
+  },
+  "javascript_infovis_toolkit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaScript Infovis Toolkit)",
+        "strength": 1.0,
+        "value": "$jit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaScript Infovis Toolkit)",
+        "strength": 1.0,
+        "value": "$jit.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaScript Infovis Toolkit)",
+        "strength": 1.0,
+        "value": "jit(?:-yc)?\\.js"
+      }
+    ],
+    "vendor_id": "javascript_infovis_toolkit"
+  },
+  "javaserver_faces": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaServer Faces)",
+        "properties": {},
+        "selector": "input[type='hidden'][name='javax.faces.ViewState']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaServer Faces)",
+          "strength": 1.0,
+          "value": "JSF(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "javaserver_faces"
+  },
+  "javaserver_pages": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JavaServer Pages)",
+          "strength": 1.0,
+          "value": "JSP(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "javaserver_pages"
+  },
+  "jazzhr": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JazzHR)",
+        "strength": 1.0,
+        "value": "JazzHR"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JazzHR)",
+        "strength": 1.0,
+        "value": "app\\.jazz\\.co/"
+      }
+    ],
+    "vendor_id": "jazzhr"
+  },
+  "jboard": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JBoard)",
+        "strength": 1.0,
+        "value": "$JBoardAPI"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JBoard)",
+        "strength": 1.0,
+        "value": "$jBoard.adminUserToken"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JBoard)",
+        "strength": 1.0,
+        "value": "app\\.jboard\\.io"
+      }
+    ],
+    "vendor_id": "jboard"
+  },
+  "jboss_application_server": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JBoss Application Server)",
+          "strength": 1.0,
+          "value": "JBoss(?:-([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "jboss_application_server"
+  },
+  "jboss_web": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JBoss Web)",
+          "strength": 1.0,
+          "value": "JBossWeb(?:-([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "jboss_web"
+  },
+  "jcomponent": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jComponent)",
+        "strength": 1.0,
+        "value": "MAIN.version"
+      }
+    ],
+    "vendor_id": "jcomponent"
+  },
+  "jeeng": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jeeng)",
+        "strength": 1.0,
+        "value": "jeeng_attribution"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jeeng)",
+        "strength": 1.0,
+        "value": "sdk\\.jeeng\\.com"
+      }
+    ],
+    "vendor_id": "jeeng"
+  },
+  "jekyll": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jekyll)",
+        "strength": 1.0,
+        "value": "<!-- Begin Jekyll SEO tag"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jekyll)",
+        "strength": 1.0,
+        "value": "<!-- Created with Jekyll Now -"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jekyll)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jekyll)",
+        "strength": 1.0,
+        "value": "SimpleJekyllSearch"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jekyll)",
+          "strength": 1.0,
+          "value": "Jekyll\\sv([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "jekyll"
+  },
+  "jenkins": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenkins)",
+        "properties": {},
+        "selector": "span.jenkins_ver > a[href='https://jenkins.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-jenkins": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Jenkins; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenkins)",
+          "strength": 1.0,
+          "value": "([\\d.]+)"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenkins)",
+        "strength": 1.0,
+        "value": "<span class=\"jenkins_ver\"><a href=\"https://jenkins\\.io/\">Jenkins ver\\. ([\\d.]+)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenkins)",
+        "strength": 1.0,
+        "value": "jenkinsCIGlobal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenkins)",
+        "strength": 1.0,
+        "value": "jenkinsRules"
+      }
+    ],
+    "vendor_id": "jenkins"
+  },
+  "jenny": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenny)",
+        "strength": 1.0,
+        "value": "webpackJsonpget-jenny"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jenny)",
+        "strength": 1.0,
+        "value": "\\.getjenny\\.com/"
+      }
+    ],
+    "vendor_id": "jenny"
+  },
+  "jet_enterprise": {
+    "header_patterns": {
+      "powered": [
+        {
+          "match_type": "regex",
+          "notes": "header powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JET Enterprise)",
+          "strength": 1.0,
+          "value": "jet-enterprise"
+        }
+      ]
+    },
+    "vendor_id": "jet_enterprise"
+  },
+  "jetboost": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetboost)",
+        "strength": 1.0,
+        "value": "JETBOOST_SITE_ID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetboost)",
+        "strength": 1.0,
+        "value": "Jetboost.loaded"
+      }
+    ],
+    "vendor_id": "jetboost"
+  },
+  "jetengine": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JetEngine)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/jet-engine/"
+      }
+    ],
+    "vendor_id": "jetengine"
+  },
+  "jetpack": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetpack)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/jetpack/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetpack)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/jetpack/"
+      }
+    ],
+    "vendor_id": "jetpack"
+  },
+  "jetpack_boost": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetpack Boost)",
+        "properties": {},
+        "selector": "style[id='jetpack-boost-critical-css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetpack Boost)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/jetpack-boost/"
+      }
+    ],
+    "vendor_id": "jetpack_boost"
+  },
+  "jetshop": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetshop)",
+        "strength": 1.0,
+        "value": "<(?:div|aside) id=\"jetshop-branding\">"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetshop)",
+        "strength": 1.0,
+        "value": "JetshopData"
+      }
+    ],
+    "vendor_id": "jetshop"
+  },
+  "jettabs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JetTabs)",
+        "strength": 1.0,
+        "value": "JetTabs.accordionInit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JetTabs)",
+        "strength": 1.0,
+        "value": "JetTabsSettings"
+      }
+    ],
+    "vendor_id": "jettabs"
+  },
+  "jetty": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jetty)",
+          "strength": 1.0,
+          "value": "Jetty(?:\\(([\\d\\.]*\\d+))?"
+        }
+      ]
+    },
+    "vendor_id": "jetty"
+  },
+  "jibres": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jibres)",
+        "strength": 1.0,
+        "value": "jibres"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jibres)",
+          "strength": 1.0,
+          "value": "Jibres"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jibres)",
+        "strength": 1.0,
+        "value": "jibres"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jibres)",
+          "strength": 1.0,
+          "value": "Jibres"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jibres)",
+        "strength": 1.0,
+        "value": "/jibres\\.js"
+      }
+    ],
+    "vendor_id": "jibres"
+  },
+  "jiglu": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jiglu)",
+        "strength": 1.0,
+        "value": "\\.jiglu\\.com/"
+      }
+    ],
+    "vendor_id": "jiglu"
+  },
+  "jilt_app": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jilt App)",
+        "strength": 1.0,
+        "value": "jiltStorefrontParams.platform"
+      }
+    ],
+    "vendor_id": "jilt_app"
+  },
+  "jilt_plugin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jilt plugin)",
+        "strength": 1.0,
+        "value": "\\.jilt\\.com/.+/jilt\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "jilt_plugin"
+  },
+  "jimdo": {
+    "header_patterns": {
+      "x-jimdo-instance": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Jimdo-Instance; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jimdo)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-jimdo-wid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Jimdo-Wid; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jimdo)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jimdo)",
+        "strength": 1.0,
+        "value": "jimdoDolphinData"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jimdo)",
+        "strength": 1.0,
+        "value": "\\.jimdo(?:site)?\\.com/"
+      }
+    ],
+    "vendor_id": "jimdo"
+  },
+  "jirafe": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jirafe)",
+        "strength": 1.0,
+        "value": "jirafe"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jirafe)",
+        "strength": 1.0,
+        "value": "/jirafe\\.js"
+      }
+    ],
+    "vendor_id": "jirafe"
+  },
+  "jitsi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jitsi)",
+        "strength": 1.0,
+        "value": "lib-jitsi-meet.*\\.js"
+      }
+    ],
+    "vendor_id": "jitsi"
+  },
+  "jive": {
+    "header_patterns": {
+      "x-jive-chrome-wrapped": [
+        {
+          "match_type": "regex",
+          "notes": "header x-jive-chrome-wrapped; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jive)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-jive-flow-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Jive-Flow-Id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jive)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-jive-request-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Jive-Request-Id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jive)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-jive-user-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-JIVE-USER-ID; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jive)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-jsl": [
+        {
+          "match_type": "regex",
+          "notes": "header X-JSL; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jive)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "jive"
+  },
+  "jivochat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JivoChat)",
+        "strength": 1.0,
+        "value": "jivo_api"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JivoChat)",
+        "strength": 1.0,
+        "value": "jivo_version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JivoChat)",
+        "strength": 1.0,
+        "value": "\\.jivosite\\.com"
+      }
+    ],
+    "vendor_id": "jivochat"
+  },
+  "jivox": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jivox)",
+        "properties": {},
+        "selector": "link[href*='.jivox.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jivox)",
+        "strength": 1.0,
+        "value": "\\.jivox\\.com/"
+      }
+    ],
+    "vendor_id": "jivox"
+  },
+  "job_board_fire": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Job Board Fire)",
+        "strength": 1.0,
+        "value": "jobboardfire\\.twic\\.pics"
+      }
+    ],
+    "vendor_id": "job_board_fire"
+  },
+  "jobadder": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JobAdder)",
+        "properties": {},
+        "selector": "a[href*='clientapps.jobadder.com/'], link[href*='jobadder.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JobAdder)",
+        "strength": 1.0,
+        "value": "\\.jobadder\\.com/"
+      }
+    ],
+    "vendor_id": "jobadder"
+  },
+  "jobberbase": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JobberBase)",
+        "strength": 1.0,
+        "value": "Jobber"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JobberBase)",
+          "strength": 1.0,
+          "value": "Jobberbase"
+        }
+      ]
+    },
+    "vendor_id": "jobberbase"
+  },
+  "jobiqo": {
+    "meta_patterns": {
+      "owner": [
+        {
+          "match_type": "regex",
+          "notes": "meta owner; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jobiqo)",
+          "strength": 1.0,
+          "value": "^Jobiqo$"
+        }
+      ]
+    },
+    "vendor_id": "jobiqo"
+  },
+  "jobvite": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jobvite)",
+        "properties": {},
+        "selector": "a[href*='.jobvite.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jobvite)",
+        "strength": 1.0,
+        "value": "Jobvite"
+      }
+    ],
+    "vendor_id": "jobvite"
+  },
+  "jobylon": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jobylon)",
+        "strength": 1.0,
+        "value": "\\.jobylon\\.com"
+      }
+    ],
+    "vendor_id": "jobylon"
+  },
+  "join_it": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Join It)",
+        "strength": 1.0,
+        "value": "app\\.joinit\\.com"
+      }
+    ],
+    "vendor_id": "join_it"
+  },
+  "joinchat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joinchat)",
+        "strength": 1.0,
+        "value": "joinchat_obj"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joinchat)",
+        "strength": 1.0,
+        "value": "/js/joinchat\\.min\\.js"
+      }
+    ],
+    "vendor_id": "joinchat"
+  },
+  "jonas_club_software": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jonas Club Software)",
+        "strength": 1.0,
+        "value": "jonasPrivacyPolicy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jonas Club Software)",
+        "strength": 1.0,
+        "value": "jonasPrivacyPolicyClassName"
+      }
+    ],
+    "vendor_id": "jonas_club_software"
+  },
+  "joomla": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 1.0,
+        "value": "joomla_[a-z0-9]+"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "properties": {},
+        "selector": "div[id*='wrapper_r'], link[href*='feed/com_'], link[href*='components/com_'], table[class*='pill']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-content-encoded-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Content-Encoded-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+          "strength": 1.0,
+          "value": "Joomla! ([\\d.]+)"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 0.5,
+        "value": "(?:<div[^>]+id=\"wrapper_r\"|<(?:link|script)[^>]+(?:feed|components)/com_|<table[^>]+class=\"pill)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 1.0,
+        "value": "Joomla"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 1.0,
+        "value": "jcomments"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+          "strength": 1.0,
+          "value": "Joomla!(?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 1.0,
+        "value": "(?:^|/)(feed/com_|components/com_)"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joomla)",
+        "strength": 1.0,
+        "value": "option=com_"
+      }
+    ],
+    "vendor_id": "joomla"
+  },
+  "joomshopping": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JoomShopping)",
+        "strength": 1.0,
+        "value": "joomshoppingVideoHtml5"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JoomShopping)",
+        "strength": 1.0,
+        "value": "/components/com_jshopping/"
+      }
+    ],
+    "vendor_id": "joomshopping"
+  },
+  "joonbot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joonbot)",
+        "strength": 1.0,
+        "value": "JOONBOT_WIDGET_ID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Joonbot)",
+        "strength": 1.0,
+        "value": "joonbot.hide"
+      }
+    ],
+    "vendor_id": "joonbot"
+  },
+  "jotform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jotform)",
+        "strength": 1.0,
+        "value": "JOTFORM_ENV"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jotform)",
+        "strength": 1.0,
+        "value": "JotForm.FBCollectInformation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jotform)",
+        "strength": 1.0,
+        "value": "JotFormActions"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jotform)",
+        "strength": 1.0,
+        "value": "\\.jotform\\.com/"
+      }
+    ],
+    "vendor_id": "jotform"
+  },
+  "jottful": {
+    "meta_patterns": {
+      "web_author": [
+        {
+          "match_type": "regex",
+          "notes": "meta web_author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jottful)",
+          "strength": 1.0,
+          "value": "^Jottful"
+        }
+      ]
+    },
+    "vendor_id": "jottful"
+  },
+  "jouwweb": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JouwWeb)",
+        "strength": 1.0,
+        "value": "JOUWWEB"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JouwWeb)",
+        "strength": 1.0,
+        "value": "(?:cdn)?\\.(?:jwwb|jouwweb)\\.nl/"
+      }
+    ],
+    "vendor_id": "jouwweb"
+  },
+  "jplayer": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jPlayer)",
+        "strength": 1.0,
+        "value": "jquery\\.jplayer\\.min\\.js"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jPlayer)",
+        "strength": 1.0,
+        "value": "jPlayerPlaylist"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jPlayer)",
+        "strength": 1.0,
+        "value": "/jquery\\.jplayer\\.min\\.js"
+      }
+    ],
+    "vendor_id": "jplayer"
+  },
+  "jqplot": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jqPlot)",
+        "strength": 1.0,
+        "value": "jqplot.*\\.js"
+      }
+    ],
+    "vendor_id": "jqplot"
+  },
+  "jqtouch": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQTouch)",
+        "strength": 1.0,
+        "value": "jQT"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQTouch)",
+        "strength": 1.0,
+        "value": "jqtouch.*\\.js"
+      }
+    ],
+    "vendor_id": "jqtouch"
+  },
+  "jquery": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "$.fn.jquery"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "jQuery.fn.jquery"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "jQuery.prototype.jquery"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "/(\\d+\\.\\d+\\.\\d+)/jquery(?!\\.popupoverlay\\.js|(?:\\.[\\w-]*)*fancybox)[/.-][^u]"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery)",
+        "strength": 1.0,
+        "value": "jquery"
+      }
+    ],
+    "vendor_id": "jquery"
+  },
+  "jquery_blockui": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery BlockUI)",
+        "strength": 1.0,
+        "value": "/jquery\\.blockUI\\.js"
+      }
+    ],
+    "vendor_id": "jquery_blockui"
+  },
+  "jquery_cdn": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery CDN)",
+        "strength": 1.0,
+        "value": "code\\.jquery\\.com/"
+      }
+    ],
+    "vendor_id": "jquery_cdn"
+  },
+  "jquery_devbridge_autocomplete": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery DevBridge Autocomplete)",
+        "strength": 1.0,
+        "value": "$.devbridgeAutocomplete"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery DevBridge Autocomplete)",
+        "strength": 1.0,
+        "value": "jQuery.devbridgeAutocomplete"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery DevBridge Autocomplete)",
+        "strength": 1.0,
+        "value": "/devbridgeAutocomplete(?:-min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery DevBridge Autocomplete)",
+        "strength": 1.0,
+        "value": "/jquery\\.devbridge-autocomplete/([0-9.]+)/jquery\\.autocomplete(?:.min)?\\.js"
+      }
+    ],
+    "vendor_id": "jquery_devbridge_autocomplete"
+  },
+  "jquery_migrate": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Migrate)",
+        "strength": 1.0,
+        "value": "jQuery.migrateVersion"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Migrate)",
+        "strength": 1.0,
+        "value": "jQuery.migrateWarnings"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Migrate)",
+        "strength": 1.0,
+        "value": "jqueryMigrate"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Migrate)",
+        "strength": 1.0,
+        "value": "jquery-migrate(?:\\.min)?(?:-)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Migrate)",
+        "strength": 1.0,
+        "value": "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "jquery_migrate"
+  },
+  "jquery_mobile": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Mobile)",
+        "strength": 1.0,
+        "value": "jQuery.mobile.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Mobile)",
+        "strength": 1.0,
+        "value": "jquery[.-]mobile(?:-([\\d.]+))?(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Mobile)",
+        "strength": 1.0,
+        "value": "jquery[.-]mobile(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?"
+      }
+    ],
+    "vendor_id": "jquery_mobile"
+  },
+  "jquery_modal": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Modal)",
+        "properties": {},
+        "selector": "link[href*='jquery.modal.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Modal)",
+        "strength": 1.0,
+        "value": "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js"
+      }
+    ],
+    "vendor_id": "jquery_modal"
+  },
+  "jquery_payment": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Payment)",
+        "strength": 1.0,
+        "value": "/jquery-payment/jquery\\.payment\\.min\\.js"
+      }
+    ],
+    "vendor_id": "jquery_payment"
+  },
+  "jquery_pjax": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+        "strength": 1.0,
+        "value": "<div[^>]+data-pjax-container"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+        "strength": 1.0,
+        "value": "jQuery.pjax"
+      }
+    ],
+    "meta_patterns": {
+      "pjax-push": [
+        {
+          "match_type": "regex",
+          "notes": "meta pjax-push; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "pjax-replace": [
+        {
+          "match_type": "regex",
+          "notes": "meta pjax-replace; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "pjax-timeout": [
+        {
+          "match_type": "regex",
+          "notes": "meta pjax-timeout; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+        "strength": 1.0,
+        "value": "jquery[.-]pjax(?:-([\\d.]+))?(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery-pjax)",
+        "strength": 1.0,
+        "value": "jquery[.-]pjax(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?"
+      }
+    ],
+    "vendor_id": "jquery_pjax"
+  },
+  "jquery_popup_overlay": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Popup Overlay)",
+        "strength": 1.0,
+        "value": "(\\d+\\.\\d+\\.\\d+)/jquery\\.popupoverlay\\.js"
+      }
+    ],
+    "vendor_id": "jquery_popup_overlay"
+  },
+  "jquery_sparklines": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery Sparklines)",
+        "strength": 1.0,
+        "value": "jquery\\.sparkline.*\\.js"
+      }
+    ],
+    "vendor_id": "jquery_sparklines"
+  },
+  "jquery_ui": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery UI)",
+        "strength": 1.0,
+        "value": "jQuery.ui.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery UI)",
+        "strength": 1.0,
+        "value": "([\\d.]+)/jquery-ui(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery UI)",
+        "strength": 1.0,
+        "value": "jquery-ui.*\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jQuery UI)",
+        "strength": 1.0,
+        "value": "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js"
+      }
+    ],
+    "vendor_id": "jquery_ui"
+  },
+  "js_charts": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JS Charts)",
+        "strength": 1.0,
+        "value": "JSChart"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JS Charts)",
+        "strength": 1.0,
+        "value": "jscharts.{0,32}\\.js"
+      }
+    ],
+    "vendor_id": "js_charts"
+  },
+  "js_org": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JS.org)",
+        "properties": {},
+        "selector": "link[href*='.js.org/'][rel='canonical']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "js_org"
+  },
+  "jsdelivr": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jsDelivr)",
+        "properties": {},
+        "selector": "link[href*='cdn.jsdelivr.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jsDelivr)",
+        "strength": 1.0,
+        "value": "cdn\\.jsdelivr\\.net"
+      }
+    ],
+    "vendor_id": "jsdelivr",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jsDelivr)",
+        "strength": 1.0,
+        "value": "cdn\\.jsdelivr\\.net"
+      }
+    ]
+  },
+  "jsecoin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JSEcoin)",
+        "strength": 1.0,
+        "value": "jseMine"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JSEcoin)",
+        "strength": 1.0,
+        "value": "^(?:https):?//load\\.jsecoin\\.com/load/"
+      }
+    ],
+    "vendor_id": "jsecoin"
+  },
+  "jshop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JShop)",
+        "strength": 1.0,
+        "value": "jss_1stepDeliveryType"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JShop)",
+        "strength": 1.0,
+        "value": "jss_1stepFillShipping"
+      }
+    ],
+    "vendor_id": "jshop"
+  },
+  "jspdf": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jsPDF)",
+        "strength": 1.0,
+        "value": "jsPDF.API"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: jsPDF)",
+        "strength": 1.0,
+        "value": "/jspdf\\.min\\.js"
+      }
+    ],
+    "vendor_id": "jspdf"
+  },
+  "jsrender": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JsRender)",
+        "strength": 1.0,
+        "value": "([\\d\\.]+)?/jsrender(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "jsrender"
+  },
+  "jss": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JSS)",
+        "properties": {},
+        "selector": "style[data-jss]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "jss"
+  },
+  "jsviews": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JsViews)",
+        "strength": 1.0,
+        "value": "([\\d\\.]+)?/jsviews(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "jsviews"
+  },
+  "jszip": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JSZip)",
+        "strength": 1.0,
+        "value": "JSZip.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JSZip)",
+        "strength": 1.0,
+        "value": "/jszip\\.min\\.js"
+      }
+    ],
+    "vendor_id": "jszip"
+  },
+  "jtl_shop": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JTL Shop)",
+        "strength": 1.0,
+        "value": "JTLSHOP"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JTL Shop)",
+        "properties": {},
+        "selector": "input[name*='JTLSHOP']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JTL Shop)",
+        "strength": 1.0,
+        "value": "(?:<input[^>]+name=\"JTLSHOP|<a href=\"jtl\\.php)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JTL Shop)",
+        "strength": 1.0,
+        "value": "JtlHelpers"
+      }
+    ],
+    "vendor_id": "jtl_shop"
+  },
+  "jubna": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jubna)",
+        "strength": 1.0,
+        "value": "cdn\\.jubna\\.com"
+      }
+    ],
+    "vendor_id": "jubna"
+  },
+  "judge_me": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Judge.me)",
+        "strength": 1.0,
+        "value": "judgeme"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Judge.me)",
+        "strength": 1.0,
+        "value": "cdn\\.judge\\.me"
+      }
+    ],
+    "vendor_id": "judge_me"
+  },
+  "jugem": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jugem)",
+        "strength": 1.0,
+        "value": "imaging\\.jugem\\.jp"
+      }
+    ],
+    "vendor_id": "jugem"
+  },
+  "juicer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juicer)",
+        "strength": 1.0,
+        "value": "Juicer.Active"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juicer)",
+        "strength": 1.0,
+        "value": "JuicerBackbone.$"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juicer)",
+        "strength": 1.0,
+        "value": "\\.juicer\\.io/"
+      }
+    ],
+    "vendor_id": "juicer"
+  },
+  "juicyads": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JuicyAds)",
+        "strength": 1.0,
+        "value": "adsbyjuicy"
+      }
+    ],
+    "meta_patterns": {
+      "juicyads-site-verification": [
+        {
+          "match_type": "regex",
+          "notes": "meta juicyads-site-verification; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JuicyAds)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "juicyads"
+  },
+  "jumbo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jumbo)",
+        "strength": 1.0,
+        "value": "mt\\.tryjumbo\\.com"
+      }
+    ],
+    "vendor_id": "jumbo"
+  },
+  "jumio": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jumio)",
+        "properties": {},
+        "selector": "iframe[src*='.netverify.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "jumio"
+  },
+  "jumpcloud": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JumpCloud)",
+        "strength": 1.0,
+        "value": "_jumpcloud_user_console_"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JumpCloud)",
+        "strength": 1.0,
+        "value": "\\.jumpcloud\\.com/"
+      }
+    ],
+    "vendor_id": "jumpcloud"
+  },
+  "jumpseller": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jumpseller)",
+        "strength": 1.0,
+        "value": "Jumpseller"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jumpseller)",
+        "strength": 1.0,
+        "value": "assets\\.jumpseller\\.\\w+/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Jumpseller)",
+        "strength": 1.0,
+        "value": "jumpseller-apps\\.herokuapp\\.\\w+/"
+      }
+    ],
+    "vendor_id": "jumpseller"
+  },
+  "june": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: June)",
+        "strength": 1.0,
+        "value": "_june_session"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: June)",
+        "strength": 1.0,
+        "value": "static\\.june\\.so/analytics\\.js/"
+      }
+    ],
+    "vendor_id": "june",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: June)",
+        "strength": 1.0,
+        "value": "a\\.june\\.so"
+      }
+    ]
+  },
+  "junip": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Junip)",
+        "strength": 1.0,
+        "value": "junipLoaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Junip)",
+        "strength": 1.0,
+        "value": "webpackChunkjunip_scripts"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Junip)",
+        "strength": 1.0,
+        "value": "\\.juniphq\\.com/"
+      }
+    ],
+    "vendor_id": "junip"
+  },
+  "juo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juo)",
+        "strength": 1.0,
+        "value": "cdn\\.juo\\.io/"
+      }
+    ],
+    "vendor_id": "juo"
+  },
+  "juphy": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juphy)",
+        "strength": 1.0,
+        "value": "static\\.juphy\\.com/"
+      }
+    ],
+    "vendor_id": "juphy"
+  },
+  "juspay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juspay)",
+        "strength": 1.0,
+        "value": "Juspay"
+      }
+    ],
+    "vendor_id": "juspay"
+  },
+  "just": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JUST)",
+        "strength": 1.0,
+        "value": "checkout-button-.+/just-pay-button\\.js"
+      }
+    ],
+    "vendor_id": "just"
+  },
+  "justia": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justia)",
+        "strength": 1.0,
+        "value": "SESSJUSTIA"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justia)",
+        "strength": 1.0,
+        "value": "jmetadata"
+      }
+    ],
+    "vendor_id": "justia"
+  },
+  "justo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justo)",
+        "strength": 1.0,
+        "value": "\\.getjusto\\.com/"
+      }
+    ],
+    "vendor_id": "justo"
+  },
+  "justuno": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justuno)",
+        "strength": 1.0,
+        "value": "JustunoApp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justuno)",
+        "strength": 1.0,
+        "value": "cdn\\.justuno\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justuno)",
+        "strength": 1.0,
+        "value": "my\\.jst\\.ai"
+      }
+    ],
+    "vendor_id": "justuno"
+  },
+  "justuno_app": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Justuno App)",
+        "strength": 1.0,
+        "value": "//scripttags\\.justuno\\.com/shopify_justuno"
+      }
+    ],
+    "vendor_id": "justuno_app"
+  },
+  "juvo_leads": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Juvo Leads)",
+        "strength": 1.0,
+        "value": "cdn\\.juvoleads\\.com"
+      }
+    ],
+    "vendor_id": "juvo_leads"
+  },
+  "jw_player": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "properties": {},
+        "selector": "div[class^='jwplayer']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "properties": {},
+        "selector": "div[data-video-provider*=jwplayer]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "jwDefaults"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "jwplayer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "jwplayerApiUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "webpackJsonpjwplayer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "\\.jwpcdn\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "\\.jwplayer\\.com"
+      }
+    ],
+    "vendor_id": "jw_player",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: JW Player)",
+        "strength": 1.0,
+        "value": "\\.jwpsrv\\.com"
+      }
+    ]
+  }
+}

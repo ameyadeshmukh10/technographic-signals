@@ -1,0 +1,3866 @@
+{
+  "v2board": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: V2Board)",
+        "properties": {},
+        "selector": "link[href*='/theme/v2board/assets/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "v2board"
+  },
+  "v4guard_checkpoint": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: v4Guard Checkpoint)",
+        "properties": {},
+        "selector": "iframe[src*='.v4guard.io/checkpoint/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: v4Guard Checkpoint)",
+        "strength": 1.0,
+        "value": "\\.v4guard\\.io/checkpoint"
+      }
+    ],
+    "vendor_id": "v4guard_checkpoint"
+  },
+  "vaadin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vaadin)",
+        "strength": 1.0,
+        "value": "Vaadin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vaadin)",
+        "strength": 1.0,
+        "value": "vaadin"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vaadin)",
+        "strength": 1.0,
+        "value": "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?"
+      }
+    ],
+    "vendor_id": "vaadin"
+  },
+  "vacation_labs": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vacation Labs)",
+        "strength": 1.0,
+        "value": "app\\.vacationlabs\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vacation Labs)",
+        "strength": 1.0,
+        "value": "app\\.vacationlabs\\.com"
+      }
+    ],
+    "vendor_id": "vacation_labs"
+  },
+  "vagaro": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vagaro)",
+        "strength": 1.0,
+        "value": "www\\.schedulicity\\.com"
+      }
+    ],
+    "vendor_id": "vagaro"
+  },
+  "valuad": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Valuad)",
+        "strength": 1.0,
+        "value": "cdn\\.valuad\\.cloud"
+      }
+    ],
+    "vendor_id": "valuad"
+  },
+  "valuecommerce": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ValueCommerce)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ValueCommerce)",
+        "properties": {},
+        "selector": "a[href*='ap.valuecommerce.com']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ValueCommerce)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ValueCommerce)",
+        "properties": {},
+        "selector": "img[src*='ap.valuecommerce.com'],img[data-src*='ap.valuecommerce.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ValueCommerce)",
+        "strength": 1.0,
+        "value": "\\.valuecommerce\\.com"
+      }
+    ],
+    "vendor_id": "valuecommerce"
+  },
+  "vanco_payment_solutions": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vanco Payment Solutions)",
+        "properties": {},
+        "selector": "a[href*='.eservicepayments.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vanco Payment Solutions)",
+        "strength": 1.0,
+        "value": "\\.eservicepayments\\.com/"
+      }
+    ],
+    "vendor_id": "vanco_payment_solutions"
+  },
+  "vanilla": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vanilla)",
+          "strength": 1.0,
+          "value": "Vanilla"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vanilla)",
+        "strength": 1.0,
+        "value": "<body id=\"(?:DiscussionsPage|vanilla)"
+      }
+    ],
+    "vendor_id": "vanilla"
+  },
+  "vant": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vant)",
+            "strength": 1.0,
+            "value": "cdn\\.jsdelivr\\.net/npm/vant@([\\d\\.]+)/"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vant)",
+        "properties": {},
+        "selector": "link[href*='/npm/vant']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vant)",
+            "strength": 1.0,
+            "value": "/vant-[\\w\\d]{8}\\.js"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vant)",
+        "properties": {},
+        "selector": "link[href*='/vant-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vant)",
+        "strength": 1.0,
+        "value": "vant.version"
+      }
+    ],
+    "vendor_id": "vant"
+  },
+  "vanta": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vanta)",
+        "strength": 1.0,
+        "value": "static\\.vanta\\.com/"
+      }
+    ],
+    "vendor_id": "vanta"
+  },
+  "vantaca": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vantaca)",
+        "properties": {},
+        "selector": "link[href*='/style-vantaca_']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vantaca"
+  },
+  "vaptcha": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VAPTCHA)",
+        "strength": 1.0,
+        "value": "vaptcha"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VAPTCHA)",
+        "strength": 1.0,
+        "value": "\\.vaptcha\\.com/v([\\d\\.]+)\\.js"
+      }
+    ],
+    "vendor_id": "vaptcha"
+  },
+  "varbase": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varbase)",
+        "properties": {},
+        "selector": "meta[content='Varbase'],div[class*='varbase_'],div[class*='_varbase'],div[class*='varbase-'],div[class*='block-varbase'],div[class*='blockvarbase']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varbase)",
+        "strength": 1.0,
+        "value": "drupalSettings.ajaxPageState.libraries"
+      }
+    ],
+    "vendor_id": "varbase"
+  },
+  "variance": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Variance)",
+        "properties": {},
+        "selector": "link[href*='variancecharts.com/'], script#variance-js",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "variance"
+  },
+  "varify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varify)",
+        "strength": 1.0,
+        "value": "varify.debug"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varify)",
+        "strength": 1.0,
+        "value": "webpackChunkvarify_io"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varify)",
+        "strength": 1.0,
+        "value": "app\\.varify\\.io/"
+      }
+    ],
+    "vendor_id": "varify"
+  },
+  "variti": {
+    "header_patterns": {
+      "x-variti-ccr": [
+        {
+          "match_type": "regex",
+          "notes": "header X-VARITI-CCR; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Variti)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "variti"
+  },
+  "varnish": {
+    "header_patterns": {
+      "via": [
+        {
+          "match_type": "regex",
+          "notes": "header Via; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": "varnish(?: \\(Varnish/([\\d.]+)\\))?"
+        }
+      ],
+      "x-varnish": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Varnish; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-varnish-action": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Varnish-Action; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-varnish-age": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Varnish-Age; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-varnish-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Varnish-Cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-varnish-hostname": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Varnish-Hostname; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varnish)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "varnish"
+  },
+  "varos": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Varos)",
+        "strength": 1.0,
+        "value": "\\.app\\.varos\\.com"
+      }
+    ],
+    "vendor_id": "varos"
+  },
+  "vaven": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vaven)",
+        "strength": 1.0,
+        "value": "widget\\.vaven\\.co/"
+      }
+    ],
+    "vendor_id": "vaven"
+  },
+  "vb_media": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VB Media)",
+        "strength": 1.0,
+        "value": "_vbm_session"
+      }
+    ],
+    "vendor_id": "vb_media"
+  },
+  "vbulletin": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+        "strength": 1.0,
+        "value": "bblastactivity"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+        "strength": 1.0,
+        "value": "bblastvisit"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+        "strength": 1.0,
+        "value": "bbsessionhash"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+        "strength": 1.0,
+        "value": "<div id=\"copyright\">Powered by vBulletin"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+        "strength": 1.0,
+        "value": "vBulletin"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vBulletin)",
+          "strength": 1.0,
+          "value": "vBulletin ?([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "vbulletin"
+  },
+  "vchat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vChat)",
+        "strength": 1.0,
+        "value": "__vnpDefault.url"
+      }
+    ],
+    "vendor_id": "vchat"
+  },
+  "vcita": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vcita)",
+        "properties": {},
+        "selector": "iframe[src*='www.vcita.com/widgets/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vcita)",
+        "strength": 1.0,
+        "value": "LiveSite.btCheckout"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vcita)",
+        "strength": 1.0,
+        "value": "Vcita"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vcita)",
+        "strength": 1.0,
+        "value": "widgets\\.vcdnita\\.com/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vcita)",
+        "strength": 1.0,
+        "value": "www\\.vcita\\.com/widgets/"
+      }
+    ],
+    "vendor_id": "vcita"
+  },
+  "vclasses": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VClasses)",
+        "strength": 1.0,
+        "value": "\\.vclasses\\.net"
+      }
+    ],
+    "vendor_id": "vclasses"
+  },
+  "vdx_tv": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VDX.tv)",
+        "properties": {},
+        "selector": "link[href*='.tribalfusion.com'], link[href*='.exponential.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VDX.tv)",
+        "strength": 1.0,
+        "value": "\\.exponential\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VDX.tv)",
+        "strength": 1.0,
+        "value": "\\.tribalfusion\\.com/"
+      }
+    ],
+    "vendor_id": "vdx_tv"
+  },
+  "ve_global": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ve Global)",
+        "strength": 1.0,
+        "value": "veTagData.appsServicesUrl"
+      }
+    ],
+    "vendor_id": "ve_global"
+  },
+  "vectary": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vectary)",
+        "properties": {},
+        "selector": "iframe[src*='app.vectary.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vectary"
+  },
+  "velaro": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Velaro)",
+        "strength": 1.0,
+        "value": "/velaroscripts/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Velaro)",
+        "strength": 1.0,
+        "value": "Velaro.Call"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Velaro)",
+        "strength": 1.0,
+        "value": "isVelaroChatClicked"
+      }
+    ],
+    "vendor_id": "velaro"
+  },
+  "vello": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vello)",
+        "strength": 1.0,
+        "value": "static\\.vello\\.fi/"
+      }
+    ],
+    "vendor_id": "vello"
+  },
+  "veloce": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Veloce)",
+        "strength": 1.0,
+        "value": "VeloceSolutions\\.net"
+      }
+    ],
+    "vendor_id": "veloce"
+  },
+  "velocify": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Velocify)",
+        "strength": 1.0,
+        "value": "\\.velocify\\.com"
+      }
+    ],
+    "vendor_id": "velocify"
+  },
+  "vendaecia": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vendaecia)",
+        "properties": {},
+        "selector": "base[href*='.vendaeciaexpress.com.br']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vendaecia)",
+        "strength": 1.0,
+        "value": "\\.vendaecia\\.com/"
+      }
+    ],
+    "vendor_id": "vendaecia"
+  },
+  "vendio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vendio)",
+        "strength": 1.0,
+        "value": "stores\\.vendio\\.com"
+      }
+    ],
+    "vendor_id": "vendio"
+  },
+  "vendre": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vendre)",
+        "strength": 1.0,
+        "value": "VendreMap.maps_loaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vendre)",
+        "strength": 1.0,
+        "value": "vendre_config"
+      }
+    ],
+    "vendor_id": "vendre"
+  },
+  "venly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venly)",
+        "strength": 1.0,
+        "value": "VenlyConnect"
+      }
+    ],
+    "meta_patterns": {
+      "application-name": [
+        {
+          "match_type": "regex",
+          "notes": "meta application-name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venly)",
+          "strength": 1.0,
+          "value": "^Venly$"
+        }
+      ]
+    },
+    "vendor_id": "venly"
+  },
+  "venmo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venmo)",
+        "properties": {},
+        "selector": "[aria-labelledby='pi-venmo'], [data-venmo-supported='true']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "venmo"
+  },
+  "venngage": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venngage)",
+        "strength": 1.0,
+        "value": "__venngage_embed_script_loaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venngage)",
+        "strength": 1.0,
+        "value": "infograph\\.venngage\\.com"
+      }
+    ],
+    "vendor_id": "venngage"
+  },
+  "ventasxmayor": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentasxMayor)",
+        "strength": 1.0,
+        "value": "bunny-cdn\\.ventasxmayor\\.com/"
+      }
+    ],
+    "vendor_id": "ventasxmayor"
+  },
+  "ventrata": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ventrata)",
+        "properties": {},
+        "selector": "script#ventratajs-js",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ventrata)",
+        "strength": 1.0,
+        "value": "Ventrata.version"
+      }
+    ],
+    "vendor_id": "ventrata"
+  },
+  "ventryshield": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentryShield)",
+        "strength": 1.0,
+        "value": "ventryshield_pre"
+      }
+    ],
+    "header_patterns": {
+      "x-ventryshield-cache-status": [
+        {
+          "match_type": "regex",
+          "notes": "header x-ventryshield-cache-status; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentryShield)",
+          "strength": 1.0,
+          "value": "no-cache"
+        }
+      ],
+      "x-ventryshield-sid": [
+        {
+          "match_type": "regex",
+          "notes": "header x-ventryshield-sid; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VentryShield)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "ventryshield"
+  },
+  "venyoo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venyoo)",
+        "strength": 1.0,
+        "value": "venyooProxyScript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Venyoo)",
+        "strength": 1.0,
+        "value": "\\.venyoo\\.ru/"
+      }
+    ],
+    "vendor_id": "venyoo"
+  },
+  "veonr": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Veonr)",
+        "strength": 1.0,
+        "value": "\\.fsb\\.veonr\\.com"
+      }
+    ],
+    "vendor_id": "veonr"
+  },
+  "veoxa": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Veoxa)",
+        "strength": 1.0,
+        "value": "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Veoxa)",
+        "strength": 1.0,
+        "value": "VuVeoxaContent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Veoxa)",
+        "strength": 1.0,
+        "value": "tracking\\.veoxa\\.com"
+      }
+    ],
+    "vendor_id": "veoxa"
+  },
+  "vepaar": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vepaar)",
+        "strength": 1.0,
+        "value": "analytics\\.vepaar\\.com/"
+      }
+    ],
+    "vendor_id": "vepaar"
+  },
+  "vera": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vera)",
+        "strength": 1.0,
+        "value": "privasee"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vera)",
+        "strength": 1.0,
+        "value": "\\.getvera\\.ai/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vera)",
+        "strength": 1.0,
+        "value": "\\.privasee\\.io/"
+      }
+    ],
+    "vendor_id": "vera"
+  },
+  "veracore": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VeraCore)",
+        "strength": 1.0,
+        "value": "\\.veracore\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VeraCore)",
+        "strength": 1.0,
+        "value": "VeraCore.API"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VeraCore)",
+        "strength": 1.0,
+        "value": "www\\.veracore\\.com"
+      }
+    ],
+    "vendor_id": "veracore"
+  },
+  "verasafe": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VeraSafe)",
+        "strength": 1.0,
+        "value": "www\\.verasafe\\.com/"
+      }
+    ],
+    "vendor_id": "verasafe"
+  },
+  "vercel": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel)",
+          "strength": 1.0,
+          "value": "^now|Vercel$"
+        }
+      ],
+      "x-now-trace": [
+        {
+          "match_type": "regex",
+          "notes": "header x-now-trace; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-vercel-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-vercel-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-vercel-id": [
+        {
+          "match_type": "regex",
+          "notes": "header x-vercel-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "vercel"
+  },
+  "vercel_analytics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Analytics)",
+        "strength": 1.0,
+        "value": "va"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Analytics)",
+        "strength": 1.0,
+        "value": "/_vercel/insights/script\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Analytics)",
+        "strength": 1.0,
+        "value": "/va/script\\.js"
+      }
+    ],
+    "vendor_id": "vercel_analytics"
+  },
+  "vercel_speed_insights": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "data-sdkv": {
+            "match_type": "regex",
+            "notes": "dom attr data-sdkv; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Speed Insights)",
+            "strength": 1.0,
+            "value": "^(.+)$"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Speed Insights)",
+        "properties": {},
+        "selector": "script[data-sdkn='@vercel/speed-insights/next']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Speed Insights)",
+        "strength": 1.0,
+        "value": "si"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vercel Speed Insights)",
+        "strength": 1.0,
+        "value": "/_vercel/speed-insights/script\\.js"
+      }
+    ],
+    "vendor_id": "vercel_speed_insights"
+  },
+  "verfacto": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verfacto)",
+        "strength": 1.0,
+        "value": "analytics\\.verfacto\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verfacto)",
+        "strength": 1.0,
+        "value": "VerfactoEntryPoint"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verfacto)",
+        "strength": 1.0,
+        "value": "VerfactoTracker"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verfacto)",
+        "strength": 1.0,
+        "value": "analytics\\.verfacto\\.com"
+      }
+    ],
+    "vendor_id": "verfacto"
+  },
+  "vergecloud": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VergeCloud)",
+          "strength": 1.0,
+          "value": "^vergecloud$"
+        }
+      ]
+    },
+    "vendor_id": "vergecloud"
+  },
+  "vergic": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vergic)",
+        "strength": 1.0,
+        "value": "us-content\\.vergic\\.com/"
+      }
+    ],
+    "vendor_id": "vergic"
+  },
+  "verifone_2checkout": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verifone 2Checkout)",
+        "properties": {},
+        "selector": "#order__processedby",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verifone 2Checkout)",
+          "strength": 1.0,
+          "value": "2Checkout"
+        }
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verifone 2Checkout)",
+        "properties": {},
+        "selector": "link[href*='.2checkout.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verifone 2Checkout)",
+        "strength": 1.0,
+        "value": "2checkout\\.com"
+      }
+    ],
+    "vendor_id": "verifone_2checkout"
+  },
+  "verifypass": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPass)",
+        "strength": 1.0,
+        "value": "verifypass_api_instantiator"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPass)",
+        "strength": 1.0,
+        "value": "verifypass_is_loaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPass)",
+        "strength": 1.0,
+        "value": "verifypass_popup"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPass)",
+        "strength": 1.0,
+        "value": "cdn\\.id\\.services"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPass)",
+        "strength": 1.0,
+        "value": "cdn\\.verifypass\\.com"
+      }
+    ],
+    "vendor_id": "verifypass"
+  },
+  "verifypress": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPress)",
+        "strength": 1.0,
+        "value": "app\\.verifypress\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerifyPress)",
+        "strength": 1.0,
+        "value": "app\\.verifypress\\.com"
+      }
+    ],
+    "vendor_id": "verifypress"
+  },
+  "verisign": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verisign)",
+        "strength": 1.0,
+        "value": "seal\\.verisign\\.com/"
+      }
+    ],
+    "vendor_id": "verisign"
+  },
+  "verizon_media": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verizon Media)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verizon Media)",
+        "properties": {},
+        "selector": "img[src*='pixel.advertising.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verizon Media)",
+        "strength": 1.0,
+        "value": "\\.advertising\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verizon Media)",
+        "strength": 1.0,
+        "value": "\\.vidible\\.tv/"
+      }
+    ],
+    "vendor_id": "verizon_media"
+  },
+  "verloop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Verloop)",
+        "strength": 1.0,
+        "value": "Verloop"
+      }
+    ],
+    "vendor_id": "verloop"
+  },
+  "vero": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vero)",
+        "strength": 1.0,
+        "value": "__vero"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vero)",
+        "strength": 1.0,
+        "value": "_veroq"
+      }
+    ],
+    "vendor_id": "vero"
+  },
+  "versa_commerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Versa Commerce)",
+        "properties": {},
+        "selector": "link[href*='.versacommerce.de/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Versa Commerce)",
+        "strength": 1.0,
+        "value": "\\.versacommerce\\.de/"
+      }
+    ],
+    "vendor_id": "versa_commerce"
+  },
+  "versatailor": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VersaTailor)",
+        "strength": 1.0,
+        "value": "versatailor\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VersaTailor)",
+        "strength": 1.0,
+        "value": "versatailor"
+      }
+    ],
+    "vendor_id": "versatailor"
+  },
+  "verseone": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerseOne)",
+          "strength": 1.0,
+          "value": "^Intranet VerseOne$"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerseOne)",
+          "strength": 1.0,
+          "value": "VerseOne (?:ECM|CMS) v([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "verseone"
+  },
+  "vertex": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vertex)",
+          "strength": 1.0,
+          "value": "Vertex v\\.([\\d.]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vertex)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/Vertex/js/"
+      }
+    ],
+    "vendor_id": "vertex"
+  },
+  "verticalscope": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerticalScope)",
+        "properties": {},
+        "selector": "footer > div",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VerticalScope)",
+          "strength": 1.0,
+          "value": "VerticalScope Inc\\."
+        }
+      }
+    ],
+    "vendor_id": "verticalscope"
+  },
+  "vertster": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vertster)",
+        "strength": 1.0,
+        "value": "cdn\\.vertster\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vertster)",
+        "strength": 1.0,
+        "value": "cdn\\.vertster\\.com"
+      }
+    ],
+    "vendor_id": "vertster"
+  },
+  "very_good_security": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Very Good Security)",
+          "strength": 1.0,
+          "value": "\\.verygoodvault\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Very Good Security)",
+        "strength": 1.0,
+        "value": "VGSCollect"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Very Good Security)",
+        "strength": 1.0,
+        "value": "js\\.verygoodvault\\.com/"
+      }
+    ],
+    "vendor_id": "very_good_security"
+  },
+  "vestico": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vestico)",
+        "strength": 1.0,
+        "value": "vesticoReportingDisabled"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vestico)",
+        "strength": 1.0,
+        "value": "webpackChunk_vestico_widget"
+      }
+    ],
+    "vendor_id": "vestico"
+  },
+  "vev": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vev)",
+        "strength": 1.0,
+        "value": "vev.App.compare"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vev)",
+        "strength": 1.0,
+        "value": "vev.DEFAULT_APP_STATE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vev)",
+        "strength": 1.0,
+        "value": "\\.vev\\.design/"
+      }
+    ],
+    "vendor_id": "vev"
+  },
+  "vex": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vex)",
+        "strength": 1.0,
+        "value": "vex.close"
+      }
+    ],
+    "vendor_id": "vex"
+  },
+  "vextras": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vextras)",
+        "strength": 1.0,
+        "value": "vextras"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vextras)",
+        "strength": 1.0,
+        "value": "\\.vextras\\.com/"
+      }
+    ],
+    "vendor_id": "vextras"
+  },
+  "vfairs": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vFairs)",
+        "properties": {},
+        "selector": "scripts[data-domain*='vfairscombined.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vFairs)",
+        "strength": 1.0,
+        "value": "vfairs\\.com"
+      }
+    ],
+    "vendor_id": "vfairs"
+  },
+  "vfinder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vfinder)",
+        "strength": 1.0,
+        "value": "VfinderGetCookie"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vfinder)",
+        "strength": 1.0,
+        "value": "^(https?:)?//vfinder\\.io/js/viewfinder\\.js"
+      }
+    ],
+    "vendor_id": "vfinder"
+  },
+  "viabill": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViaBill)",
+        "strength": 1.0,
+        "value": "viabillOptions.state.subscriptions"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViaBill)",
+        "strength": 1.0,
+        "value": "viabillPricetagInternal.conf.productsByLocale"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViaBill)",
+        "strength": 1.0,
+        "value": "\\.viabill\\.com/"
+      }
+    ],
+    "vendor_id": "viabill"
+  },
+  "viafoura": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viafoura)",
+        "strength": 1.0,
+        "value": "dfm_viafoura_options"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viafoura)",
+        "strength": 1.0,
+        "value": "viafoura.bootstrap"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viafoura)",
+        "strength": 1.0,
+        "value": "viafoura.core"
+      }
+    ],
+    "vendor_id": "viafoura"
+  },
+  "viart_shop": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViArt Shop)",
+        "properties": {},
+        "selector": "a[href*='www.viart.com'] > img[title*='ViArt - PHP Shopping Cart']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViArt Shop)",
+        "strength": 1.0,
+        "value": "viartData.init_ts"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViArt Shop)",
+        "strength": 1.0,
+        "value": "viartDataAppend"
+      }
+    ],
+    "vendor_id": "viart_shop"
+  },
+  "viasay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ViaSay)",
+        "strength": 1.0,
+        "value": "mindsayJsonP"
+      }
+    ],
+    "vendor_id": "viasay"
+  },
+  "vibecommerce": {
+    "meta_patterns": {
+      "designer": [
+        {
+          "match_type": "regex",
+          "notes": "meta designer; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vibecommerce)",
+          "strength": 1.0,
+          "value": "vibecommerce"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vibecommerce)",
+          "strength": 1.0,
+          "value": "vibecommerce"
+        }
+      ]
+    },
+    "vendor_id": "vibecommerce"
+  },
+  "vicomi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vicomi)",
+        "strength": 1.0,
+        "value": "assets-prod\\.vicomi\\.com/"
+      }
+    ],
+    "vendor_id": "vicomi"
+  },
+  "vidazoo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidazoo)",
+        "strength": 1.0,
+        "value": "__vidazooPlayer__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidazoo)",
+        "strength": 1.0,
+        "value": "vidazoo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidazoo)",
+        "strength": 1.0,
+        "value": "vidazoo.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidazoo)",
+        "strength": 1.0,
+        "value": "\\.vidazoo\\.com"
+      }
+    ],
+    "vendor_id": "vidazoo"
+  },
+  "video_greet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Video Greet)",
+        "strength": 1.0,
+        "value": "__vg.video_greet_button_src"
+      }
+    ],
+    "vendor_id": "video_greet"
+  },
+  "videojs": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 0.25,
+        "value": "\\.video-js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 0.75,
+        "value": "\\.vjs-big-play-button"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "properties": {},
+        "selector": "div.video-js",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 1.0,
+        "value": "VideoJS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 1.0,
+        "value": "videojs"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 1.0,
+        "value": "videojs.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 1.0,
+        "value": "cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/video\\.js\\/([\\d\\.]+)\\/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoJS)",
+        "strength": 1.0,
+        "value": "zencdn\\.net/c/video\\.js"
+      }
+    ],
+    "vendor_id": "videojs"
+  },
+  "videoly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Videoly)",
+        "strength": 1.0,
+        "value": "VideolyWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Videoly)",
+        "strength": 1.0,
+        "value": "api\\.videoly\\.co/"
+      }
+    ],
+    "vendor_id": "videoly"
+  },
+  "videoo_tv": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Videoo.tv)",
+        "strength": 1.0,
+        "value": "videooTVCtrlLoaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Videoo.tv)",
+        "strength": 1.0,
+        "value": "videootv"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Videoo.tv)",
+        "strength": 1.0,
+        "value": "static\\.videoo\\.tv"
+      }
+    ],
+    "vendor_id": "videoo_tv"
+  },
+  "videopal": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoPal)",
+        "strength": 1.0,
+        "value": "VideoPalEmbed"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VideoPal)",
+        "strength": 1.0,
+        "value": "VpPlayer"
+      }
+    ],
+    "vendor_id": "videopal"
+  },
+  "vidjet": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidjet)",
+        "strength": 1.0,
+        "value": "app-api\\.vidjet\\.io"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidjet)",
+        "strength": 1.0,
+        "value": "Vidjet.init"
+      }
+    ],
+    "vendor_id": "vidjet"
+  },
+  "vidora": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidora)",
+        "strength": 1.0,
+        "value": "vidora"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidora)",
+        "strength": 1.0,
+        "value": "\\.vidora\\.com/"
+      }
+    ],
+    "vendor_id": "vidora"
+  },
+  "vidscrip": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidscrip)",
+        "strength": 1.0,
+        "value": "addVidscripWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vidscrip)",
+        "strength": 1.0,
+        "value": "\\.vidscrip\\.com"
+      }
+    ],
+    "vendor_id": "vidscrip"
+  },
+  "vigbo": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigbo)",
+        "strength": 1.0,
+        "value": "_gphw_mode"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigbo)",
+        "properties": {},
+        "selector": "link[href*='.vigbo.com'], link[href*='.gophotoweb.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigbo)",
+        "strength": 1.0,
+        "value": "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigbo)",
+        "strength": 1.0,
+        "value": "\\.(?:vigbo|gophotoweb)\\.com/"
+      }
+    ],
+    "vendor_id": "vigbo"
+  },
+  "vigil": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigil)",
+        "properties": {},
+        "selector": "p > a[href*='github.com/valeriansaliou/vigil']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vigil)",
+          "strength": 1.0,
+          "value": "^Vigil$"
+        }
+      }
+    ],
+    "vendor_id": "vigil"
+  },
+  "vignette": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vignette)",
+        "strength": 1.0,
+        "value": "<[^>]+=\"vgn-?ext"
+      }
+    ],
+    "vendor_id": "vignette"
+  },
+  "vikaon": {
+    "header_patterns": {
+      "x-vikaon-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Vikaon-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VikaOn)",
+          "strength": 1.0,
+          "value": "(.+)"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VikaOn)",
+        "strength": 1.0,
+        "value": "_vikaLoaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VikaOn)",
+        "strength": 1.0,
+        "value": "_vikaLoadedRender"
+      }
+    ],
+    "vendor_id": "vikaon"
+  },
+  "vike": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vike)",
+        "properties": {},
+        "selector": "script#vike_pageContext",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vike)",
+        "strength": 1.0,
+        "value": "__vike"
+      }
+    ],
+    "vendor_id": "vike"
+  },
+  "vikreta": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vikreta)",
+          "strength": 1.0,
+          "value": "^Vikreta$"
+        }
+      ]
+    },
+    "vendor_id": "vikreta"
+  },
+  "viloud": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viloud)",
+        "properties": {},
+        "selector": "iframe[src*='app.viloud.tv/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viloud)",
+        "strength": 1.0,
+        "value": "app\\.viloud\\.tv"
+      }
+    ],
+    "vendor_id": "viloud"
+  },
+  "vimeo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo)",
+        "properties": {},
+        "selector": "iframe[src*='vimeo.com'],embed[src*='vimeo.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo)",
+        "strength": 1.0,
+        "value": "Vimeo.Player"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo)",
+        "strength": 1.0,
+        "value": "VimeoPlayer"
+      }
+    ],
+    "vendor_id": "vimeo"
+  },
+  "vimeo_ott": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo OTT)",
+        "strength": 1.0,
+        "value": "VHX.config"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo OTT)",
+        "strength": 1.0,
+        "value": "_vhx"
+      }
+    ],
+    "vendor_id": "vimeo_ott",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimeo OTT)",
+        "strength": 1.0,
+        "value": "api\\.vhx\\.tv"
+      }
+    ]
+  },
+  "vimos": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vimos)",
+        "strength": 1.0,
+        "value": "widget\\.vimos\\.io/"
+      }
+    ],
+    "vendor_id": "vimos"
+  },
+  "vincere": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vincere)",
+        "properties": {},
+        "selector": "link[href*='static.vincere-digital.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vincere"
+  },
+  "vinsuite": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vinSUITE)",
+          "strength": 1.0,
+          "value": "^vinSUITE$"
+        }
+      ]
+    },
+    "vendor_id": "vinsuite"
+  },
+  "vintcer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vintcer)",
+        "strength": 1.0,
+        "value": "\\.vintcer\\.com/"
+      }
+    ],
+    "vendor_id": "vintcer"
+  },
+  "vioma": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vioma)",
+        "properties": {},
+        "selector": "link[href*='.viomassl.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vioma)",
+        "strength": 1.0,
+        "value": "viomaManipulate"
+      }
+    ],
+    "vendor_id": "vioma"
+  },
+  "viqeo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viqeo)",
+        "strength": 1.0,
+        "value": "VIQEO"
+      }
+    ],
+    "vendor_id": "viqeo"
+  },
+  "viral_loops": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viral Loops)",
+        "properties": {},
+        "selector": "link[href*='wp-content/plugins/viral-loops-wp-integration/assets/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viral Loops)",
+        "strength": 1.0,
+        "value": "app\\.viral-loops\\.com/"
+      }
+    ],
+    "vendor_id": "viral_loops"
+  },
+  "virgool": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virgool)",
+          "strength": 1.0,
+          "value": "^Virgool$"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virgool)",
+        "strength": 1.0,
+        "value": "^https?://(?:www\\.)?virgool\\.io"
+      }
+    ],
+    "vendor_id": "virgool"
+  },
+  "virtfusion": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtFusion)",
+        "strength": 1.0,
+        "value": "virtfusion_session"
+      }
+    ],
+    "vendor_id": "virtfusion"
+  },
+  "virtooal": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtooal)",
+        "strength": 1.0,
+        "value": "\\.virtooal\\.com/"
+      }
+    ],
+    "vendor_id": "virtooal"
+  },
+  "virtuagym": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuagym)",
+        "properties": {},
+        "selector": "a[href*='.virtuagym.com'][target='_blank'], iframe[src*='.virtuagym.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuagym)",
+        "strength": 1.0,
+        "value": "VGTutorial"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuagym)",
+        "strength": 1.0,
+        "value": "open_vg_custom_modal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuagym)",
+        "strength": 1.0,
+        "value": "trigger_vg_neutral_message"
+      }
+    ],
+    "vendor_id": "virtuagym"
+  },
+  "virtual_chat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtual Chat)",
+        "strength": 1.0,
+        "value": "virtual-chat\\.co\\.il/"
+      }
+    ],
+    "vendor_id": "virtual_chat"
+  },
+  "virtualspirits": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtualSpirits)",
+        "strength": 1.0,
+        "value": "vspiritbutton"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtualSpirits)",
+        "strength": 1.0,
+        "value": "vspirits_chat_client"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtualSpirits)",
+        "strength": 1.0,
+        "value": "vspiritsizeheight"
+      }
+    ],
+    "vendor_id": "virtualspirits"
+  },
+  "virtuemart": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtueMart)",
+        "properties": {},
+        "selector": "div#vmMainPage",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VirtueMart)",
+        "strength": 1.0,
+        "value": "<div id=\"vmMainPage"
+      }
+    ],
+    "vendor_id": "virtuemart"
+  },
+  "virtuoso": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuoso)",
+          "strength": 1.0,
+          "value": "Virtuoso/?([0-9.]+)?"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "copyright": [
+        {
+          "match_type": "regex",
+          "notes": "meta Copyright; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuoso)",
+          "strength": 1.0,
+          "value": "^Copyright &copy; \\d{4} OpenLink Software"
+        }
+      ],
+      "keywords": [
+        {
+          "match_type": "regex",
+          "notes": "meta Keywords; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuoso)",
+          "strength": 1.0,
+          "value": "^OpenLink Virtuoso Sparql"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuoso)",
+        "strength": 1.0,
+        "value": "/sparql"
+      }
+    ],
+    "vendor_id": "virtuoso"
+  },
+  "virtuous": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtuous)",
+        "strength": 1.0,
+        "value": "\\.virtuoussoftware\\.com/"
+      }
+    ],
+    "vendor_id": "virtuous"
+  },
+  "virtusize": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Virtusize)",
+        "strength": 1.0,
+        "value": "\\.virtusize\\.jp/"
+      }
+    ],
+    "vendor_id": "virtusize"
+  },
+  "visa": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visa)",
+        "properties": {},
+        "selector": "[aria-labelledby='pi-visa']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visa)",
+        "strength": 1.0,
+        "value": "visaApi"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visa)",
+        "strength": 1.0,
+        "value": "visaImage"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visa)",
+        "strength": 1.0,
+        "value": "visaSrc"
+      }
+    ],
+    "vendor_id": "visa"
+  },
+  "visa_checkout": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visa Checkout)",
+        "strength": 1.0,
+        "value": "secure\\.checkout\\.visa\\.com"
+      }
+    ],
+    "vendor_id": "visa_checkout"
+  },
+  "visbook": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VisBook)",
+        "strength": 1.0,
+        "value": "reservations\\.visbook\\.com/"
+      }
+    ],
+    "vendor_id": "visbook"
+  },
+  "visely": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visely)",
+        "strength": 1.0,
+        "value": "Visely.RecommendationsApi"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visely)",
+        "strength": 1.0,
+        "value": "ViselyCartProductIds"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visely)",
+        "strength": 1.0,
+        "value": "ViselyPage"
+      }
+    ],
+    "vendor_id": "visely"
+  },
+  "visenze": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visenze)",
+        "strength": 1.0,
+        "value": "ViSenzeAnalytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visenze)",
+        "strength": 1.0,
+        "value": "visenzeLayer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visenze)",
+        "strength": 1.0,
+        "value": "cdn\\.visenze\\.com"
+      }
+    ],
+    "vendor_id": "visenze"
+  },
+  "visible_privacy": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visible Privacy)",
+        "strength": 1.0,
+        "value": "//bc-prod-config\\.empathy\\.co/"
+      }
+    ],
+    "vendor_id": "visible_privacy"
+  },
+  "visiopt": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VisiOpt)",
+        "strength": 1.0,
+        "value": "visiopt_code"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VisiOpt)",
+        "strength": 1.0,
+        "value": "visiopt\\.com"
+      }
+    ],
+    "vendor_id": "visiopt"
+  },
+  "visitor_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visitor Chat)",
+        "strength": 1.0,
+        "value": "VisitorChatInit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visitor Chat)",
+        "strength": 1.0,
+        "value": "VisitorChat_Close"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visitor Chat)",
+        "strength": 1.0,
+        "value": "VisitorChat_Init"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visitor Chat)",
+        "strength": 1.0,
+        "value": "VisitorChat_clearStore"
+      }
+    ],
+    "vendor_id": "visitor_chat"
+  },
+  "visitor_js": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visitor.js)",
+        "strength": 1.0,
+        "value": "www\\.visitorjs\\.com"
+      }
+    ],
+    "vendor_id": "visitor_js"
+  },
+  "visitorville": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VisitorVille)",
+        "strength": 1.0,
+        "value": "www\\.visitorville\\.com/"
+      }
+    ],
+    "vendor_id": "visitorville"
+  },
+  "viskan": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Viskan)",
+        "strength": 1.0,
+        "value": "\\.viskan\\.com/"
+      }
+    ],
+    "vendor_id": "viskan"
+  },
+  "visual_composer": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visual Composer)",
+          "strength": 1.0,
+          "value": "Powered by Visual Composer Website Builder"
+        }
+      ]
+    },
+    "vendor_id": "visual_composer"
+  },
+  "visual_portfolio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visual Portfolio)",
+        "strength": 1.0,
+        "value": "VPData.screenSizes"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visual Portfolio)",
+        "strength": 1.0,
+        "value": "VPData.version"
+      }
+    ],
+    "vendor_id": "visual_portfolio"
+  },
+  "visual_quiz_builder": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visual Quiz Builder)",
+        "strength": 1.0,
+        "value": "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/"
+      }
+    ],
+    "vendor_id": "visual_quiz_builder"
+  },
+  "visualsoft": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visualsoft)",
+        "strength": 1.0,
+        "value": "vscommerce"
+      }
+    ],
+    "meta_patterns": {
+      "vs_status_checker_version": [
+        {
+          "match_type": "regex",
+          "notes": "meta vs_status_checker_version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visualsoft)",
+          "strength": 1.0,
+          "value": "\\d+"
+        }
+      ],
+      "vsvatprices": [
+        {
+          "match_type": "regex",
+          "notes": "meta vsvatprices; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visualsoft)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "visualsoft"
+  },
+  "visx": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "class": {
+            "match_type": "regex",
+            "notes": "dom attr class; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visx)",
+            "strength": 1.0,
+            "value": "(?:v(?:is)?x)-group"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Visx)",
+        "properties": {},
+        "selector": "g.visx-group,g.vx-group",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "visx"
+  },
+  "vitals": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitals)",
+        "strength": 1.0,
+        "value": "VITALS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitals)",
+        "strength": 1.0,
+        "value": "vitals_app_cache_keys_v1"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitals)",
+        "strength": 1.0,
+        "value": "vitals_country_code"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitals)",
+        "strength": 1.0,
+        "value": "vitals_product_data"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitals)",
+        "strength": 1.0,
+        "value": "//appsolve\\.io/"
+      }
+    ],
+    "vendor_id": "vitals"
+  },
+  "vite": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vite)",
+        "properties": {},
+        "selector": "link[href*='vite.svg'][rel='icon']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vite)",
+        "properties": {},
+        "selector": "script#vite-legacy-entry",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vite)",
+        "properties": {},
+        "selector": "script#vite-legacy-polyfill",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vite)",
+        "properties": {},
+        "selector": "script[id^='vite-plugin-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vite)",
+        "strength": 1.0,
+        "value": "__vite_is_modern_browser"
+      }
+    ],
+    "vendor_id": "vite"
+  },
+  "vitepress": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VitePress)",
+        "strength": 1.0,
+        "value": "__VP_HASH_MAP__"
+      }
+    ],
+    "vendor_id": "vitepress"
+  },
+  "vitrin_me": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vitrin.me)",
+        "strength": 1.0,
+        "value": "\\.vitrin\\.me/"
+      }
+    ],
+    "vendor_id": "vitrin_me"
+  },
+  "vivenu": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vivenu)",
+        "properties": {},
+        "selector": "title#vivenuId",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vivenu"
+  },
+  "vivvo": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VIVVO)",
+        "strength": 1.0,
+        "value": "VivvoSessionId"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VIVVO)",
+        "strength": 1.0,
+        "value": "vivvo"
+      }
+    ],
+    "vendor_id": "vivvo"
+  },
+  "vizium": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vizium)",
+        "strength": 1.0,
+        "value": "portal\\.vizium\\.co"
+      }
+    ],
+    "vendor_id": "vizium"
+  },
+  "vizury": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vizury)",
+        "strength": 1.0,
+        "value": "safariVizury"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vizury)",
+        "strength": 1.0,
+        "value": "vizury_data"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vizury)",
+        "strength": 1.0,
+        "value": "\\.vizury\\.com"
+      }
+    ],
+    "vendor_id": "vizury"
+  },
+  "vk_pixel": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VK Pixel)",
+        "properties": {},
+        "selector": "img[src*='vk.com/rtrg?p=VK-RTRG-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VK Pixel)",
+        "strength": 1.0,
+        "value": "vk\\.com/js/api/openapi\\.js"
+      }
+    ],
+    "vendor_id": "vk_pixel"
+  },
+  "vkui": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VKUI)",
+        "properties": {},
+        "selector": "html.vkui",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vkui"
+  },
+  "vnda": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vnda)",
+        "strength": 1.0,
+        "value": "Vnda.loadCartPopup"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vnda)",
+        "strength": 1.0,
+        "value": "vnda.checkout"
+      }
+    ],
+    "meta_patterns": {
+      "image": [
+        {
+          "match_type": "regex",
+          "notes": "meta image; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vnda)",
+          "strength": 1.0,
+          "value": "cdn\\.vnda\\.com\\.br/"
+        }
+      ]
+    },
+    "vendor_id": "vnda"
+  },
+  "vnn_sports": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VNN Sports)",
+        "strength": 1.0,
+        "value": "vnnEndpoints"
+      }
+    ],
+    "vendor_id": "vnn_sports"
+  },
+  "vntana": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vntana)",
+        "properties": {},
+        "selector": "iframe[src*='embed.vntana.com/'], iframe[nitro-lazy-src*='embed.vntana.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vntana"
+  },
+  "vocalreferences": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VocalReferences)",
+        "strength": 1.0,
+        "value": "widgets\\.vocalreferences\\.com"
+      }
+    ],
+    "vendor_id": "vocalreferences"
+  },
+  "voice_intuitive": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voice Intuitive)",
+        "strength": 1.0,
+        "value": "static\\.voiceintuitive\\.com"
+      }
+    ],
+    "vendor_id": "voice_intuitive"
+  },
+  "voizee": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voizee)",
+        "strength": 1.0,
+        "value": "widget\\.voizee\\.com/"
+      }
+    ],
+    "vendor_id": "voizee"
+  },
+  "volley": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volley)",
+        "strength": 1.0,
+        "value": "widget\\.meetvolley\\.com/"
+      }
+    ],
+    "vendor_id": "volley"
+  },
+  "voltage": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voltage)",
+        "strength": 1.0,
+        "value": "btcpay0\\.voltageapp\\.io"
+      }
+    ],
+    "vendor_id": "voltage"
+  },
+  "voltn": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voltn)",
+        "properties": {},
+        "selector": "link[href*='//pixel.voltn.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "voltn"
+  },
+  "volusion": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "properties": {},
+        "selector": "body[data-vn-page-name], link[href*='/vspfiles/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "<body [^>]*data-vn-page-name"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "<link [^>]*href=\"[^\"]*/vspfiles/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "VOLUSION.affixYourOrder"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "VOLUSION_HELPERS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "VolusionChat"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "volusion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Volusion)",
+        "strength": 1.0,
+        "value": "/volusion\\.js(?:\\?([\\d.]*))?"
+      }
+    ],
+    "vendor_id": "volusion"
+  },
+  "vonage_video_api": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vonage Video API)",
+        "strength": 1.0,
+        "value": "\\.opentok\\.com/"
+      }
+    ],
+    "vendor_id": "vonage_video_api"
+  },
+  "vondera": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vondera)",
+        "strength": 1.0,
+        "value": "\\.vondera\\.shop"
+      },
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vondera)",
+        "strength": 1.0,
+        "value": "qaf\\.vondera\\.io"
+      }
+    ],
+    "meta_patterns": {
+      "ecommerce": [
+        {
+          "match_type": "regex",
+          "notes": "meta ecommerce; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vondera)",
+          "strength": 1.0,
+          "value": "^Vondera$"
+        }
+      ],
+      "vondera-ecommerce": [
+        {
+          "match_type": "regex",
+          "notes": "meta vondera-ecommerce; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vondera)",
+          "strength": 1.0,
+          "value": "^Vondera$"
+        }
+      ]
+    },
+    "vendor_id": "vondera"
+  },
+  "voog": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voog)",
+        "strength": 1.0,
+        "value": "\\.voog\\.com/"
+      }
+    ],
+    "vendor_id": "voog"
+  },
+  "voog_com_website_builder": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voog.com Website Builder)",
+        "strength": 1.0,
+        "value": "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voog.com Website Builder)",
+        "strength": 1.0,
+        "value": "voog\\.com/tracker\\.js"
+      }
+    ],
+    "vendor_id": "voog_com_website_builder"
+  },
+  "voomly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voomly)",
+        "strength": 1.0,
+        "value": "attachVoomlyPlayer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voomly)",
+        "strength": 1.0,
+        "value": "voomlyEmbedPlayerApp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voomly)",
+        "strength": 1.0,
+        "value": "embed\\.voomly\\.com/"
+      }
+    ],
+    "vendor_id": "voomly"
+  },
+  "vop": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vop)",
+        "strength": 1.0,
+        "value": "cdn\\.getvop\\.com/"
+      }
+    ],
+    "vendor_id": "vop"
+  },
+  "voracio": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voracio)",
+        "strength": 1.0,
+        "value": "voracio_csrf_token"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voracio)",
+        "strength": 1.0,
+        "value": "voracio_sessionid"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voracio)",
+        "strength": 1.0,
+        "value": "voracio"
+      }
+    ],
+    "vendor_id": "voracio"
+  },
+  "vouched": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vouched)",
+        "strength": 1.0,
+        "value": "Vouched"
+      }
+    ],
+    "vendor_id": "vouched"
+  },
+  "voucherify": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voucherify)",
+        "strength": 1.0,
+        "value": "\\.voucherify\\.io/"
+      }
+    ],
+    "vendor_id": "voucherify"
+  },
+  "vouchley": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vouchley)",
+        "properties": {},
+        "selector": "iframe[src*='.reputize.org/widgets/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vouchley"
+  },
+  "vox_media": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vox Media)",
+        "strength": 1.0,
+        "value": "VoxMediaFontLoader"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vox Media)",
+        "strength": 1.0,
+        "value": "\\.voxmedia\\.com/"
+      }
+    ],
+    "vendor_id": "vox_media"
+  },
+  "voximplant": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voximplant)",
+        "strength": 1.0,
+        "value": "zingaya\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voximplant)",
+        "strength": 1.0,
+        "value": "Zingaya.analytics_id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Voximplant)",
+        "strength": 1.0,
+        "value": "ZingayaClass"
+      }
+    ],
+    "vendor_id": "voximplant"
+  },
+  "vp_asp": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VP-ASP)",
+        "strength": 1.0,
+        "value": "<a[^>]+>Powered By VP-ASP Shopping Cart</a>"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VP-ASP)",
+        "strength": 1.0,
+        "value": "vs350\\.js"
+      }
+    ],
+    "vendor_id": "vp_asp"
+  },
+  "vreview": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VReview)",
+        "strength": 1.0,
+        "value": "vreviewWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VReview)",
+        "strength": 1.0,
+        "value": "script\\.vreview\\.tv/"
+      }
+    ],
+    "vendor_id": "vreview"
+  },
+  "vrio": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vrio)",
+        "strength": 1.0,
+        "value": "\\.vrio\\.app"
+      }
+    ],
+    "meta_patterns": {
+      "readme-subdomain": [
+        {
+          "match_type": "regex",
+          "notes": "meta readme-subdomain; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vrio)",
+          "strength": 1.0,
+          "value": "^vrio-api$"
+        }
+      ]
+    },
+    "vendor_id": "vrio"
+  },
+  "vtex": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "strength": 1.0,
+        "value": "VtexFingerPrint"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "strength": 1.0,
+        "value": "VtexStoreVersion"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "strength": 1.0,
+        "value": "VtexWorkspace"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "strength": 1.0,
+        "value": "vtex_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "properties": {},
+        "selector": "link[href*='.vteximg.com.br'], source[srcset*='.vteximg.com.br']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "powered": [
+        {
+          "match_type": "regex",
+          "notes": "header powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+          "strength": 1.0,
+          "value": "vtex"
+        }
+      ],
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+          "strength": 1.0,
+          "value": "^VTEX IO$"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VTEX)",
+        "strength": 1.0,
+        "value": "vtex"
+      }
+    ],
+    "vendor_id": "vtex"
+  },
+  "vtiger": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vtiger)",
+        "strength": 1.0,
+        "value": "Vtiger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vtiger)",
+        "strength": 1.0,
+        "value": "Vtiger_Base_Js"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vtiger)",
+        "strength": 1.0,
+        "value": "Vtiger_Helper_Js"
+      }
+    ],
+    "vendor_id": "vtiger"
+  },
+  "vue2_animate": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue2-animate)",
+        "properties": {},
+        "selector": "link[href*='/vue2-animate.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vue2_animate"
+  },
+  "vue_ai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.ai)",
+        "strength": 1.0,
+        "value": "getVueUrlSegments"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.ai)",
+        "strength": 1.0,
+        "value": "vuex"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.ai)",
+        "strength": 1.0,
+        "value": "vue_ai\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.ai)",
+        "strength": 1.0,
+        "value": "vuex\\.vue\\.ai"
+      }
+    ],
+    "vendor_id": "vue_ai"
+  },
+  "vue_js": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "\\.vue-notification-group"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "properties": {},
+        "selector": ".vue-app",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "properties": {},
+        "selector": "div[class*='Vue-Toastification__container']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "properties": {},
+        "selector": "div[class*='vue-scroll-picker-group'] > div[class*='vue-scroll-picker']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "properties": {},
+        "selector": "link[href*='docsify/themes/vue.css']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "properties": {},
+        "selector": "meta[data-vue-meta]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "<(?!svg)[^>]+\\sdata-v(?:ue)?-"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "Vue"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "Vue.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "VueRoot"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "__VUE_HOT_MAP__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "__VUE__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "vueDLL"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "(?:/([\\d.]+))?/vue(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue.js)",
+        "strength": 1.0,
+        "value": "vue[.-]([\\d.]*\\d)[^/]*\\.js"
+      }
+    ],
+    "vendor_id": "vue_js"
+  },
+  "vue_storefront": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue Storefront)",
+          "strength": 1.0,
+          "value": "^Vue Storefront ([0-9.]+)?$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vue Storefront)",
+        "strength": 1.0,
+        "value": "vsf-layout"
+      }
+    ],
+    "vendor_id": "vue_storefront"
+  },
+  "vuepress": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VuePress)",
+        "strength": 1.0,
+        "value": "__VUEPRESS__.version"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VuePress)",
+          "strength": 1.0,
+          "value": "^VuePress(?: ([0-9.]+)(-[a-z]+.[0-9]+)?)?$"
+        }
+      ]
+    },
+    "vendor_id": "vuepress"
+  },
+  "vuestrap": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VueStrap)",
+        "strength": 1.0,
+        "value": "VueStrap.$"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VueStrap)",
+        "strength": 1.0,
+        "value": "/vue-strap/([\\d\\.]+)/vue-strap\\.min\\.js"
+      }
+    ],
+    "vendor_id": "vuestrap"
+  },
+  "vuetify": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vuetify)",
+        "strength": 1.0,
+        "value": "\\.v-application \\.d-block"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vuetify)",
+        "properties": {},
+        "selector": "style#vuetify-theme-stylesheet",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vuetify"
+  },
+  "vuex": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vuex)",
+        "strength": 1.0,
+        "value": "Vuex.version"
+      }
+    ],
+    "vendor_id": "vuex"
+  },
+  "vufind": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VuFind)",
+        "strength": 1.0,
+        "value": "VuFind.defaultSearchBackend"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VuFind)",
+          "strength": 1.0,
+          "value": "^VuFind\\s([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "vufind"
+  },
+  "vuture": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vuture)",
+        "strength": 1.0,
+        "value": "\\.vuture\\.net/"
+      }
+    ],
+    "vendor_id": "vuture"
+  },
+  "vuukle": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vuukle)",
+        "strength": 1.0,
+        "value": "VUUKLE_CONFIG"
+      }
+    ],
+    "vendor_id": "vuukle"
+  },
+  "vvveb_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vvveb CMS)",
+        "strength": 1.0,
+        "value": "VvvebTheme"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vvveb CMS)",
+          "strength": 1.0,
+          "value": "^Vvveb$"
+        }
+      ],
+      "name": [
+        {
+          "match_type": "regex",
+          "notes": "meta name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vvveb CMS)",
+          "strength": 1.0,
+          "value": "^Vvveb$"
+        }
+      ]
+    },
+    "vendor_id": "vvveb_cms"
+  },
+  "vwo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "VWO"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "__vwo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "_vwo_code"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "_vwo_settings_timer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "/visual-website-optimizer/([\\d\\.])"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO)",
+        "strength": 1.0,
+        "value": "dev\\.visualwebsiteoptimizer\\.com/"
+      }
+    ],
+    "vendor_id": "vwo"
+  },
+  "vwo_engage": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO Engage)",
+        "strength": 1.0,
+        "value": "_pushcrewDebuggingQueue"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: VWO Engage)",
+        "strength": 1.0,
+        "value": "cdn\\.pushcrew\\.\\w+"
+      }
+    ],
+    "vendor_id": "vwo_engage"
+  },
+  "vxe_table": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: vxe-table)",
+        "properties": {},
+        "selector": "div[class*='vxe-table']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "vxe_table"
+  },
+  "vyper": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vyper)",
+        "strength": 1.0,
+        "value": "vyper\\.io"
+      }
+    ],
+    "vendor_id": "vyper"
+  },
+  "vyve": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Vyve+)",
+        "strength": 1.0,
+        "value": "app\\.vyveplus\\.ai"
+      }
+    ],
+    "vendor_id": "vyve"
+  }
+}

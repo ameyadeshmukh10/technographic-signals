@@ -1,0 +1,2380 @@
+{
+  "u_komi": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: U-KOMI)",
+        "strength": 1.0,
+        "value": "GetUkomiSliderItemInfo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: U-KOMI)",
+        "strength": 1.0,
+        "value": "installUkomiShimsDebug"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: U-KOMI)",
+        "strength": 1.0,
+        "value": "ukomiInstaLikeStep01"
+      }
+    ],
+    "vendor_id": "u_komi"
+  },
+  "ubercart": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ubercart)",
+        "strength": 1.0,
+        "value": "uc_cart/uc_cart_block\\.js"
+      }
+    ],
+    "vendor_id": "ubercart"
+  },
+  "ubiliz": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ubiliz)",
+        "strength": 1.0,
+        "value": "ubilizSettings"
+      }
+    ],
+    "vendor_id": "ubiliz"
+  },
+  "ubuntu": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ubuntu)",
+          "strength": 1.0,
+          "value": "Ubuntu"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ubuntu)",
+          "strength": 1.0,
+          "value": "Ubuntu"
+        }
+      ]
+    },
+    "vendor_id": "ubuntu"
+  },
+  "ucalc": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ucalc)",
+        "strength": 1.0,
+        "value": "uCalc"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ucalc)",
+        "strength": 1.0,
+        "value": "ucalc\\.pro/api/"
+      }
+    ],
+    "vendor_id": "ucalc"
+  },
+  "ucommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ucommerce)",
+        "strength": 1.0,
+        "value": "uCommerce"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ucommerce)",
+        "strength": 1.0,
+        "value": "uCommerce\\.facets\\.js"
+      }
+    ],
+    "vendor_id": "ucommerce"
+  },
+  "ueeshop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ueeshop)",
+        "strength": 1.0,
+        "value": "ueeshop_config"
+      }
+    ],
+    "vendor_id": "ueeshop"
+  },
+  "ugc_creative": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UGC Creative)",
+        "strength": 1.0,
+        "value": "UgcCreativeReview"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UGC Creative)",
+        "strength": 1.0,
+        "value": "ugcReview.prototype._display_item_count"
+      }
+    ],
+    "vendor_id": "ugc_creative"
+  },
+  "uhchat": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uhChat)",
+        "strength": 1.0,
+        "value": "uhchatrelock"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uhChat)",
+        "strength": 1.0,
+        "value": "getuhchatCookie"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uhChat)",
+        "strength": 1.0,
+        "value": "uhchatClick"
+      }
+    ],
+    "vendor_id": "uhchat"
+  },
+  "ui_avenue": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UI Avenue)",
+        "strength": 1.0,
+        "value": "analytics\\.uiavenue\\.ca"
+      }
+    ],
+    "vendor_id": "ui_avenue"
+  },
+  "uikit": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UIKit)",
+        "strength": 1.0,
+        "value": "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UIKit)",
+        "strength": 1.0,
+        "value": "uikit.*\\.js"
+      }
+    ],
+    "vendor_id": "uikit"
+  },
+  "uk_mail": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UK Mail)",
+        "strength": 1.0,
+        "value": "\\bUK Mail\\b"
+      }
+    ],
+    "vendor_id": "uk_mail"
+  },
+  "uknowva": {
+    "header_patterns": {
+      "x-content-encoded-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Content-Encoded-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uKnowva)",
+          "strength": 1.0,
+          "value": "uKnowva ([\\d.]+)"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uKnowva)",
+        "strength": 1.0,
+        "value": "<a[^>]+>Powered by uKnowva</a>"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uKnowva)",
+          "strength": 1.0,
+          "value": "uKnowva (?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uKnowva)",
+        "strength": 1.0,
+        "value": "/media/conv/js/jquery\\.js"
+      }
+    ],
+    "vendor_id": "uknowva"
+  },
+  "ulogin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uLogin)",
+        "strength": 1.0,
+        "value": "uLogin.version"
+      }
+    ],
+    "vendor_id": "ulogin"
+  },
+  "ultimate": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate)",
+        "strength": 1.0,
+        "value": "ultimateAiLogin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate)",
+        "strength": 1.0,
+        "value": "ultimateAiUpdateUser"
+      }
+    ],
+    "vendor_id": "ultimate"
+  },
+  "ultimate_addons_for_elementor": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate Addons for Elementor)",
+            "strength": 1.0,
+            "value": "/wp-content/plugins/ultimate-elementor/.+\\.css(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate Addons for Elementor)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/ultimate-elementor/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate Addons for Elementor)",
+        "strength": 1.0,
+        "value": "uael_particles_script.particles_url"
+      }
+    ],
+    "vendor_id": "ultimate_addons_for_elementor"
+  },
+  "ultimate_bulletin_board": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate Bulletin Board)",
+          "strength": 1.0,
+          "value": "^UBB\\.threads\\s([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "ultimate_bulletin_board"
+  },
+  "ultimate_gdpr_ccpa": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate GDPR & CCPA)",
+        "strength": 1.0,
+        "value": "ct_ultimate_gdpr_cookie"
+      }
+    ],
+    "vendor_id": "ultimate_gdpr_ccpa"
+  },
+  "ultimate_tables": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ultimate Tables)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/ultimate-tables/"
+      }
+    ],
+    "vendor_id": "ultimate_tables"
+  },
+  "ultimatelysocial": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltimatelySocial)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/ultimate-social-media-icons/"
+      }
+    ],
+    "vendor_id": "ultimatelysocial"
+  },
+  "ultracart": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "properties": {},
+        "selector": "a[href*='/cgi-bin/UCEditor?merchantId']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "strength": 1.0,
+        "value": "<form [^>]*action=\"[^\"]*\\/cgi-bin\\/UCEditor\\?(?:[^\"]*&)?merchantId=[^\"]"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "strength": 1.0,
+        "value": "ucCatalog"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "strength": 1.0,
+        "value": "ultracart"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "strength": 1.0,
+        "value": "cgi-bin\\/UCJavaScript\\?"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UltraCart)",
+        "strength": 1.0,
+        "value": "/cgi-bin/UCEditor\\?"
+      }
+    ],
+    "vendor_id": "ultracart"
+  },
+  "umai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UMAI)",
+        "strength": 1.0,
+        "value": "umaiWidget.config"
+      }
+    ],
+    "vendor_id": "umai"
+  },
+  "umami": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umami)",
+        "strength": 1.0,
+        "value": "umami"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umami)",
+        "strength": 1.0,
+        "value": "umami\\.js"
+      }
+    ],
+    "vendor_id": "umami"
+  },
+  "umarketingsuite": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uMarketingSuite)",
+        "strength": 1.0,
+        "value": "uMarketingSuite"
+      }
+    ],
+    "vendor_id": "umarketingsuite"
+  },
+  "umbraco": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "merchello"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "properties": {},
+        "selector": "a[data-udi^='umb://']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "properties": {},
+        "selector": "a[href^='/umbraco/Surface/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "properties": {},
+        "selector": "fieldset.umbraco-forms-fieldset",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "properties": {},
+        "selector": "form[action^='/umbraco/Surface/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "properties": {},
+        "selector": "script[src*='/UmbracoForms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-umbraco-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Umbraco-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+          "strength": 1.0,
+          "value": "^(.+)$"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "\\.umbraco\\.io|/Umbraco\\/Api"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "ITEM_INFO_SERVICE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "UC_IMAGE_SERVICE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "UC_ITEM_INFO_SERVICE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "UC_SETTINGS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "Umbraco"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+          "strength": 1.0,
+          "value": "umbraco"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "/umbraco/login\\.aspx(?:$|\\?)"
+      }
+    ],
+    "vendor_id": "umbraco",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umbraco)",
+        "strength": 1.0,
+        "value": "/umbraco/api/"
+      }
+    ]
+  },
+  "umi_cms": {
+    "header_patterns": {
+      "x-generated-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Generated-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UMI.CMS)",
+          "strength": 1.0,
+          "value": "UMI\\.CMS"
+        }
+      ]
+    },
+    "vendor_id": "umi_cms"
+  },
+  "umijs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UmiJs)",
+        "strength": 1.0,
+        "value": "g_umi.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UmiJs)",
+        "strength": 1.0,
+        "value": "/umi(\\.[\\w\\d]{8})?\\.js"
+      }
+    ],
+    "vendor_id": "umijs"
+  },
+  "umni": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umni)",
+        "strength": 1.0,
+        "value": "widget\\.umni\\.bg"
+      }
+    ],
+    "vendor_id": "umni"
+  },
+  "umso": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umso)",
+        "properties": {},
+        "selector": "link[href*='.umso.co/'], img[src*='.umso.co/'], video[poster*='.umso.co/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Umso)",
+        "strength": 0.75,
+        "value": "isPriorBlockingEnabled"
+      }
+    ],
+    "vendor_id": "umso"
+  },
+  "una_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNA CMS)",
+        "strength": 1.0,
+        "value": "BxArtificerMenuMoreAuto"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNA CMS)",
+        "strength": 1.0,
+        "value": "bx_autocomplete_fields"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNA CMS)",
+        "strength": 1.0,
+        "value": "bx_redirect_for_external_links"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNA CMS)",
+        "strength": 1.0,
+        "value": "bx_search_extnded_sort"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNA CMS)",
+        "strength": 1.0,
+        "value": "bx_site_search_complet"
+      }
+    ],
+    "vendor_id": "una_cms"
+  },
+  "unas": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unas)",
+        "strength": 1.0,
+        "value": "UnasID"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unas)",
+        "strength": 1.0,
+        "value": "UnasServiceProxyID"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unas)",
+        "strength": 1.0,
+        "value": "UNAS.shop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unas)",
+        "strength": 1.0,
+        "value": "unas_shop_url"
+      }
+    ],
+    "vendor_id": "unas"
+  },
+  "unblu_virtual_agent": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unblu Virtual Agent)",
+        "strength": 1.0,
+        "value": "\\.unblu\\.com/"
+      }
+    ],
+    "vendor_id": "unblu_virtual_agent"
+  },
+  "unbounce": {
+    "header_patterns": {
+      "x-unbounce-pageid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Unbounce-PageId; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbounce)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbounce)",
+        "strength": 1.0,
+        "value": "ubembed\\.com"
+      }
+    ],
+    "vendor_id": "unbounce"
+  },
+  "unbound_commerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbound Commerce)",
+        "properties": {},
+        "selector": "link[href*='.unboundcommerce.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbound Commerce)",
+        "strength": 1.0,
+        "value": "\\.unboundcommerce\\.com/"
+      }
+    ],
+    "vendor_id": "unbound_commerce"
+  },
+  "unbox": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbox)",
+        "properties": {},
+        "selector": "link[imagesrcset*='unbox-customer-images-production'], img[srcset*='unbox-customer-images-production']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbox)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__.props.pageProps.shop.storeTemplateUrl"
+      }
+    ],
+    "vendor_id": "unbox"
+  },
+  "unbxd": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbxd)",
+        "strength": 1.0,
+        "value": "Unbxd.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbxd)",
+        "strength": 1.0,
+        "value": "\\.cloudfront\\.net/unbxdAnalytics\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unbxd)",
+        "strength": 1.0,
+        "value": "unbxd\\.s\\d\\.amazonaws\\.com"
+      }
+    ],
+    "vendor_id": "unbxd"
+  },
+  "unchained_engine": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unchained Engine)",
+        "strength": 1.0,
+        "value": "api\\.github\\.com/repos/unchainedshop/"
+      }
+    ],
+    "vendor_id": "unchained_engine"
+  },
+  "underscore_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Underscore.js)",
+        "strength": 1.0,
+        "value": "_.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Underscore.js)",
+        "strength": 1.0,
+        "value": "_.restArguments"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Underscore.js)",
+        "strength": 1.0,
+        "value": "underscore.*\\.js(?:\\?ver=([\\d.]+))?"
+      }
+    ],
+    "vendor_id": "underscore_js"
+  },
+  "understrap": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Understrap)",
+        "strength": 1.0,
+        "value": "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/"
+      }
+    ],
+    "vendor_id": "understrap"
+  },
+  "uniconsent": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uniconsent)",
+        "strength": 1.0,
+        "value": "cmp\\.uniconsent\\.mgr\\.consensu\\.org/"
+      }
+    ],
+    "vendor_id": "uniconsent"
+  },
+  "unicorn_platform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unicorn Platform)",
+        "strength": 1.0,
+        "value": "unicornplatform"
+      }
+    ],
+    "vendor_id": "unicorn_platform"
+  },
+  "unifi_os": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UniFi OS)",
+        "strength": 1.0,
+        "value": "unifiConstant.VERSION"
+      }
+    ],
+    "vendor_id": "unifi_os"
+  },
+  "uniform_digital_experience": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uniform Digital Experience)",
+        "strength": 1.0,
+        "value": "__UNIFORM_CONTEXTUAL_EDITING_CONTEXT__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uniform Digital Experience)",
+        "strength": 1.0,
+        "value": "__UNIFORM_DEVTOOLS_CONTEXT_INSTANCE__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uniform Digital Experience)",
+        "strength": 1.0,
+        "value": "isUniform"
+      }
+    ],
+    "vendor_id": "uniform_digital_experience"
+  },
+  "unilog": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unilog)",
+        "strength": 1.0,
+        "value": "Unilog"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unilog)",
+        "strength": 1.0,
+        "value": "\\.unilogcorp\\.com/"
+      }
+    ],
+    "vendor_id": "unilog"
+  },
+  "unipag": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unipag)",
+        "strength": 1.0,
+        "value": "Unipag"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unipag)",
+        "strength": 1.0,
+        "value": "cdn\\.unipag\\.com"
+      }
+    ],
+    "vendor_id": "unipag"
+  },
+  "unito_hub": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unito Hub)",
+        "strength": 1.0,
+        "value": "Unito"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unito Hub)",
+        "strength": 1.0,
+        "value": "Unito.app_version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unito Hub)",
+        "strength": 1.0,
+        "value": "/unito\\.min\\.js"
+      }
+    ],
+    "vendor_id": "unito_hub"
+  },
+  "unity": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unity)",
+        "strength": 1.0,
+        "value": "UnityLoader"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unity)",
+        "strength": 1.0,
+        "value": "createUnityInstance"
+      }
+    ],
+    "vendor_id": "unity"
+  },
+  "universe_soft": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Universe Soft)",
+        "strength": 1.0,
+        "value": "\\.universe-soft\\.ru/"
+      }
+    ],
+    "vendor_id": "universe_soft"
+  },
+  "unix": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UNIX)",
+          "strength": 1.0,
+          "value": "Unix"
+        }
+      ]
+    },
+    "vendor_id": "unix"
+  },
+  "unless": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unless)",
+        "properties": {},
+        "selector": "script[data-unless]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unless)",
+        "strength": 1.0,
+        "value": "unlessComponentCleanUp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unless)",
+        "strength": 1.0,
+        "value": "\\.unless\\.com/"
+      }
+    ],
+    "vendor_id": "unless"
+  },
+  "unocss": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UnoCSS)",
+        "strength": 1.0,
+        "value": "--un-(?:rotate|translate|space-x|text-opacity|border-opacity)"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {
+          "data-unocss": {
+            "match_type": "regex",
+            "notes": "dom attr data-unocss; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UnoCSS)",
+            "strength": 1.0,
+            "value": "([\\d\\.]+)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UnoCSS)",
+        "properties": {},
+        "selector": "style[data-unocss]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "unocss"
+  },
+  "unpkg": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpkg)",
+        "properties": {},
+        "selector": "link[href*='unpkg.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpkg)",
+        "strength": 1.0,
+        "value": "unpkg\\.com/"
+      }
+    ],
+    "vendor_id": "unpkg"
+  },
+  "unpoly": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpoly)",
+        "strength": 1.0,
+        "value": "_unpoly_demo_layers_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpoly)",
+        "strength": 1.0,
+        "value": "up.CompilerPass"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpoly)",
+        "strength": 1.0,
+        "value": "up.framework"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpoly)",
+        "strength": 1.0,
+        "value": "up.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unpoly)",
+        "strength": 1.0,
+        "value": "/unpoly@([\\d\\.]+)/unpoly\\.min\\.js"
+      }
+    ],
+    "vendor_id": "unpoly"
+  },
+  "unruly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unruly)",
+        "properties": {},
+        "selector": "link[href*='.unrulymedia.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unruly)",
+        "strength": 1.0,
+        "value": "unruly.native"
+      }
+    ],
+    "vendor_id": "unruly"
+  },
+  "unstack": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unstack)",
+        "strength": 1.0,
+        "value": "unstack_sid"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Unstack)",
+        "strength": 1.0,
+        "value": "cdn\\.unstack\\.com/"
+      }
+    ],
+    "vendor_id": "unstack"
+  },
+  "untree": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Untree)",
+          "strength": 1.0,
+          "value": "Untree\\.co"
+        }
+      ]
+    },
+    "vendor_id": "untree"
+  },
+  "upfluence": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upfluence)",
+        "properties": {},
+        "selector": "link[href*='//uploader-upfluence-assets.s3']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upfluence)",
+        "strength": 1.0,
+        "value": "\\.upfluence\\.co/"
+      }
+    ],
+    "vendor_id": "upfluence"
+  },
+  "upgates": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upgates)",
+        "strength": 1.0,
+        "value": "upgates"
+      }
+    ],
+    "meta_patterns": {
+      "web_author": [
+        {
+          "match_type": "regex",
+          "notes": "meta web_author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upgates)",
+          "strength": 1.0,
+          "value": "^UPgates$"
+        }
+      ]
+    },
+    "vendor_id": "upgates"
+  },
+  "uplifter": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplifter)",
+        "strength": 1.0,
+        "value": "\\.uplifterinc\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplifter)",
+        "strength": 1.0,
+        "value": "UPLIFTER_STRTOTIME_SETTINGS"
+      }
+    ],
+    "vendor_id": "uplifter"
+  },
+  "uplisting": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplisting)",
+          "strength": 1.0,
+          "value": "Uplisting"
+        }
+      ]
+    },
+    "vendor_id": "uplisting"
+  },
+  "uploadcare": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uploadcare)",
+        "properties": {},
+        "selector": "img[src*='.ucarecdn.com/'], link[href*='ucarecdn.com'], img[data-src*='.ucarecdn.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uploadcare)",
+        "strength": 1.0,
+        "value": "uploadcare.version"
+      }
+    ],
+    "vendor_id": "uploadcare"
+  },
+  "uplot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uPlot)",
+        "strength": 1.0,
+        "value": "uPlot"
+      }
+    ],
+    "vendor_id": "uplot"
+  },
+  "uplynk": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplynk)",
+        "properties": {},
+        "selector": "video[src*='.uplynk.com/'], img[data-thumbnailurl*='.uplynk.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplynk)",
+          "strength": 1.0,
+          "value": "\\.uplynk\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplynk)",
+        "strength": 1.0,
+        "value": "UPLYNK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uplynk)",
+        "strength": 1.0,
+        "value": "_uplynk_async_wget2_data"
+      }
+    ],
+    "vendor_id": "uplynk"
+  },
+  "uportal": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uPortal)",
+        "strength": 1.0,
+        "value": "uportal"
+      }
+    ],
+    "meta_patterns": {
+      "description": [
+        {
+          "match_type": "regex",
+          "notes": "meta description; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uPortal)",
+          "strength": 1.0,
+          "value": " uPortal "
+        }
+      ]
+    },
+    "vendor_id": "uportal"
+  },
+  "upptime": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upptime)",
+        "properties": {},
+        "selector": "p > a[href*='upptime.js.org']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upptime)",
+          "strength": 1.0,
+          "value": "^Upptime$"
+        }
+      }
+    ],
+    "vendor_id": "upptime"
+  },
+  "uppy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uppy)",
+        "strength": 1.0,
+        "value": "Uppy.Audio"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uppy)",
+        "strength": 1.0,
+        "value": "UppyUploader"
+      }
+    ],
+    "vendor_id": "uppy"
+  },
+  "upravel": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upravel)",
+        "strength": 1.0,
+        "value": "user_id-legacy"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upravel)",
+        "properties": {},
+        "selector": "link[href*='.upravel.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "upravel"
+  },
+  "ups": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UPS)",
+        "strength": 1.0,
+        "value": "\\b(?<!-)UPS\\b"
+      }
+    ],
+    "vendor_id": "ups"
+  },
+  "upsales": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upsales)",
+        "strength": 1.0,
+        "value": "img\\.upsales\\.com/"
+      }
+    ],
+    "vendor_id": "upsales"
+  },
+  "upscale_systems": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpScale Systems)",
+        "strength": 1.0,
+        "value": "app\\.upscale-systems\\.com"
+      }
+    ],
+    "meta_patterns": {
+      "title": [
+        {
+          "match_type": "regex",
+          "notes": "meta title; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpScale Systems)",
+          "strength": 1.0,
+          "value": "^UpScale$"
+        }
+      ]
+    },
+    "vendor_id": "upscale_systems"
+  },
+  "upscope": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upscope)",
+        "strength": 1.0,
+        "value": "Upscope"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upscope)",
+        "strength": 1.0,
+        "value": "Upscope._version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upscope)",
+        "strength": 1.0,
+        "value": "js\\.upscope\\.io/"
+      }
+    ],
+    "vendor_id": "upscope"
+  },
+  "upscribe": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upscribe)",
+        "strength": 1.0,
+        "value": "Upscribe.c"
+      }
+    ],
+    "vendor_id": "upscribe"
+  },
+  "upsellit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSellit)",
+        "strength": 1.0,
+        "value": "usi_analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSellit)",
+        "strength": 1.0,
+        "value": "usi_app"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSellit)",
+        "strength": 1.0,
+        "value": "usi_commons"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSellit)",
+        "strength": 1.0,
+        "value": "usi_cookies"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSellit)",
+        "strength": 1.0,
+        "value": "www\\.upsellit\\.com/"
+      }
+    ],
+    "vendor_id": "upsellit"
+  },
+  "upsellplus": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpsellPlus)",
+        "strength": 1.0,
+        "value": "app\\.upsellplus\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpsellPlus)",
+        "strength": 1.0,
+        "value": "upsellplusapp"
+      }
+    ],
+    "vendor_id": "upsellplus"
+  },
+  "upserve": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upserve)",
+        "properties": {},
+        "selector": "a[href*='app.upserve.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upserve)",
+        "strength": 1.0,
+        "value": "app\\.upserve\\.com/"
+      }
+    ],
+    "vendor_id": "upserve"
+  },
+  "upsolution_zephyr": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UpSolution Zephyr)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "upsolution_zephyr"
+  },
+  "upstack_data": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upstack Data)",
+        "strength": 1.0,
+        "value": "_upstack"
+      }
+    ],
+    "vendor_id": "upstack_data"
+  },
+  "upsy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upsy)",
+        "strength": 1.0,
+        "value": "_upsyAbTest"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upsy)",
+        "strength": 1.0,
+        "value": "parseUpsyQuery"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upsy)",
+        "strength": 1.0,
+        "value": "upsy_sdk.getCookie"
+      }
+    ],
+    "vendor_id": "upsy"
+  },
+  "uptain": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uptain)",
+        "strength": 1.0,
+        "value": "uptainUpdateUrl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uptain)",
+        "strength": 1.0,
+        "value": "\\.uptain\\.de/"
+      }
+    ],
+    "vendor_id": "uptain"
+  },
+  "uptimerobot": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UptimeRobot)",
+            "strength": 1.0,
+            "value": "(?:\\.|//)uptimerobot\\.com/"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UptimeRobot)",
+        "properties": {},
+        "selector": "a[href*='uptimerobot.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UptimeRobot)",
+          "strength": 1.0,
+          "value": "\\.uptimerobot\\.com"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UptimeRobot)",
+        "strength": 1.0,
+        "value": "\\.uptimerobot\\.com/"
+      }
+    ],
+    "vendor_id": "uptimerobot"
+  },
+  "uptrends": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uptrends)",
+        "strength": 1.0,
+        "value": "UTBOOMR.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uptrends)",
+        "strength": 1.0,
+        "value": "\\.uptrendsdata\\.com/"
+      }
+    ],
+    "vendor_id": "uptrends"
+  },
+  "upvoty": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upvoty)",
+        "properties": {},
+        "selector": "div.upvotyContainer",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upvoty)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Upvoty)",
+        "strength": 1.0,
+        "value": "upvoty"
+      }
+    ],
+    "vendor_id": "upvoty"
+  },
+  "uremediate": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uRemediate)",
+        "strength": 1.0,
+        "value": "fecdn\\.user1st\\.info/Loader/head"
+      }
+    ],
+    "vendor_id": "uremediate"
+  },
+  "ureserv": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ureserv)",
+        "properties": {},
+        "selector": "iframe[src*='www.ureserv.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ureserv"
+  },
+  "urllo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Urllo)",
+        "properties": {},
+        "selector": "iframe[src*='www.urllo-cdn.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "urllo"
+  },
+  "usablenet": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UsableNet)",
+        "properties": {},
+        "selector": "iframe[src*='.usablenet.com/pt/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UsableNet)",
+        "strength": 1.0,
+        "value": "enableUsableNetAssistive"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UsableNet)",
+        "strength": 1.0,
+        "value": "\\.usablenet\\.com/pt/"
+      }
+    ],
+    "vendor_id": "usablenet"
+  },
+  "uscreen": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uscreen)",
+        "properties": {},
+        "selector": ".powered-by-uscreen",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uscreen)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uscreen)",
+        "strength": 1.0,
+        "value": "analyticsHost"
+      }
+    ],
+    "vendor_id": "uscreen"
+  },
+  "useberry": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Useberry)",
+        "strength": 1.0,
+        "value": "useberryLive"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Useberry)",
+        "strength": 1.0,
+        "value": "api\\.useberry\\.com"
+      }
+    ],
+    "vendor_id": "useberry"
+  },
+  "user_accessibility": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: User Accessibility)",
+        "strength": 1.0,
+        "value": "//system\\.user-a\\.co\\.il/"
+      }
+    ],
+    "vendor_id": "user_accessibility"
+  },
+  "user_com": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: user.com)",
+        "properties": {},
+        "selector": "div[id*='ue_widget']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: user.com)",
+        "strength": 1.0,
+        "value": "<div[^>]+/id=\"ue_widget\""
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: user.com)",
+        "strength": 1.0,
+        "value": "UserEngage"
+      }
+    ],
+    "vendor_id": "user_com"
+  },
+  "userback": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userback)",
+        "strength": 1.0,
+        "value": "Userback.access_token"
+      }
+    ],
+    "vendor_id": "userback"
+  },
+  "userbase": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userbase)",
+        "strength": 1.0,
+        "value": "userbase"
+      }
+    ],
+    "vendor_id": "userbase"
+  },
+  "usercentrics": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usercentrics)",
+        "properties": {},
+        "selector": "link[href*='app.usercentrics.eu'], script[data-usercentrics]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usercentrics)",
+        "strength": 1.0,
+        "value": "usercentrics.appVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usercentrics)",
+        "strength": 1.0,
+        "value": "\\.usercentrics\\.eu/.+\\.js"
+      }
+    ],
+    "vendor_id": "usercentrics"
+  },
+  "userflow": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userflow)",
+        "strength": 1.0,
+        "value": "USERFLOWJS_QUEUE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userflow)",
+        "strength": 1.0,
+        "value": "userflow.endAllFlows"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userflow)",
+        "strength": 1.0,
+        "value": "userflow.endChecklist"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userflow)",
+        "strength": 1.0,
+        "value": "\\.userflow\\.com/"
+      }
+    ],
+    "vendor_id": "userflow"
+  },
+  "userlane": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userlane)",
+        "strength": 1.0,
+        "value": "Userlane"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userlane)",
+        "strength": 1.0,
+        "value": "UserlaneCommandObject"
+      }
+    ],
+    "vendor_id": "userlane"
+  },
+  "userlike": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "__USERLIKE_MOUNT_GUARD__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "userlike"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "userlikeInit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "//userlike-cdn-widgets\\."
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "api\\.userlike\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "userlike\\.min\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserLike)",
+        "strength": 1.0,
+        "value": "userlikelib\\.min\\.js"
+      }
+    ],
+    "vendor_id": "userlike"
+  },
+  "userlink": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userlink)",
+        "strength": 1.0,
+        "value": "setUserlinkChatVisible"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userlink)",
+        "strength": 1.0,
+        "value": "userlinkIsInAvailableTimePeriod"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userlink)",
+        "strength": 1.0,
+        "value": "files\\.userlink\\.ai"
+      }
+    ],
+    "vendor_id": "userlink"
+  },
+  "userpilot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userpilot)",
+        "strength": 1.0,
+        "value": "userpilot.triggerById"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userpilot)",
+        "strength": 1.0,
+        "value": "userpilotInitiatorSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Userpilot)",
+        "strength": 1.0,
+        "value": "userpilotPako"
+      }
+    ],
+    "vendor_id": "userpilot"
+  },
+  "userreport": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserReport)",
+        "properties": {},
+        "selector": "a[href*='feedback.userreport.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserReport)",
+        "strength": 1.0,
+        "value": "\\.userreport\\.com/"
+      }
+    ],
+    "vendor_id": "userreport"
+  },
+  "userrules": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserRules)",
+        "strength": 1.0,
+        "value": "_usrp"
+      }
+    ],
+    "vendor_id": "userrules"
+  },
+  "usersnap": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usersnap)",
+        "properties": {},
+        "selector": "link[href*='.usersnap.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usersnap)",
+        "strength": 1.0,
+        "value": "onUsersnapCXLoad"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usersnap)",
+        "strength": 1.0,
+        "value": "\\.usersnap\\.com/"
+      }
+    ],
+    "vendor_id": "usersnap"
+  },
+  "uservoice": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserVoice)",
+        "strength": 1.0,
+        "value": "UserVoice"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserVoice)",
+        "strength": 1.0,
+        "value": "\\.uservoice\\.com/"
+      }
+    ],
+    "vendor_id": "uservoice"
+  },
+  "userway": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserWay)",
+        "strength": 1.0,
+        "value": "cdn\\.userway\\.org/widget.*\\.js"
+      }
+    ],
+    "vendor_id": "userway"
+  },
+  "userzoom": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UserZoom)",
+        "strength": 1.0,
+        "value": "\\.userzoom\\.com/"
+      }
+    ],
+    "vendor_id": "userzoom"
+  },
+  "ushahidi": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ushahidi)",
+        "strength": 1.0,
+        "value": "ushahidi"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ushahidi)",
+        "strength": 1.0,
+        "value": "Ushahidi"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ushahidi)",
+        "strength": 1.0,
+        "value": "/js/ushahidi\\.js$"
+      }
+    ],
+    "vendor_id": "ushahidi"
+  },
+  "usizy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usizy)",
+        "strength": 1.0,
+        "value": "uSizyUniversal"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Usizy)",
+        "strength": 1.0,
+        "value": "static\\.usizy\\.es/"
+      }
+    ],
+    "vendor_id": "usizy"
+  },
+  "usocial": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uSocial)",
+        "strength": 1.0,
+        "value": "uSocial.init"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uSocial)",
+        "strength": 1.0,
+        "value": "uSocialLogin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: uSocial)",
+        "strength": 1.0,
+        "value": "uSocialShare"
+      }
+    ],
+    "vendor_id": "usocial"
+  },
+  "usps": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: USPS)",
+        "strength": 1.0,
+        "value": "\\bUnited States Postal Service\\b"
+      }
+    ],
+    "vendor_id": "usps"
+  },
+  "uswds": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: USWDS)",
+        "strength": 1.0,
+        "value": "uswdsPresent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: USWDS)",
+        "strength": 1.0,
+        "value": "\\buswds\\b"
+      }
+    ],
+    "vendor_id": "uswds"
+  },
+  "utiq": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Utiq)",
+        "strength": 1.0,
+        "value": "Utiq"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Utiq)",
+        "strength": 1.0,
+        "value": "/utiqloader\\.js"
+      }
+    ],
+    "vendor_id": "utiq"
+  },
+  "utterances": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: utterances)",
+        "properties": {},
+        "selector": "iframe[src*='utteranc.es']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "utterances",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: utterances)",
+        "strength": 1.0,
+        "value": "\\.utteranc\\.es"
+      }
+    ]
+  },
+  "uvicorn": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uvicorn)",
+          "strength": 1.0,
+          "value": "uvicorn"
+        }
+      ]
+    },
+    "vendor_id": "uvicorn"
+  },
+  "uvodo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uvodo)",
+        "strength": 1.0,
+        "value": "cdn\\.uvo\\.do/"
+      }
+    ],
+    "vendor_id": "uvodo"
+  },
+  "uxsniff": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UXSniff)",
+        "strength": 1.0,
+        "value": "__UXS_BEACON_COOLDOWN_MS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UXSniff)",
+        "strength": 1.0,
+        "value": "__uxs_beaconInCooldown"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: UXSniff)",
+        "strength": 1.0,
+        "value": "api\\.uxsniff\\.com"
+      }
+    ],
+    "vendor_id": "uxsniff"
+  },
+  "uzerly": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uzerly)",
+          "strength": 1.0,
+          "value": "\\.u(?:s|z)erly\\.net"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Uzerly)",
+        "strength": 1.0,
+        "value": "\\.userly\\.net/"
+      }
+    ],
+    "vendor_id": "uzerly"
+  }
+}

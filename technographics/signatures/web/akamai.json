@@ -1,0 +1,38 @@
+{
+  "vendor_id": "akamai",
+  "js_globals": [],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {
+    "x-akamai-transformed": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header X-Akamai-Transformed; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Akamai)"
+      }
+    ],
+    "x-edgeconnect-midmile-rtt": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header X-EdgeConnect-MidMile-RTT; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Akamai)"
+      }
+    ],
+    "x-edgeconnect-origin-mex-latency": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header X-EdgeConnect-Origin-MEX-Latency; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Akamai)"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

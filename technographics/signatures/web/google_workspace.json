@@ -1,0 +1,14 @@
+{
+  "vendor_id": "google_workspace",
+  "js_globals": [],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": [],
+  "_notes": "Email/productivity suite with no website-side JS footprint; detected via the DNS pipeline (MX/SPF)."
+}

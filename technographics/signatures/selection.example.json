@@ -1,0 +1,12 @@
+{
+  "_notes": "Example selection file. Copy to selection.json (gitignored) and pass with --selection to scope detection to just these vendor_ids. The future onboarding agent will write this file automatically based on the customer's GTM stack.",
+  "selected": [
+    "intercom",
+    "hubspot",
+    "segment",
+    "salesforce",
+    "cloudflare",
+    "stripe",
+    "wordpress"
+  ]
+}

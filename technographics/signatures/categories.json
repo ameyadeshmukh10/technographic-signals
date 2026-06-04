@@ -1,0 +1,12 @@
+{
+  "crm": {"name": "CRM", "description": "Customer Relationship Management"},
+  "marketing_automation": {"name": "Marketing Automation Platform", "description": "Lead nurturing, email campaigns, and lifecycle marketing"},
+  "cdp": {"name": "Customer Data Platform", "description": "Unified customer event collection and routing"},
+  "customer_support": {"name": "Customer Support", "description": "Helpdesk, ticketing, and live chat"},
+  "sales_engagement": {"name": "Sales Engagement", "description": "Outbound sequencing and prospecting"},
+  "email_productivity": {"name": "Email & Productivity", "description": "Business email and office productivity suites"},
+  "analytics": {"name": "Analytics", "description": "Product and web analytics"},
+  "data_infrastructure": {"name": "Data Infrastructure", "description": "Warehouses, ELT/ETL, and reverse-ETL"},
+  "cdn_security": {"name": "CDN & Security", "description": "Content delivery networks, edge, and web security"},
+  "advertising": {"name": "Advertising", "description": "Paid media, ad pixels, and conversion tracking"}
+}

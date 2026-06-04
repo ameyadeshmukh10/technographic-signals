@@ -1,0 +1,40 @@
+{
+  "vendor_id": "akamai",
+  "subdomains_to_probe": [
+    "www"
+  ],
+  "cname_patterns": [
+    {
+      "value": "edgekey.net",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Akamai edge CNAME target"
+    },
+    {
+      "value": "edgesuite.net",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Akamai edge CNAME target (legacy)"
+    },
+    {
+      "value": "akamaiedge.net",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Akamai edge CNAME target"
+    },
+    {
+      "value": "akamai.net",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Akamai edge CNAME target"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

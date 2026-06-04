@@ -122,6 +122,21 @@ class Orchestrator:
     ) -> None:
         self.hubspot = hubspot_client
         self.fetcher = site_fetcher
+        self._engine = None
+        if config.DETECTION_ENGINE == "technographics":
+            from .detectors.engine import TechEngine
+
+            self._engine = TechEngine(
+                selection_path=config.SELECTION_FILE,
+                enable_dns=config.ENABLE_DNS,
+                dns_timeout=config.DNS_TIMEOUT,
+            )
+            _logger.info(
+                "engine=technographics vendors=%d dns=%s",
+                len(self._engine.library.vendors), config.ENABLE_DNS,
+            )
+        else:
+            _logger.info("engine=legacy")
 
     def ensure_property(self) -> None:
         """Idempotently create the `technographic_signals` company property.
@@ -226,7 +241,7 @@ class Orchestrator:
 
             with ThreadPoolExecutor(max_workers=config.MAX_CONCURRENT_FETCHES) as pool:
                 future_to_company = {
-                    pool.submit(self._fetch_and_detect, url): company
+                    pool.submit(self._fetch_and_detect, company, url): company
                     for company, url in eligible
                 }
 
@@ -301,18 +316,22 @@ class Orchestrator:
             "status": "succeeded",
         })
 
-    def _fetch_and_detect(self, url: str) -> dict:
-        """Worker — fetch a single URL and run all four detectors.
+    def _fetch_and_detect(self, company: dict, url: str) -> dict:
+        """Worker — fetch a single URL and detect technologies.
 
-        Never raises. The fetcher is already defensive; this `try` is
-        belt-and-suspenders for unexpected failures inside the detectors
-        or formatter.
+        With the technographics engine, this also runs a DNS pass keyed on
+        the company's domain. Never raises: the fetcher is defensive and
+        this `try` is belt-and-suspenders for the detectors / formatter.
         """
         try:
             fr = self.fetcher.fetch(url)
-            hits: list[DetectionHit] = []
-            for module in (crm, ad_pixels, martech, salestech):
-                hits.extend(module.detect(fr))
+            if self._engine is not None:
+                domain = company.get("domain") or company.get("website")
+                hits = self._engine.detect(domain, url, fr)
+            else:
+                hits = []
+                for module in (crm, ad_pixels, martech, salestech):
+                    hits.extend(module.detect(fr))
             filtered = filter_low_confidence(hits)
             return {
                 "signals_string": format_signals(filtered),

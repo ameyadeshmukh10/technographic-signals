@@ -1,0 +1,39 @@
+{
+  "vendor_id": "google_workspace",
+  "subdomains_to_probe": [],
+  "cname_patterns": [],
+  "txt_patterns": [
+    {
+      "value": "include:_spf.google.com",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Google Workspace SPF include"
+    },
+    {
+      "value": "google-site-verification=",
+      "match_type": "contains",
+      "strength": 0.3,
+      "notes": "Google domain verification - WEAK: also set by Search Console and other Google products, not Workspace-specific"
+    }
+  ],
+  "mx_patterns": [
+    {
+      "value": "aspmx.l.google.com",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Google Workspace primary MX host"
+    },
+    {
+      "value": "googlemail.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Google Workspace alternate MX host suffix"
+    }
+  ],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

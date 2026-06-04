@@ -1,0 +1,5003 @@
+{
+  "labrador_cms": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Labrador CMS)",
+        "strength": 1.0,
+        "value": "Device from labrador"
+      }
+    ],
+    "vendor_id": "labrador_cms"
+  },
+  "ladipage": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ladipage)",
+        "strength": 1.0,
+        "value": "LadiPageApp"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ladipage)",
+        "strength": 1.0,
+        "value": "LadiPageCommand"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ladipage)",
+        "strength": 1.0,
+        "value": "LadiPageScript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ladipage)",
+        "strength": 1.0,
+        "value": "w\\.ladicdn\\.com/"
+      }
+    ],
+    "vendor_id": "ladipage"
+  },
+  "laga_widget": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laga Widget)",
+        "strength": 1.0,
+        "value": "laga-widget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laga Widget)",
+        "strength": 1.0,
+        "value": "lagaWidgetOptions"
+      }
+    ],
+    "vendor_id": "laga_widget"
+  },
+  "lagoon": {
+    "header_patterns": {
+      "x-lagoon": [
+        {
+          "match_type": "regex",
+          "notes": "header X-LAGOON; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lagoon)",
+          "strength": 1.0,
+          "value": ".*"
+        },
+        {
+          "match_type": "regex",
+          "notes": "header x-lagoon; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lagoon)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "lagoon"
+  },
+  "landbot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Landbot)",
+        "strength": 1.0,
+        "value": "LandbotLivechat"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Landbot)",
+        "strength": 1.0,
+        "value": "initLandbot"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Landbot)",
+        "strength": 1.0,
+        "value": "\\.landbot\\.io/.*-([\\d\\.]+)\\.js"
+      }
+    ],
+    "vendor_id": "landbot"
+  },
+  "landingi": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Landingi)",
+        "strength": 1.0,
+        "value": "landingiInternalDetails"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Landingi)",
+        "strength": 1.0,
+        "value": "scripts\\.assets-landingi\\.com"
+      }
+    ],
+    "vendor_id": "landingi"
+  },
+  "landingpress": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LandingPress)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "landingpress"
+  },
+  "langify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: langify)",
+        "strength": 1.0,
+        "value": "Langify"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: langify)",
+        "strength": 1.0,
+        "value": "langify"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: langify)",
+        "strength": 1.0,
+        "value": "langify.settings.switcher.version"
+      }
+    ],
+    "vendor_id": "langify"
+  },
+  "langshop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LangShop)",
+        "strength": 1.0,
+        "value": "LangShop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LangShop)",
+        "strength": 1.0,
+        "value": "LangShopConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LangShop)",
+        "strength": 1.0,
+        "value": "LangShopSDK"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LangShop)",
+        "strength": 1.0,
+        "value": "\\.langshop\\.app/"
+      }
+    ],
+    "vendor_id": "langshop"
+  },
+  "lapis": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lapis)",
+          "strength": 1.0,
+          "value": "^Lapis$"
+        }
+      ]
+    },
+    "vendor_id": "lapis"
+  },
+  "laravel": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laravel)",
+        "strength": 1.0,
+        "value": "laravel_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laravel)",
+        "strength": 1.0,
+        "value": "Laravel"
+      }
+    ],
+    "vendor_id": "laravel"
+  },
+  "laravel_echo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laravel Echo)",
+        "strength": 1.0,
+        "value": "Echo.connector"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laravel Echo)",
+        "strength": 1.0,
+        "value": "echo.connector"
+      }
+    ],
+    "vendor_id": "laravel_echo"
+  },
+  "lasso_crm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lasso CRM)",
+        "strength": 1.0,
+        "value": "LassoAnalytics"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lasso CRM)",
+        "strength": 1.0,
+        "value": "\\.lassocrm\\.com/"
+      }
+    ],
+    "vendor_id": "lasso_crm"
+  },
+  "laterpay": {
+    "meta_patterns": {
+      "laterpay:connector:callbacks:on_user_has_access": [
+        {
+          "match_type": "regex",
+          "notes": "meta laterpay:connector:callbacks:on_user_has_access; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laterpay)",
+          "strength": 1.0,
+          "value": "deobfuscateText"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laterpay)",
+        "strength": 1.0,
+        "value": "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js"
+      }
+    ],
+    "vendor_id": "laterpay"
+  },
+  "latitudepay": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LatitudePay)",
+        "properties": {},
+        "selector": "a[href*='latitudepay.com/'][target='_blank'], img[src='.latitudepayapps.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LatitudePay)",
+        "strength": 1.0,
+        "value": "checkout.enabledpayments.latitudepay"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LatitudePay)",
+        "strength": 1.0,
+        "value": "wc_ga_pro.available_gateways.latitudepay"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LatitudePay)",
+        "strength": 1.0,
+        "value": "\\.latitudepayapps\\.com/"
+      }
+    ],
+    "vendor_id": "latitudepay"
+  },
+  "launchdarkly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "properties": {},
+        "selector": "link[href*='.launchdarkly.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "strength": 1.0,
+        "value": "DDC.WS.state"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "strength": 1.0,
+        "value": "launchDarkly"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "strength": 1.0,
+        "value": "(?:\\.|\\-)launchdarkly(?:\\.com/|\\-sdk\\.)"
+      }
+    ],
+    "vendor_id": "launchdarkly",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "strength": 1.0,
+        "value": "app\\.launchdarkly\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchDarkly)",
+        "strength": 1.0,
+        "value": "events\\.launchdarkly\\.com"
+      }
+    ]
+  },
+  "launchnotes": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LaunchNotes)",
+        "strength": 1.0,
+        "value": "\\.launchnotes\\.com/"
+      }
+    ],
+    "vendor_id": "launchnotes"
+  },
+  "launchrock": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "lrIgnition"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "lrLoadedJs"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "lrSiteRenderingData.apiEndpoint"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "lrSiteSettingAsBoolean"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "lrignition"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Launchrock)",
+        "strength": 1.0,
+        "value": "builder\\.launchrock\\.com"
+      }
+    ],
+    "vendor_id": "launchrock"
+  },
+  "lawmatics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lawmatics)",
+        "strength": 1.0,
+        "value": "navi\\.lawmatics\\.com"
+      }
+    ],
+    "vendor_id": "lawmatics"
+  },
+  "lawpay": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LawPay)",
+        "strength": 1.0,
+        "value": "\\b(?:lawpay)\\b"
+      }
+    ],
+    "vendor_id": "lawpay"
+  },
+  "laybuy": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "properties": {},
+        "selector": "iframe[src='.laybuy.com/'], a[href*='.laybuy.com/what-is-laybuy']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "LaybuyHelper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "checkout.enabledpayments.laybuy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "laybuyEnableCart"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "laybuyMoneyOverides"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "wc_ga_pro.available_gateways.laybuy"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/woo-laybuy/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayBuy)",
+        "strength": 1.0,
+        "value": "\\.laybuy\\.com/"
+      }
+    ],
+    "vendor_id": "laybuy"
+  },
+  "layers": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Layers)",
+        "strength": 1.0,
+        "value": "Layers"
+      }
+    ],
+    "vendor_id": "layers"
+  },
+  "laylo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laylo)",
+        "strength": 1.0,
+        "value": "layloSdkLoading"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Laylo)",
+        "strength": 1.0,
+        "value": "embed\\.laylo\\.com"
+      }
+    ],
+    "vendor_id": "laylo"
+  },
+  "layouthub": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayoutHub)",
+        "strength": 1.0,
+        "value": "app\\.layouthub\\.com/shopify/layouthub\\.js"
+      }
+    ],
+    "vendor_id": "layouthub"
+  },
+  "layui": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Layui)",
+        "strength": 1.0,
+        "value": "layui.v"
+      }
+    ],
+    "vendor_id": "layui"
+  },
+  "layup": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayUp)",
+        "strength": 1.0,
+        "value": "LayUpCheckoutButton"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LayUp)",
+        "strength": 1.0,
+        "value": "layup\\.co\\.za"
+      }
+    ],
+    "vendor_id": "layup"
+  },
+  "lazada": {
+    "meta_patterns": {
+      "aplus-auto-exp": [
+        {
+          "match_type": "regex",
+          "notes": "meta aplus-auto-exp; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lazada)",
+          "strength": 1.0,
+          "value": "lzdhome\\.desktop\\."
+        }
+      ]
+    },
+    "vendor_id": "lazada"
+  },
+  "lazysizes": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LazySizes)",
+        "strength": 1.0,
+        "value": "lazySizes"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LazySizes)",
+        "strength": 1.0,
+        "value": "lazySizesConfig"
+      }
+    ],
+    "vendor_id": "lazysizes"
+  },
+  "lazysizes_unveilhooks_plugin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LazySizes unveilhooks plugin)",
+        "strength": 1.0,
+        "value": "ls\\.unveilhooks(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "lazysizes_unveilhooks_plugin"
+  },
+  "lead_concept": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lead Concept)",
+        "strength": 1.0,
+        "value": "app\\.lead-concept\\.com/"
+      }
+    ],
+    "vendor_id": "lead_concept"
+  },
+  "lead_finity_webchat": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lead-Finity Webchat)",
+        "strength": 1.0,
+        "value": "app\\.lead-finity\\.com"
+      }
+    ],
+    "vendor_id": "lead_finity_webchat"
+  },
+  "lead_forensics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lead Forensics)",
+        "strength": 1.0,
+        "value": "\\.leadforensics\\.com/"
+      }
+    ],
+    "vendor_id": "lead_forensics"
+  },
+  "lead_generated": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lead Generated)",
+        "strength": 1.0,
+        "value": "app\\.leadgenerated\\.com/"
+      }
+    ],
+    "vendor_id": "lead_generated"
+  },
+  "lead_prosper": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lead Prosper)",
+        "strength": 1.0,
+        "value": "api\\.leadprosper\\.io"
+      }
+    ],
+    "vendor_id": "lead_prosper"
+  },
+  "leadbit": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadbit)",
+        "properties": {},
+        "selector": "form[action*='wapi.leadbit.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadbit)",
+        "strength": 1.0,
+        "value": "\\.leadbit\\.com/"
+      }
+    ],
+    "vendor_id": "leadbit"
+  },
+  "leadboxer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadBoxer)",
+        "strength": 1.0,
+        "value": "ip\\.leadboxer\\.com"
+      }
+    ],
+    "vendor_id": "leadboxer"
+  },
+  "leadbyte": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadByte)",
+        "properties": {},
+        "selector": "form[action*='.leadbyte.co.uk/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadByte)",
+        "strength": 1.0,
+        "value": "\\.leadbyte\\.co\\.uk/"
+      }
+    ],
+    "vendor_id": "leadbyte"
+  },
+  "leadchat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadChat)",
+        "strength": 1.0,
+        "value": "(?://|\\.)chatsystem\\.io/"
+      }
+    ],
+    "vendor_id": "leadchat"
+  },
+  "leaddyno": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadDyno)",
+        "strength": 1.0,
+        "value": "_leaddyno_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadDyno)",
+        "strength": 1.0,
+        "value": "LeadDyno"
+      }
+    ],
+    "vendor_id": "leaddyno"
+  },
+  "leadfeeder": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadfeeder)",
+          "strength": 1.0,
+          "value": "\\.(?:lfeeder|leadfeeder)\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadfeeder)",
+        "strength": 1.0,
+        "value": "ldfdr.getTracker"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadfeeder)",
+        "strength": 1.0,
+        "value": "\\.leadfeeder\\.com/"
+      }
+    ],
+    "vendor_id": "leadfeeder"
+  },
+  "leadferno": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadferno)",
+        "strength": 1.0,
+        "value": "widget\\.leadferno\\.com"
+      }
+    ],
+    "vendor_id": "leadferno"
+  },
+  "leadific": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadific)",
+        "strength": 1.0,
+        "value": "app\\.leadific\\.io"
+      }
+    ],
+    "vendor_id": "leadific"
+  },
+  "leadin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LEADIN)",
+        "strength": 1.0,
+        "value": "js\\.leadin\\.com"
+      }
+    ],
+    "vendor_id": "leadin"
+  },
+  "leadinfo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadinfo)",
+        "strength": 1.0,
+        "value": "GlobalLeadinfoNamespace"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadinfo)",
+        "strength": 1.0,
+        "value": "leadinfo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadinfo)",
+        "strength": 1.0,
+        "value": "cdn\\.leadinfo\\.net"
+      }
+    ],
+    "vendor_id": "leadinfo"
+  },
+  "leadpages": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadPages)",
+        "properties": {},
+        "selector": "link[href*='.leadpages.io']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadPages)",
+        "strength": 1.0,
+        "value": "\\.leadpages\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadPages)",
+        "strength": 1.0,
+        "value": "LeadPagesCenterObject"
+      }
+    ],
+    "vendor_id": "leadpages"
+  },
+  "leads2b": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leads2b)",
+        "strength": 1.0,
+        "value": "\\.app\\.leads2b\\.com/"
+      }
+    ],
+    "vendor_id": "leads2b"
+  },
+  "leadsbridge": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadsBridge)",
+        "strength": 1.0,
+        "value": "leadsbridge\\.com/"
+      }
+    ],
+    "vendor_id": "leadsbridge"
+  },
+  "leadscore": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadScore)",
+        "strength": 1.0,
+        "value": "trackLeadScore"
+      }
+    ],
+    "vendor_id": "leadscore"
+  },
+  "leadsimple": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadSimple)",
+        "strength": 1.0,
+        "value": "assets2\\.leadsimple\\.com/"
+      }
+    ],
+    "vendor_id": "leadsimple"
+  },
+  "leadsleap": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadsLeap)",
+        "strength": 1.0,
+        "value": "pjs\\.leadsleap\\.net"
+      }
+    ],
+    "vendor_id": "leadsleap"
+  },
+  "leadslide": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadSlide)",
+        "strength": 1.0,
+        "value": "leadslide\\.com/"
+      }
+    ],
+    "vendor_id": "leadslide"
+  },
+  "leadspace": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadspace)",
+        "strength": 1.0,
+        "value": "sfc\\.leadspace\\.com/"
+      }
+    ],
+    "vendor_id": "leadspace"
+  },
+  "leadsquared": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadsquared)",
+        "strength": 1.0,
+        "value": "leadsquared"
+      }
+    ],
+    "vendor_id": "leadsquared"
+  },
+  "leadssight": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadsSight)",
+        "strength": 1.0,
+        "value": "postURL"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeadsSight)",
+        "strength": 1.0,
+        "value": "app\\.leadssight\\.com/"
+      }
+    ],
+    "vendor_id": "leadssight"
+  },
+  "leadster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadster)",
+        "strength": 1.0,
+        "value": "neurolead.convoScript"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadster)",
+        "strength": 1.0,
+        "value": "neurolead.elChatbot"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadster)",
+        "strength": 1.0,
+        "value": "neuroleadLanguage"
+      }
+    ],
+    "vendor_id": "leadster"
+  },
+  "leadtex": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leadtex)",
+        "strength": 1.0,
+        "value": "app\\.leadteh\\.ru/"
+      }
+    ],
+    "vendor_id": "leadtex"
+  },
+  "leady": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leady)",
+        "strength": 1.0,
+        "value": "_leady.push"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leady)",
+        "strength": 1.0,
+        "value": "leady_track_key"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leady)",
+        "strength": 1.0,
+        "value": "\\.leady\\.com/"
+      }
+    ],
+    "vendor_id": "leady"
+  },
+  "leaflet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "L.DistanceGrid"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "L.PosAnimation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "L.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?!.+shopify)"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "(?:(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?(?!.+shopify)"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet)",
+        "strength": 1.0,
+        "value": "leaflet.{0,32}\\.js(?!.+shopify)"
+      }
+    ],
+    "vendor_id": "leaflet"
+  },
+  "leaflet_platform": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaflet platform)",
+        "strength": 1.0,
+        "value": "scripts\\.leaflet\\.co/"
+      }
+    ],
+    "vendor_id": "leaflet_platform"
+  },
+  "leafly": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leafly)",
+        "strength": 1.0,
+        "value": "www\\.leafly\\.com"
+      }
+    ],
+    "vendor_id": "leafly"
+  },
+  "leaky_paywall": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaky Paywall)",
+        "strength": 1.0,
+        "value": "leaky_paywall_quick_register"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leaky Paywall)",
+        "strength": 1.0,
+        "value": "leaky_paywall_recurring"
+      }
+    ],
+    "vendor_id": "leaky_paywall"
+  },
+  "leandata": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeanData)",
+        "strength": 1.0,
+        "value": "LDBookItPopup"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeanData)",
+        "strength": 1.0,
+        "value": "LDBookItV2"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeanData)",
+        "strength": 1.0,
+        "value": "LDCalendaring"
+      }
+    ],
+    "vendor_id": "leandata"
+  },
+  "leanplum": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leanplum)",
+        "strength": 1.0,
+        "value": "Leanplum"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leanplum)",
+        "strength": 1.0,
+        "value": "npm/leanplum-sdk\\@([\\d.]+)"
+      }
+    ],
+    "vendor_id": "leanplum"
+  },
+  "learnbase": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Learnbase)",
+        "strength": 1.0,
+        "value": "Learnbase"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Learnbase)",
+        "strength": 1.0,
+        "value": "Learnbase.version"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Learnbase)",
+          "strength": 1.0,
+          "value": "^Learnbase$"
+        }
+      ]
+    },
+    "vendor_id": "learnbase"
+  },
+  "learndash": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnDash)",
+            "strength": 1.0,
+            "value": "/wp-content/plugins/sfwd-lms/.+\\.css(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnDash)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/sfwd-lms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "learndash"
+  },
+  "learnupon": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnUpon)",
+        "strength": 1.0,
+        "value": "_LearnUpon_session"
+      }
+    ],
+    "vendor_id": "learnupon"
+  },
+  "learnworlds": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnWorlds)",
+        "strength": 1.0,
+        "value": "LWClient.ebooks"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnWorlds)",
+        "strength": 1.0,
+        "value": "LWSettings.deactive_components"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnWorlds)",
+        "strength": 1.0,
+        "value": "cdn\\.mycourse\\.app/v([\\d\\.]+)/"
+      }
+    ],
+    "vendor_id": "learnworlds"
+  },
+  "learnybox": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnyBox)",
+        "strength": 1.0,
+        "value": "learnybox\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LearnyBox)",
+        "strength": 1.0,
+        "value": "ExecuteActionLearnyMail"
+      }
+    ],
+    "vendor_id": "learnybox"
+  },
+  "leasehawk": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LeaseHawk)",
+        "strength": 1.0,
+        "value": "ace-chat\\.leasehawk\\.com"
+      }
+    ],
+    "vendor_id": "leasehawk"
+  },
+  "lede": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lede)",
+        "strength": 1.0,
+        "value": "<a [^>]*href=\"[^\"]+joinlede.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lede)",
+        "strength": 1.0,
+        "value": "ledeChartbeatViews"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lede)",
+        "strength": 1.0,
+        "value": "ledeEngagement"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lede)",
+        "strength": 1.0,
+        "value": "ledeEngagementReset"
+      }
+    ],
+    "meta_patterns": {
+      "og:image": [
+        {
+          "match_type": "regex",
+          "notes": "meta og:image; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lede)",
+          "strength": 1.0,
+          "value": "https?\\:\\/\\/lede-admin"
+        }
+      ]
+    },
+    "vendor_id": "lede"
+  },
+  "legal_monster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Legal Monster)",
+        "strength": 1.0,
+        "value": "legal.__VERSION__"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Legal Monster)",
+        "strength": 1.0,
+        "value": "\\.legalmonster\\.com/"
+      }
+    ],
+    "vendor_id": "legal_monster"
+  },
+  "lemon_squeezy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lemon Squeezy)",
+        "strength": 1.0,
+        "value": "LemonSqueezy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lemon Squeezy)",
+        "strength": 1.0,
+        "value": "lemonSqueezyAffiliateConfig"
+      }
+    ],
+    "vendor_id": "lemon_squeezy"
+  },
+  "lendi": {
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lendi)",
+          "strength": 1.0,
+          "value": "www\\.lendi\\.pl"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lendi)",
+        "strength": 1.0,
+        "value": "\\.lendi\\.pl"
+      }
+    ],
+    "vendor_id": "lendi"
+  },
+  "lengow": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lengow)",
+        "strength": 1.0,
+        "value": "\\.lengow\\.com/"
+      }
+    ],
+    "vendor_id": "lengow"
+  },
+  "lenis": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lenis)",
+        "strength": 1.0,
+        "value": "Lenis"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lenis)",
+        "strength": 1.0,
+        "value": "lenisVersion"
+      }
+    ],
+    "vendor_id": "lenis"
+  },
+  "lenus": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lenus)",
+          "strength": 1.0,
+          "value": "^Lenus$"
+        }
+      ]
+    },
+    "vendor_id": "lenus"
+  },
+  "lepton": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LEPTON)",
+          "strength": 1.0,
+          "value": "LEPTON"
+        }
+      ]
+    },
+    "vendor_id": "lepton"
+  },
+  "leptos": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "properties": {},
+        "selector": "link[id^='leptos']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "strength": 1.0,
+        "value": "<!--hk=_.*"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "strength": 0.75,
+        "value": "export function microtask\\(f\\)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "strength": 1.0,
+        "value": "__LEPTOS_PENDING_RESOURCES"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "strength": 1.0,
+        "value": "__LEPTOS_RESOLVED_RESOURCES"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Leptos)",
+        "strength": 1.0,
+        "value": "__LEPTOS_RESOURCE_RESOLVERS"
+      }
+    ],
+    "vendor_id": "leptos"
+  },
+  "less": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Less)",
+        "properties": {},
+        "selector": "link[rel='stylesheet/less']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Less)",
+        "strength": 1.0,
+        "value": "<link[^>]+ rel=\"stylesheet/less\""
+      }
+    ],
+    "vendor_id": "less"
+  },
+  "let_s_connect": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Let's Connect)",
+        "strength": 1.0,
+        "value": "app\\.letsconnect\\.at/"
+      }
+    ],
+    "vendor_id": "let_s_connect"
+  },
+  "let_s_encrypt": {
+    "cert_issuer_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "cert issuer; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Let's Encrypt)",
+        "strength": 1.0,
+        "value": "Let's Encrypt"
+      }
+    ],
+    "vendor_id": "let_s_encrypt"
+  },
+  "letro": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Letro)",
+        "strength": 1.0,
+        "value": "__letroUgcGadget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Letro)",
+        "strength": 1.0,
+        "value": "letroUgcSet"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Letro)",
+        "strength": 1.0,
+        "value": "letro\\.jp/tags"
+      }
+    ],
+    "vendor_id": "letro"
+  },
+  "levar": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Levar)",
+        "strength": 1.0,
+        "value": "levARActivationHelper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Levar)",
+        "strength": 1.0,
+        "value": "levar.session_info"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Levar)",
+        "strength": 1.0,
+        "value": "levar_onload_variant_id"
+      }
+    ],
+    "vendor_id": "levar"
+  },
+  "level_5": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Level 5)",
+        "strength": 1.0,
+        "value": "l5_inventory_url"
+      }
+    ],
+    "vendor_id": "level_5"
+  },
+  "level_access": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Level Access)",
+        "properties": {},
+        "selector": " a[href*='.essentialaccessibility.com'] > img, a[href*='.levelaccess.com'] > img",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "level_access"
+  },
+  "lever": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lever)",
+        "properties": {},
+        "selector": "a[href*='jobs.lever.co/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lever)",
+          "strength": 1.0,
+          "value": "\\.lever\\.co"
+        }
+      ]
+    },
+    "vendor_id": "lever"
+  },
+  "leverade": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LEVERADE)",
+        "strength": 1.0,
+        "value": "static\\.leverade\\.com"
+      }
+    ],
+    "vendor_id": "leverade"
+  },
+  "lexer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lexer)",
+        "strength": 1.0,
+        "value": "___lexer_tag"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lexer)",
+        "strength": 1.0,
+        "value": "tag\\.lexer\\.io"
+      }
+    ],
+    "vendor_id": "lexer"
+  },
+  "lexity": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lexity)",
+        "strength": 1.0,
+        "value": "\\.lexity\\.com/"
+      }
+    ],
+    "vendor_id": "lexity"
+  },
+  "lgc": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LGC)",
+          "strength": 1.0,
+          "value": "^LGC$"
+        }
+      ]
+    },
+    "vendor_id": "lgc"
+  },
+  "liana": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liana)",
+          "strength": 1.0,
+          "value": "\\.lianacms\\.com"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liana)",
+          "strength": 1.0,
+          "value": "Sivuviidakko"
+        }
+      ]
+    },
+    "vendor_id": "liana"
+  },
+  "liberapay": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liberapay)",
+        "properties": {},
+        "selector": "a[href*='//liberapay.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liberapay)",
+        "strength": 1.0,
+        "value": "//liberapay\\.com/"
+      }
+    ],
+    "vendor_id": "liberapay"
+  },
+  "libphonenumber": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: libphonenumber)",
+        "strength": 1.0,
+        "value": "libphonenumber.AsYouType"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: libphonenumber)",
+        "strength": 1.0,
+        "value": "libphonenumber.DIGITS"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: libphonenumber)",
+        "strength": 1.0,
+        "value": "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "libphonenumber"
+  },
+  "libravatar": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Libravatar)",
+        "properties": {},
+        "selector": "img[src*='.libravatar.org/avatar/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "libravatar"
+  },
+  "libwww_perl_daemon": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: libwww-perl-daemon)",
+          "strength": 1.0,
+          "value": "libwww-perl-daemon(?:/([\\d\\.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "libwww_perl_daemon"
+  },
+  "lieferando": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lieferando)",
+        "strength": 1.0,
+        "value": "Tealium.pagedata.country"
+      }
+    ],
+    "vendor_id": "lieferando"
+  },
+  "liferay": {
+    "header_patterns": {
+      "liferay-portal": [
+        {
+          "match_type": "regex",
+          "notes": "header Liferay-Portal; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liferay)",
+          "strength": 1.0,
+          "value": "[a-z\\s]+([\\d.]+)"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liferay)",
+        "strength": 1.0,
+        "value": "Liferay"
+      }
+    ],
+    "vendor_id": "liferay"
+  },
+  "lift": {
+    "header_patterns": {
+      "x-lift-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Lift-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lift)",
+          "strength": 1.0,
+          "value": "(.+)"
+        }
+      ]
+    },
+    "vendor_id": "lift"
+  },
+  "lifter_apps_pop_up_window": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lifter Apps Pop-up Window)",
+        "strength": 1.0,
+        "value": "(?:\\.lifterpopup\\.com|popup\\.lifterapps\\.com)"
+      }
+    ],
+    "vendor_id": "lifter_apps_pop_up_window"
+  },
+  "lifterlms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LifterLMS)",
+        "properties": {},
+        "selector": "link#lifterlms-styles-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LifterLMS)",
+        "strength": 1.0,
+        "value": "/plugins/lifterlms/assets/js/llms\\.min\\.js\\?ver=([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "lifterlms"
+  },
+  "liftigniter": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiftIgniter)",
+        "properties": {},
+        "selector": "phoenix-script[script-id*='liftigniter-init']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiftIgniter)",
+        "strength": 1.0,
+        "value": "liftIgniterLoadPromise"
+      }
+    ],
+    "vendor_id": "liftigniter"
+  },
+  "lightbox": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightbox)",
+            "strength": 1.0,
+            "value": "/lightbox(?:\\.min)?\\.css"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightbox)",
+        "properties": {},
+        "selector": "link[href*='lightbox']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightbox)",
+        "strength": 1.0,
+        "value": "Lightbox.activeImage"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightbox)",
+        "strength": 1.0,
+        "value": "lightbox.$lightbox"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightbox)",
+        "strength": 1.0,
+        "value": "lightbox(?:-plus-jquery)?.{0,32}\\.js"
+      }
+    ],
+    "vendor_id": "lightbox"
+  },
+  "lightfolio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightfolio)",
+        "strength": 1.0,
+        "value": "lfpublicstatic\\.lightfolio\\.com"
+      }
+    ],
+    "vendor_id": "lightfolio"
+  },
+  "lightmon_engine": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LightMon Engine)",
+        "strength": 1.0,
+        "value": "lm_online"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LightMon Engine)",
+        "strength": 1.0,
+        "value": "<!-- Lightmon Engine Copyright Lightmon"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LightMon Engine)",
+          "strength": 1.0,
+          "value": "LightMon Engine"
+        }
+      ]
+    },
+    "vendor_id": "lightmon_engine"
+  },
+  "lightning": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightning)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/lightning/'], link[href*='/wp-content/themes/lightning-pro/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightning)",
+        "strength": 1.0,
+        "value": "lightningOpt.header_scrool"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightning)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "lightning"
+  },
+  "lightspeed_ecom": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightspeed eCom)",
+        "strength": 1.0,
+        "value": "<!-- \\[START\\] 'blocks/head\\.rain' -->"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightspeed eCom)",
+        "strength": 1.0,
+        "value": "lightspeed\\.multisafepay\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightspeed eCom)",
+        "strength": 1.0,
+        "value": "http://assets\\.webshopapp\\.com"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lightspeed eCom)",
+        "strength": 1.0,
+        "value": "seoshop.webshopapp.com"
+      }
+    ],
+    "vendor_id": "lightspeed_ecom"
+  },
+  "lightspeed_vt": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LightSpeed VT)",
+        "strength": 1.0,
+        "value": "\\.lightspeedvt\\.com"
+      }
+    ],
+    "vendor_id": "lightspeed_vt"
+  },
+  "lighttpd": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: lighttpd)",
+          "strength": 1.0,
+          "value": "(?:L|l)ight(?:y)?(?:tpd)?(?:/([\\d\\.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "lighttpd"
+  },
+  "ligna": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ligna)",
+        "strength": 1.0,
+        "value": "\\.ligna\\.io/"
+      }
+    ],
+    "vendor_id": "ligna"
+  },
+  "liine": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liine)",
+        "strength": 1.0,
+        "value": "Liine.addURLChangeListener"
+      }
+    ],
+    "vendor_id": "liine"
+  },
+  "lily": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lily)",
+        "strength": 1.0,
+        "value": "lilyCustomerId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lily)",
+        "strength": 1.0,
+        "value": "lilyHash"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lily)",
+        "strength": 1.0,
+        "value": "lilyPl"
+      }
+    ],
+    "vendor_id": "lily"
+  },
+  "lime_talk": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lime Talk)",
+        "strength": 1.0,
+        "value": "limetalk"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lime Talk)",
+        "strength": 1.0,
+        "value": "limetalkLoader"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lime Talk)",
+        "strength": 1.0,
+        "value": "\\.limetalk\\.com/"
+      }
+    ],
+    "vendor_id": "lime_talk"
+  },
+  "limecall": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limecall)",
+        "properties": {},
+        "selector": "script[data-api-url*='app.limecall.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limecall)",
+        "strength": 1.0,
+        "value": "limeCallClient"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limecall)",
+        "strength": 1.0,
+        "value": "\\.limecall\\.com/"
+      }
+    ],
+    "vendor_id": "limecall"
+  },
+  "limechat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LimeChat)",
+        "strength": 1.0,
+        "value": "\\.limechat\\.ai/"
+      }
+    ],
+    "vendor_id": "limechat"
+  },
+  "limepay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limepay)",
+        "strength": 1.0,
+        "value": "LimepayIdentity"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limepay)",
+        "strength": 1.0,
+        "value": "wc_ga_pro.available_gateways.limepay"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limepay)",
+        "strength": 1.0,
+        "value": "/limepay-installment-show\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limepay)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/Limepay-v\\d+/"
+      }
+    ],
+    "vendor_id": "limepay"
+  },
+  "limespot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LimeSpot)",
+        "strength": 1.0,
+        "value": "LimeSpot.CartItems"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LimeSpot)",
+        "strength": 1.0,
+        "value": "LimeSpot.Recommendations"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LimeSpot)",
+        "strength": 1.0,
+        "value": "\\.personalizer\\.io/"
+      }
+    ],
+    "vendor_id": "limespot"
+  },
+  "limit_login_attempts_reloaded": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Limit Login Attempts Reloaded)",
+        "properties": {},
+        "selector": "link#llar-login-page-styles-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "limit_login_attempts_reloaded"
+  },
+  "linda": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linda)",
+        "strength": 1.0,
+        "value": "gb-widget\\.linda\\.co"
+      }
+    ],
+    "vendor_id": "linda"
+  },
+  "lindy": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lindy)",
+        "strength": 1.0,
+        "value": "api\\.lindy\\.ai"
+      }
+    ],
+    "vendor_id": "lindy"
+  },
+  "line2": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Line2)",
+        "strength": 1.0,
+        "value": "Line2_W_OBJ"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Line2)",
+        "strength": 1.0,
+        "value": "//Line2Text\\.Me/s/"
+      }
+    ],
+    "vendor_id": "line2"
+  },
+  "line_login": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LINE Login)",
+        "properties": {},
+        "selector": "a[href*='access.line.me/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LINE Login)",
+        "strength": 1.0,
+        "value": "Constants.authorization_request_url"
+      }
+    ],
+    "vendor_id": "line_login"
+  },
+  "line_up": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Line-Up)",
+        "strength": 1.0,
+        "value": "LineupPurchaseLoader.baseId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Line-Up)",
+        "strength": 1.0,
+        "value": "LineupSDKLoader.baseId"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Line-Up)",
+        "strength": 1.0,
+        "value": "platform\\.lineupnow\\.com"
+      }
+    ],
+    "vendor_id": "line_up"
+  },
+  "linear": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linear)",
+        "strength": 1.0,
+        "value": "linearFrontend"
+      }
+    ],
+    "vendor_id": "linear"
+  },
+  "linen": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linen)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__.props.pageProps.currentCommunity.logoUrl"
+      }
+    ],
+    "vendor_id": "linen"
+  },
+  "linguana": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguana)",
+        "strength": 1.0,
+        "value": "LINGUANA_MAIN_LANGUAGE_CODE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguana)",
+        "strength": 1.0,
+        "value": "LINGUANA_SHOW_LANGUAGE_CODE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguana)",
+        "strength": 1.0,
+        "value": "static\\.linguana\\.io/"
+      }
+    ],
+    "vendor_id": "linguana"
+  },
+  "linguise": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguise)",
+        "properties": {},
+        "selector": "script[type='linguise/json']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguise)",
+        "strength": 1.0,
+        "value": "linguise_configs"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linguise)",
+        "strength": 1.0,
+        "value": "/modules/mod_linguise/assets/"
+      }
+    ],
+    "vendor_id": "linguise"
+  },
+  "linkedin_ads": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+            "strength": 1.0,
+            "value": "dc\\.ads\\.linkedin\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+        "properties": {},
+        "selector": "img[src*='dc.ads.linkedin.com']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+            "strength": 1.0,
+            "value": "px\\.ads\\.linkedin\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+        "properties": {},
+        "selector": "link[href*='px.ads.linkedin.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+          "strength": 1.0,
+          "value": "px\\.ads\\.linkedin\\.com"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Ads)",
+        "strength": 1.0,
+        "value": "<img [^>]*src=\"[^/]*//[^/]*px\\.ads\\.linkedin\\.com"
+      }
+    ],
+    "vendor_id": "linkedin_ads"
+  },
+  "linkedin_insight_tag": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+          "strength": 1.0,
+          "value": "\\.licdn\\.com"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "_linkedin_partner_id"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "ORIBI"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "_linkedin_data_partner_id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "_linkedin_partner_id"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "cdn\\.oribi\\.io"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Insight Tag)",
+        "strength": 1.0,
+        "value": "snap\\.licdn\\.com/li\\.lms-analytics/insight\\.min\\.js"
+      }
+    ],
+    "vendor_id": "linkedin_insight_tag"
+  },
+  "linkedin_sign_in": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Sign-in)",
+        "strength": 1.0,
+        "value": "OnLinkedInAuth"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Sign-in)",
+        "strength": 1.0,
+        "value": "onLinkedInLoad"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkedin Sign-in)",
+        "strength": 1.0,
+        "value": "platform\\.linkedin\\.com/(?:.*)?(?:in\\.js(?:\\?version)?([\\d.]+)?|litms/utag/[^?]+\\.js(?:\\?cb=[\\d]+)?)"
+      }
+    ],
+    "vendor_id": "linkedin_sign_in"
+  },
+  "linkfire": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkfire)",
+        "strength": 1.0,
+        "value": "linkfire.linkfireUrl"
+      }
+    ],
+    "vendor_id": "linkfire"
+  },
+  "linkmink": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LinkMink)",
+        "strength": 1.0,
+        "value": "LinkMink"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LinkMink)",
+        "strength": 1.0,
+        "value": "cdn\\.linkmink\\.com/lm-js/([\\d\\.]+)/"
+      }
+    ],
+    "vendor_id": "linkmink"
+  },
+  "linkz": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkz)",
+        "strength": 1.0,
+        "value": "LINKZ_AI_ACTIVATED"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkz)",
+        "strength": 1.0,
+        "value": "LINKZ_AI_KEY"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linkz)",
+        "strength": 1.0,
+        "value": "js\\.linkz\\.ai"
+      }
+    ],
+    "vendor_id": "linkz"
+  },
+  "linx_commerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Commerce)",
+        "strength": 1.0,
+        "value": "EzGaCfg.Config.Store"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Commerce)",
+        "strength": 1.0,
+        "value": "EzGaCfg.Shopper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Commerce)",
+        "strength": 1.0,
+        "value": "linxImpulse.config.integrationFlags.platformProvider"
+      }
+    ],
+    "vendor_id": "linx_commerce"
+  },
+  "linx_impulse": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Impulse)",
+        "properties": {},
+        "selector": "link[href*='.linximpulse.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Impulse)",
+        "strength": 1.0,
+        "value": "linx.banner"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Impulse)",
+        "strength": 1.0,
+        "value": "linxImpulse.config"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Linx Impulse)",
+        "strength": 1.0,
+        "value": "linxImpulseInitialized"
+      }
+    ],
+    "vendor_id": "linx_impulse"
+  },
+  "lipscore": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LipScore)",
+        "strength": 1.0,
+        "value": "LipscoreSwiper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LipScore)",
+        "strength": 1.0,
+        "value": "wcLipscoreInit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LipScore)",
+        "strength": 1.0,
+        "value": "\\.lipscore\\.com/"
+      }
+    ],
+    "vendor_id": "lipscore"
+  },
+  "liquid_web": {
+    "header_patterns": {
+      "x-lw-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-lw-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liquid Web)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "liquid_web"
+  },
+  "liscio": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liscio)",
+        "strength": 1.0,
+        "value": "\\.liscio\\.me/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liscio)",
+        "strength": 1.0,
+        "value": "webpackChunkliscio_ui.push"
+      }
+    ],
+    "vendor_id": "liscio"
+  },
+  "list_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: List.js)",
+        "strength": 1.0,
+        "value": "List"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: List.js)",
+        "strength": 1.0,
+        "value": "@([\\d.]+)/(?:/dist)?list\\.(?:min\\.)?js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: List.js)",
+        "strength": 0.5,
+        "value": "list\\.js/"
+      }
+    ],
+    "vendor_id": "list_js"
+  },
+  "listagram": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listagram)",
+        "strength": 1.0,
+        "value": "www\\.listagram\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listagram)",
+        "strength": 1.0,
+        "value": "LISTAGRAM.config"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listagram)",
+        "strength": 1.0,
+        "value": "LISTAGRAM_CFG.base_api"
+      }
+    ],
+    "vendor_id": "listagram"
+  },
+  "listrak": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listrak)",
+        "strength": 1.0,
+        "value": "_LTKSignup"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listrak)",
+        "strength": 1.0,
+        "value": "_LTKSubscriber"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listrak)",
+        "strength": 1.0,
+        "value": "(?:cdn|s1)\\.listrakbi\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Listrak)",
+        "strength": 1.0,
+        "value": "services\\.listrak\\.com"
+      }
+    ],
+    "vendor_id": "listrak"
+  },
+  "listtrac": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ListTrac)",
+        "strength": 1.0,
+        "value": "listTrac.doEvent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ListTrac)",
+        "strength": 1.0,
+        "value": "\\.listtrac\\.com"
+      }
+    ],
+    "vendor_id": "listtrac"
+  },
+  "lit_element": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: lit-element)",
+        "strength": 1.0,
+        "value": "litElementVersions.0"
+      }
+    ],
+    "vendor_id": "lit_element"
+  },
+  "lit_html": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: lit-html)",
+        "strength": 1.0,
+        "value": "litHtmlVersions.0"
+      }
+    ],
+    "vendor_id": "lit_html"
+  },
+  "lite_youtube_embed": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: lite-youtube-embed)",
+        "properties": {},
+        "selector": "lite-youtube",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "lite_youtube_embed"
+  },
+  "litespeed": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed)",
+          "strength": 1.0,
+          "value": "^LiteSpeed$"
+        }
+      ],
+      "x-turbo-charged-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Turbo-Charged-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed)",
+          "strength": 1.0,
+          "value": "^LiteSpeed$"
+        }
+      ]
+    },
+    "vendor_id": "litespeed"
+  },
+  "litespeed_cache": {
+    "header_patterns": {
+      "x-litespeed-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-litespeed-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed Cache)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-turbo-charged-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-turbo-charged-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed Cache)",
+          "strength": 1.0,
+          "value": "LiteSpeed"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed Cache)",
+        "strength": 1.0,
+        "value": "litespeed_docref"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiteSpeed Cache)",
+        "strength": 1.0,
+        "value": "wp-content/plugins/litespeed-cache/"
+      }
+    ],
+    "vendor_id": "litespeed_cache"
+  },
+  "litespeed_cache__0442c0": {
+    "header_patterns": {
+      "x-litespeed-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-litespeed-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Litespeed Cache)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-turbo-charged-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-turbo-charged-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Litespeed Cache)",
+          "strength": 1.0,
+          "value": "LiteSpeed"
+        }
+      ]
+    },
+    "vendor_id": "litespeed_cache__0442c0"
+  },
+  "lithium": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lithium)",
+        "strength": 1.0,
+        "value": "LithiumVisitor"
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lithium)",
+        "strength": 1.0,
+        "value": " <a [^>]+Powered by Lithium"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lithium)",
+        "strength": 1.0,
+        "value": "LITHIUM"
+      }
+    ],
+    "vendor_id": "lithium"
+  },
+  "litium": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Litium)",
+          "strength": 1.0,
+          "value": "^Litium$"
+        }
+      ]
+    },
+    "vendor_id": "litium"
+  },
+  "litmus": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Litmus)",
+        "properties": {},
+        "selector": "img[src*='.emltrk.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "litmus"
+  },
+  "little_hotelier": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Little Hotelier)",
+        "strength": 1.0,
+        "value": "_littlehotelier_session"
+      }
+    ],
+    "vendor_id": "little_hotelier"
+  },
+  "littledata": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Littledata)",
+        "strength": 1.0,
+        "value": "LittledataLayer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Littledata)",
+        "strength": 1.0,
+        "value": "LittledataLayer.version"
+      }
+    ],
+    "vendor_id": "littledata"
+  },
+  "live_story": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Live Story)",
+        "strength": 1.0,
+        "value": "LSHelpers"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Live Story)",
+        "strength": 1.0,
+        "value": "LiveStory"
+      }
+    ],
+    "vendor_id": "live_story"
+  },
+  "liveagent": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveAgent)",
+        "strength": 1.0,
+        "value": "LiveAgent"
+      }
+    ],
+    "vendor_id": "liveagent"
+  },
+  "livebooks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveBooks)",
+        "properties": {},
+        "selector": "div[data-img-server*='static.livebooks.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "livebooks"
+  },
+  "liveby": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveBy)",
+        "strength": 1.0,
+        "value": "liveby.autoInitialize"
+      }
+    ],
+    "vendor_id": "liveby"
+  },
+  "livecanvas": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveCanvas)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/livecanvas/"
+      }
+    ],
+    "vendor_id": "livecanvas"
+  },
+  "livechat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveChat)",
+        "strength": 1.0,
+        "value": "LiveChatWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveChat)",
+        "strength": 1.0,
+        "value": "cdn\\.livechatinc\\.com/.*tracking\\.js"
+      }
+    ],
+    "vendor_id": "livechat"
+  },
+  "liveedit": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveEdit)",
+          "strength": 1.0,
+          "value": "www\\.getLiveEdit\\.com"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveEdit)",
+        "strength": 1.0,
+        "value": "/js/([\\d\\.]+)/liveedit\\.base\\.min\\.js"
+      }
+    ],
+    "vendor_id": "liveedit"
+  },
+  "livefyre": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "<[^>]+(?:id|class)=\"livefyre"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "FyreLoader"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "L.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "LF.CommentCount"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "fyre"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livefyre)",
+        "strength": 1.0,
+        "value": "livefyre_init\\.js"
+      }
+    ],
+    "vendor_id": "livefyre"
+  },
+  "livehelp": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveHelp)",
+        "strength": 1.0,
+        "value": "LHready"
+      }
+    ],
+    "vendor_id": "livehelp"
+  },
+  "liveintent": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveIntent)",
+        "strength": 1.0,
+        "value": "LI.advertiserId"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveIntent)",
+        "strength": 1.0,
+        "value": "\\.liadm\\.com"
+      }
+    ],
+    "vendor_id": "liveintent",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveIntent)",
+        "strength": 1.0,
+        "value": "\\.liadm\\.com"
+      }
+    ]
+  },
+  "liveinternet": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liveinternet)",
+        "properties": {},
+        "selector": "a[href*='/www.liveinternet.ru/click'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liveinternet)",
+        "strength": 1.0,
+        "value": "<!--/LiveInternet-->"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liveinternet)",
+        "strength": 1.0,
+        "value": "<!--LiveInternet counter-->"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liveinternet)",
+        "strength": 1.0,
+        "value": "<a href=\"http://www\\.liveinternet\\.ru/click\""
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Liveinternet)",
+        "strength": 1.0,
+        "value": "<script [^>]*>[\\s\\S]*//counter\\.yadro\\.ru/hit"
+      }
+    ],
+    "vendor_id": "liveinternet"
+  },
+  "livejournal": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveJournal)",
+        "strength": 1.0,
+        "value": "\\.livejournal\\.com"
+      }
+    ],
+    "vendor_id": "livejournal"
+  },
+  "liveperson": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LivePerson)",
+        "strength": 1.0,
+        "value": "lpTag.Chronos"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LivePerson)",
+        "strength": 1.0,
+        "value": "\\.(?:liveperson|contactatonce)?\\.(?:com|net|co\\.uk)/"
+      }
+    ],
+    "vendor_id": "liveperson"
+  },
+  "liveramp_dpm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveRamp DPM)",
+        "strength": 1.0,
+        "value": "dpmComscoreVars"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveRamp DPM)",
+        "strength": 1.0,
+        "value": "c\\.tvpixel\\.com/js/current/dpm_pixel_min\\.js"
+      }
+    ],
+    "vendor_id": "liveramp_dpm"
+  },
+  "liveramp_pcm": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveRamp PCM)",
+        "properties": {},
+        "selector": "iframe[src*='gdpr-consent-tool\\.privacymanager\\.io']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveRamp PCM)",
+        "strength": 1.0,
+        "value": "wpJsonpLiverampGdprCmp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveRamp PCM)",
+        "strength": 1.0,
+        "value": "gdpr\\.privacymanager\\.io"
+      }
+    ],
+    "vendor_id": "liveramp_pcm"
+  },
+  "livescale": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livescale)",
+        "strength": 1.0,
+        "value": "\\.livescale\\.tv/"
+      }
+    ],
+    "vendor_id": "livescale"
+  },
+  "livesession": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveSession)",
+        "strength": 1.0,
+        "value": "cdn\\.livesession\\.io"
+      }
+    ],
+    "vendor_id": "livesession"
+  },
+  "livesite": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveSite)",
+          "strength": 1.0,
+          "value": "^liveSite\\s+-\\s+https://livesite\\.com$"
+        }
+      ]
+    },
+    "vendor_id": "livesite"
+  },
+  "livestreet_cms": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveStreet CMS)",
+          "strength": 1.0,
+          "value": "LiveStreet CMS"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveStreet CMS)",
+        "strength": 1.0,
+        "value": "LIVESTREET_SECURITY_KEY"
+      }
+    ],
+    "vendor_id": "livestreet_cms"
+  },
+  "livetex": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveTex)",
+        "strength": 1.0,
+        "value": "liveTex"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveTex)",
+        "strength": 1.0,
+        "value": "liveTexID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveTex)",
+        "strength": 1.0,
+        "value": "liveTex_object"
+      }
+    ],
+    "vendor_id": "livetex"
+  },
+  "livewire": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livewire)",
+        "strength": 1.0,
+        "value": "<[^>]{1,512}\\bwire:"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livewire)",
+        "strength": 1.0,
+        "value": "livewire"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livewire)",
+        "strength": 1.0,
+        "value": "livewireScriptConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Livewire)",
+        "strength": 1.0,
+        "value": "livewire(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "livewire"
+  },
+  "livezilla": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveZilla)",
+        "properties": {},
+        "selector": "#lz_overlay_chat",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveZilla)",
+        "strength": 1.0,
+        "value": "lz_chat_execute"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveZilla)",
+        "strength": 1.0,
+        "value": "lz_code_id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LiveZilla)",
+        "strength": 1.0,
+        "value": "lz_tracking_set_widget_visibility"
+      }
+    ],
+    "vendor_id": "livezilla"
+  },
+  "lkqd": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "properties": {},
+        "selector": "iframe[src*='.lkqd.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "lkqdCall"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "lkqdErrorCount"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "lkqdSettings"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "lkqd_http_response"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "\\.lkqd\\.net"
+      }
+    ],
+    "vendor_id": "lkqd",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LKQD)",
+        "strength": 1.0,
+        "value": "\\.lkqd\\.net"
+      }
+    ]
+  },
+  "llamalink_cloud_server": {
+    "header_patterns": {
+      "serverversion": [
+        {
+          "match_type": "regex",
+          "notes": "header Serverversion; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LlamaLink Cloud Server)",
+          "strength": 1.0,
+          "value": "^LlamaLink"
+        }
+      ]
+    },
+    "vendor_id": "llamalink_cloud_server"
+  },
+  "loadable_components": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loadable-Components)",
+        "properties": {},
+        "selector": "script#__LOADABLE_REQUIRED_CHUNKS__",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loadable-Components)",
+        "strength": 1.0,
+        "value": "__LOADABLE_LOADED_CHUNKS__"
+      }
+    ],
+    "vendor_id": "loadable_components"
+  },
+  "loadify": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loadify)",
+        "strength": 1.0,
+        "value": "\\.loadifyapp\\.ninety9\\.dev"
+      }
+    ],
+    "vendor_id": "loadify"
+  },
+  "lobbypms": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LobbyPMS)",
+        "strength": 1.0,
+        "value": "app\\.lobbypms\\.com"
+      }
+    ],
+    "vendor_id": "lobbypms"
+  },
+  "localexpress": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocalExpress)",
+        "strength": 1.0,
+        "value": "cdn\\.localexpress\\.io/"
+      }
+    ],
+    "vendor_id": "localexpress"
+  },
+  "localfocus": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocalFocus)",
+        "properties": {},
+        "selector": "iframe[src*='//localfocus2.appspot.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocalFocus)",
+        "strength": 1.0,
+        "value": "<iframe[^>]+\\blocalfocus\\b"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocalFocus)",
+        "strength": 1.0,
+        "value": "LFlegacyManipulate"
+      }
+    ],
+    "vendor_id": "localfocus"
+  },
+  "localiq_live_chat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocaliQ Live Chat)",
+        "strength": 1.0,
+        "value": "\\.reachlocallivechat\\.com"
+      }
+    ],
+    "vendor_id": "localiq_live_chat"
+  },
+  "localised": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Localised)",
+            "strength": 1.0,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Localised)",
+        "properties": {},
+        "selector": "img[src='.localised.com']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "text": {
+            "match_type": "regex",
+            "notes": "dom attr text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Localised)",
+            "strength": 1.0,
+            "value": ".+Localised Inc\\..+"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Localised)",
+        "properties": {},
+        "selector": "span",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "localised",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Localised)",
+        "strength": 1.0,
+        "value": "api\\.localised\\.com"
+      }
+    ]
+  },
+  "localsignal": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocalSignal)",
+        "strength": 1.0,
+        "value": "cdn\\.localsignal\\.com/"
+      }
+    ],
+    "vendor_id": "localsignal"
+  },
+  "locksmith": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Locksmith)",
+        "strength": 1.0,
+        "value": "Locksmith"
+      }
+    ],
+    "vendor_id": "locksmith"
+  },
+  "locomotive_scroll": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Locomotive Scroll)",
+        "properties": {},
+        "selector": "div[data-scroll-section]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Locomotive Scroll)",
+        "strength": 1.0,
+        "value": "LocomotiveScroll"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Locomotive Scroll)",
+        "strength": 1.0,
+        "value": "locomotiveScrollVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Locomotive Scroll)",
+        "strength": 1.0,
+        "value": "locomotive-scroll(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "locomotive_scroll"
+  },
+  "locomotivecms": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocomotiveCMS)",
+        "strength": 1.0,
+        "value": "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LocomotiveCMS)",
+        "strength": 1.0,
+        "value": "cdn\\.locomotive\\.works/"
+      }
+    ],
+    "vendor_id": "locomotivecms"
+  },
+  "lodash": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodash)",
+        "strength": 1.0,
+        "value": "_.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodash)",
+        "strength": 1.0,
+        "value": "_.differenceBy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodash)",
+        "strength": 1.0,
+        "value": "_.templateSettings.imports._.templateSettings.imports._.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodash)",
+        "strength": 1.0,
+        "value": "lodash.*\\.js"
+      }
+    ],
+    "vendor_id": "lodash"
+  },
+  "lodel": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodel)",
+          "strength": 1.0,
+          "value": "Lodel ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "lodel"
+  },
+  "lodgify": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lodgify)",
+        "strength": 1.0,
+        "value": "\\.lodgify\\.com/"
+      }
+    ],
+    "vendor_id": "lodgify"
+  },
+  "lofty": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lofty)",
+        "strength": 1.0,
+        "value": "cdn\\.lofty\\.com"
+      }
+    ],
+    "vendor_id": "lofty"
+  },
+  "logaholic": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Logaholic)",
+        "strength": 1.0,
+        "value": "logaholic"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Logaholic)",
+        "strength": 1.0,
+        "value": "logaholic\\.hostpoint\\.ch/"
+      }
+    ],
+    "vendor_id": "logaholic"
+  },
+  "loggly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loggly)",
+        "properties": {},
+        "selector": "link[href*='.loggly.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loggly)",
+        "strength": 1.0,
+        "value": "LogglyTracker"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loggly)",
+        "strength": 1.0,
+        "value": "\\.loggly\\.com/"
+      }
+    ],
+    "vendor_id": "loggly"
+  },
+  "logicommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogiCommerce)",
+        "strength": 1.0,
+        "value": "logicommerceGlobal"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogiCommerce)",
+          "strength": 1.0,
+          "value": "^LogiCommerce$"
+        }
+      ],
+      "logicommerce": [
+        {
+          "match_type": "regex",
+          "notes": "meta logicommerce; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogiCommerce)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "logicommerce"
+  },
+  "login_with_amazon": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Login with Amazon)",
+        "strength": 1.0,
+        "value": "onAmazonLoginReady"
+      }
+    ],
+    "vendor_id": "login_with_amazon"
+  },
+  "loginradius": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "LoginRadius"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "LoginRadiusDefaults"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "LoginRadiusSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "LoginRadiusUtility"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "\\.loginradius\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoginRadius)",
+        "strength": 1.0,
+        "value": "\\.lrcontent\\.com"
+      }
+    ],
+    "vendor_id": "loginradius"
+  },
+  "loglib": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loglib)",
+        "strength": 1.0,
+        "value": "llc"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loglib)",
+        "strength": 1.0,
+        "value": "lli"
+      }
+    ],
+    "vendor_id": "loglib"
+  },
+  "logoix": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogoiX)",
+        "strength": 1.0,
+        "value": "\\bLogoiX\\b"
+      }
+    ],
+    "vendor_id": "logoix"
+  },
+  "logrocket": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogRocket)",
+        "strength": 1.0,
+        "value": "LogRocket._buffer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LogRocket)",
+        "strength": 1.0,
+        "value": "cdn\\.(?:lr-ingest|logrocket)\\.(?:com|io)"
+      }
+    ],
+    "vendor_id": "logrocket"
+  },
+  "loja2": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja2)",
+        "strength": 1.0,
+        "value": "loja2\\.com\\.br"
+      }
+    ],
+    "vendor_id": "loja2"
+  },
+  "loja_integrada": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Integrada)",
+          "strength": 1.0,
+          "value": "vtex-integrated-store"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Integrada)",
+        "strength": 1.0,
+        "value": "LOJA_ID"
+      }
+    ],
+    "vendor_id": "loja_integrada"
+  },
+  "loja_mestre": {
+    "meta_patterns": {
+      "webmaster": [
+        {
+          "match_type": "regex",
+          "notes": "meta webmaster; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Mestre)",
+          "strength": 1.0,
+          "value": "www\\.lojamestre\\.\\w+\\.br"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Mestre)",
+        "strength": 1.0,
+        "value": "lojamestre\\.\\w+\\.br"
+      }
+    ],
+    "vendor_id": "loja_mestre"
+  },
+  "loja_virtual": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Virtual)",
+        "strength": 1.0,
+        "value": "id_loja_virtual"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Virtual)",
+        "strength": 1.0,
+        "value": "link_loja_virtual"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Virtual)",
+        "strength": 1.0,
+        "value": "loja_sem_dominio"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Virtual)",
+        "strength": 0.2,
+        "value": "/js/ljvt_v(\\d+)/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loja Virtual)",
+        "strength": 1.0,
+        "value": "cdn1\\.solojavirtual\\.com"
+      }
+    ],
+    "vendor_id": "loja_virtual"
+  },
+  "lojas_online_ctt": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lojas Online CTT)",
+          "strength": 1.0,
+          "value": "Lojas Online CTT"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lojas Online CTT)",
+        "strength": 1.0,
+        "value": "cdn\\.lojasonlinectt\\.pt"
+      }
+    ],
+    "vendor_id": "lojas_online_ctt"
+  },
+  "loloyal": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loloyal)",
+        "strength": 1.0,
+        "value": "static\\.loloyal\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loloyal)",
+        "strength": 1.0,
+        "value": "LOLOYAL_ONSITE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loloyal)",
+        "strength": 1.0,
+        "value": "LOLOYAL_ONSITE_ALL_LOCALE"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loloyal)",
+        "strength": 1.0,
+        "value": "static\\.loloyal\\.com"
+      }
+    ],
+    "vendor_id": "loloyal"
+  },
+  "looker": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Looker)",
+          "strength": 1.0,
+          "value": "\\.cloud\\.looker\\.com"
+        }
+      ]
+    },
+    "vendor_id": "looker"
+  },
+  "looksize": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Looksize)",
+        "strength": 1.0,
+        "value": "LS.api_key"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Looksize)",
+        "strength": 1.0,
+        "value": "www\\.looksize\\.com/"
+      }
+    ],
+    "vendor_id": "looksize"
+  },
+  "loom": {
+    "vendor_id": "loom",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loom)",
+        "strength": 1.0,
+        "value": "loom\\.com/api"
+      },
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loom)",
+        "strength": 1.0,
+        "value": "luna\\.loom\\.com"
+      }
+    ]
+  },
+  "loop54": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop54)",
+        "strength": 1.0,
+        "value": "Loop54User"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop54)",
+        "strength": 1.0,
+        "value": "Loop54.config.libVersion"
+      }
+    ],
+    "vendor_id": "loop54"
+  },
+  "loop_returns": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Returns)",
+        "properties": {},
+        "selector": "a[href*='.loopreturns.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Returns)",
+        "strength": 1.0,
+        "value": "Loop.config.variantParam"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Returns)",
+        "strength": 1.0,
+        "value": "LoopOnstore"
+      }
+    ],
+    "vendor_id": "loop_returns"
+  },
+  "loop_web": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Web)",
+        "properties": {},
+        "selector": "link[href*='.loopweb.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "id": [
+        {
+          "match_type": "regex",
+          "notes": "meta id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Web)",
+          "strength": 1.0,
+          "value": "LoopWeb"
+        }
+      ],
+      "loopweb": [
+        {
+          "match_type": "regex",
+          "notes": "meta loopweb; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loop Web)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "loop_web"
+  },
+  "loopedin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoopedIn)",
+        "strength": 1.0,
+        "value": "app\\.productstash\\.io/"
+      }
+    ],
+    "vendor_id": "loopedin"
+  },
+  "loopi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loopi)",
+        "strength": 1.0,
+        "value": "widget\\.loopi-velo\\.fr/"
+      }
+    ],
+    "vendor_id": "loopi"
+  },
+  "loops": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loops)",
+        "properties": {},
+        "selector": "form[action*='app.loops.so/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "loops"
+  },
+  "lootly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lootly)",
+        "properties": {},
+        "selector": "iframe[src*='lootly.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lootly)",
+        "strength": 1.0,
+        "value": "Lootly.config"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lootly)",
+        "strength": 1.0,
+        "value": "lootlyWidgetInit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lootly)",
+        "strength": 1.0,
+        "value": "lootly\\.io/"
+      }
+    ],
+    "vendor_id": "lootly"
+  },
+  "loox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loox)",
+        "strength": 1.0,
+        "value": "loox_global_hash"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loox)",
+        "strength": 1.0,
+        "value": "loox\\.io/widget"
+      }
+    ],
+    "vendor_id": "loox"
+  },
+  "loqate": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loqate)",
+        "strength": 1.0,
+        "value": "loqateAccountCode"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loqate)",
+        "strength": 1.0,
+        "value": "pca.platform.productList"
+      }
+    ],
+    "vendor_id": "loqate"
+  },
+  "lotlinx": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LotLinx)",
+        "strength": 1.0,
+        "value": "LXLoader"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LotLinx)",
+        "strength": 1.0,
+        "value": "LotLinxID"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LotLinx)",
+        "strength": 1.0,
+        "value": "\\.lotlinx\\.com/"
+      }
+    ],
+    "vendor_id": "lotlinx"
+  },
+  "lottiefiles": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LottieFiles)",
+        "properties": {},
+        "selector": "lottie-player, div[data-animation-type='lottie'], div[data-testid='lottie-player'], clipPath[id*='__lottie_element_']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LottieFiles)",
+        "strength": 1.0,
+        "value": "dotlottie-player"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LottieFiles)",
+        "strength": 1.0,
+        "value": "lottie.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LottieFiles)",
+        "strength": 1.0,
+        "value": "/dist/lottie-player\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LottieFiles)",
+        "strength": 1.0,
+        "value": "/dist/tgs-player\\.js"
+      }
+    ],
+    "vendor_id": "lottiefiles"
+  },
+  "lou": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LOU)",
+        "strength": 1.0,
+        "value": "cdn\\.louassist\\.com*"
+      }
+    ],
+    "vendor_id": "lou"
+  },
+  "lovable": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovable)",
+        "strength": 1.0,
+        "value": "lovable-preview-mode"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovable)",
+        "properties": {},
+        "selector": "link[href*='/lovable-uploads/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovable)",
+        "strength": 1.0,
+        "value": "LOV_SELECTOR_SCRIPT_VERSION"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovable)",
+          "strength": 1.0,
+          "value": "lovable"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovable)",
+        "strength": 1.0,
+        "value": "\\.lovable\\.app/"
+      }
+    ],
+    "vendor_id": "lovable"
+  },
+  "lovi": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovi)",
+        "strength": 1.0,
+        "value": "__loviMsgHandler"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovi)",
+        "strength": 1.0,
+        "value": "__loviWidgetClicksBound"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovi)",
+        "strength": 1.0,
+        "value": "widget\\.lovi\\.ai/"
+      }
+    ],
+    "vendor_id": "lovi"
+  },
+  "lovingly": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lovingly)",
+        "strength": 1.0,
+        "value": "api\\.lovingly\\.com"
+      }
+    ],
+    "vendor_id": "lovingly"
+  },
+  "loyalis": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loyalis)",
+        "strength": 1.0,
+        "value": "loyalisOptions.key"
+      }
+    ],
+    "vendor_id": "loyalis"
+  },
+  "loyaltylion": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoyaltyLion)",
+        "strength": 1.0,
+        "value": "loyaltylion.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoyaltyLion)",
+        "strength": 1.0,
+        "value": "sdk\\.loyaltylion\\.net/"
+      }
+    ],
+    "vendor_id": "loyaltylion"
+  },
+  "loyaltyloop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoyaltyLoop)",
+        "strength": 1.0,
+        "value": "LoyaltyLoopEventListenerInitialized"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoyaltyLoop)",
+        "strength": 1.0,
+        "value": "countOfLoyaltyLoopTestimonialWidgets"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LoyaltyLoop)",
+        "strength": 1.0,
+        "value": "app\\.loyaltyloop\\.com/"
+      }
+    ],
+    "vendor_id": "loyaltyloop"
+  },
+  "loyalzoo": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loyalzoo)",
+        "strength": 1.0,
+        "value": "\\.loyalzoo\\.com"
+      }
+    ],
+    "vendor_id": "loyalzoo"
+  },
+  "loyoly": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Loyoly)",
+        "strength": 1.0,
+        "value": "assets\\.loyoly\\.io/"
+      }
+    ],
+    "vendor_id": "loyoly"
+  },
+  "lozad_js": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lozad.js)",
+        "strength": 1.0,
+        "value": "/lozad\\.min\\.js"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lozad.js)",
+        "strength": 1.0,
+        "value": "lozad"
+      }
+    ],
+    "vendor_id": "lozad_js"
+  },
+  "lpqv": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LPQV)",
+        "strength": 1.0,
+        "value": "LPQV.page"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LPQV)",
+        "strength": 1.0,
+        "value": "LPQV_VARS_RPL"
+      }
+    ],
+    "vendor_id": "lpqv"
+  },
+  "ltheme": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LTheme)",
+        "properties": {},
+        "selector": "script[id*='ltheme-custom-js']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ltheme"
+  },
+  "lua": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lua)",
+          "strength": 1.0,
+          "value": "\\bLua(?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "lua"
+  },
+  "luana": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luana)",
+        "strength": 1.0,
+        "value": "luanaframework"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luana)",
+          "strength": 1.0,
+          "value": "^Luana\\sFramework\\s([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "luana"
+  },
+  "lucide": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lucide)",
+        "properties": {},
+        "selector": "svg.lucide",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "lucide"
+  },
+  "lucky_orange": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lucky Orange)",
+        "properties": {},
+        "selector": "link[href*='.luckyorange.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lucky Orange)",
+        "strength": 1.0,
+        "value": "__wtw_lucky_site_id"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lucky Orange)",
+        "strength": 1.0,
+        "value": "\\.luckyorange\\.com/"
+      }
+    ],
+    "vendor_id": "lucky_orange"
+  },
+  "luigi_s_box": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luigi\u2019s Box)",
+        "strength": 1.0,
+        "value": "Luigis"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luigi\u2019s Box)",
+        "strength": 1.0,
+        "value": "LuigisBox"
+      }
+    ],
+    "vendor_id": "luigi_s_box"
+  },
+  "luma": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luma)",
+        "strength": 1.0,
+        "value": "luma.initCheckout"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luma)",
+        "strength": 1.0,
+        "value": "embed\\.lu\\.ma"
+      }
+    ],
+    "vendor_id": "luma"
+  },
+  "lume": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lume)",
+          "strength": 1.0,
+          "value": "^Lume\\sv([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "lume"
+  },
+  "lumino": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumino)",
+        "strength": 1.0,
+        "value": "api\\.getlumino\\.ai"
+      }
+    ],
+    "vendor_id": "lumino"
+  },
+  "lumio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumio)",
+        "strength": 1.0,
+        "value": "app\\.lumio-analytics\\.com/"
+      }
+    ],
+    "vendor_id": "lumio"
+  },
+  "lumise": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumise)",
+        "strength": 1.0,
+        "value": "lumise"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumise)",
+        "strength": 1.0,
+        "value": "app\\.lumise\\.com/"
+      }
+    ],
+    "vendor_id": "lumise"
+  },
+  "lumit": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumit)",
+        "properties": {},
+        "selector": "iframe[src*='.lumit.se']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lumit)",
+        "strength": 1.0,
+        "value": "injectLumit"
+      }
+    ],
+    "vendor_id": "lumit"
+  },
+  "luna": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "properties": {},
+        "selector": "link[href*='bsdk.api.ditto.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+          "strength": 1.0,
+          "value": "bsdk\\.api\\.ditto.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "strength": 1.0,
+        "value": "Ditto.__esModule"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "strength": 1.0,
+        "value": "dittoIdLifetime"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "strength": 1.0,
+        "value": "globalDittoKey"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "strength": 1.0,
+        "value": "globalDittoServer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luna)",
+        "strength": 1.0,
+        "value": "jstextmap.DittoSdkUrl"
+      }
+    ],
+    "vendor_id": "luna"
+  },
+  "lunio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lunio)",
+        "strength": 1.0,
+        "value": "LunioClientData"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lunio)",
+        "strength": 1.0,
+        "value": "LunioTrackConversion"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lunio)",
+        "strength": 1.0,
+        "value": "lunioScript"
+      }
+    ],
+    "vendor_id": "lunio"
+  },
+  "lunr_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lunr.js)",
+        "strength": 1.0,
+        "value": "lunr"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lunr.js)",
+        "strength": 1.0,
+        "value": "(?:((?:\\d+\\.)+\\d+)\\/)?lunr(?:-store)?(?:-en)?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "lunr_js"
+  },
+  "luveedu_cloud": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Luveedu Cloud)",
+        "strength": 1.0,
+        "value": "cdn\\.luveedu\\.com/"
+      }
+    ],
+    "vendor_id": "luveedu_cloud"
+  },
+  "lychee": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lychee)",
+        "strength": 1.0,
+        "value": "lychee"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lychee)",
+        "strength": 1.0,
+        "value": "lychee.version"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lychee)",
+          "strength": 1.0,
+          "value": "Lychee v([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "lychee"
+  },
+  "lyrathemes_kale": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LyraThemes Kale)",
+        "strength": 1.0,
+        "value": "kale_responsive_videos"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: LyraThemes Kale)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/kale(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "lyrathemes_kale"
+  },
+  "lytics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lytics)",
+        "strength": 1.0,
+        "value": "__lytics__jstag__.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Lytics)",
+        "strength": 1.0,
+        "value": "\\.lytics\\.io/"
+      }
+    ],
+    "vendor_id": "lytics"
+  }
+}

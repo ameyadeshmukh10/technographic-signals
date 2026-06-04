@@ -1,0 +1,46 @@
+{
+  "vendor_id": "salesforce",
+  "subdomains_to_probe": [
+    "community",
+    "communities",
+    "help",
+    "support",
+    "my"
+  ],
+  "cname_patterns": [
+    {
+      "value": "force.com",
+      "match_type": "suffix",
+      "strength": 0.6,
+      "notes": "Experience/Community Cloud sites CNAME to *.force.com or *.live.siteforce.com"
+    },
+    {
+      "value": "live.siteforce.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Experience Cloud (Site.com) custom domain target"
+    },
+    {
+      "value": "salesforce.com",
+      "match_type": "suffix",
+      "strength": 0.6,
+      "notes": "Salesforce-hosted subdomain target"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [
+    {
+      "value": "live.siteforce.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Experience Cloud custom domains require paid Digital Experiences licensing"
+    }
+  ],
+  "last_verified": null,
+  "verified_domains": [],
+  "_notes": "TODO: confirm Salesforce TXT domain-verification token format."
+}

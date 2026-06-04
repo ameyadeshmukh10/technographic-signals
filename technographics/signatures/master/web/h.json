@@ -1,0 +1,3893 @@
+{
+  "h2o": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: H2O)",
+        "strength": 1.0,
+        "value": "h2o_casper"
+      }
+    ],
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: H2O)",
+          "strength": 1.0,
+          "value": "^h2o(?:/)?([\\d\\.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "h2o"
+  },
+  "h5ai": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: h5ai)",
+        "strength": 1.0,
+        "value": "/_h5ai/(?:public|client)/js/scripts\\.js"
+      }
+    ],
+    "vendor_id": "h5ai"
+  },
+  "haddock": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haddock)",
+        "strength": 1.0,
+        "value": "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haddock)",
+        "strength": 1.0,
+        "value": "haddock-util\\.js"
+      }
+    ],
+    "vendor_id": "haddock"
+  },
+  "haku": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haku)",
+        "strength": 1.0,
+        "value": "addHakuRegisterEvent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haku)",
+        "strength": 1.0,
+        "value": "addHakuSubmitEvent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haku)",
+        "strength": 1.0,
+        "value": "\\.hakuapp\\.com/"
+      }
+    ],
+    "vendor_id": "haku"
+  },
+  "halo": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Halo)",
+          "strength": 1.0,
+          "value": "Halo ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "halo"
+  },
+  "haloscan": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haloscan)",
+        "strength": 1.0,
+        "value": "www\\.haloscan\\.com/"
+      }
+    ],
+    "vendor_id": "haloscan"
+  },
+  "hamechio": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hamechio)",
+          "strength": 1.0,
+          "value": "hamech\\.io/"
+        }
+      ]
+    },
+    "vendor_id": "hamechio"
+  },
+  "hammer_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hammer.js)",
+        "strength": 1.0,
+        "value": "Ha.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hammer.js)",
+        "strength": 1.0,
+        "value": "Hammer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hammer.js)",
+        "strength": 1.0,
+        "value": "Hammer.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hammer.js)",
+        "strength": 1.0,
+        "value": "hammer(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "hammer_js"
+  },
+  "handlebars": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handlebars)",
+        "properties": {},
+        "selector": "script[type='text/x-handlebars-template']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handlebars)",
+        "strength": 1.0,
+        "value": "Handlebars"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handlebars)",
+        "strength": 1.0,
+        "value": "Handlebars.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handlebars)",
+        "strength": 1.0,
+        "value": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "handlebars"
+  },
+  "handsontable": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handsontable)",
+        "strength": 1.0,
+        "value": "Handsontable"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handsontable)",
+        "strength": 1.0,
+        "value": "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?handsontable(?:\\.full)?(?:\\.min)?(?:\\.[\\w]+)?\\.js"
+      }
+    ],
+    "vendor_id": "handsontable"
+  },
+  "handtalk": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handtalk)",
+        "strength": 1.0,
+        "value": "HandTalk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Handtalk)",
+        "strength": 1.0,
+        "value": "api\\.handtalk\\.me"
+      }
+    ],
+    "vendor_id": "handtalk"
+  },
+  "hanko": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hanko)",
+        "strength": 1.0,
+        "value": "_hankoStyle"
+      }
+    ],
+    "vendor_id": "hanko"
+  },
+  "hansel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hansel)",
+        "strength": 1.0,
+        "value": "Hansel"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hansel)",
+        "strength": 1.0,
+        "value": "HanselPX"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hansel)",
+        "strength": 1.0,
+        "value": "\\.hansel\\.io/web/([\\d\\.]+)/"
+      }
+    ],
+    "vendor_id": "hansel"
+  },
+  "hantana": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hantana)",
+        "strength": 1.0,
+        "value": "Hantana"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hantana)",
+        "strength": 1.0,
+        "value": "//hantana\\.org/widget"
+      }
+    ],
+    "vendor_id": "hantana"
+  },
+  "hapana": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hapana)",
+        "strength": 1.0,
+        "value": "\\.hapana\\.com/"
+      }
+    ],
+    "vendor_id": "hapana"
+  },
+  "happy_meal_prep": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Happy Meal Prep)",
+        "properties": {},
+        "selector": "div.footer-block > a[href*='happymealprep.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "happy_meal_prep"
+  },
+  "happy_returns": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Happy Returns)",
+        "properties": {},
+        "selector": "a[href*='.happyreturns.com'], img[src*='.happyreturns.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "happy_returns"
+  },
+  "happy_talk": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Happy Talk)",
+        "strength": 1.0,
+        "value": "Happytalk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Happy Talk)",
+        "strength": 1.0,
+        "value": "chat-static\\.happytalkio\\.com/"
+      }
+    ],
+    "vendor_id": "happy_talk"
+  },
+  "happyfox_helpdesk": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HappyFox Helpdesk)",
+        "strength": 1.0,
+        "value": "\\.happyfox\\.com/media/"
+      }
+    ],
+    "vendor_id": "happyfox_helpdesk"
+  },
+  "happyfox_live_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HappyFox Live Chat)",
+        "strength": 1.0,
+        "value": "HappyFoxChatObject"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HappyFox Live Chat)",
+        "strength": 1.0,
+        "value": "\\.happyfoxchat\\.com/"
+      }
+    ],
+    "vendor_id": "happyfox_live_chat"
+  },
+  "happysync": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HappySync)",
+        "strength": 1.0,
+        "value": "api\\.happysync\\.io/"
+      }
+    ],
+    "vendor_id": "happysync"
+  },
+  "haptik": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haptik)",
+        "strength": 1.0,
+        "value": "HaptikSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haptik)",
+        "strength": 1.0,
+        "value": "haptik"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haptik)",
+        "strength": 1.0,
+        "value": "haptikInitSettings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haptik)",
+        "strength": 1.0,
+        "value": "\\.haptikapi\\.com/"
+      }
+    ],
+    "vendor_id": "haptik"
+  },
+  "harafunnel": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Harafunnel)",
+        "strength": 1.0,
+        "value": "assets\\.harafunnel\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Harafunnel)",
+        "strength": 1.0,
+        "value": "assets\\.harafunnel\\.com"
+      }
+    ],
+    "vendor_id": "harafunnel"
+  },
+  "haravan": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haravan)",
+        "strength": 1.0,
+        "value": "Haravan.shop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haravan)",
+        "strength": 1.0,
+        "value": "HaravanAnalytics.meta"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haravan)",
+        "strength": 1.0,
+        "value": "hrvBeacon.host"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Haravan)",
+        "strength": 1.0,
+        "value": "haravan.*\\.js"
+      }
+    ],
+    "vendor_id": "haravan"
+  },
+  "harbor": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Harbor)",
+        "properties": {},
+        "selector": "harbor-app",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "harbor"
+  },
+  "harborbyte": {
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HarborByte)",
+          "strength": 1.0,
+          "value": "harborbyte\\.com"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "meta content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HarborByte)",
+          "strength": 1.0,
+          "value": "harborbyte-media-assets\\.pages\\.dev"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HarborByte)",
+          "strength": 1.0,
+          "value": "^Website by HarborByte$"
+        }
+      ]
+    },
+    "vendor_id": "harborbyte"
+  },
+  "harness": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Harness)",
+        "strength": 1.0,
+        "value": "HarnessWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Harness)",
+        "strength": 1.0,
+        "value": "\\.harnessapp\\.com"
+      }
+    ],
+    "vendor_id": "harness"
+  },
+  "hashnode": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hashnode)",
+        "properties": {},
+        "selector": "div.css-zigog8",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hashnode)",
+        "strength": 1.0,
+        "value": "hashnode\\.com"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hashnode)",
+        "strength": 1.0,
+        "value": "^https?://[^/]+\\.(?:hashnode)\\.dev"
+      }
+    ],
+    "vendor_id": "hashnode"
+  },
+  "hashtag_labs": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hashtag Labs)",
+        "properties": {},
+        "selector": "link[href*='//htlbid.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hashtag Labs)",
+        "strength": 1.0,
+        "value": "htlbid.cmd"
+      }
+    ],
+    "vendor_id": "hashtag_labs"
+  },
+  "hashthemes_total": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HashThemes Total)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
+      }
+    ],
+    "vendor_id": "hashthemes_total"
+  },
+  "hasura": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hasura)",
+        "strength": 1.0,
+        "value": "\\.hasura\\.io/"
+      }
+    ],
+    "vendor_id": "hasura"
+  },
+  "hatena_blog": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hatena Blog)",
+        "strength": 1.0,
+        "value": "cdn\\.blog\\.st-hatena\\.com/"
+      }
+    ],
+    "vendor_id": "hatena_blog"
+  },
+  "hawksearch": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HawkSearch)",
+        "strength": 1.0,
+        "value": "HawkCompare.addImage"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HawkSearch)",
+        "strength": 1.0,
+        "value": "HawkSearch.BaseUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HawkSearch)",
+        "strength": 1.0,
+        "value": "hawkIntervalSearch"
+      }
+    ],
+    "vendor_id": "hawksearch"
+  },
+  "hcaptcha": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "strength": 1.0,
+        "value": "#cf-hcaptcha-container"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "properties": {},
+        "selector": "link[href*='hcaptcha.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+          "strength": 1.0,
+          "value": "(?:\\.|//)hcaptcha\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "strength": 1.0,
+        "value": "hcaptcha.getRespKey"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "strength": 1.0,
+        "value": "hcaptchaOnLoad"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "strength": 1.0,
+        "value": "hcaptcha_sitekey"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hCaptcha)",
+        "strength": 1.0,
+        "value": "hcaptcha\\.com/([\\d]+?)/api\\.js"
+      }
+    ],
+    "vendor_id": "hcaptcha"
+  },
+  "hcl_commerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Commerce)",
+        "properties": {},
+        "selector": "link[href*='/wcsstore/'], link[href*='webapp/wcs/'], a[href*='/wcsstore/'], a[href*='webapp/wcs/'], script[src*='/wcsstore/'], script[src*='webapp/wcs/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Commerce)",
+        "strength": 1.0,
+        "value": "/webapp/wcs/"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Commerce)",
+        "strength": 1.0,
+        "value": "/wcs/"
+      }
+    ],
+    "vendor_id": "hcl_commerce"
+  },
+  "hcl_digital_experience": {
+    "header_patterns": {
+      "ibm-web2-location": [
+        {
+          "match_type": "regex",
+          "notes": "header IBM-Web2-Location; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Digital Experience)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "itx-generated-timestamp": [
+        {
+          "match_type": "regex",
+          "notes": "header Itx-Generated-Timestamp; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Digital Experience)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Digital Experience)",
+        "strength": 1.0,
+        "value": "ibmCfg.themeConfig.modulesWebAppBaseURI"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Digital Experience)",
+        "strength": 1.0,
+        "value": "/wps/wcm/"
+      }
+    ],
+    "vendor_id": "hcl_digital_experience"
+  },
+  "hcl_domino": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HCL Domino)",
+          "strength": 1.0,
+          "value": "^Lotus-Domino$"
+        }
+      ]
+    },
+    "vendor_id": "hcl_domino"
+  },
+  "header_bidding_ai": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Header Bidding Ai)",
+        "strength": 1.0,
+        "value": "\\.headerbidding\\.ai/"
+      }
+    ],
+    "vendor_id": "header_bidding_ai"
+  },
+  "headjs": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeadJS)",
+        "strength": 1.0,
+        "value": "<[^>]*data-headjs-load"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeadJS)",
+        "strength": 1.0,
+        "value": "head.browser.name"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeadJS)",
+        "strength": 1.0,
+        "value": "head\\.(?:core|load)(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "headjs"
+  },
+  "headless_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "id": {
+            "match_type": "regex",
+            "notes": "dom attr id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headless UI)",
+            "strength": 1.0,
+            "value": "headlessui-"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headless UI)",
+        "properties": {},
+        "selector": "button",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "id": {
+            "match_type": "regex",
+            "notes": "dom attr id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headless UI)",
+            "strength": 1.0,
+            "value": "headlessui-"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headless UI)",
+        "properties": {},
+        "selector": "div",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "headless_ui"
+  },
+  "headroom_js": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headroom.js)",
+        "strength": 1.0,
+        "value": "headroom(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "headroom_js"
+  },
+  "headway": {
+    "header_patterns": {
+      "x-hello": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Hello; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Headway)",
+          "strength": 1.0,
+          "value": "^headway$"
+        }
+      ]
+    },
+    "vendor_id": "headway"
+  },
+  "heap": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)",
+        "strength": 1.0,
+        "value": "heap.version.heapJsVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)",
+        "strength": 1.0,
+        "value": "cdn\\.heapanalytics\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heap)",
+        "strength": 1.0,
+        "value": "heap-\\d+\\.js"
+      }
+    ],
+    "vendor_id": "heap"
+  },
+  "hearth": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hearth)",
+        "strength": 1.0,
+        "value": "widget\\.gethearth\\.com"
+      }
+    ],
+    "vendor_id": "hearth"
+  },
+  "heartland_payment_systems": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heartland Payment Systems)",
+        "strength": 1.0,
+        "value": "\\.heartlandportico\\.com"
+      }
+    ],
+    "vendor_id": "heartland_payment_systems"
+  },
+  "heeet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heeet)",
+        "strength": 1.0,
+        "value": "heeet"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heeet)",
+        "strength": 1.0,
+        "value": "heeetJourneyParams"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heeet)",
+        "strength": 1.0,
+        "value": "heeetParams"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heeet)",
+        "strength": 1.0,
+        "value": "heeetSaveJourney"
+      }
+    ],
+    "vendor_id": "heeet"
+  },
+  "heights_platform": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heights Platform)",
+        "strength": 1.0,
+        "value": "_Heights_session"
+      }
+    ],
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heights Platform)",
+          "strength": 1.0,
+          "value": "uploads\\.heightsplatform\\.com"
+        }
+      ]
+    },
+    "vendor_id": "heights_platform"
+  },
+  "helhost": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helhost)",
+          "strength": 1.0,
+          "value": "Helhost"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helhost)",
+        "strength": 1.0,
+        "value": "\\.helhost\\.com/"
+      }
+    ],
+    "vendor_id": "helhost"
+  },
+  "heliumweb": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeliumWeb)",
+          "strength": 1.0,
+          "value": "Adrikikicp Development"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeliumWeb)",
+        "strength": 1.0,
+        "value": "helium.js"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeliumWeb)",
+        "strength": 1.0,
+        "value": "helium/src/helium.js/helium_web.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeliumWeb)",
+        "strength": 1.0,
+        "value": "http://maven.enriquitomcfh.ml/helium.js/helium_web.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeliumWeb)",
+        "strength": 1.0,
+        "value": "http://maven.enriquitomcfh.ml/helium.js/helium_web.min.js"
+      }
+    ],
+    "vendor_id": "heliumweb"
+  },
+  "helix_ultimate": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helix Ultimate)",
+        "properties": {},
+        "selector": "header#sp-header, body.helix-ultimate",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "helix_ultimate"
+  },
+  "helixo_ufe": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helixo UFE)",
+        "strength": 1.0,
+        "value": "ufe.funnelData"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helixo UFE)",
+        "strength": 1.0,
+        "value": "ufeStore.cartTotal"
+      }
+    ],
+    "vendor_id": "helixo_ufe"
+  },
+  "helixpay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelixPay)",
+        "strength": 1.0,
+        "value": "HELIXPAY.PAGE"
+      }
+    ],
+    "vendor_id": "helixpay"
+  },
+  "hello_bar": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Bar)",
+        "strength": 1.0,
+        "value": "HelloBar"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Bar)",
+        "strength": 1.0,
+        "value": "hellobarSiteSettings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Bar)",
+        "strength": 1.0,
+        "value": "\\.?hellobar\\.(?:com|js)"
+      }
+    ],
+    "vendor_id": "hello_bar"
+  },
+  "hello_elementor": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+            "strength": 1.0,
+            "value": "elementor-hello\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+        "properties": {},
+        "selector": "link[id*='elementor-hello']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+            "strength": 1.0,
+            "value": "hello-elementor\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+        "properties": {},
+        "selector": "link[id*='hello-elementor']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+        "properties": {},
+        "selector": "script[id*='hello-elementor']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Elementor)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      }
+    ],
+    "vendor_id": "hello_elementor"
+  },
+  "hello_retail": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Retail)",
+        "strength": 1.0,
+        "value": "HELLO_RETAIL"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Retail)",
+        "strength": 1.0,
+        "value": "HelloRetailSwiper"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hello Retail)",
+        "strength": 1.0,
+        "value": "//helloretailcdn\\.com/"
+      }
+    ],
+    "vendor_id": "hello_retail"
+  },
+  "help_com": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Help.com)",
+        "strength": 1.0,
+        "value": "Helpdotcom"
+      }
+    ],
+    "vendor_id": "help_com"
+  },
+  "help_scout": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Help Scout)",
+        "strength": 1.0,
+        "value": "__onBeaconDestroy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Help Scout)",
+        "strength": 1.0,
+        "value": "beaconStore"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Help Scout)",
+        "strength": 1.0,
+        "value": "\\.helpscout\\.net/"
+      }
+    ],
+    "vendor_id": "help_scout"
+  },
+  "helpcrunch": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpCrunch)",
+        "strength": 1.0,
+        "value": "HelpCrunch"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpCrunch)",
+        "strength": 1.0,
+        "value": "helpcrunchDebug"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpCrunch)",
+        "strength": 1.0,
+        "value": "\\.helpcrunch\\.com/"
+      }
+    ],
+    "vendor_id": "helpcrunch"
+  },
+  "helpdocs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpDocs)",
+        "strength": 1.0,
+        "value": "HDAnalytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpDocs)",
+        "strength": 1.0,
+        "value": "HDUtils"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpDocs)",
+        "strength": 1.0,
+        "value": "hd_instant_search"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpDocs)",
+        "strength": 1.0,
+        "value": "cdn\\.helpdocs\\.io"
+      }
+    ],
+    "vendor_id": "helpdocs"
+  },
+  "helponclick": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpOnClick)",
+        "strength": 1.0,
+        "value": "HelpOnClickLogoRoundMask"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpOnClick)",
+        "strength": 1.0,
+        "value": "HelpOnClick_ChatPrinter_Button"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HelpOnClick)",
+        "strength": 1.0,
+        "value": "\\.helponclick\\.com"
+      }
+    ],
+    "vendor_id": "helponclick"
+  },
+  "helpwise": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Helpwise)",
+        "strength": 1.0,
+        "value": "cdn\\.helpwise\\.io"
+      }
+    ],
+    "vendor_id": "helpwise"
+  },
+  "here": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Here)",
+        "properties": {},
+        "selector": "link[href*='//js\\.api\\.here\\.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Here)",
+        "strength": 1.0,
+        "value": "H.buildInfo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Here)",
+        "strength": 1.0,
+        "value": "H.geo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Here)",
+        "strength": 1.0,
+        "value": "H.util"
+      }
+    ],
+    "vendor_id": "here"
+  },
+  "hermes": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hermes)",
+        "strength": 1.0,
+        "value": "\\bHermes\\b"
+      }
+    ],
+    "vendor_id": "hermes"
+  },
+  "hero": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hero)",
+        "strength": 1.0,
+        "value": "HeroWebPluginSettings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hero)",
+        "strength": 1.0,
+        "value": "cdn\\.usehero\\.com"
+      }
+    ],
+    "vendor_id": "hero"
+  },
+  "heroic": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heroic)",
+        "strength": 1.0,
+        "value": "app\\.heroicnow\\.com/"
+      }
+    ],
+    "vendor_id": "heroic"
+  },
+  "heroku": {
+    "header_patterns": {
+      "via": [
+        {
+          "match_type": "regex",
+          "notes": "header Via; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heroku)",
+          "strength": 1.0,
+          "value": "[\\d.-]+ vegur$"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heroku)",
+        "strength": 1.0,
+        "value": "\\.herokuapp\\.com"
+      }
+    ],
+    "vendor_id": "heroku"
+  },
+  "heroui": {
+    "css_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "css; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeroUI)",
+        "strength": 1.0,
+        "value": "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeroUI)",
+        "properties": {},
+        "selector": "link[href*='nextui.org'][rel='canonical']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeroUI)",
+        "strength": 1.0,
+        "value": "NextUI"
+      }
+    ],
+    "vendor_id": "heroui"
+  },
+  "hesk": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hesk)",
+        "strength": 1.0,
+        "value": "heskKBquery"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hesk)",
+        "strength": 1.0,
+        "value": "hesk_rate"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hesk)",
+        "strength": 1.0,
+        "value": "hesk_window"
+      }
+    ],
+    "vendor_id": "hesk"
+  },
+  "hestia": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hestia)",
+        "properties": {},
+        "selector": "body[class*='hestia-theme']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hestia)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hestia)",
+            "strength": 1.0,
+            "value": "hestia\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hestia)",
+        "properties": {},
+        "selector": "link[id*='hestia']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hestia)",
+        "strength": 1.0,
+        "value": "themes/hestia.*\\.js(?:\\?ver=([0-9.]+))?"
+      }
+    ],
+    "vendor_id": "hestia"
+  },
+  "hetrixtools": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HetrixTools)",
+          "strength": 1.0,
+          "value": "\\.hetrixtools\\.com"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HetrixTools)",
+        "strength": 1.0,
+        "value": "htoolz"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HetrixTools)",
+        "strength": 1.0,
+        "value": "\\.hetrixtools\\.com/"
+      }
+    ],
+    "vendor_id": "hetrixtools"
+  },
+  "hetzner": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hetzner)",
+          "strength": 1.0,
+          "value": "HeRay"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hetzner)",
+          "strength": 1.0,
+          "value": "Hetzner"
+        }
+      ]
+    },
+    "vendor_id": "hetzner"
+  },
+  "hexia": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hexia)",
+        "strength": 1.0,
+        "value": "hexia.address"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hexia)",
+        "strength": 1.0,
+        "value": "sdk\\.hexia\\.io"
+      }
+    ],
+    "vendor_id": "hexia"
+  },
+  "hexo": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hexo)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"https?://hexo\\.io/?\"[^>]*>Hexo</"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hexo)",
+          "strength": 1.0,
+          "value": "Hexo(?: v?([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "hexo"
+  },
+  "hextom_free_shipping_bar": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hextom Free Shipping Bar)",
+        "strength": 1.0,
+        "value": "\\.hextom\\.com/js/freeshippingbar\\.js"
+      }
+    ],
+    "vendor_id": "hextom_free_shipping_bar"
+  },
+  "hextom_ultimate_sales_boost": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hextom Ultimate Sales Boost)",
+        "strength": 1.0,
+        "value": "hextom_usb"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hextom Ultimate Sales Boost)",
+        "strength": 1.0,
+        "value": "ht_usb.isLoaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hextom Ultimate Sales Boost)",
+        "strength": 1.0,
+        "value": "\\.hextom\\.com/js/ultimatesalesboost\\.js"
+      }
+    ],
+    "vendor_id": "hextom_ultimate_sales_boost"
+  },
+  "heyflow": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heyflow)",
+        "strength": 1.0,
+        "value": "webpackChunk_heyflow_widget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Heyflow)",
+        "strength": 1.0,
+        "value": "static\\.heyflow\\.app/"
+      }
+    ],
+    "vendor_id": "heyflow"
+  },
+  "heylight": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyLight)",
+        "properties": {},
+        "selector": "div#heidipay-container, div[data-heidipay], div#pagolight-pro-dialog, iframe#heidipay-iframe-product-description-pagolight, style#heyLightFonts",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyLight)",
+        "strength": 1.0,
+        "value": "closePagodilModal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyLight)",
+        "strength": 1.0,
+        "value": "openPagodilModal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyLight)",
+        "strength": 1.0,
+        "value": "pagodilLang"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyLight)",
+        "strength": 1.0,
+        "value": "pagodilSprintf"
+      }
+    ],
+    "vendor_id": "heylight"
+  },
+  "heypongo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeyPongo)",
+        "strength": 1.0,
+        "value": "api\\.heypongo\\.com"
+      }
+    ],
+    "vendor_id": "heypongo"
+  },
+  "heysummit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "heySummitAnimationItems"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "prepHeySummitAnimationParent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "resetHeySummitAnimation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "startHeySummitAnimation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "startHeySummitAnimationLoadTop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+        "strength": 1.0,
+        "value": "stopHeySummitAnimation"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HeySummit)",
+          "strength": 1.0,
+          "value": "^HeySummit$"
+        }
+      ]
+    },
+    "vendor_id": "heysummit"
+  },
+  "hhvm": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HHVM)",
+          "strength": 1.0,
+          "value": "HHVM/?([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "hhvm"
+  },
+  "hi_platform": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hi Platform)",
+        "properties": {},
+        "selector": "link[href*='.hiplatform.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hi Platform)",
+        "strength": 1.0,
+        "value": "\\.hiplatform\\.com/"
+      }
+    ],
+    "vendor_id": "hi_platform"
+  },
+  "hiawatha": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hiawatha)",
+          "strength": 1.0,
+          "value": "Hiawatha v([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "hiawatha"
+  },
+  "hibob": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HiBob)",
+        "strength": 1.0,
+        "value": "app\\.hibob\\.com"
+      }
+    ],
+    "vendor_id": "hibob"
+  },
+  "hibu": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hibu)",
+        "strength": 1.0,
+        "value": "cdn\\.hibuwebsites\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hibu)",
+        "strength": 1.0,
+        "value": "hibuWebsiteConfig"
+      }
+    ],
+    "vendor_id": "hibu"
+  },
+  "highcharts": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highcharts)",
+        "strength": 1.0,
+        "value": "<svg[^>]*><desc>Created with Highcharts ([\\d.]*)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highcharts)",
+        "strength": 1.0,
+        "value": "Highcharts"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highcharts)",
+        "strength": 1.0,
+        "value": "Highcharts.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highcharts)",
+        "strength": 1.0,
+        "value": "highcharts.*\\.js"
+      }
+    ],
+    "vendor_id": "highcharts"
+  },
+  "higher_logic": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic)",
+        "strength": 1.0,
+        "value": "informz_trk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic)",
+        "strength": 1.0,
+        "value": "\\.informz\\.net/"
+      }
+    ],
+    "vendor_id": "higher_logic"
+  },
+  "higher_logic_vanilla": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic Vanilla)",
+        "properties": {},
+        "selector": "body#DiscussionsPage, body#vanilla",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      " x-vanilla-version": [
+        {
+          "match_type": "regex",
+          "notes": "header  x-vanilla-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic Vanilla)",
+          "strength": 1.0,
+          "value": "([\\d\\.]+)"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic Vanilla)",
+          "strength": 1.0,
+          "value": "Vanilla"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic Vanilla)",
+        "strength": 1.0,
+        "value": "Vanilla"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Higher Logic Vanilla)",
+        "strength": 1.0,
+        "value": "__VANILLA_GLOBALS__"
+      }
+    ],
+    "vendor_id": "higher_logic_vanilla"
+  },
+  "higherme_hr": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HigherMe HR)",
+        "strength": 1.0,
+        "value": "app\\.higherme\\.com"
+      }
+    ],
+    "vendor_id": "higherme_hr"
+  },
+  "highlevel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HighLevel)",
+        "strength": 1.0,
+        "value": "leadConnector.chatWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HighLevel)",
+        "strength": 1.0,
+        "value": "\\.leadconnectorhq\\.com/"
+      }
+    ],
+    "vendor_id": "highlevel"
+  },
+  "highlight_io": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.io)",
+        "strength": 1.0,
+        "value": "_highlightFetchPatch"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.io)",
+        "strength": 1.0,
+        "value": "_highlightWebSocketEventCallback"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.io)",
+        "strength": 1.0,
+        "value": "unpkg\\.com/highlight\\.run"
+      }
+    ],
+    "vendor_id": "highlight_io"
+  },
+  "highlight_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.js)",
+        "strength": 1.0,
+        "value": "hljs.highlightBlock"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.js)",
+        "strength": 1.0,
+        "value": "hljs.listLanguages"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highlight.js)",
+        "strength": 1.0,
+        "value": "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "highlight_js"
+  },
+  "highstock": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highstock)",
+        "strength": 1.0,
+        "value": "<svg[^>]*><desc>Created with Highstock ([\\d.]*)"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Highstock)",
+        "strength": 1.0,
+        "value": "highstock[.-]?([\\d\\.]*\\d).*\\.js"
+      }
+    ],
+    "vendor_id": "highstock"
+  },
+  "highstore": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HighStore)",
+          "strength": 1.0,
+          "value": "^HighStore\\.IR$"
+        }
+      ],
+      "hs:version": [
+        {
+          "match_type": "regex",
+          "notes": "meta hs:version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HighStore)",
+          "strength": 0.5,
+          "value": "^([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "highstore"
+  },
+  "hikari_cs": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hikari CS)",
+        "strength": 1.0,
+        "value": "widget\\.hikarics\\.com/"
+      }
+    ],
+    "vendor_id": "hikari_cs"
+  },
+  "hikashop": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HikaShop)",
+        "strength": 1.0,
+        "value": "com_hikashop"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HikaShop)",
+        "strength": 1.0,
+        "value": "hikashop"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HikaShop)",
+        "strength": 1.0,
+        "value": "hikashopCheckField"
+      }
+    ],
+    "vendor_id": "hikashop"
+  },
+  "hikeorders": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HikeOrders)",
+        "strength": 1.0,
+        "value": "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js"
+      }
+    ],
+    "vendor_id": "hikeorders"
+  },
+  "hinza_advanced_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hinza Advanced CMS)",
+          "strength": 1.0,
+          "value": "hinzacms"
+        }
+      ]
+    },
+    "vendor_id": "hinza_advanced_cms"
+  },
+  "hipay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HiPay)",
+        "strength": 1.0,
+        "value": "HiPay"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HiPay)",
+        "strength": 1.0,
+        "value": "\\.hipay\\.com/"
+      }
+    ],
+    "vendor_id": "hipay"
+  },
+  "hireology": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hireology)",
+        "properties": {},
+        "selector": "a[href*='sites.hireology.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hireology)",
+        "strength": 1.0,
+        "value": "sites\\.hireology\\.com/"
+      }
+    ],
+    "vendor_id": "hireology"
+  },
+  "hirschmann_hios": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hirschmann HiOS)",
+        "properties": {},
+        "selector": "div",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hirschmann HiOS)",
+          "strength": 1.0,
+          "value": "(HiSecOS-|HiOS-.+-)(\\d+\\.\\d+\\.\\d+)"
+        }
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hirschmann HiOS)",
+        "properties": {},
+        "selector": "h2",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hirschmann HiOS)",
+          "strength": 1.0,
+          "value": "(HiSecOS-|HiOS-.+-)(\\d+\\.\\d+\\.\\d+)"
+        }
+      }
+    ],
+    "vendor_id": "hirschmann_hios"
+  },
+  "histats": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Histats)",
+        "properties": {},
+        "selector": "img[src*='.histats.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Histats)",
+        "strength": 1.0,
+        "value": "Histats.ver"
+      }
+    ],
+    "vendor_id": "histats"
+  },
+  "history": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: History)",
+        "strength": 1.0,
+        "value": "/history(@|/)([\\d.]+)(?:/[a-z]+)?/history(?:(.production|.development))?(?:.min)?\\.js"
+      }
+    ],
+    "vendor_id": "history"
+  },
+  "hit_mall": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hit-Mall)",
+        "strength": 1.0,
+        "value": "/(?:[\\w\\-/]+)?hitmall\\.js(?:\\?.*)?"
+      }
+    ],
+    "vendor_id": "hit_mall"
+  },
+  "hiver": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hiver)",
+        "properties": {},
+        "selector": "link[href*='chat-widget.hiverhq.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hiver)",
+        "strength": 1.0,
+        "value": "$hiverChatWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hiver)",
+        "strength": 1.0,
+        "value": "chat-widget\\.hiverhq\\.com/"
+      }
+    ],
+    "vendor_id": "hiver"
+  },
+  "hocalwire": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hocalwire)",
+        "properties": {},
+        "selector": "link[href*='//hocalwire.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hocalwire)",
+        "strength": 1.0,
+        "value": "Hocalwire"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hocalwire)",
+        "strength": 1.0,
+        "value": "hocalApiEndPoints"
+      }
+    ],
+    "vendor_id": "hocalwire"
+  },
+  "hockeystack": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HockeyStack)",
+        "strength": 1.0,
+        "value": "HockeyStack"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HockeyStack)",
+        "strength": 1.0,
+        "value": "hsscript"
+      }
+    ],
+    "vendor_id": "hockeystack"
+  },
+  "hoefler_co": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoefler&Co)",
+        "properties": {},
+        "selector": "link[href*='cloud.typography.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "hoefler_co"
+  },
+  "hogan_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hogan.js)",
+        "strength": 1.0,
+        "value": "Hogan"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hogan.js)",
+        "strength": 1.0,
+        "value": "([\\d.]+)/hogan(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hogan.js)",
+        "strength": 1.0,
+        "value": "hogan-[.-]([\\d.]*\\d)[^/]*\\.js"
+      }
+    ],
+    "vendor_id": "hogan_js"
+  },
+  "hoiio": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoiio)",
+        "strength": 1.0,
+        "value": "hoiio\\.notifyEmpty"
+      }
+    ],
+    "vendor_id": "hoiio"
+  },
+  "holdmyticket": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HoldMyTicket)",
+        "strength": 1.0,
+        "value": "//holdmyticket\\.com/widgets"
+      }
+    ],
+    "vendor_id": "holdmyticket"
+  },
+  "holduix_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Holduix CMS)",
+        "strength": 1.0,
+        "value": "HolduixConfig.baseURL"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Holduix CMS)",
+          "strength": 1.0,
+          "value": "^Holduix$"
+        }
+      ]
+    },
+    "vendor_id": "holduix_cms"
+  },
+  "hollerbox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HollerBox)",
+        "strength": 1.0,
+        "value": "HollerBox.active"
+      }
+    ],
+    "vendor_id": "hollerbox"
+  },
+  "homebot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homebot)",
+        "strength": 1.0,
+        "value": "Homebot"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homebot)",
+        "strength": 1.0,
+        "value": "Homebot.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homebot)",
+        "strength": 1.0,
+        "value": "embed\\.homebotapp\\.com"
+      }
+    ],
+    "vendor_id": "homebot"
+  },
+  "homefiniti": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homefiniti)",
+          "strength": 1.0,
+          "value": "^Homefiniti$"
+        }
+      ]
+    },
+    "vendor_id": "homefiniti"
+  },
+  "homerr": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homerr)",
+        "strength": 1.0,
+        "value": "\\bHomerr\\b"
+      }
+    ],
+    "vendor_id": "homerr"
+  },
+  "homerun": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homerun)",
+        "strength": 1.0,
+        "value": "homerunI18n"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homerun)",
+        "strength": 1.0,
+        "value": "homerunPrivacySettings"
+      }
+    ],
+    "vendor_id": "homerun"
+  },
+  "homestead": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Homestead)",
+          "strength": 1.0,
+          "value": "^Homestead SiteBuilder$"
+        }
+      ]
+    },
+    "vendor_id": "homestead"
+  },
+  "homhero": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HomHero)",
+        "properties": {},
+        "selector": "script#homhero-scripts-js",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "homhero"
+  },
+  "honeybadger": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Honeybadger)",
+        "strength": 1.0,
+        "value": "Honeybadger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Honeybadger)",
+        "strength": 1.0,
+        "value": "initHoneyBadger"
+      }
+    ],
+    "vendor_id": "honeybadger"
+  },
+  "hono": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hono)",
+          "strength": 1.0,
+          "value": "Hono"
+        }
+      ]
+    },
+    "vendor_id": "hono"
+  },
+  "hoolah": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hoolah)",
+        "strength": 1.0,
+        "value": "hoolah"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: hoolah)",
+        "strength": 1.0,
+        "value": "merchant\\.cdn\\.hoolah\\.co/"
+      }
+    ],
+    "vendor_id": "hoolah"
+  },
+  "hoory": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoory)",
+        "strength": 1.0,
+        "value": "$hoory"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoory)",
+        "strength": 1.0,
+        "value": "hoorySDK.reRun"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoory)",
+        "strength": 1.0,
+        "value": "hoorySettings"
+      }
+    ],
+    "vendor_id": "hoory"
+  },
+  "hoowla": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoowla)",
+        "strength": 1.0,
+        "value": "cdn\\.hoowla\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoowla)",
+        "strength": 1.0,
+        "value": "hoowlainit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hoowla)",
+        "strength": 1.0,
+        "value": "cdn\\.hoowla\\.com"
+      }
+    ],
+    "vendor_id": "hoowla"
+  },
+  "horoshop": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Horoshop)",
+        "strength": 1.0,
+        "value": "Horoshop.Widgets"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Horoshop)",
+        "strength": 1.0,
+        "value": "horoshopReCaptcha"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Horoshop)",
+        "strength": 1.0,
+        "value": "webpackChunkHoroshop"
+      }
+    ],
+    "vendor_id": "horoshop"
+  },
+  "hostinger": {
+    "header_patterns": {
+      "platform": [
+        {
+          "match_type": "regex",
+          "notes": "header platform; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger)",
+          "strength": 1.0,
+          "value": "hostinger"
+        }
+      ]
+    },
+    "vendor_id": "hostinger"
+  },
+  "hostinger_cdn": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger CDN)",
+          "strength": 1.0,
+          "value": "hcdn"
+        }
+      ]
+    },
+    "vendor_id": "hostinger_cdn"
+  },
+  "hostinger_horizons": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger Horizons)",
+          "strength": 1.0,
+          "value": "^Hostinger Horizons$"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger Horizons)",
+          "strength": 1.0,
+          "value": "^Hostinger Horizons$"
+        }
+      ]
+    },
+    "vendor_id": "hostinger_horizons"
+  },
+  "hostinger_website_builder": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger Website Builder)",
+          "strength": 1.0,
+          "value": "Hostinger Website Builder"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostinger Website Builder)",
+        "strength": 1.0,
+        "value": "userapp\\.zyrosite\\.com/"
+      }
+    ],
+    "vendor_id": "hostinger_website_builder"
+  },
+  "hostmeapp": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hostmeapp)",
+        "strength": 1.0,
+        "value": "tables\\.hostmeapp\\.com"
+      }
+    ],
+    "vendor_id": "hostmeapp"
+  },
+  "hosttech_website_creator": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hosttech Website Creator)",
+          "strength": 1.0,
+          "value": "Website Creator by hosttech"
+        }
+      ],
+      "wsc_rendermode": [
+        {
+          "match_type": "regex",
+          "notes": "meta wsc_rendermode; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hosttech Website Creator)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "hosttech_website_creator"
+  },
+  "hotaru_cms": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotaru CMS)",
+        "strength": 1.0,
+        "value": "hotaru_mobile"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotaru CMS)",
+          "strength": 1.0,
+          "value": "Hotaru CMS"
+        }
+      ]
+    },
+    "vendor_id": "hotaru_cms"
+  },
+  "hotbot": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotbot)",
+        "strength": 1.0,
+        "value": "HotBot.authorize"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotbot)",
+        "strength": 1.0,
+        "value": "Hotbot.authorize"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotbot)",
+        "strength": 1.0,
+        "value": "api\\.hotbot\\.ai"
+      }
+    ],
+    "vendor_id": "hotbot"
+  },
+  "hotdoc": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HotDoc)",
+        "strength": 1.0,
+        "value": "hotdoc.assetsURL"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HotDoc)",
+        "strength": 1.0,
+        "value": "cdn\\.hotdoc\\.com\\.au"
+      }
+    ],
+    "vendor_id": "hotdoc"
+  },
+  "hotel_propeller": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotel Propeller)",
+        "strength": 1.0,
+        "value": "\\.hotelpropeller\\.com"
+      }
+    ],
+    "vendor_id": "hotel_propeller"
+  },
+  "hotjar": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar)",
+        "strength": 1.0,
+        "value": "HotLeadfactory"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar)",
+        "strength": 1.0,
+        "value": "HotleadController"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar)",
+        "strength": 1.0,
+        "value": "hj.apiUrlBase"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar)",
+        "strength": 1.0,
+        "value": "//static\\.hotjar\\.com/"
+      }
+    ],
+    "vendor_id": "hotjar"
+  },
+  "hotjar_incoming_feedback": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar Incoming Feedback)",
+        "properties": {},
+        "selector": "a[href*='hotjar.com/incoming-feedback'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotjar Incoming Feedback)",
+        "strength": 1.0,
+        "value": "\\.hotjar\\.com/preact-incoming-feedback"
+      }
+    ],
+    "vendor_id": "hotjar_incoming_feedback"
+  },
+  "hotmart": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotmart)",
+        "strength": 1.0,
+        "value": "HotmartLauncherObject"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hotmart)",
+        "strength": 1.0,
+        "value": "\\.hotmart\\.com/"
+      }
+    ],
+    "vendor_id": "hotmart"
+  },
+  "housecall_pro": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Housecall Pro)",
+        "strength": 1.0,
+        "value": "housecallpro\\.com/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Housecall Pro)",
+        "strength": 1.0,
+        "value": "\\.housecallpro\\.com"
+      }
+    ],
+    "vendor_id": "housecall_pro"
+  },
+  "howler_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Howler.js)",
+        "strength": 1.0,
+        "value": "Howler"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Howler.js)",
+        "strength": 1.0,
+        "value": "HowlerGlobal"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Howler.js)",
+        "strength": 1.0,
+        "value": "howler/([\\d.]+)/howler(?:\\.core)?\\.min\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Howler.js)",
+        "strength": 1.0,
+        "value": "howler@([\\d.]+)/dist/howler\\.min\\.js"
+      }
+    ],
+    "vendor_id": "howler_js"
+  },
+  "hp_compact_server": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HP Compact Server)",
+          "strength": 1.0,
+          "value": "HP_Compact_Server(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "hp_compact_server"
+  },
+  "hp_ilo": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HP iLO)",
+          "strength": 1.0,
+          "value": "HP-iLO-Server(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "hp_ilo"
+  },
+  "hrflow_ai": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HrFlow.ai)",
+        "strength": 1.0,
+        "value": "\\.hrflow\\.ai"
+      }
+    ],
+    "vendor_id": "hrflow_ai"
+  },
+  "hsts": {
+    "header_patterns": {
+      "strict-transport-security": [
+        {
+          "match_type": "regex",
+          "notes": "header Strict-Transport-Security; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HSTS)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HSTS)",
+        "strength": 1.0,
+        "value": "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$"
+      }
+    ],
+    "vendor_id": "hsts"
+  },
+  "ht_mega": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HT Mega)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/ht-mega-for-elementor/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HT Mega)",
+        "strength": 1.0,
+        "value": "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "ht_mega"
+  },
+  "html2canvas": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: html2canvas)",
+        "strength": 1.0,
+        "value": "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: html2canvas)",
+        "strength": 1.0,
+        "value": "html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "html2canvas"
+  },
+  "html5_media": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HTML5 Media)",
+        "strength": 1.0,
+        "value": "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "html5_media"
+  },
+  "htmx": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Htmx)",
+        "properties": {},
+        "selector": "script[data-src*='/dist/htmx.min.js']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Htmx)",
+        "strength": 1.0,
+        "value": "htmx"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Htmx)",
+        "strength": 1.0,
+        "value": "/htmx\\.org@([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "htmx"
+  },
+  "http_2": {
+    "header_patterns": {
+      "alt-svc": [
+        {
+          "match_type": "regex",
+          "notes": "header Alt-Svc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HTTP/2)",
+          "strength": 1.0,
+          "value": "h2"
+        }
+      ],
+      "x-firefox-spdy": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Firefox-Spdy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HTTP/2)",
+          "strength": 1.0,
+          "value": "h2"
+        }
+      ]
+    },
+    "vendor_id": "http_2"
+  },
+  "http_3": {
+    "header_patterns": {
+      "alt-svc": [
+        {
+          "match_type": "regex",
+          "notes": "header Alt-Svc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HTTP/3)",
+          "strength": 1.0,
+          "value": "h3"
+        }
+      ],
+      "x-firefox-http3": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Firefox-Http3; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HTTP/3)",
+          "strength": 1.0,
+          "value": "h3"
+        }
+      ]
+    },
+    "vendor_id": "http_3"
+  },
+  "hub_platform": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hub Platform)",
+        "strength": 1.0,
+        "value": "analytics\\.hub-js\\.com"
+      }
+    ],
+    "vendor_id": "hub_platform"
+  },
+  "hubalz": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubalz)",
+        "strength": 1.0,
+        "value": "Hubalz.getClickDetails"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubalz)",
+        "strength": 1.0,
+        "value": "hubalz_script.noInputTracking"
+      }
+    ],
+    "vendor_id": "hubalz"
+  },
+  "hubb": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubb)",
+        "properties": {},
+        "selector": "div.endis-jquery-ui",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubb)",
+        "strength": 1.0,
+        "value": "EndisDialog"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubb)",
+        "strength": 1.0,
+        "value": "EndisForm"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubb)",
+        "strength": 1.0,
+        "value": "IsHubbPage"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubb)",
+        "strength": 1.0,
+        "value": "SubmitEndisForm"
+      }
+    ],
+    "vendor_id": "hubb"
+  },
+  "huberway": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huberway)",
+        "strength": 1.0,
+        "value": "huberway_session"
+      }
+    ],
+    "vendor_id": "huberway"
+  },
+  "huberway_analytics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huberway Analytics)",
+        "strength": 1.0,
+        "value": "analytics\\.huberway\\.com/pixel/"
+      }
+    ],
+    "vendor_id": "huberway_analytics"
+  },
+  "hubilo": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubilo)",
+        "strength": 1.0,
+        "value": "\\.hubilo\\.com"
+      }
+    ],
+    "vendor_id": "hubilo"
+  },
+  "hubspot": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "<!-- Start of Async HubSpot"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "_hsq"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "hubspot"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)",
+        "strength": 1.0,
+        "value": "\\.hs-scripts\\.com/"
+      }
+    ],
+    "vendor_id": "hubspot"
+  },
+  "hubspot_analytics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot Analytics)",
+        "strength": 1.0,
+        "value": "js\\.hs-analytics\\.net/analytics"
+      }
+    ],
+    "vendor_id": "hubspot_analytics"
+  },
+  "hubspot_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot Chat)",
+        "strength": 1.0,
+        "value": "HubSpotConversations"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot Chat)",
+        "strength": 1.0,
+        "value": "js\\.usemessages\\.com"
+      }
+    ],
+    "vendor_id": "hubspot_chat"
+  },
+  "hubspot_cms_hub": {
+    "header_patterns": {
+      "x-hs-hub-id": [
+        {
+          "match_type": "regex",
+          "notes": "header x-hs-hub-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot CMS Hub)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot CMS Hub)",
+          "strength": 1.0,
+          "value": "HubSpot"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot CMS Hub)",
+          "strength": 1.0,
+          "value": "HubSpot"
+        }
+      ]
+    },
+    "vendor_id": "hubspot_cms_hub"
+  },
+  "hubspot_cookie_policy_banner": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot Cookie Policy Banner)",
+        "properties": {},
+        "selector": "#hs-eu-cookie-confirmation",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "hubspot_cookie_policy_banner"
+  },
+  "hubspot_wordpress_plugin": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot WordPress plugin)",
+        "strength": 1.0,
+        "value": "leadin_wordpress.leadinPluginVersion"
+      }
+    ],
+    "vendor_id": "hubspot_wordpress_plugin"
+  },
+  "hubtiger": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hubtiger)",
+          "strength": 1.0,
+          "value": "^Hubtiger$"
+        }
+      ]
+    },
+    "vendor_id": "hubtiger"
+  },
+  "huckabuy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huckabuy)",
+        "strength": 1.0,
+        "value": "HUCKABUY NAMESPACE.sd"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huckabuy)",
+        "strength": 1.0,
+        "value": "hbScriptRerun"
+      }
+    ],
+    "vendor_id": "huckabuy"
+  },
+  "huddle": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huddle)",
+        "properties": {},
+        "selector": "link[href*='.thehuddle.nl/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huddle)",
+        "strength": 1.0,
+        "value": "HuddleEvent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huddle)",
+        "strength": 1.0,
+        "value": "HuddleUser"
+      }
+    ],
+    "vendor_id": "huddle"
+  },
+  "huggy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huggy)",
+        "strength": 1.0,
+        "value": "Huggy.closeBox"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Huggy)",
+        "strength": 1.0,
+        "value": "\\.huggy\\.io/"
+      }
+    ],
+    "vendor_id": "huggy"
+  },
+  "hugo": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hugo)",
+            "strength": 0.0,
+            "value": "(?:go)?hugo(?:\\..+)?\\.(?:com|io)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hugo)",
+        "properties": {},
+        "selector": "a[href*='hugo.']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hugo)",
+          "strength": 0.99,
+          "value": "Hugo"
+        }
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hugo)",
+          "strength": 1.0,
+          "value": "Hugo ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "hugo"
+  },
+  "hulkapps_age_verification": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Age Verification)",
+        "strength": 1.0,
+        "value": "age-verification\\.hulkapps\\.com/"
+      }
+    ],
+    "vendor_id": "hulkapps_age_verification"
+  },
+  "hulkapps_form_builder": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Form Builder)",
+        "strength": 1.0,
+        "value": "formbuilder\\.hulkapps\\.com/"
+      }
+    ],
+    "vendor_id": "hulkapps_form_builder"
+  },
+  "hulkapps_gdpr_ccpa_compliance_manager": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps GDPR/CCPA Compliance Manager)",
+        "strength": 1.0,
+        "value": "hulkSetCookie"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps GDPR/CCPA Compliance Manager)",
+        "strength": 1.0,
+        "value": "cookiebar\\.hulkapps\\.com/hulk_cookie_bar\\.js"
+      }
+    ],
+    "vendor_id": "hulkapps_gdpr_ccpa_compliance_manager"
+  },
+  "hulkapps_infinite_product_options": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Infinite Product Options)",
+        "strength": 1.0,
+        "value": "hulkapps.po_url"
+      }
+    ],
+    "vendor_id": "hulkapps_infinite_product_options"
+  },
+  "hulkapps_product_reviews": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Product Reviews)",
+        "properties": {},
+        "selector": "link[href*='reviews.hulkapps.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Product Reviews)",
+        "strength": 1.0,
+        "value": "hulkappsProductReview"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HulkApps Product Reviews)",
+        "strength": 1.0,
+        "value": "hulkappsReviews"
+      }
+    ],
+    "vendor_id": "hulkapps_product_reviews"
+  },
+  "hull": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hull)",
+        "strength": 1.0,
+        "value": "Hull._initialized"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hull)",
+        "strength": 1.0,
+        "value": "Hull.js._initialized"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hull)",
+        "strength": 1.0,
+        "value": "HullShopify"
+      }
+    ],
+    "vendor_id": "hull"
+  },
+  "human_presence": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Human Presence)",
+        "strength": 1.0,
+        "value": "/.*\\.humanpresence\\.(?:io|app)/"
+      }
+    ],
+    "vendor_id": "human_presence"
+  },
+  "humblytics": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Humblytics)",
+        "strength": 1.0,
+        "value": "app\\.humblytics\\.com/"
+      }
+    ],
+    "vendor_id": "humblytics"
+  },
+  "humcommerce": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HumCommerce)",
+        "strength": 1.0,
+        "value": "app\\.humcommerce\\.com/"
+      }
+    ],
+    "vendor_id": "humcommerce"
+  },
+  "humhub": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HumHub)",
+        "strength": 1.0,
+        "value": "HumHubMentionProvider"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HumHub)",
+        "strength": 1.0,
+        "value": "humhub.config"
+      }
+    ],
+    "vendor_id": "humhub"
+  },
+  "humm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Humm)",
+        "strength": 1.0,
+        "value": "checkout.enabledpayments.humm"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Humm)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/oxipay-payment-gateway/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Humm)",
+        "strength": 1.0,
+        "value": "widgets\\.shophumm\\.com"
+      }
+    ],
+    "vendor_id": "humm"
+  },
+  "hummerce": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hummerce)",
+          "strength": 1.0,
+          "value": "^Hummerce$"
+        }
+      ]
+    },
+    "vendor_id": "hummerce"
+  },
+  "hund_io": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hund.io)",
+        "properties": {},
+        "selector": "link[href*='hund-client-logos']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hund.io)",
+        "strength": 1.0,
+        "value": "\\.hund\\.io/"
+      }
+    ],
+    "vendor_id": "hund_io"
+  },
+  "hurrytimer": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HurryTimer)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/uploads/hurrytimer/'], #hurrytimer, #hurrytimer-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HurryTimer)",
+        "strength": 1.0,
+        "value": "hurrytimer_ajax_object"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HurryTimer)",
+        "strength": 1.0,
+        "value": "hurrytimer(?:\\/assets)?(?:\\/js)?(?:\\/cookie)?(?:\\/jquery)?(?:\\.countdown)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "hurrytimer"
+  },
+  "hushly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hushly)",
+        "properties": {},
+        "selector": "link[href*='.hushly.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hushly)",
+        "strength": 1.0,
+        "value": "__hly_widget_object"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hushly)",
+        "strength": 1.0,
+        "value": "\\.hushly\\.com/"
+      }
+    ],
+    "vendor_id": "hushly"
+  },
+  "hydra_shield": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hydra-Shield)",
+          "strength": 1.0,
+          "value": "^Hydra-Shield\\sV([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "hydra_shield"
+  },
+  "hydrogen": {
+    "header_patterns": {
+      "powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hydrogen)",
+          "strength": 1.0,
+          "value": "^Shopify-Hydrogen$"
+        }
+      ]
+    },
+    "vendor_id": "hydrogen"
+  },
+  "hypelab": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HypeLab)",
+        "strength": 1.0,
+        "value": "HypeLab.Environment"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HypeLab)",
+        "strength": 1.0,
+        "value": "api\\.hypelab\\.com"
+      }
+    ],
+    "vendor_id": "hypelab"
+  },
+  "hypercloudhost": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypercloudhost)",
+          "strength": 1.0,
+          "value": "^hypercloudhost$"
+        }
+      ]
+    },
+    "vendor_id": "hypercloudhost"
+  },
+  "hypercorn": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypercorn)",
+          "strength": 1.0,
+          "value": "hypercorn"
+        }
+      ]
+    },
+    "vendor_id": "hypercorn"
+  },
+  "hyperia": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperia)",
+        "strength": 1.0,
+        "value": "_config.base_url"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperia)",
+        "strength": 1.0,
+        "value": "_config.socket_url"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperia)",
+        "strength": 1.0,
+        "value": "_config.tracker_url"
+      }
+    ],
+    "vendor_id": "hyperia"
+  },
+  "hyperlane": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperlane)",
+        "strength": 1.0,
+        "value": "\\.hyperlane\\.co/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperlane)",
+        "strength": 1.0,
+        "value": "\\.hyperlane\\.co/"
+      }
+    ],
+    "vendor_id": "hyperlane"
+  },
+  "hyperscript": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: _hyperscript)",
+        "strength": 1.0,
+        "value": "_hyperscript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: _hyperscript)",
+        "strength": 1.0,
+        "value": "//unpkg\\.com/hyperscript\\.org@([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "hyperscript"
+  },
+  "hyperspeed": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperspeed)",
+        "strength": 1.0,
+        "value": "hyperscripts"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyperspeed)",
+        "strength": 1.0,
+        "value": "cdn\\.shopify\\.com/.+/assets/hs-(?:instantload|lazysizes)\\.min\\.js"
+      }
+    ],
+    "vendor_id": "hyperspeed"
+  },
+  "hypervisual_page_builder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypervisual Page Builder)",
+        "strength": 1.0,
+        "value": "hypervisualPreflight"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypervisual Page Builder)",
+        "strength": 1.0,
+        "value": "cdn\\.gethypervisual\\.com/"
+      }
+    ],
+    "vendor_id": "hypervisual_page_builder"
+  },
+  "hypestyle_css": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypestyle CSS)",
+            "strength": 1.0,
+            "value": "/hypestyle@([\\d\\.]+)/dist/css/hypestyle\\.min\\.css"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hypestyle CSS)",
+        "properties": {},
+        "selector": "link[href*='hypestyle']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "hypestyle_css"
+  },
+  "hyros": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyros)",
+        "strength": 1.0,
+        "value": "/v1/lst/universal-script\\?ph\\="
+      }
+    ],
+    "vendor_id": "hyros"
+  },
+  "hyva_themes": {
+    "header_patterns": {
+      "x-built-with": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Built-With; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Hyva Themes)",
+          "strength": 1.0,
+          "value": "^Hyva Themes$"
+        }
+      ]
+    },
+    "vendor_id": "hyva_themes"
+  }
+}

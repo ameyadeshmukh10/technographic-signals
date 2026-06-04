@@ -1,0 +1,39 @@
+{
+  "vendor_id": "zendesk",
+  "subdomains_to_probe": [
+    "support",
+    "help",
+    "helpdesk",
+    "tickets"
+  ],
+  "cname_patterns": [
+    {
+      "value": "zendesk.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Zendesk host-mapping CNAME target (<subdomain>.zendesk.com)"
+    }
+  ],
+  "txt_patterns": [
+    {
+      "value": "zendesk_verification",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Zendesk host-mapping/domain verification TXT token"
+    }
+  ],
+  "mx_patterns": [
+    {
+      "value": "mail.zendesk.com",
+      "match_type": "contains",
+      "strength": 0.6,
+      "notes": "Zendesk email forwarding/SPF include"
+    }
+  ],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

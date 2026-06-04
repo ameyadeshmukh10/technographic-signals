@@ -1,0 +1,27 @@
+{
+  "vendor_id": "google_ads",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "googletagmanager\\.com/gtag/js",
+      "match_type": "regex",
+      "strength": 0.3,
+      "notes": "Shared gtag.js loader (also GA4/GTM) - weak on its own; the AW- config is the definitive Google Ads signal. Ported from src/detectors/signatures.py"
+    }
+  ],
+  "cookie_patterns": [],
+  "header_patterns": {},
+  "html_patterns": [
+    {
+      "value": "gtag\\(\\s*['\"]config['\"]\\s*,\\s*['\"]AW-",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "Google Ads conversion config (gtag('config','AW-...')). Ported from src/detectors/signatures.py"
+    }
+  ],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

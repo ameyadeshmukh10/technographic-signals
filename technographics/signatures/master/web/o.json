@@ -1,0 +1,4213 @@
+{
+  "oat": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oat++)",
+          "strength": 1.0,
+          "value": "^oatpp/?([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "oat"
+  },
+  "obsidian_incentivize": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Obsidian Incentivize)",
+        "strength": 1.0,
+        "value": "Obsidian.IncentiveApi"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Obsidian Incentivize)",
+        "strength": 1.0,
+        "value": "cdn\\.shopify\\.com/extensions/.+/([\\.\\d]{3,})/assets/upsell\\.min\\.js"
+      }
+    ],
+    "vendor_id": "obsidian_incentivize"
+  },
+  "obsidian_publish": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Obsidian Publish)",
+        "strength": 1.0,
+        "value": "siteInfo.host"
+      }
+    ],
+    "vendor_id": "obsidian_publish"
+  },
+  "obviyo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Obviyo)",
+        "strength": 1.0,
+        "value": "__hic.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Obviyo)",
+        "strength": 1.0,
+        "value": "deploy\\.hiconversion\\.com"
+      }
+    ],
+    "vendor_id": "obviyo"
+  },
+  "occasion": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Occasion)",
+        "properties": {},
+        "selector": "a[href*='app.getoccasion.com']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Occasion)",
+        "properties": {},
+        "selector": "iframe[src*='app.getoccasion.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Occasion)",
+        "strength": 1.0,
+        "value": "OCCSN.stack"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Occasion)",
+        "strength": 1.0,
+        "value": "occsnMerchantToken"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Occasion)",
+        "strength": 1.0,
+        "value": "app\\.getoccasion\\.com"
+      }
+    ],
+    "vendor_id": "occasion"
+  },
+  "ocea": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ocea)",
+        "properties": {},
+        "selector": "link[href*='.ocea.app/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ocea"
+  },
+  "oceanwp": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OceanWP)",
+        "properties": {},
+        "selector": "body[class*='oceanwp-theme']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OceanWP)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OceanWP)",
+            "strength": 1.0,
+            "value": "oceanwp\\S*\\.css(?:\\?ver=([0-9.]+))?"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OceanWP)",
+        "properties": {},
+        "selector": "link[id*='oceanwp']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OceanWP)",
+        "strength": 1.0,
+        "value": "themes/oceanwp\\S*\\.js(?:\\?ver=([0-9.]+))?"
+      }
+    ],
+    "vendor_id": "oceanwp"
+  },
+  "ochanoko": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ochanoko)",
+        "strength": 1.0,
+        "value": "ocnkProducts"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ochanoko)",
+        "strength": 1.0,
+        "value": "ocnk-min\\.js"
+      }
+    ],
+    "vendor_id": "ochanoko"
+  },
+  "oclocher": {
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oclocher)",
+          "strength": 1.0,
+          "value": "widget\\.oclocher\\.fr"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oclocher)",
+        "strength": 1.0,
+        "value": "widget\\.oclocher\\.fr"
+      }
+    ],
+    "vendor_id": "oclocher"
+  },
+  "ocstore": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ocStore)",
+        "strength": 1.0,
+        "value": "<!--[^>]+ocStore(?:\\s([\\d\\.a-z]+))?"
+      }
+    ],
+    "vendor_id": "ocstore"
+  },
+  "oct8ne": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oct8ne)",
+        "strength": 1.0,
+        "value": "oct8ne.agentsAvailable"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oct8ne)",
+        "strength": 1.0,
+        "value": "oct8neApi"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oct8ne)",
+        "strength": 1.0,
+        "value": "oct8neVars.pluginVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oct8ne)",
+        "strength": 1.0,
+        "value": "\\.oct8ne\\.com/"
+      }
+    ],
+    "vendor_id": "oct8ne"
+  },
+  "octane": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octane)",
+        "strength": 1.0,
+        "value": "widget\\.octane\\.co"
+      }
+    ],
+    "vendor_id": "octane"
+  },
+  "octane_ai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octane AI)",
+        "strength": 1.0,
+        "value": "OctaneConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octane AI)",
+        "strength": 1.0,
+        "value": "\\.octaneai\\.com/"
+      }
+    ],
+    "vendor_id": "octane_ai"
+  },
+  "octipulse": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octipulse)",
+          "strength": 1.0,
+          "value": "^OCTIPULSE$"
+        }
+      ]
+    },
+    "vendor_id": "octipulse"
+  },
+  "october_cms": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: October CMS)",
+        "strength": 1.0,
+        "value": "october_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: October CMS)",
+        "strength": 1.0,
+        "value": "ocJSON"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: October CMS)",
+          "strength": 1.0,
+          "value": "OctoberCMS"
+        }
+      ]
+    },
+    "vendor_id": "october_cms"
+  },
+  "octopress": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octopress)",
+        "strength": 1.0,
+        "value": "Powered by <a href=\"http://octopress\\.org\">"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octopress)",
+          "strength": 1.0,
+          "value": "Octopress"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octopress)",
+        "strength": 1.0,
+        "value": "/octopress\\.js"
+      }
+    ],
+    "vendor_id": "octopress"
+  },
+  "octorate": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octorate)",
+        "strength": 1.0,
+        "value": "octorate"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Octorate)",
+        "strength": 1.0,
+        "value": "\\.octorate\\.com/"
+      }
+    ],
+    "vendor_id": "octorate"
+  },
+  "ocuco_fitmix": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ocuco FitMix)",
+        "strength": 1.0,
+        "value": "FitMix.WIDGET_BASE_URL"
+      }
+    ],
+    "vendor_id": "ocuco_fitmix"
+  },
+  "ocular": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ocular)",
+        "strength": 1.0,
+        "value": "widget\\.ocularsolution\\.com/"
+      }
+    ],
+    "vendor_id": "ocular"
+  },
+  "oculizm": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oculizm)",
+        "strength": 1.0,
+        "value": "app\\.oculizm\\.com/"
+      }
+    ],
+    "vendor_id": "oculizm"
+  },
+  "oddcast": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oddcast)",
+        "strength": 1.0,
+        "value": "ODDCAST_HTTP_SERVER"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oddcast)",
+        "strength": 1.0,
+        "value": "OddcastDomain"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oddcast)",
+        "strength": 1.0,
+        "value": "\\.oddcast\\.com/"
+      }
+    ],
+    "vendor_id": "oddcast"
+  },
+  "oddle": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oddle)",
+        "strength": 1.0,
+        "value": "enableOddlePass"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oddle)",
+        "strength": 1.0,
+        "value": "oddle-pass-wrapper\\.s3\\.ap-southeast-1"
+      }
+    ],
+    "vendor_id": "oddle"
+  },
+  "odeum": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odeum)",
+        "strength": 1.0,
+        "value": "OdeumAccount"
+      }
+    ],
+    "vendor_id": "odeum"
+  },
+  "odoo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+        "properties": {},
+        "selector": "link[href*='/web/css/web.assets_common/'], link[href*='/web/css/website.assets_frontend/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+        "strength": 0.25,
+        "value": "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+        "strength": 1.0,
+        "value": "odoo.csrf_token"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+        "strength": 1.0,
+        "value": "odoo.session_info"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+          "strength": 1.0,
+          "value": "Odoo"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Odoo)",
+        "strength": 0.25,
+        "value": "/web/js/(?:web\\.assets_common/|website\\.assets_frontend/)"
+      }
+    ],
+    "vendor_id": "odoo"
+  },
+  "offline_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Offline.js)",
+        "strength": 1.0,
+        "value": "Offline.confirmDown"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Offline.js)",
+        "strength": 1.0,
+        "value": "Offline.state"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Offline.js)",
+        "strength": 1.0,
+        "value": "/(?:bundles/[^/]+|assets/javascripts|js)/offline\\.min\\.js"
+      }
+    ],
+    "vendor_id": "offline_js"
+  },
+  "offset": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Offset)",
+          "strength": 1.0,
+          "value": "www\\.offsetpartners\\.com"
+        }
+      ]
+    },
+    "vendor_id": "offset"
+  },
+  "oh_dear": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oh Dear)",
+        "strength": 1.0,
+        "value": "__NEXT_DATA__.props.pageProps.config.userAgent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oh Dear)",
+        "strength": 1.0,
+        "value": "\\.ohdear\\.app/"
+      }
+    ],
+    "vendor_id": "oh_dear"
+  },
+  "ohava": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ohava)",
+        "strength": 1.0,
+        "value": "analytics\\.ohava\\.tools"
+      }
+    ],
+    "vendor_id": "ohava"
+  },
+  "okendo": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "data-oke-reviews-version": {
+            "match_type": "regex",
+            "notes": "dom attr data-oke-reviews-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okendo)",
+            "strength": 1.0,
+            "value": "^([\\d.]+)$"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okendo)",
+        "properties": {},
+        "selector": "div.okeReviews",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okendo)",
+        "strength": 1.0,
+        "value": "okeReviewsWidgetOnInit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okendo)",
+        "strength": 1.0,
+        "value": "okeWidgetControlInit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okendo)",
+        "strength": 1.0,
+        "value": "okendoReviews"
+      }
+    ],
+    "vendor_id": "okendo"
+  },
+  "okmenu": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OkMenu)",
+        "properties": {},
+        "selector": "div#__okmenu__",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "okmenu"
+  },
+  "okta": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "OktaAuth"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "isOktaEnabled"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "okta.cdnUrlHostname"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "okta.locale"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "oktaCurrentSessionUrl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Okta)",
+        "strength": 1.0,
+        "value": "oktacdn\\.com/.+/([\\d.]+)/"
+      }
+    ],
+    "vendor_id": "okta"
+  },
+  "olapic": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olapic)",
+        "strength": 1.0,
+        "value": "olapic"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olapic)",
+        "strength": 1.0,
+        "value": "olapic.version"
+      }
+    ],
+    "vendor_id": "olapic"
+  },
+  "olark": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olark)",
+        "strength": 1.0,
+        "value": "olark"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olark)",
+        "strength": 1.0,
+        "value": "olarkUserData"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olark)",
+        "strength": 1.0,
+        "value": "\\.olark\\.com/"
+      }
+    ],
+    "vendor_id": "olark"
+  },
+  "oleoshop": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oleoshop)",
+          "strength": 1.0,
+          "value": "Oleoshop\\.com"
+        }
+      ]
+    },
+    "vendor_id": "oleoshop"
+  },
+  "olvy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olvy)",
+        "strength": 1.0,
+        "value": "OlvyConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olvy)",
+        "strength": 1.0,
+        "value": "OlvyInstances"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Olvy)",
+        "strength": 1.0,
+        "value": "app\\.olvy\\.co"
+      }
+    ],
+    "vendor_id": "olvy"
+  },
+  "omacro": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omacro)",
+        "strength": 1.0,
+        "value": "omacro.buynow"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omacro)",
+        "strength": 1.0,
+        "value": "buynow\\.omacro\\.com"
+      }
+    ],
+    "vendor_id": "omacro"
+  },
+  "omeda": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omeda)",
+        "strength": 1.0,
+        "value": "olytics\\.omeda\\.com/"
+      }
+    ],
+    "vendor_id": "omeda"
+  },
+  "omega_commerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omega Commerce)",
+        "strength": 1.0,
+        "value": "OMEGA_AUID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omega Commerce)",
+        "strength": 1.0,
+        "value": "OMEGA_SHOP"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omega Commerce)",
+        "strength": 1.0,
+        "value": "\\.omegacommerce\\.com"
+      }
+    ],
+    "vendor_id": "omega_commerce"
+  },
+  "omeka": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omeka)",
+        "properties": {},
+        "selector": "link[rel*='stylesheet'][href*='css/myomeka.css'], link[rel*='stylesheet'][href*='/omeka/plugins/'], footer > p > a[href*='//omeka.org']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omeka)",
+        "strength": 1.0,
+        "value": "Omeka"
+      }
+    ],
+    "vendor_id": "omeka"
+  },
+  "ometria": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "strength": 1.0,
+        "value": "ometria"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "properties": {},
+        "selector": "form[action*='api.ometria.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "strength": 1.0,
+        "value": "AddOmetriaBasket"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "strength": 1.0,
+        "value": "AddOmetriaIdentify"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "strength": 1.0,
+        "value": "ometria"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometria)",
+        "strength": 1.0,
+        "value": "cdn\\.ometria\\.com"
+      }
+    ],
+    "vendor_id": "ometria"
+  },
+  "ometrics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometrics)",
+        "strength": 1.0,
+        "value": "Ometrics.Animation"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometrics)",
+        "strength": 1.0,
+        "value": "OmetricsBody"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ometrics)",
+        "strength": 1.0,
+        "value": "www\\.ometrics\\.com"
+      }
+    ],
+    "vendor_id": "ometrics"
+  },
+  "omie": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omie)",
+        "strength": 1.0,
+        "value": "omieInit"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omie)",
+          "strength": 1.0,
+          "value": "^Omie$"
+        }
+      ]
+    },
+    "vendor_id": "omie"
+  },
+  "omise": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omise)",
+        "strength": 1.0,
+        "value": "Omise"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omise)",
+        "strength": 1.0,
+        "value": "OmiseCard"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omise)",
+        "strength": 1.0,
+        "value": "cdn\\.omise\\.co"
+      }
+    ],
+    "vendor_id": "omise"
+  },
+  "omni_cms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omni CMS)",
+        "properties": {},
+        "selector": "a[href*='a.cms.omniupdate.com/11/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "omni_cms"
+  },
+  "omniconvert": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omniconvert)",
+        "properties": {},
+        "selector": "link[href*='app.omniconvert.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omniconvert)",
+        "strength": 1.0,
+        "value": "_omni"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omniconvert)",
+        "strength": 1.0,
+        "value": "cdn\\.omniconvert\\.com"
+      }
+    ],
+    "vendor_id": "omniconvert"
+  },
+  "omnikick": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnikick)",
+        "strength": 1.0,
+        "value": "omniKick.ready"
+      }
+    ],
+    "vendor_id": "omnikick"
+  },
+  "omnisend": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnisend)",
+        "strength": 1.0,
+        "value": "omnisendSessionID"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnisend)",
+        "strength": 1.0,
+        "value": "_omnisend"
+      }
+    ],
+    "meta_patterns": {
+      "omnisend-site-verification": [
+        {
+          "match_type": "regex",
+          "notes": "meta omnisend-site-verification; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnisend)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnisend)",
+        "strength": 1.0,
+        "value": "omnisrc\\.com"
+      }
+    ],
+    "vendor_id": "omnisend"
+  },
+  "omnisend_email_marketing_sms": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omnisend Email Marketing & SMS)",
+        "strength": 1.0,
+        "value": "omnis(?:nippet1|rc)\\.com/inShop/Embed/shopify\\.js"
+      }
+    ],
+    "vendor_id": "omnisend_email_marketing_sms"
+  },
+  "omny_studio": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omny Studio)",
+        "properties": {},
+        "selector": "iframe[src*='//omny.fm/shows/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "omny_studio"
+  },
+  "omurga_sistemi": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Omurga Sistemi)",
+          "strength": 1.0,
+          "value": "^OS-Omurga Sistemi"
+        }
+      ]
+    },
+    "vendor_id": "omurga_sistemi"
+  },
+  "on_the_map": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: On The Map)",
+        "strength": 1.0,
+        "value": "\\.onthemapmarketing\\.com"
+      }
+    ],
+    "vendor_id": "on_the_map"
+  },
+  "onchat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnChat)",
+        "strength": 1.0,
+        "value": "extractOnchatClickFromHref"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnChat)",
+        "strength": 1.0,
+        "value": "getOnchatClickFromURL"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnChat)",
+        "strength": 1.0,
+        "value": "onchat\\.ai/onchat\\.js"
+      }
+    ],
+    "vendor_id": "onchat"
+  },
+  "ondestek": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ondestek)",
+        "strength": 1.0,
+        "value": "$ondestek"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ondestek)",
+        "strength": 1.0,
+        "value": "panel\\.ondestek\\.com/"
+      }
+    ],
+    "vendor_id": "ondestek"
+  },
+  "oneall": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneAll)",
+        "strength": 1.0,
+        "value": "oa_social_login"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneAll)",
+        "strength": 1.0,
+        "value": "api\\.oneall\\.com/socialize"
+      }
+    ],
+    "vendor_id": "oneall"
+  },
+  "oneapm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneAPM)",
+        "strength": 1.0,
+        "value": "BWEUM"
+      }
+    ],
+    "vendor_id": "oneapm"
+  },
+  "onecause": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneCause)",
+        "properties": {},
+        "selector": "a[href*='.onecause.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneCause)",
+        "strength": 1.0,
+        "value": "\\.onecause\\.com/"
+      }
+    ],
+    "vendor_id": "onecause"
+  },
+  "onecommerce": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneCommerce)",
+        "strength": 1.0,
+        "value": "onecommerce\\.io"
+      }
+    ],
+    "vendor_id": "onecommerce"
+  },
+  "onehub": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onehub)",
+        "strength": 1.0,
+        "value": "\\.onehub\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onehub)",
+        "strength": 1.0,
+        "value": "Onehub"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onehub)",
+        "strength": 1.0,
+        "value": "OnehubBarView"
+      }
+    ],
+    "vendor_id": "onehub"
+  },
+  "onepage": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onepage)",
+        "strength": 1.0,
+        "value": "\\.onepage\\.io"
+      }
+    ],
+    "vendor_id": "onepage"
+  },
+  "onepage_express": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePage Express)",
+        "properties": {},
+        "selector": "link#one-page-express-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePage Express)",
+        "strength": 1.0,
+        "value": "one_page_express_settings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePage Express)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/one-page-express(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "onepage_express"
+  },
+  "onepress_social_locker": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePress Social Locker)",
+        "strength": 1.0,
+        "value": "__pandalockers"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePress Social Locker)",
+        "strength": 1.0,
+        "value": "bizpanda"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnePress Social Locker)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/social-?locker(?:-next-premium)?/bizpanda/assets/"
+      }
+    ],
+    "vendor_id": "onepress_social_locker"
+  },
+  "onesignal": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneSignal)",
+        "strength": 1.0,
+        "value": "OneSignal"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneSignal)",
+        "strength": 1.0,
+        "value": "__oneSignalSdkLoadCount"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneSignal)",
+        "strength": 1.0,
+        "value": "cdn\\.onesignal\\.com"
+      }
+    ],
+    "vendor_id": "onesignal"
+  },
+  "onestat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneStat)",
+        "strength": 1.0,
+        "value": "OneStat_Pageview"
+      }
+    ],
+    "vendor_id": "onestat"
+  },
+  "onetag": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTag)",
+        "properties": {},
+        "selector": "link[href*='.s-onetag.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTag)",
+        "strength": 1.0,
+        "value": "signal-beacon\\.s-onetag\\.com/"
+      }
+    ],
+    "vendor_id": "onetag"
+  },
+  "onetrust": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "OptanonConsent"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "cdn\\.cookielaw\\.org"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "cdn\\.cookielaw\\.org"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "optanon\\.blob\\.core\\.windows\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "optanon\\.blob\\.core\\.windows\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OneTrust)",
+        "strength": 1.0,
+        "value": "otSDKStub\\.js"
+      }
+    ],
+    "vendor_id": "onetrust"
+  },
+  "oney": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oney)",
+        "strength": 1.0,
+        "value": "OneyMarketplace"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oney)",
+        "strength": 1.0,
+        "value": "isOneyActive"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oney)",
+        "strength": 1.0,
+        "value": "openOneyLayer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oney)",
+        "strength": 1.0,
+        "value": "/modules/oney(?:/)?/views/js/front\\.js"
+      }
+    ],
+    "vendor_id": "oney"
+  },
+  "onfido": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onfido)",
+        "properties": {},
+        "selector": "link[href*='.onfido.com'], iframe[src*='onfido.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onfido)",
+          "strength": 1.0,
+          "value": "(?:api|sync)\\.onfido\\.com"
+        }
+      ]
+    },
+    "vendor_id": "onfido"
+  },
+  "oniad": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ONiAD)",
+        "strength": 1.0,
+        "value": "track\\.oniad\\.com"
+      }
+    ],
+    "vendor_id": "oniad"
+  },
+  "onicon": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onicon)",
+        "strength": 1.0,
+        "value": "\\.onicon\\.ru"
+      }
+    ],
+    "vendor_id": "onicon"
+  },
+  "onlim": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onlim)",
+        "strength": 1.0,
+        "value": "Onlim"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onlim)",
+        "strength": 1.0,
+        "value": "OnlimChatbot"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onlim)",
+        "strength": 1.0,
+        "value": "app\\.onlim\\.com/"
+      }
+    ],
+    "vendor_id": "onlim"
+  },
+  "online_chat_centers": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Online Chat Centers)",
+        "strength": 1.0,
+        "value": "www\\.onlinechatcenters\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Online Chat Centers)",
+        "strength": 1.0,
+        "value": "occEmbedClick"
+      }
+    ],
+    "vendor_id": "online_chat_centers"
+  },
+  "online_succes": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Online Succes)",
+        "strength": 1.0,
+        "value": "connect\\.onlinesucces\\.nl"
+      }
+    ],
+    "vendor_id": "online_succes"
+  },
+  "onlyfy_application_manager": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: onlyfy Application Manager)",
+        "strength": 1.0,
+        "value": "prescreen\\.io/.*iframeWidget\\.js"
+      }
+    ],
+    "vendor_id": "onlyfy_application_manager"
+  },
+  "onpublix": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: onpublix)",
+          "strength": 1.0,
+          "value": "^onpublix\\s([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "onpublix"
+  },
+  "onsen_ui": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onsen UI)",
+        "strength": 1.0,
+        "value": "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)"
+      }
+    ],
+    "vendor_id": "onsen_ui"
+  },
+  "onshop": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnShop)",
+        "properties": {},
+        "selector": "link[href*='cdn.onshop.asia/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnShop)",
+          "strength": 1.0,
+          "value": "Onshop Ecommerce"
+        }
+      ]
+    },
+    "vendor_id": "onshop"
+  },
+  "onsip": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnSip)",
+        "strength": 1.0,
+        "value": "Onsip"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnSip)",
+        "strength": 1.0,
+        "value": "js\\.onsip\\.com"
+      }
+    ],
+    "vendor_id": "onsip"
+  },
+  "onsite_support": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Onsite Support)",
+        "strength": 1.0,
+        "value": "static\\.onsitesupport\\.io"
+      }
+    ],
+    "vendor_id": "onsite_support"
+  },
+  "onuniverse": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OnUniverse)",
+        "properties": {},
+        "selector": "link[href*='onuniverse-assets.imgix.net'], img[src*='onuniverse-assets.imgix.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "onuniverse"
+  },
+  "ookla_speedtest_custom": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ookla Speedtest Custom)",
+        "properties": {},
+        "selector": "iframe[src*='.speedtestcustom.com'], a[href*='.speedtestcustom.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ookla Speedtest Custom)",
+          "strength": 1.0,
+          "value": "\\.speedtestcustom\\.com"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ookla Speedtest Custom)",
+        "strength": 1.0,
+        "value": "\\.speedtestcustom\\.com/"
+      }
+    ],
+    "vendor_id": "ookla_speedtest_custom"
+  },
+  "oopy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oopy)",
+        "strength": 1.0,
+        "value": "__OOPY__"
+      }
+    ],
+    "vendor_id": "oopy"
+  },
+  "opal": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Opal)",
+        "properties": {},
+        "selector": "script#opal-elementor-frontend-js, link[href*='opal-boostrap.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "opal"
+  },
+  "open_adstream": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open AdStream)",
+        "strength": 1.0,
+        "value": "OAS_AD"
+      }
+    ],
+    "vendor_id": "open_adstream"
+  },
+  "open_classifieds": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Classifieds)",
+          "strength": 1.0,
+          "value": "open-classifieds\\.com"
+        }
+      ],
+      "copyright": [
+        {
+          "match_type": "regex",
+          "notes": "meta copyright; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Classifieds)",
+          "strength": 1.0,
+          "value": "Open Classifieds ?([0-9.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "open_classifieds"
+  },
+  "open_edx": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open edX)",
+        "properties": {},
+        "selector": "meta[name='openedx-release-line'], #footer-openedx, .openedx, .open-edx-logo, .open-edx-link, .footer-about-openedx, a[href*='https://open.edx.org'], a[href*='https://openedx.org'], img[src*='https://files.edx.org/openedx-logos/'][alt='Powered by Open edX']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "open_edx"
+  },
+  "open_eshop": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open eShop)",
+          "strength": 1.0,
+          "value": "open-eshop\\.com"
+        }
+      ],
+      "copyright": [
+        {
+          "match_type": "regex",
+          "notes": "meta copyright; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open eShop)",
+          "strength": 1.0,
+          "value": "Open eShop ?([0-9.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "open_eshop"
+  },
+  "open_graph": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Graph)",
+        "properties": {},
+        "selector": "meta[property*='og:']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "open_graph"
+  },
+  "open_journal_systems": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Journal Systems)",
+        "strength": 1.0,
+        "value": "OJSSID"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Journal Systems)",
+          "strength": 1.0,
+          "value": "Open Journal Systems(?: ([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "open_journal_systems"
+  },
+  "open_props": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open-Props)",
+        "properties": {},
+        "selector": "link[href*='unpkg.com/open-props'][rel='stylesheet']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "open_props"
+  },
+  "open_web_analytics": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Web Analytics)",
+        "strength": 1.0,
+        "value": "<!-- (?:Start|End) Open Web Analytics Tracker -->"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Web Analytics)",
+        "strength": 1.0,
+        "value": "OWA.config.baseUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Web Analytics)",
+        "strength": 1.0,
+        "value": "owa_baseUrl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open Web Analytics)",
+        "strength": 1.0,
+        "value": "owa_cmds"
+      }
+    ],
+    "vendor_id": "open_web_analytics"
+  },
+  "open_xchange_app_suite": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open-Xchange App Suite)",
+        "properties": {},
+        "selector": "#io-ox-core, form > input[value='open-xchange-appsuite']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Open-Xchange App Suite)",
+        "strength": 1.0,
+        "value": "ox.version"
+      }
+    ],
+    "vendor_id": "open_xchange_app_suite"
+  },
+  "openbsd_httpd": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenBSD httpd)",
+          "strength": 1.0,
+          "value": "^OpenBSD httpd"
+        }
+      ]
+    },
+    "vendor_id": "openbsd_httpd"
+  },
+  "opencart": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCart)",
+        "strength": 1.0,
+        "value": "OCSESSID"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCart)",
+        "properties": {},
+        "selector": "link[href*='catalog/view/theme/rgen-opencart/'], footer#footer > a[href*='shop.opencart-russia.ru']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "opencart"
+  },
+  "openchat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenChat)",
+        "strength": 1.0,
+        "value": "cloud\\.openchat\\.so"
+      }
+    ],
+    "vendor_id": "openchat"
+  },
+  "opencities": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCities)",
+        "strength": 1.0,
+        "value": "OpenCities"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCities)",
+          "strength": 1.0,
+          "value": "^Seamless\\.?CMS"
+        }
+      ]
+    },
+    "vendor_id": "opencities"
+  },
+  "opencms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCms)",
+        "properties": {},
+        "selector": "link[href^='/opencms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCms)",
+          "strength": 1.0,
+          "value": "OpenCms"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCms)",
+        "strength": 1.0,
+        "value": "<link href=\"/opencms/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCms)",
+        "strength": 1.0,
+        "value": "opencms"
+      }
+    ],
+    "vendor_id": "opencms"
+  },
+  "opencv": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenCV)",
+        "strength": 1.0,
+        "value": "opencvIsReady"
+      }
+    ],
+    "vendor_id": "opencv"
+  },
+  "openelement": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenElement)",
+        "strength": 1.0,
+        "value": "OE.GETools"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenElement)",
+        "strength": 1.0,
+        "value": "OEConfWEMenu"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenElement)",
+          "strength": 1.0,
+          "value": "openElement\\s\\(([\\d\\.]+)\\)"
+        }
+      ]
+    },
+    "vendor_id": "openelement"
+  },
+  "opengrok": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenGrok)",
+        "strength": 1.0,
+        "value": "OpenGrok"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenGrok)",
+          "strength": 1.0,
+          "value": "OpenGrok(?: v?([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "opengrok"
+  },
+  "opengse": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenGSE)",
+          "strength": 1.0,
+          "value": "GSE"
+        }
+      ]
+    },
+    "vendor_id": "opengse"
+  },
+  "openlayers": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenLayers)",
+        "strength": 1.0,
+        "value": "OpenLayers.VERSION_NUMBER"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenLayers)",
+        "strength": 1.0,
+        "value": "ol.AssertionError"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenLayers)",
+        "strength": 1.0,
+        "value": "ol.CanvasMap"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenLayers)",
+        "strength": 1.0,
+        "value": "openlayers"
+      }
+    ],
+    "vendor_id": "openlayers"
+  },
+  "opennemas": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenNemas)",
+          "strength": 1.0,
+          "value": "OpenNemas"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenNemas)",
+          "strength": 1.0,
+          "value": "OpenNemas"
+        }
+      ]
+    },
+    "vendor_id": "opennemas"
+  },
+  "openpanel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenPanel)",
+        "strength": 1.0,
+        "value": "openpanel.api"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenPanel)",
+        "strength": 1.0,
+        "value": "//openpanel\\.dev/"
+      }
+    ],
+    "vendor_id": "openpanel"
+  },
+  "openpay": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenPay)",
+        "strength": 1.0,
+        "value": "openpay\\.com.\\au"
+      }
+    ],
+    "vendor_id": "openpay"
+  },
+  "openresty": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenResty)",
+          "strength": 1.0,
+          "value": "openresty(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "openresty"
+  },
+  "openssl": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenSSL)",
+          "strength": 1.0,
+          "value": "OpenSSL(?:/([\\d.]+[a-z]?))?"
+        }
+      ]
+    },
+    "vendor_id": "openssl"
+  },
+  "openstreetmap": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenStreetMap)",
+        "properties": {},
+        "selector": "iframe[src*='openstreetmap.org'],iframe[data-lazy-src*='openstreetmap.org']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "openstreetmap"
+  },
+  "openswoole": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenSwoole)",
+          "strength": 1.0,
+          "value": "OpenSwoole(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "openswoole"
+  },
+  "opentable": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenTable)",
+        "properties": {},
+        "selector": "iframe[src*='.opentable.com/'], form[action*='.opentable.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "opentable"
+  },
+  "opentelemetry": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: opentelemetry)",
+        "strength": 1.0,
+        "value": "otel"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: opentelemetry)",
+        "strength": 1.0,
+        "value": "opentelemetry.*\\.js"
+      }
+    ],
+    "vendor_id": "opentelemetry"
+  },
+  "opentext_web": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenText Web)",
+        "strength": 1.0,
+        "value": "<!--[^>]+published by Open Text Web Solutions"
+      }
+    ],
+    "vendor_id": "opentext_web"
+  },
+  "opentext_web_solutions": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenText Web Solutions)",
+        "strength": 1.0,
+        "value": "<!--[^>]+published by Open Text Web Solutions"
+      }
+    ],
+    "vendor_id": "opentext_web_solutions"
+  },
+  "opentiendas": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenTiendas)",
+        "properties": {},
+        "selector": "link[href*='/opentiendasfont/font/opentiendasfont.woff2']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenTiendas)",
+          "strength": 1.0,
+          "value": "^OpenTiendas$"
+        }
+      ]
+    },
+    "vendor_id": "opentiendas"
+  },
+  "opentracker": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Opentracker)",
+        "strength": 1.0,
+        "value": "script\\.opentracker\\.net"
+      }
+    ],
+    "vendor_id": "opentracker"
+  },
+  "openui5": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenUI5)",
+        "strength": 1.0,
+        "value": "sap-usercontext"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenUI5)",
+        "strength": 1.0,
+        "value": "sap.ui.version"
+      }
+    ],
+    "meta_patterns": {
+      "sap-ui-fesr": [
+        {
+          "match_type": "regex",
+          "notes": "meta sap-ui-fesr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenUI5)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenUI5)",
+        "strength": 1.0,
+        "value": "sap-ui-core\\.js"
+      }
+    ],
+    "vendor_id": "openui5"
+  },
+  "openweb": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenWeb)",
+        "strength": 1.0,
+        "value": "SPOTIM.initConversation"
+      }
+    ],
+    "meta_patterns": {
+      "spotim-ads": [
+        {
+          "match_type": "regex",
+          "notes": "meta spotim-ads; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenWeb)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "openweb"
+  },
+  "openx": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenX)",
+        "properties": {},
+        "selector": "iframe[src*='.openx.net'], img[src*='.openx.net'], link[href*='.openx.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenX)",
+        "strength": 1.0,
+        "value": "openx.name"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenX)",
+        "strength": 1.0,
+        "value": "https?://[^/]*\\.openx\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpenX)",
+        "strength": 1.0,
+        "value": "https?://[^/]*\\.servedbyopenx\\.com"
+      }
+    ],
+    "vendor_id": "openx"
+  },
+  "operatebeyond": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OperateBeyond)",
+        "strength": 1.0,
+        "value": "//dealer-cdn\\.com/"
+      }
+    ],
+    "vendor_id": "operatebeyond"
+  },
+  "opesta": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Opesta)",
+        "strength": 1.0,
+        "value": "api\\.opesta\\.com"
+      }
+    ],
+    "vendor_id": "opesta"
+  },
+  "opigno_lms": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Opigno LMS)",
+        "strength": 1.0,
+        "value": "opigno_(?:commerce|wtp_app|scorm|learning_path)"
+      }
+    ],
+    "vendor_id": "opigno_lms"
+  },
+  "opinionbar": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpinionBar)",
+          "strength": 1.0,
+          "value": "\\.opinionbar\\.com"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpinionBar)",
+        "strength": 1.0,
+        "value": "\\.opinionbar\\.com"
+      }
+    ],
+    "vendor_id": "opinionbar"
+  },
+  "opinionlab": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpinionLab)",
+        "strength": 1.0,
+        "value": "OOo.Browser"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpinionLab)",
+        "strength": 1.0,
+        "value": "OOo.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpinionLab)",
+        "strength": 1.0,
+        "value": "\\.foresee\\.com/code/([\\d.]+)-oo/oo_engine\\.min\\.js"
+      }
+    ],
+    "vendor_id": "opinionlab"
+  },
+  "opnform": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpnForm)",
+        "strength": 1.0,
+        "value": "OpnForm_session"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpnForm)",
+        "strength": 1.0,
+        "value": "api\\.opnform\\.com"
+      }
+    ],
+    "vendor_id": "opnform"
+  },
+  "ops_calendar": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ops Calendar)",
+        "strength": 1.0,
+        "value": "app\\.opscalendar\\.com/"
+      }
+    ],
+    "vendor_id": "ops_calendar"
+  },
+  "optibase": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optibase)",
+        "strength": 1.0,
+        "value": "optibaseScriptLoaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optibase)",
+        "strength": 1.0,
+        "value": "app\\.optibase\\.io/"
+      }
+    ],
+    "vendor_id": "optibase"
+  },
+  "optimise": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimise)",
+        "strength": 1.0,
+        "value": "OMID"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimise)",
+        "strength": 1.0,
+        "value": "track\\.omguk\\.com"
+      }
+    ],
+    "vendor_id": "optimise"
+  },
+  "optimization_detective": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimization Detective)",
+          "strength": 1.0,
+          "value": "^optimization-detective ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "optimization_detective"
+  },
+  "optimizely": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely)",
+        "strength": 1.0,
+        "value": "optimizelyEndUserId"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely)",
+        "strength": 1.0,
+        "value": "optimizely"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely)",
+        "strength": 1.0,
+        "value": "optimizelyClient.clientVersion"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely)",
+        "strength": 1.0,
+        "value": "optimizelySdk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely)",
+        "strength": 1.0,
+        "value": "optimizely\\.com.*\\.js"
+      }
+    ],
+    "vendor_id": "optimizely"
+  },
+  "optimizely_commerce": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Commerce)",
+        "strength": 1.0,
+        "value": "EPi:StateMarker"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Commerce)",
+          "strength": 1.0,
+          "value": "EPiServer"
+        }
+      ]
+    },
+    "vendor_id": "optimizely_commerce"
+  },
+  "optimizely_content_management": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "EPi:StateMarker"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "EPiServer"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "EPiSessionId"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "EPiTrace"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "properties": {},
+        "selector": "link[href*='/EPiServer.Forms/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+          "strength": 1.0,
+          "value": "\\.episerver\\.net"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "epi.EPiServer"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+          "strength": 1.0,
+          "value": "EPiServer"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimizely Content Management)",
+        "strength": 1.0,
+        "value": "\\.episerver.net/"
+      }
+    ],
+    "vendor_id": "optimizely_content_management"
+  },
+  "optimole": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimole)",
+        "strength": 1.0,
+        "value": "\\.i\\.optimole\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimole)",
+        "strength": 1.0,
+        "value": "optimoleData"
+      }
+    ],
+    "vendor_id": "optimole"
+  },
+  "optimonk": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OptiMonk)",
+        "properties": {},
+        "selector": "link[href*='.optimonk.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OptiMonk)",
+        "strength": 1.0,
+        "value": "\\.optimonk\\.com/"
+      }
+    ],
+    "vendor_id": "optimonk"
+  },
+  "optimove": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimove)",
+        "strength": 1.0,
+        "value": "optimoveSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimove)",
+        "strength": 1.0,
+        "value": "optimoveSDKVersion"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimove)",
+        "strength": 1.0,
+        "value": "\\.optimove\\.net/.+v([\\d\\.]+)\\.js"
+      }
+    ],
+    "vendor_id": "optimove"
+  },
+  "optimx_sports": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimx Sports)",
+        "strength": 1.0,
+        "value": "/optimx-sports\\.appspot"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimx Sports)",
+        "strength": 1.0,
+        "value": "webpackJsonpoptimx_sports_client_website"
+      }
+    ],
+    "vendor_id": "optimx_sports"
+  },
+  "optimy": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimy)",
+          "strength": 1.0,
+          "value": "optimyapp-css\\.s3"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optimy)",
+        "strength": 1.0,
+        "value": "/js/optimy\\.js"
+      }
+    ],
+    "vendor_id": "optimy"
+  },
+  "optinmonster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OptinMonster)",
+        "strength": 1.0,
+        "value": "OptinMonsterApp"
+      }
+    ],
+    "vendor_id": "optinmonster"
+  },
+  "optinmonster_plugin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OptinMonster plugin)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/optinmonster/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "optinmonster_plugin"
+  },
+  "optinopoli": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optinopoli)",
+        "strength": 1.0,
+        "value": "optinopoli"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Optinopoli)",
+        "strength": 1.0,
+        "value": "www\\.optinopoli\\.com"
+      }
+    ],
+    "vendor_id": "optinopoli"
+  },
+  "optune": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OpTuNE)",
+        "strength": 1.0,
+        "value": "\\.optune\\.me"
+      }
+    ],
+    "vendor_id": "optune"
+  },
+  "oracle_application_express": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Application Express)",
+        "strength": 1.0,
+        "value": "apex.libVersions"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Application Express)",
+        "strength": 1.0,
+        "value": "apex_img_dir"
+      }
+    ],
+    "vendor_id": "oracle_application_express"
+  },
+  "oracle_application_server": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Application Server)",
+          "strength": 1.0,
+          "value": "Oracle[- ]Application[- ]Server(?: Containers for J2EE)?(?:[- ](\\d[\\da-z./]+))?"
+        }
+      ]
+    },
+    "vendor_id": "oracle_application_server"
+  },
+  "oracle_bluekai": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle BlueKai)",
+        "properties": {},
+        "selector": "link[href*='tags.bluekai.com'],link[href*='tags.bkrtx.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle BlueKai)",
+        "strength": 1.0,
+        "value": "bluekaiLoaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle BlueKai)",
+        "strength": 1.0,
+        "value": "tags\\.(?:bluekai|bkrtx)\\.com/"
+      }
+    ],
+    "vendor_id": "oracle_bluekai"
+  },
+  "oracle_commerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Commerce)",
+        "properties": {},
+        "selector": "input[name*='/atg/commerce/'], .atgShoppingBagContent",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-atg-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-ATG-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Commerce)",
+          "strength": 1.0,
+          "value": "(?:ATGPlatform/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "oracle_commerce"
+  },
+  "oracle_commerce_cloud": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Commerce Cloud)",
+        "properties": {},
+        "selector": "#oracle-cc",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "oraclecommercecloud-version": [
+        {
+          "match_type": "regex",
+          "notes": "header OracleCommerceCloud-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Commerce Cloud)",
+          "strength": 1.0,
+          "value": "^(.+)$"
+        }
+      ]
+    },
+    "vendor_id": "oracle_commerce_cloud"
+  },
+  "oracle_content_management": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Content Management)",
+        "strength": 1.0,
+        "value": "/_sitesclouddelivery/renderer/renderer\\.js"
+      }
+    ],
+    "vendor_id": "oracle_content_management"
+  },
+  "oracle_dynamic_monitoring_service": {
+    "header_patterns": {
+      "x-oracle-dms-ecid": [
+        {
+          "match_type": "regex",
+          "notes": "header x-oracle-dms-ecid; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Dynamic Monitoring Service)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "oracle_dynamic_monitoring_service"
+  },
+  "oracle_http_server": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle HTTP Server)",
+          "strength": 1.0,
+          "value": "Oracle-HTTP-Server(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "oracle_http_server"
+  },
+  "oracle_infinity": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Infinity)",
+        "strength": 1.0,
+        "value": "c\\.oracleinfinity\\.io"
+      }
+    ],
+    "vendor_id": "oracle_infinity"
+  },
+  "oracle_maxymiser": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Maxymiser)",
+        "strength": 1.0,
+        "value": "maxy"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Maxymiser)",
+        "strength": 1.0,
+        "value": "mmsystem.getConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Maxymiser)",
+        "strength": 1.0,
+        "value": "service\\.maxymiser\\.net"
+      }
+    ],
+    "vendor_id": "oracle_maxymiser"
+  },
+  "oracle_moat_measurement": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Moat Measurement)",
+        "strength": 1.0,
+        "value": "moatads\\.com"
+      }
+    ],
+    "vendor_id": "oracle_moat_measurement"
+  },
+  "oracle_recommendations_on_demand": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Recommendations On Demand)",
+        "strength": 1.0,
+        "value": "atgsvcs.+atgsvcs\\.js"
+      }
+    ],
+    "vendor_id": "oracle_recommendations_on_demand"
+  },
+  "oracle_web_cache": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oracle Web Cache)",
+          "strength": 1.0,
+          "value": "Oracle(?:AS)?[- ]Web[- ]Cache(?:[- /]([\\da-z./]+))?"
+        }
+      ]
+    },
+    "vendor_id": "oracle_web_cache"
+  },
+  "orama": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orama)",
+        "properties": {},
+        "selector": "li > a[href*='/@orama/orama'], link[href*='orama-search']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "orama"
+  },
+  "orankl": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orankl)",
+        "strength": 1.0,
+        "value": "Orankl"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orankl)",
+        "strength": 1.0,
+        "value": "oranklInit"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orankl)",
+        "strength": 1.0,
+        "value": "www\\.orankl\\.com/"
+      }
+    ],
+    "vendor_id": "orankl"
+  },
+  "orbit_slider": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orbit Slider)",
+        "strength": 1.0,
+        "value": "orbit(?:\\.min)?([\\d.]{2,}[\\d])?\\.js"
+      }
+    ],
+    "vendor_id": "orbit_slider"
+  },
+  "orbitfox": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrbitFox)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/themeisle-companion/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "orbitfox"
+  },
+  "orchard_core": {
+    "header_patterns": {
+      "x-generator": [
+        {
+          "match_type": "regex",
+          "notes": "header x-generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orchard Core)",
+          "strength": 1.0,
+          "value": "^Orchard$"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orchard Core)",
+          "strength": 1.0,
+          "value": "OrchardCore"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orchard Core)",
+          "strength": 1.0,
+          "value": "Orchard"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orchard Core)",
+        "strength": 1.0,
+        "value": "/OrchardCore\\."
+      }
+    ],
+    "vendor_id": "orchard_core"
+  },
+  "orckestra": {
+    "header_patterns": {
+      "x-orckestra-commerce": [
+        {
+          "match_type": "regex",
+          "notes": "header x-orckestra-commerce; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orckestra)",
+          "strength": 1.0,
+          "value": ".NET Client"
+        }
+      ],
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orckestra)",
+          "strength": 1.0,
+          "value": "Orckestra"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orckestra)",
+          "strength": 1.0,
+          "value": "^C1 CMS Foundation - Free Open Source from Orckestra and https://github.com/Orckestra/C1-CMS-Foundation$"
+        }
+      ]
+    },
+    "vendor_id": "orckestra"
+  },
+  "order_deadline": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Order Deadline)",
+        "strength": 1.0,
+        "value": "orderDeadlineAppByEESL"
+      }
+    ],
+    "vendor_id": "order_deadline"
+  },
+  "ordercast": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderCast)",
+        "strength": 1.0,
+        "value": "\\.(?:eu|us1)\\.ordercast\\.io/"
+      }
+    ],
+    "vendor_id": "ordercast"
+  },
+  "ordergroove": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ordergroove)",
+          "strength": 1.0,
+          "value": "\\.ordergroove\\.com"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ordergroove)",
+        "strength": 1.0,
+        "value": "\\.ordergroove\\.com/"
+      }
+    ],
+    "vendor_id": "ordergroove"
+  },
+  "ordering": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ordering)",
+        "properties": {},
+        "selector": "link[href*='apiv4.ordering.co']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ordering"
+  },
+  "orderlogic_app": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderLogic app)",
+        "strength": 1.0,
+        "value": "OrderLogic.ALERTS_KEY"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderLogic app)",
+        "strength": 1.0,
+        "value": "OrderLogic.DEFAULT_MONEY_FORMAT"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderLogic app)",
+        "strength": 1.0,
+        "value": "OrderLogic.cartData"
+      }
+    ],
+    "vendor_id": "orderlogic_app"
+  },
+  "ordermygear": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderMyGear)",
+        "strength": 1.0,
+        "value": "omg_redesigned_cart"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderMyGear)",
+        "strength": 1.0,
+        "value": "BrightSites"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderMyGear)",
+        "strength": 1.0,
+        "value": "\\.mybrightsites\\.com/"
+      }
+    ],
+    "vendor_id": "ordermygear"
+  },
+  "orderport": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderPort)",
+        "properties": {},
+        "selector": "span#updViewCart a[href*='orderport.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "orderport"
+  },
+  "ordersify_product_alerts": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ordersify Product Alerts)",
+        "strength": 1.0,
+        "value": "ORDERSIFY_BIS.stockRemainingSetting"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ordersify Product Alerts)",
+        "strength": 1.0,
+        "value": "cdn\\.ordersify\\.com/sdk/productalerts-shopify\\.js"
+      }
+    ],
+    "vendor_id": "ordersify_product_alerts"
+  },
+  "orderyoyo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderYOYO)",
+        "properties": {},
+        "selector": "a[href*='.orderyoyo.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OrderYOYO)",
+        "strength": 1.0,
+        "value": "SmartBannerOY"
+      }
+    ],
+    "vendor_id": "orderyoyo"
+  },
+  "oreed": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oreed)",
+        "properties": {},
+        "selector": "body[class*='oreed-lms'], link[href*='.oreed.app/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "oreed"
+  },
+  "orimon_ai": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orimon.ai)",
+        "properties": {},
+        "selector": "iframe[src*='bot.orimon.ai/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Orimon.ai)",
+        "strength": 1.0,
+        "value": "bot\\.orimon\\.ai"
+      }
+    ],
+    "vendor_id": "orimon_ai"
+  },
+  "orocommerce": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "strength": 1.0,
+        "value": "orosfid"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "properties": {},
+        "selector": "body[data-bound-view^='oroui/js/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "properties": {},
+        "selector": "script[data-requiremodule^='oro/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "properties": {},
+        "selector": "script[data-requiremodule^='oroui/']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "properties": {},
+        "selector": "script[src*='/oroui.js']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "strength": 1.0,
+        "value": "<script [^>]+data-requiremodule=\"oro/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "strength": 1.0,
+        "value": "<script [^>]+data-requiremodule=\"oroui/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OroCommerce)",
+        "strength": 1.0,
+        "value": "oro\\.min\\.js\\?version=([\\d.]+)"
+      }
+    ],
+    "vendor_id": "orocommerce"
+  },
+  "ortto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ortto)",
+        "strength": 1.0,
+        "value": "AP3_WIDGETS_PREFIX"
+      }
+    ],
+    "vendor_id": "ortto"
+  },
+  "osano": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Osano)",
+        "strength": 1.0,
+        "value": "Osano"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Osano)",
+        "strength": 1.0,
+        "value": "cmp\\.osano\\.com/"
+      }
+    ],
+    "vendor_id": "osano"
+  },
+  "oscommerce": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osCommerce)",
+        "strength": 1.0,
+        "value": "osCsid"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osCommerce)",
+        "properties": {},
+        "selector": "input[name='osCsid'], a[name='osCsid'], tr.infoBoxHeading, td.infoBoxHeading, table.infoBoxHeading",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osCommerce)",
+        "strength": 1.0,
+        "value": "<(?:input|a)[^>]+name=\"osCsid\""
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osCommerce)",
+        "strength": 1.0,
+        "value": "<(?:tr|td|table)class=\"[^\"]*infoBoxHeading"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osCommerce)",
+        "strength": 1.0,
+        "value": "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com"
+      }
+    ],
+    "vendor_id": "oscommerce"
+  },
+  "osi_tracker": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OSI Tracker)",
+        "strength": 1.0,
+        "value": "\\.ositracker\\.com/"
+      }
+    ],
+    "vendor_id": "osi_tracker"
+  },
+  "osterreichische_post": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Osterreichische Post)",
+        "strength": 1.0,
+        "value": "\\bPost AG\\b"
+      },
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Osterreichische Post)",
+        "strength": 1.0,
+        "value": "\\b[\u00d6O]sterreichische Post\\b"
+      },
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Osterreichische Post)",
+        "strength": 1.0,
+        "value": "\\bpost\\.at\\b"
+      }
+    ],
+    "vendor_id": "osterreichische_post"
+  },
+  "osticket": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: osTicket)",
+        "strength": 1.0,
+        "value": "OSTSESSID"
+      }
+    ],
+    "vendor_id": "osticket"
+  },
+  "ostr_io": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ostr.io)",
+        "strength": 1.0,
+        "value": "analytics\\.ostr\\.io"
+      }
+    ],
+    "vendor_id": "ostr_io"
+  },
+  "otrs": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: otrs)",
+          "strength": 1.0,
+          "value": "OTRS ([\\d.]+)"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: otrs)",
+        "strength": 1.0,
+        "value": "<!--\\s+OTRS: Copyright"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: otrs)",
+        "strength": 1.0,
+        "value": "^/otrs-web/js/"
+      }
+    ],
+    "vendor_id": "otrs"
+  },
+  "otter_blocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Otter Blocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/otter-blocks']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Otter Blocks)",
+        "strength": 1.0,
+        "value": "<div[^>]+class=[\"']wp-block-themeisle-blocks-*"
+      }
+    ],
+    "vendor_id": "otter_blocks"
+  },
+  "ottertext": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OtterText)",
+        "strength": 1.0,
+        "value": "otter_text_session"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OtterText)",
+        "strength": 1.0,
+        "value": "app\\.ottertext\\.com"
+      }
+    ],
+    "vendor_id": "ottertext"
+  },
+  "otto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Otto)",
+        "strength": 1.0,
+        "value": "otto.id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Otto)",
+        "strength": 1.0,
+        "value": "ottoCareMicrosite"
+      }
+    ],
+    "vendor_id": "otto"
+  },
+  "otys": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OTYS)",
+        "strength": 1.0,
+        "value": "OTYS.siteId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OTYS)",
+        "strength": 1.0,
+        "value": "otysSelect"
+      }
+    ],
+    "vendor_id": "otys"
+  },
+  "outbrain": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outbrain)",
+        "strength": 1.0,
+        "value": "OB_ADV_ID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outbrain)",
+        "strength": 1.0,
+        "value": "OB_releaseVer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outbrain)",
+        "strength": 1.0,
+        "value": "OutbrainPermaLink"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outbrain)",
+        "strength": 1.0,
+        "value": "obApi.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outbrain)",
+        "strength": 1.0,
+        "value": "\\.outbrain\\.com/"
+      }
+    ],
+    "vendor_id": "outbrain"
+  },
+  "outfindo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outfindo)",
+        "strength": 1.0,
+        "value": "outfindoCatalogGuideData"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outfindo)",
+        "strength": 1.0,
+        "value": "outfindoCatalogGuideMapFailed"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outfindo)",
+        "strength": 1.0,
+        "value": "embed\\.outfindo\\.com"
+      }
+    ],
+    "vendor_id": "outfindo"
+  },
+  "outfunnel": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outfunnel)",
+        "strength": 1.0,
+        "value": "cdn\\.outfunnel\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outfunnel)",
+        "strength": 1.0,
+        "value": "cdn\\.outfunnel\\.com"
+      }
+    ],
+    "vendor_id": "outfunnel"
+  },
+  "outlook_web_app": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outlook Web App)",
+        "properties": {},
+        "selector": "link[href*='/owa/auth/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-owa-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-OWA-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outlook Web App)",
+          "strength": 1.0,
+          "value": "([\\d\\.]+)?"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outlook Web App)",
+        "strength": 1.0,
+        "value": "<link[^>]+/owa/auth/([\\d\\.]+)/themes/resources"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outlook Web App)",
+        "strength": 1.0,
+        "value": "IsOwaPremiumBrowser"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outlook Web App)",
+        "strength": 1.0,
+        "value": "/owa/auth/log(?:on|off)\\.aspx"
+      }
+    ],
+    "vendor_id": "outlook_web_app"
+  },
+  "outplay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outplay)",
+        "strength": 1.0,
+        "value": "outplayhq"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Outplay)",
+        "strength": 1.0,
+        "value": "\\.outplayhq\\.co"
+      }
+    ],
+    "vendor_id": "outplay"
+  },
+  "outsystems": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OutSystems)",
+        "strength": 1.0,
+        "value": "OutSystemsDebugger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OutSystems)",
+        "strength": 1.0,
+        "value": "outsystems"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OutSystems)",
+        "strength": 1.0,
+        "value": "scripts/OutSystems(?:[\\w]+)?\\.js"
+      }
+    ],
+    "vendor_id": "outsystems"
+  },
+  "outtheboxthemes_panoramic": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OutTheBoxThemes Panoramic)",
+        "properties": {},
+        "selector": "link#panoramic_customizer_theme_fonts-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OutTheBoxThemes Panoramic)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/panoramic/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "outtheboxthemes_panoramic"
+  },
+  "ova": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ova)",
+        "strength": 1.0,
+        "value": "cffOptions.placeholder"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ova)",
+        "strength": 1.0,
+        "value": "cffOptions.resized_url"
+      }
+    ],
+    "vendor_id": "ova"
+  },
+  "overblog": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overblog)",
+        "strength": 1.0,
+        "value": "\\.over-blog-kiwi\\.com/"
+      }
+    ],
+    "vendor_id": "overblog"
+  },
+  "overfull": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overfull)",
+        "properties": {},
+        "selector": "iframe[src*='app.overfull.fr']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overfull)",
+        "strength": 1.0,
+        "value": "app\\.overfull\\.fr"
+      }
+    ],
+    "vendor_id": "overfull"
+  },
+  "overheat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overheat)",
+        "strength": 1.0,
+        "value": "cdn\\.overheat\\.it"
+      }
+    ],
+    "vendor_id": "overheat"
+  },
+  "overloop": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overloop)",
+        "strength": 1.0,
+        "value": "app\\.overloop\\.com"
+      }
+    ],
+    "vendor_id": "overloop"
+  },
+  "overwolf": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Overwolf)",
+        "strength": 1.0,
+        "value": "download\\.overwolf\\.com"
+      }
+    ],
+    "vendor_id": "overwolf"
+  },
+  "ovhcloud": {
+    "header_patterns": {
+      "x-iplb-request-id": [
+        {
+          "match_type": "regex",
+          "notes": "header x-iplb-request-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OVHcloud)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "ovhcloud"
+  },
+  "owids": {
+    "header_patterns": {
+      "access-control-allow-origin": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Owids)",
+          "strength": 1.0,
+          "value": "^X-Owids-Key$"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Owids)",
+        "strength": 1.0,
+        "value": "sdk\\.owids\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Owids)",
+        "strength": 1.0,
+        "value": "owidsSDKJSP"
+      }
+    ],
+    "vendor_id": "owids"
+  },
+  "owl_carousel": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OWL Carousel)",
+        "properties": {},
+        "selector": "link[href*='owl.carousel.css'], link[href*='owl.carousel.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OWL Carousel)",
+        "strength": 1.0,
+        "value": "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OWL Carousel)",
+        "strength": 1.0,
+        "value": "owl\\.carousel.*\\.js"
+      }
+    ],
+    "vendor_id": "owl_carousel"
+  },
+  "owncloud": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ownCloud)",
+        "strength": 1.0,
+        "value": "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ownCloud)",
+        "strength": 1.0,
+        "value": "oc_defaults"
+      }
+    ],
+    "meta_patterns": {
+      "apple-itunes-app": [
+        {
+          "match_type": "regex",
+          "notes": "meta apple-itunes-app; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ownCloud)",
+          "strength": 1.0,
+          "value": "app-id=543672169"
+        }
+      ]
+    },
+    "vendor_id": "owncloud"
+  },
+  "ownpage": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ownpage)",
+        "strength": 1.0,
+        "value": "loadOwnpageScript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ownpage)",
+        "strength": 1.0,
+        "value": "script\\.ownpage\\.fr/"
+      }
+    ],
+    "vendor_id": "ownpage"
+  },
+  "oxatis": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxatis)",
+          "strength": 1.0,
+          "value": "^Oxatis\\s\\(www\\.oxatis\\.com\\)$"
+        }
+      ]
+    },
+    "vendor_id": "oxatis"
+  },
+  "oxi_social_login": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxi Social Login)",
+        "strength": 1.0,
+        "value": "social-login\\.oxiapps\\.com"
+      }
+    ],
+    "vendor_id": "oxi_social_login"
+  },
+  "oxid_eshop": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "sid_key"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxCookieNote"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxInputValidator"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxLoginBox"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxMiniBasket"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxModalPopup"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop)",
+        "strength": 1.0,
+        "value": "oxTopMenu"
+      }
+    ],
+    "vendor_id": "oxid_eshop"
+  },
+  "oxid_eshop_community_edition": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop Community Edition)",
+        "strength": 1.0,
+        "value": "<!--[^-]*OXID eShop Community Edition, Version (\\d+)"
+      }
+    ],
+    "vendor_id": "oxid_eshop_community_edition"
+  },
+  "oxid_eshop_enterprise_edition": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop Enterprise Edition)",
+        "strength": 1.0,
+        "value": "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)"
+      }
+    ],
+    "vendor_id": "oxid_eshop_enterprise_edition"
+  },
+  "oxid_eshop_professional_edition": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: OXID eShop Professional Edition)",
+        "strength": 1.0,
+        "value": "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)"
+      }
+    ],
+    "vendor_id": "oxid_eshop_professional_edition"
+  },
+  "oxygen": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxygen)",
+        "properties": {},
+        "selector": "body[class*='oxygen-body'], link[href*='wp-content/plugins/oxygen/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxygen)",
+        "strength": 1.0,
+        "value": "<body class=(?:\"|')[^\"']*oxygen-body"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxygen)",
+        "strength": 1.0,
+        "value": "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/oxygen/"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Oxygen)",
+        "strength": 1.0,
+        "value": "wp-content/plugins/oxygen"
+      }
+    ],
+    "vendor_id": "oxygen"
+  },
+  "oxyshop": {
+    "meta_patterns": {
+      "web_author": [
+        {
+          "match_type": "regex",
+          "notes": "meta web_author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: oXyShop)",
+          "strength": 1.0,
+          "value": "^oXyShop$"
+        }
+      ]
+    },
+    "vendor_id": "oxyshop"
+  }
+}
