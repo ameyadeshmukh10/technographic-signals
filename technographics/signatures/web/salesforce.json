@@ -1,0 +1,64 @@
+{
+  "vendor_id": "salesforce",
+  "js_globals": [
+    {
+      "value": "SFDCApp",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    },
+    {
+      "value": "SFDCCmp",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    },
+    {
+      "value": "SFDCPage",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    },
+    {
+      "value": "SFDCSessionVars",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    },
+    {
+      "value": "pardot",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    },
+    {
+      "value": "piHostname",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    }
+  ],
+  "script_src_patterns": [],
+  "cookie_patterns": [
+    {
+      "value": "com.salesforce",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    }
+  ],
+  "html_patterns": [
+    {
+      "value": "<[^>]+=\"brandQuaternaryFgrs\"",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Salesforce)"
+    }
+  ],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

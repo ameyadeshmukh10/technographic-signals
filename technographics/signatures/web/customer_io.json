@@ -1,0 +1,20 @@
+{
+  "vendor_id": "customer_io",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "assets\\.customer\\.io",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Customer.io)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

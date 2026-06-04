@@ -66,6 +66,12 @@ class FetchResult:
     `script_srcs` holds the union of `<script src=...>` values parsed from
     HTML and (for rendered fetches) every script-resource URL observed on
     the network. `cookies` holds cookie *names only* — never values.
+
+    `headers` are the (lowercased-key) HTTP response headers; `meta_tags`
+    are `<meta name|property=… content=…>` pairs keyed by lowercased name;
+    `js_globals` are `window` property names — only populated on rendered
+    fetches, since enumerating them requires executing JS. These three feed
+    the technographics matcher's header/meta/js-global signal channels.
     """
 
     url: str
@@ -73,6 +79,9 @@ class FetchResult:
     html: str = ""
     script_srcs: list[str] = field(default_factory=list)
     cookies: list[str] = field(default_factory=list)
+    headers: dict[str, str] = field(default_factory=dict)
+    meta_tags: dict[str, str] = field(default_factory=dict)
+    js_globals: list[str] = field(default_factory=list)
     rendered: bool = False
     error: str | None = None
 
@@ -102,6 +111,50 @@ def _extract_script_srcs(html: str) -> list[str]:
         if src:
             out.append(src)
     return out
+
+
+def _extract_meta_tags(html: str) -> dict[str, str]:
+    """Parse `<meta name|property=… content=…>` into {name.lower(): content}.
+
+    When a name repeats, the first occurrence wins. Mirrors how the
+    technographics web collector builds `meta_tags`."""
+    if not html:
+        return {}
+    try:
+        soup = BeautifulSoup(html, "lxml")
+    except Exception:
+        return {}
+    out: dict[str, str] = {}
+    for tag in soup.find_all("meta"):
+        name = tag.get("name") or tag.get("property")
+        if not name:
+            continue
+        key = name.strip().lower()
+        if key in out:
+            continue
+        out[key] = (tag.get("content") or "").strip()
+    return out
+
+
+# Evaluated in-page (rendered fetch) to enumerate likely-vendor window globals.
+# Mirrors technographics/src/technographics/web_collector.py::_GLOBALS_JS.
+_GLOBALS_JS = r"""
+() => {
+  const keys = new Set();
+  try {
+    for (const k of Object.getOwnPropertyNames(window)) keys.add(k);
+  } catch (e) {}
+  const nested = ['analytics.SNIPPET_VERSION', 'analytics.VERSION'];
+  for (const path of nested) {
+    try {
+      let cur = window;
+      for (const part of path.split('.')) cur = cur[part];
+      if (cur !== undefined) keys.add(path);
+    } catch (e) {}
+  }
+  return Array.from(keys);
+}
+"""
 
 
 def _looks_like_spa_shell(html: str) -> bool:
@@ -184,6 +237,9 @@ class SiteFetcher:
             html=html,
             script_srcs=_extract_script_srcs(html),
             cookies=[c.name for c in resp.cookies],
+            headers={k.lower(): v for k, v in resp.headers.items()},
+            meta_tags=_extract_meta_tags(html),
+            js_globals=[],  # requires a JS engine — see fetch_rendered
             rendered=False,
         )
 
@@ -242,6 +298,30 @@ class SiteFetcher:
                 status = response.status if response is not None else 0
                 html = page.content()
                 cookie_names = [c["name"] for c in context.cookies()]
+
+                try:
+                    js_globals = page.evaluate(_GLOBALS_JS) or []
+                except Exception:
+                    js_globals = []
+
+                headers = {}
+                if response is not None:
+                    try:
+                        headers = {k.lower(): v for k, v in response.headers.items()}
+                    except Exception:
+                        headers = {}
+
+                try:
+                    pairs = page.eval_on_selector_all(
+                        "meta[name], meta[property]",
+                        "els => els.map(e => [e.getAttribute('name') || e.getAttribute('property'), e.getAttribute('content') || ''])",
+                    )
+                    meta_tags = {}
+                    for name, content in pairs:
+                        if name and name.lower() not in meta_tags:
+                            meta_tags[name.lower()] = content
+                except Exception:
+                    meta_tags = {}
             finally:
                 browser.close()
 
@@ -252,6 +332,9 @@ class SiteFetcher:
             html=html,
             script_srcs=merged,
             cookies=cookie_names,
+            headers=headers,
+            meta_tags=meta_tags,
+            js_globals=js_globals,
             rendered=True,
         )
 
@@ -264,6 +347,15 @@ class SiteFetcher:
         except Exception as exc:
             _logger.warning("invalid url=%s error=%s", url, exc)
             return FetchResult(url=url, error=str(exc))
+
+        # Max-recall mode: render every page (JS globals require a JS engine).
+        # Fall back to static only if the render errored or returned no HTML.
+        if config.ALWAYS_RENDER:
+            rendered_first = self.fetch_rendered(normalized)
+            if rendered_first.error is None and rendered_first.html:
+                return rendered_first
+            _logger.info("always_render fell back to static url=%s", normalized)
+            return self.fetch_static(normalized)
 
         static_result = self.fetch_static(normalized)
 
@@ -297,6 +389,9 @@ def _print_summary(result: FetchResult) -> None:
     table.add_row("html length", f"{len(result.html):,} chars")
     table.add_row("script_srcs", str(len(result.script_srcs)))
     table.add_row("cookies", str(len(result.cookies)))
+    table.add_row("headers", str(len(result.headers)))
+    table.add_row("meta_tags", str(len(result.meta_tags)))
+    table.add_row("js_globals", str(len(result.js_globals)))
     table.add_row("error", result.error or "-")
     console.print(table)
     if result.script_srcs:

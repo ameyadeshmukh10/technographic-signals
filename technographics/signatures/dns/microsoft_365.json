@@ -1,0 +1,44 @@
+{
+  "vendor_id": "microsoft_365",
+  "subdomains_to_probe": [
+    "autodiscover",
+    "lyncdiscover",
+    "enterpriseregistration"
+  ],
+  "cname_patterns": [
+    {
+      "value": "autodiscover.outlook.com",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Microsoft 365 Autodiscover CNAME target"
+    }
+  ],
+  "txt_patterns": [
+    {
+      "value": "include:spf.protection.outlook.com",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Microsoft 365 SPF include"
+    },
+    {
+      "value": "MS=ms",
+      "match_type": "prefix",
+      "strength": 0.6,
+      "notes": "Microsoft 365 domain-verification TXT token prefix"
+    }
+  ],
+  "mx_patterns": [
+    {
+      "value": "mail.protection.outlook.com",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Microsoft 365 Exchange Online MX host"
+    }
+  ],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

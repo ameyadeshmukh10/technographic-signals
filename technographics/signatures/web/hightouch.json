@@ -1,0 +1,14 @@
+{
+  "vendor_id": "hightouch",
+  "js_globals": [],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "header_patterns": {},
+  "html_patterns": [],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": [],
+  "_notes": "TODO: no Wappalyzer entry for ['Hightouch']; add hand-authored web patterns if a public footprint exists."
+}

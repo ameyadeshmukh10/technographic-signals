@@ -1,0 +1,27 @@
+{
+  "vendor_id": "cloudflare",
+  "subdomains_to_probe": [],
+  "cname_patterns": [
+    {
+      "value": "cdn.cloudflare.net",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Cloudflare CNAME-setup (partial) target"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [
+    {
+      "value": "ns.cloudflare.com",
+      "match_type": "suffix",
+      "strength": 1.0,
+      "notes": "Cloudflare-managed DNS nameservers (<name>.ns.cloudflare.com)"
+    }
+  ],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

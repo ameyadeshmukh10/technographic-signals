@@ -1,0 +1,457 @@
+{
+  "11sight": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 11Sight)",
+        "strength": 1.0,
+        "value": "elevensight"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 11Sight)",
+        "strength": 1.0,
+        "value": "elevensightApp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 11Sight)",
+        "strength": 1.0,
+        "value": "app\\.11sight\\.com/"
+      }
+    ],
+    "vendor_id": "11sight"
+  },
+  "1c_bitrix": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+        "strength": 1.0,
+        "value": "BITRIX_SM_GUEST_ID"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+        "strength": 1.0,
+        "value": "BITRIX_SM_LAST_IP"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+        "strength": 1.0,
+        "value": "BITRIX_SM_SALE_UID"
+      }
+    ],
+    "header_patterns": {
+      "set-cookie": [
+        {
+          "match_type": "regex",
+          "notes": "header Set-Cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+          "strength": 1.0,
+          "value": "BITRIX_"
+        }
+      ],
+      "x-powered-cms": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-CMS; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+          "strength": 1.0,
+          "value": "Bitrix Site Manager"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 1C-Bitrix)",
+        "strength": 1.0,
+        "value": "bitrix(?:\\.info/|/js/main/core)"
+      }
+    ],
+    "vendor_id": "1c_bitrix"
+  },
+  "24nettbutikk": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 24nettbutikk)",
+        "strength": 1.0,
+        "value": " _gat_24nb"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 24nettbutikk)",
+        "strength": 1.0,
+        "value": "24nb"
+      }
+    ],
+    "vendor_id": "24nettbutikk"
+  },
+  "2b_advice": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 2B Advice)",
+        "strength": 1.0,
+        "value": "BBCookieControler"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 2B Advice)",
+        "strength": 1.0,
+        "value": "2badvice-cdn\\.azureedge\\.net"
+      }
+    ],
+    "vendor_id": "2b_advice"
+  },
+  "2clickshop": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 2ClickShop)",
+          "strength": 1.0,
+          "value": "^Trol Intermedia / 2ClickShop$"
+        }
+      ]
+    },
+    "vendor_id": "2clickshop"
+  },
+  "30namaplayer": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 30namaPlayer)",
+        "properties": {},
+        "selector": "section[class*='player30nama']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "30namaplayer"
+  },
+  "321_cms": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 321 CMS)",
+          "strength": 1.0,
+          "value": "^321 CREATIVE CREW"
+        }
+      ]
+    },
+    "vendor_id": "321_cms"
+  },
+  "33across": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 33Across)",
+        "properties": {},
+        "selector": "iframe[src*='.33across.com'], link[href*='.33across.com'], link[href*='.tynt.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 33Across)",
+        "strength": 1.0,
+        "value": "Tynt"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 33Across)",
+        "strength": 1.0,
+        "value": "\\.33across\\.com/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 33Across)",
+        "strength": 1.0,
+        "value": "\\.tynt\\.com/"
+      }
+    ],
+    "vendor_id": "33across",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 33Across)",
+        "strength": 1.0,
+        "value": "\\.33across\\.com"
+      }
+    ]
+  },
+  "42chat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 42Chat)",
+        "strength": 1.0,
+        "value": "api\\.42chat\\.com"
+      }
+    ],
+    "vendor_id": "42chat"
+  },
+  "42stores": {
+    "header_patterns": {
+      "powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 42stores)",
+          "strength": 1.0,
+          "value": "^42stores$"
+        }
+      ]
+    },
+    "vendor_id": "42stores"
+  },
+  "4_tell": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4-Tell)",
+        "strength": 1.0,
+        "value": "4Tell"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4-Tell)",
+        "strength": 1.0,
+        "value": "4TellCart"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4-Tell)",
+        "strength": 1.0,
+        "value": "4TellSession"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4-Tell)",
+        "strength": 1.0,
+        "value": "_4TellBoost"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4-Tell)",
+        "strength": 1.0,
+        "value": "4tellcdn\\.azureedge\\.net"
+      }
+    ],
+    "vendor_id": "4_tell"
+  },
+  "4partners_cms": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 4Partners CMS)",
+          "strength": 1.0,
+          "value": "^4CMS$"
+        }
+      ]
+    },
+    "vendor_id": "4partners_cms"
+  },
+  "51_la": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 51.LA)",
+        "strength": 1.0,
+        "value": "LA.config.ck"
+      }
+    ],
+    "vendor_id": "51_la"
+  },
+  "52degrees": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 52Degrees)",
+        "strength": 1.0,
+        "value": "'api\\.handsetdetection\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 52Degrees)",
+        "strength": 1.0,
+        "value": "api\\.handsetdetection\\.com"
+      }
+    ],
+    "vendor_id": "52degrees"
+  },
+  "5centscdn": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 5centsCDN)",
+        "properties": {},
+        "selector": "link[href*='.5centscdn.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "x-cdn": [
+        {
+          "match_type": "regex",
+          "notes": "header x-cdn; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 5centsCDN)",
+          "strength": 1.0,
+          "value": "^5centsCDN$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 5centsCDN)",
+        "strength": 1.0,
+        "value": "\\.5centscdn\\.com/"
+      }
+    ],
+    "vendor_id": "5centscdn"
+  },
+  "6sense": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header Content-Security-Policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 6sense)",
+          "strength": 1.0,
+          "value": "\\.6sc\\.co/"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 6sense)",
+        "strength": 1.0,
+        "value": "\\.6sc\\.co/"
+      }
+    ],
+    "vendor_id": "6sense"
+  },
+  "6valley_ecommerce_cms": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 6Valley eCommerce CMS)",
+        "strength": 1.0,
+        "value": "6valley_session"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 6Valley eCommerce CMS)",
+        "strength": 1.0,
+        "value": "6valley_cookie_consent"
+      }
+    ],
+    "vendor_id": "6valley_ecommerce_cms"
+  },
+  "7moor": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 7moor)",
+        "strength": 1.0,
+        "value": "moor7Source"
+      }
+    ],
+    "vendor_id": "7moor"
+  },
+  "7shifts": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 7Shifts)",
+        "properties": {},
+        "selector": "a[href*='7shifts.com/'] > img[src*='.7shifts.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "7shifts"
+  },
+  "8base": {
+    "vendor_id": "8base",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 8base)",
+        "strength": 1.0,
+        "value": "api\\.8base\\.com"
+      }
+    ]
+  },
+  "8x8": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 8x8)",
+        "strength": 1.0,
+        "value": "Chat8x8"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 8x8)",
+        "strength": 1.0,
+        "value": "__8x8Chat"
+      }
+    ],
+    "vendor_id": "8x8"
+  },
+  "91app": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 91App)",
+        "strength": 1.0,
+        "value": "cdn\\.91app\\.com/"
+      }
+    ],
+    "vendor_id": "91app"
+  },
+  "99minds": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 99minds)",
+        "strength": 1.0,
+        "value": "_99mindsDataLayer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: 99minds)",
+        "strength": 1.0,
+        "value": "\\.99minds\\.io"
+      }
+    ],
+    "vendor_id": "99minds"
+  }
+}

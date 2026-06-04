@@ -1,0 +1,32 @@
+{
+  "vendor_id": "klaviyo",
+  "subdomains_to_probe": [
+    "email",
+    "trk",
+    "send",
+    "klaviyo",
+    "e"
+  ],
+  "cname_patterns": [
+    {
+      "value": "klaviyomail.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Klaviyo dedicated sending/click-tracking domain target"
+    },
+    {
+      "value": "klaviyodns.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Klaviyo DKIM/branding CNAME target"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

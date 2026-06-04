@@ -1,0 +1,39 @@
+{
+  "vendor_id": "amplitude",
+  "js_globals": [
+    {
+      "value": "AMPLITUDE_KEY",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amplitude)"
+    },
+    {
+      "value": "__AMPLITUDE__",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amplitude)"
+    },
+    {
+      "value": "amplitudeClient",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amplitude)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Amplitude)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

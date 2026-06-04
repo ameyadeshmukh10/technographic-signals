@@ -1,0 +1,55 @@
+{
+  "vendor_id": "zendesk",
+  "js_globals": [
+    {
+      "value": "Zendesk",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "static\\.zdassets\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "_help_center_session",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+    },
+    {
+      "value": "_zendesk_cookie",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+    },
+    {
+      "value": "_zendesk_shared_session",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+    }
+  ],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {
+    "x-zendesk-user-id": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header x-zendesk-user-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

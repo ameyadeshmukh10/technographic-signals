@@ -1,0 +1,68 @@
+{
+  "vendor_id": "fastly",
+  "js_globals": [],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {
+    "fastly-debug-digest": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header Fastly-Debug-Digest; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ],
+    "vary": [
+      {
+        "value": "Fastly-SSL",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header Vary; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ],
+    "x-fastly-request-id": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header X-Fastly-Request-ID; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      },
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header x-fastly-request-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ],
+    "server": [
+      {
+        "value": "Fastly",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ],
+    "x-fastly-origin": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header x-fastly-origin; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ],
+    "x-via-fastly": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header x-via-fastly; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Fastly)"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

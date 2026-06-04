@@ -1,0 +1,33 @@
+{
+  "vendor_id": "mparticle",
+  "js_globals": [
+    {
+      "value": "mParticle",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: mParticle)"
+    },
+    {
+      "value": "mParticle.config.snippetVersion",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: mParticle)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "\\.mparticle\\.com/",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: mParticle)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "acme.example",
+  "a": ["104.16.1.1"],
+  "mx": ["acme-example.mail.protection.outlook.com"],
+  "txt": [
+    "v=spf1 include:spf.protection.outlook.com -all",
+    "intercom-domain-verification=abc123def456"
+  ],
+  "ns": ["amir.ns.cloudflare.com", "kara.ns.cloudflare.com"],
+  "soa": ["ns1.dreamhost.com. hostmaster.dreamhost.com. 2024010101 28800 14400 604800 86400"],
+  "cname": {
+    "help.acme.example": "custom.intercom.help",
+    "info.acme.example": "1234567.hs-sites.com",
+    "hs1._domainkey.acme.example": "acme-example.hs1.hubspotemail.net"
+  }
+}

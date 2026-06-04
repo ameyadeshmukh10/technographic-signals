@@ -1,0 +1,8 @@
+{
+  "license": "GPL-3.0 (upstream)",
+  "shard_strategy": "first letter of vendor_id; '_' for non-alpha",
+  "source": "https://github.com/enthec/webappanalyzer",
+  "total_categories": 108,
+  "total_technologies": 7518,
+  "upstream_commit": "c2855b4652b4a205c55a7fa7cbf6f02d0d6dd82b"
+}

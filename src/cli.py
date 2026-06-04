@@ -82,9 +82,13 @@ def check_list_cmd(url_or_id: str) -> None:
 
 @cli.command("detect-one", help="Fetch a single URL and print detections. No HubSpot calls.")
 @click.argument("url")
-def detect_one_cmd(url: str) -> None:
+@click.option("--domain", default=None, help="Domain for the DNS pass (defaults to the URL host).")
+@click.option("--legacy", is_flag=True, help="Force the legacy 4-module detector (no DNS).")
+def detect_one_cmd(url: str, domain: str | None, legacy: bool) -> None:
     fetcher = SiteFetcher()
     fr = fetcher.fetch(url)
+
+    use_engine = (config.DETECTION_ENGINE == "technographics") and not legacy
 
     summary = Table(title=f"Fetch: {fr.url}", show_header=False)
     summary.add_row("Status", str(fr.status))
@@ -92,6 +96,10 @@ def detect_one_cmd(url: str) -> None:
     summary.add_row("HTML length", f"{len(fr.html):,} chars")
     summary.add_row("Script srcs", str(len(fr.script_srcs)))
     summary.add_row("Cookies", str(len(fr.cookies)))
+    summary.add_row("Headers", str(len(fr.headers)))
+    summary.add_row("Meta tags", str(len(fr.meta_tags)))
+    summary.add_row("JS globals", str(len(fr.js_globals)))
+    summary.add_row("Engine", "technographics (DNS+web)" if use_engine else "legacy")
     summary.add_row("Error", fr.error or "-")
     _CONSOLE.print(summary)
 
@@ -99,9 +107,19 @@ def detect_one_cmd(url: str) -> None:
         _CONSOLE.print("[yellow]Fetch failed; skipping detection.[/yellow]")
         return
 
-    all_hits: list[DetectionHit] = []
-    for module in (crm, ad_pixels, martech, salestech):
-        all_hits.extend(module.detect(fr))
+    if use_engine:
+        from .detectors.engine import TechEngine
+
+        engine = TechEngine(
+            selection_path=config.SELECTION_FILE,
+            enable_dns=config.ENABLE_DNS,
+            dns_timeout=config.DNS_TIMEOUT,
+        )
+        all_hits = engine.detect(domain or url, url, fr)
+    else:
+        all_hits = []
+        for module in (crm, ad_pixels, martech, salestech):
+            all_hits.extend(module.detect(fr))
     filtered = filter_low_confidence(all_hits)
     formatted = format_signals(filtered)
 

@@ -1,0 +1,1872 @@
+{
+  "zabbix": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zabbix)",
+        "strength": 1.0,
+        "value": "<body[^>]+zbxCallPostScripts"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zabbix)",
+        "strength": 1.0,
+        "value": "zbxCallPostScripts"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta Author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zabbix)",
+          "strength": 0.7,
+          "value": "ZABBIX SIA"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zabbix)",
+        "strength": 0.3,
+        "value": "\\/zabbix\\/"
+      }
+    ],
+    "vendor_id": "zabbix"
+  },
+  "zad": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zad)",
+        "strength": 1.0,
+        "value": "zad\\.nyc3\\.digitaloceanspaces"
+      }
+    ],
+    "vendor_id": "zad"
+  },
+  "zadarma": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zadarma)",
+        "strength": 1.0,
+        "value": "my\\.zadarma\\.com"
+      }
+    ],
+    "vendor_id": "zadarma"
+  },
+  "zakeke": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke)",
+        "strength": 1.0,
+        "value": "zakekeBoot"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke)",
+        "strength": 1.0,
+        "value": "zakekeCustomizeLabel"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke)",
+        "strength": 1.0,
+        "value": "zakekeLoading"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke)",
+        "strength": 1.0,
+        "value": "zakekeProductPage"
+      }
+    ],
+    "vendor_id": "zakeke"
+  },
+  "zakeke_interactive_product_designer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke Interactive Product Designer)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/zakeke-interactive-product-designer/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "zakeke_interactive_product_designer"
+  },
+  "zakeke_visual_customizer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakeke Visual Customizer)",
+        "strength": 1.0,
+        "value": "\\.zakeke\\.com/Scripts/integration/shopify/"
+      }
+    ],
+    "vendor_id": "zakeke_visual_customizer"
+  },
+  "zakra": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakra)",
+        "properties": {},
+        "selector": "link#zakra-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakra)",
+        "strength": 1.0,
+        "value": "zakraFrontend"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakra)",
+        "strength": 1.0,
+        "value": "zakraNavHelper.dimension"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zakra)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/zakra/"
+      }
+    ],
+    "vendor_id": "zakra"
+  },
+  "zalify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zalify)",
+        "strength": 1.0,
+        "value": "zalify.render"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zalify)",
+        "strength": 1.0,
+        "value": "zalifyCurrentScript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zalify)",
+        "strength": 1.0,
+        "value": "\\.zalify\\.com/"
+      }
+    ],
+    "vendor_id": "zalify"
+  },
+  "zammad": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zammad)",
+        "properties": {},
+        "selector": "script[id*='zammad_form_script']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "zammad"
+  },
+  "zammit": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zammit)",
+        "strength": 1.0,
+        "value": "merchants\\.zammit\\.shop/"
+      }
+    ],
+    "vendor_id": "zammit"
+  },
+  "zanox": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zanox)",
+        "strength": 1.0,
+        "value": "<img [^>]*src=\"[^\"]+ad\\.zanox\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zanox)",
+        "strength": 1.0,
+        "value": "zanox"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zanox)",
+        "strength": 1.0,
+        "value": "zanox\\.com/scripts/zanox\\.js$"
+      }
+    ],
+    "vendor_id": "zanox"
+  },
+  "zapiet": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zapiet)",
+        "strength": 1.0,
+        "value": "Zapiet"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zapiet)",
+        "strength": 1.0,
+        "value": "app\\.zapiet\\.com"
+      }
+    ],
+    "vendor_id": "zapiet"
+  },
+  "zapnito": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zapnito)",
+        "strength": 1.0,
+        "value": "\\.zapnito\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zapnito)",
+        "strength": 1.0,
+        "value": "webpackChunkzapnito_web"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zapnito)",
+        "strength": 1.0,
+        "value": "zapnito.abilities"
+      }
+    ],
+    "vendor_id": "zapnito"
+  },
+  "zarla": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zarla)",
+        "strength": 1.0,
+        "value": "cdn\\.zarlasites\\.com"
+      }
+    ],
+    "vendor_id": "zarla"
+  },
+  "zaxaa": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zaxaa)",
+        "properties": {},
+        "selector": "a[href*='.zaxaa.com'] > img[src*='www.zaxaa.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "zaxaa"
+  },
+  "zeabur": {
+    "header_patterns": {
+      "x-zeabur-request-id": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Zeabur-Request-Id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeabur)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "zeabur"
+  },
+  "zeald": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeald)",
+        "strength": 1.0,
+        "value": "ZES_BACKEND"
+      }
+    ],
+    "vendor_id": "zeald"
+  },
+  "zeemaps": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZeeMaps)",
+        "properties": {},
+        "selector": "iframe[src*='www.zeemaps.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZeeMaps)",
+        "strength": 1.0,
+        "value": "webpackChunkZeeMaps"
+      }
+    ],
+    "vendor_id": "zeemaps"
+  },
+  "zeleris": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeleris)",
+        "strength": 1.0,
+        "value": "\\bZeleris\\b"
+      }
+    ],
+    "vendor_id": "zeleris"
+  },
+  "zen_cart": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zen Cart)",
+          "strength": 1.0,
+          "value": "Zen Cart"
+        }
+      ]
+    },
+    "vendor_id": "zen_cart"
+  },
+  "zen_planner": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zen Planner)",
+        "strength": 1.0,
+        "value": "zenplanner"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zen Planner)",
+        "strength": 1.0,
+        "value": "\\.zenplanner\\.com/"
+      }
+    ],
+    "vendor_id": "zen_planner"
+  },
+  "zenbasket": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "zenbasket_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {
+          "src": {
+            "match_type": "regex",
+            "notes": "dom attr src; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+            "strength": 0.5,
+            "value": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "properties": {},
+        "selector": "img[src*='getzenbasket.com']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+            "strength": 0.5,
+            "value": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "properties": {},
+        "selector": "link[href*='getzenbasket.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "\\.getzenbasket\\.com/"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "ZenBasket"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "ZenBasketApp"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "ZenBasketStore"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+          "strength": 0.5,
+          "value": "ZenBasket"
+        }
+      ],
+      "zenbasket-platform": [
+        {
+          "match_type": "regex",
+          "notes": "meta zenbasket-platform; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "^https?//.+\\.getzenbasket\\.com"
+      }
+    ],
+    "vendor_id": "zenbasket",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenBasket)",
+        "strength": 1.0,
+        "value": "\\.getzenbasket\\.com"
+      }
+    ]
+  },
+  "zenbooker": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenbooker)",
+        "strength": 1.0,
+        "value": "Zenbooker.BadgeWidget"
+      }
+    ],
+    "vendor_id": "zenbooker"
+  },
+  "zenchef": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenchef)",
+        "strength": 1.0,
+        "value": "sdk\\.zenchef\\.com/"
+      }
+    ],
+    "vendor_id": "zenchef"
+  },
+  "zend": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zend)",
+        "strength": 1.0,
+        "value": "ZENDSERVERSESSID"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zend)",
+          "strength": 1.0,
+          "value": "Zend(?:Server)?(?:[\\s/]?([0-9.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "zend"
+  },
+  "zendapps": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZendApps)",
+        "strength": 1.0,
+        "value": "\\.zend-apps\\.com/"
+      }
+    ],
+    "vendor_id": "zendapps"
+  },
+  "zendesk": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "_help_center_session"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "_zendesk_cookie"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "_zendesk_shared_session"
+      }
+    ],
+    "header_patterns": {
+      "x-zendesk-user-id": [
+        {
+          "match_type": "regex",
+          "notes": "header x-zendesk-user-id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "Zendesk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk)",
+        "strength": 1.0,
+        "value": "static\\.zdassets\\.com"
+      }
+    ],
+    "vendor_id": "zendesk"
+  },
+  "zendesk__074715": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk Chat)",
+        "strength": 1.0,
+        "value": "v2\\.zopim\\.com"
+      }
+    ],
+    "vendor_id": "zendesk__074715"
+  },
+  "zendesk_sunshine_conversations": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zendesk Sunshine Conversations)",
+        "strength": 1.0,
+        "value": "cdn\\.smooch\\.io/"
+      }
+    ],
+    "vendor_id": "zendesk_sunshine_conversations"
+  },
+  "zenfolio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenfolio)",
+        "strength": 1.0,
+        "value": "Zenfolio"
+      }
+    ],
+    "vendor_id": "zenfolio"
+  },
+  "zenler": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenler)",
+        "strength": 1.0,
+        "value": "webtracker\\.newzenler\\.com"
+      }
+    ],
+    "vendor_id": "zenler"
+  },
+  "zenmaid": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZenMaid)",
+        "strength": 1.0,
+        "value": "app\\.zenmaid\\.com"
+      }
+    ],
+    "vendor_id": "zenmaid"
+  },
+  "zenoti": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenoti)",
+        "strength": 1.0,
+        "value": "\\.zenoti\\.com"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta Author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenoti)",
+          "strength": 1.0,
+          "value": "^zenoti$"
+        }
+      ]
+    },
+    "vendor_id": "zenoti"
+  },
+  "zenrez": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenrez)",
+        "strength": 1.0,
+        "value": "widget\\.zenrez\\.com/"
+      }
+    ],
+    "vendor_id": "zenrez"
+  },
+  "zensical": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zensical)",
+          "strength": 1.0,
+          "value": "zensical-([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "zensical"
+  },
+  "zentap": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zentap)",
+          "strength": 1.0,
+          "value": "Zentap"
+        }
+      ]
+    },
+    "vendor_id": "zentap"
+  },
+  "zenu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenu)",
+        "strength": 1.0,
+        "value": "zenuDebug"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenu)",
+        "strength": 1.0,
+        "value": "zenuHp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenu)",
+        "strength": 1.0,
+        "value": "assets\\.zenu\\.com\\.au"
+      }
+    ],
+    "vendor_id": "zenu"
+  },
+  "zenvia": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenvia)",
+        "strength": 1.0,
+        "value": "ZenviaChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenvia)",
+        "strength": 1.0,
+        "value": "static\\.zenvia\\.com"
+      }
+    ],
+    "vendor_id": "zenvia"
+  },
+  "zenzzen": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zenzzen)",
+        "properties": {},
+        "selector": "span[class*='zenzzen-store']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "zenzzen"
+  },
+  "zeotap": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeotap)",
+        "properties": {},
+        "selector": "link[href*='.zeotap.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeotap)",
+        "strength": 1.0,
+        "value": "\\.zeotap\\.com"
+      }
+    ],
+    "vendor_id": "zeotap"
+  },
+  "zepio": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zepio)",
+          "strength": 1.0,
+          "value": "^Zepio$"
+        }
+      ]
+    },
+    "vendor_id": "zepio"
+  },
+  "zeppelin": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeppelin)",
+        "strength": 1.0,
+        "value": "cloud\\.zeppelin-group\\.com"
+      }
+    ],
+    "vendor_id": "zeppelin"
+  },
+  "zepto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zepto)",
+        "strength": 1.0,
+        "value": "Zepto"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zepto)",
+        "strength": 1.0,
+        "value": "zepto.*\\.js"
+      }
+    ],
+    "vendor_id": "zepto"
+  },
+  "zestard": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zestard)",
+        "strength": 1.0,
+        "value": "$zestard_easy"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zestard)",
+        "strength": 1.0,
+        "value": "zestardshop\\.com/shopifyapp"
+      }
+    ],
+    "vendor_id": "zestard"
+  },
+  "zestmoney": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZestMoney)",
+        "strength": 1.0,
+        "value": "ZestMoneyWidget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZestMoney)",
+        "strength": 1.0,
+        "value": "zestBind"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZestMoney)",
+        "strength": 1.0,
+        "value": "zestMerchant"
+      }
+    ],
+    "vendor_id": "zestmoney"
+  },
+  "zeta_producer": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeta Producer)",
+          "strength": 1.0,
+          "value": "^Zeta Producer ([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "zeta_producer"
+  },
+  "zeus_technology": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeus Technology)",
+        "strength": 1.0,
+        "value": "zeus.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zeus Technology)",
+        "strength": 1.0,
+        "value": "zeusAdUnitPath"
+      }
+    ],
+    "vendor_id": "zeus_technology"
+  },
+  "zevi": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zevi)",
+        "strength": 1.0,
+        "value": "zevi-_zldt"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zevi)",
+        "strength": 1.0,
+        "value": "\\.zevi\\.ai/"
+      }
+    ],
+    "vendor_id": "zevi"
+  },
+  "zevioo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zevioo)",
+        "strength": 1.0,
+        "value": "zevioo\\.com/"
+      }
+    ],
+    "vendor_id": "zevioo"
+  },
+  "ziadah": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ziadah)",
+        "strength": 1.0,
+        "value": "\\.ziadah\\.app/"
+      }
+    ],
+    "vendor_id": "ziadah"
+  },
+  "ziber": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ziber)",
+        "strength": 1.0,
+        "value": "ZiberTracker.getTracker"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ziber)",
+          "strength": 1.0,
+          "value": "^ZIBER$"
+        }
+      ]
+    },
+    "vendor_id": "ziber"
+  },
+  "zid": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zid)",
+        "strength": 1.0,
+        "value": "zid_catalog_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zid)",
+        "strength": 1.0,
+        "value": "zid.store"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zid)",
+        "strength": 1.0,
+        "value": "zidTracking.sendGaProductRemoveFromCartEvent"
+      }
+    ],
+    "vendor_id": "zid"
+  },
+  "zieny": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zieny)",
+        "strength": 1.0,
+        "value": "ar-view-zieny\\.com/"
+      }
+    ],
+    "vendor_id": "zieny"
+  },
+  "ziggy": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ziggy)",
+        "strength": 1.0,
+        "value": "Ziggy"
+      }
+    ],
+    "vendor_id": "ziggy"
+  },
+  "zimbra": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zimbra)",
+        "strength": 1.0,
+        "value": "ZM_TEST"
+      }
+    ],
+    "vendor_id": "zimbra"
+  },
+  "zingchart": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZingChart)",
+        "strength": 1.0,
+        "value": "zingchart"
+      }
+    ],
+    "vendor_id": "zingchart"
+  },
+  "zinnia": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zinnia)",
+          "strength": 1.0,
+          "value": "Zinnia"
+        }
+      ]
+    },
+    "vendor_id": "zinnia"
+  },
+  "zinrelo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zinrelo)",
+        "strength": 1.0,
+        "value": "zrl_mi"
+      }
+    ],
+    "vendor_id": "zinrelo"
+  },
+  "zip": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "properties": {},
+        "selector": "link[href*='widgets.quadpay.com/'], div[data-quadpay-src*='.quadpay.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "QuadPayShopify"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "checkout.enabledpayments.zip"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "quadpayID"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "quadpay\\.com"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "static\\.zipmoney\\.com\\.au"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zip)",
+        "strength": 1.0,
+        "value": "zip\\.co"
+      }
+    ],
+    "vendor_id": "zip"
+  },
+  "zipchat": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipchat)",
+        "strength": 1.0,
+        "value": "app\\.zipchat\\.ai"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipchat)",
+        "strength": 1.0,
+        "value": "zipchatWidgetLoaded"
+      }
+    ],
+    "vendor_id": "zipchat"
+  },
+  "zipify_ocu": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipify OCU)",
+        "strength": 1.0,
+        "value": "/zipify-oneclickupsell-vendor\\.js"
+      }
+    ],
+    "vendor_id": "zipify_ocu"
+  },
+  "zipify_pages": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipify Pages)",
+        "strength": 1.0,
+        "value": "ZipifyPages"
+      }
+    ],
+    "vendor_id": "zipify_pages"
+  },
+  "zipkin": {
+    "header_patterns": {
+      "x-b3-flags": [
+        {
+          "match_type": "regex",
+          "notes": "header X-B3-Flags; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipkin)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-b3-parentspanid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-B3-ParentSpanId; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipkin)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-b3-sampled": [
+        {
+          "match_type": "regex",
+          "notes": "header X-B3-Sampled; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipkin)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-b3-spanid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-B3-SpanId; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipkin)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-b3-traceid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-B3-TraceId; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipkin)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "zipkin"
+  },
+  "zipleads": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipleads)",
+        "strength": 1.0,
+        "value": "app\\.zipleads\\.com\\.au"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipleads)",
+          "strength": 1.0,
+          "value": "^ZipLeads$"
+        }
+      ]
+    },
+    "vendor_id": "zipleads"
+  },
+  "zipteams": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zipteams)",
+        "strength": 1.0,
+        "value": "ZipteamsWidget"
+      }
+    ],
+    "vendor_id": "zipteams"
+  },
+  "zipwp": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZipWP)",
+        "strength": 1.0,
+        "value": "app\\.zipwp\\.com"
+      }
+    ],
+    "vendor_id": "zipwp"
+  },
+  "zk": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZK)",
+        "strength": 1.0,
+        "value": "<!-- ZK [.\\d\\s]+-->"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZK)",
+        "strength": 1.0,
+        "value": "zkau/"
+      }
+    ],
+    "vendor_id": "zk"
+  },
+  "zmags_creator": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zmags Creator)",
+        "strength": 1.0,
+        "value": "__zmags"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zmags Creator)",
+        "strength": 1.0,
+        "value": "c(?:reator)?\\.zmags\\.com/"
+      }
+    ],
+    "vendor_id": "zmags_creator"
+  },
+  "znode": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Znode)",
+        "strength": 1.0,
+        "value": "ZnodeAjaxify"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Znode)",
+        "strength": 1.0,
+        "value": "ZnodeBase"
+      }
+    ],
+    "vendor_id": "znode"
+  },
+  "zocdoc": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zocdoc)",
+        "properties": {},
+        "selector": "a[href*='www.zocdoc.com'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zocdoc)",
+        "strength": 1.0,
+        "value": "offsiteschedule\\.zocdoc\\.com"
+      }
+    ],
+    "vendor_id": "zocdoc"
+  },
+  "zoey": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoey)",
+        "strength": 1.0,
+        "value": "Zoey.module"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoey)",
+        "strength": 1.0,
+        "value": "zoey.developer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoey)",
+        "strength": 1.0,
+        "value": "zoeyDev"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoey)",
+        "strength": 1.0,
+        "value": "cdna4\\.zoeysite\\.com"
+      }
+    ],
+    "vendor_id": "zoey"
+  },
+  "zoho_commerce": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho Commerce)",
+          "strength": 1.0,
+          "value": "^Zoho Commerce"
+        }
+      ]
+    },
+    "vendor_id": "zoho_commerce"
+  },
+  "zoho_pagesense": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho PageSense)",
+        "strength": 1.0,
+        "value": "$pagesense"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho PageSense)",
+        "strength": 1.0,
+        "value": "pagesense"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho PageSense)",
+        "strength": 1.0,
+        "value": "\\.pagesense\\.(?:cn|io)?"
+      }
+    ],
+    "vendor_id": "zoho_pagesense"
+  },
+  "zoho_recruit": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho Recruit)",
+        "strength": 1.0,
+        "value": "\\.zohocdn\\.com/recruit/"
+      }
+    ],
+    "vendor_id": "zoho_recruit"
+  },
+  "zoho_salesiq": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho SalesIQ)",
+        "strength": 1.0,
+        "value": "$zoho.salesiq"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho SalesIQ)",
+        "strength": 1.0,
+        "value": "salesiq\\.zohopublic\\.com"
+      }
+    ],
+    "vendor_id": "zoho_salesiq"
+  },
+  "zoho_sites": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoho Sites)",
+          "strength": 1.0,
+          "value": "^Zoho Sites ([\\d\\.]+)"
+        }
+      ]
+    },
+    "vendor_id": "zoho_sites"
+  },
+  "zoko": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoko)",
+        "strength": 1.0,
+        "value": "__zoko_app_version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoko)",
+        "strength": 1.0,
+        "value": "zoko-shopify-prod\\.web\\.app"
+      }
+    ],
+    "vendor_id": "zoko"
+  },
+  "zola": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zola)",
+          "strength": 1.0,
+          "value": "^Zola(?:\\s[\\d\\.]+)?$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zola)",
+        "strength": 1.0,
+        "value": "\\.getzola\\.org"
+      }
+    ],
+    "vendor_id": "zola"
+  },
+  "zola_planner": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zola Planner)",
+        "strength": 1.0,
+        "value": "ZolaWidget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zola Planner)",
+        "strength": 1.0,
+        "value": "zola.env"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zola Planner)",
+        "strength": 1.0,
+        "value": "www\\.zola\\.com"
+      }
+    ],
+    "vendor_id": "zola_planner"
+  },
+  "zonal_bookings": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zonal Bookings)",
+        "strength": 1.0,
+        "value": "\\.reservationDetails\\.zonalBookingReference"
+      }
+    ],
+    "vendor_id": "zonal_bookings"
+  },
+  "zone_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zone.js)",
+        "strength": 1.0,
+        "value": "Zone.root"
+      }
+    ],
+    "vendor_id": "zone_js"
+  },
+  "zonos": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zonos)",
+        "strength": 1.0,
+        "value": "Zonos"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zonos)",
+        "strength": 1.0,
+        "value": "zonos"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zonos)",
+        "strength": 1.0,
+        "value": "zonosCheckout"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zonos)",
+        "strength": 1.0,
+        "value": "\\.zonos\\.com/"
+      }
+    ],
+    "vendor_id": "zonos"
+  },
+  "zoodpay": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZoodPay)",
+        "properties": {},
+        "selector": "img[src*='zoodpay']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZoodPay)",
+        "strength": 1.0,
+        "value": "wp-content/plugins/zoodpay/(?:.+\\?ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "zoodpay"
+  },
+  "zoominfo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoominfo)",
+        "strength": 1.0,
+        "value": "ws\\.zoominfo\\.com"
+      }
+    ],
+    "vendor_id": "zoominfo"
+  },
+  "zoominfo_chat": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoominfo Chat)",
+        "strength": 1.0,
+        "value": "madstreetden\\.widget\\.insent\\.ai"
+      }
+    ],
+    "vendor_id": "zoominfo_chat"
+  },
+  "zoorate": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoorate)",
+        "strength": 1.0,
+        "value": "zoorate_params"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoorate)",
+        "strength": 1.0,
+        "value": "widget\\.zoorate\\.com/"
+      }
+    ],
+    "vendor_id": "zoorate"
+  },
+  "zoorix": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoorix)",
+        "strength": 1.0,
+        "value": "Zoorix"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zoorix)",
+        "strength": 1.0,
+        "value": "\\.zoorix\\.com/"
+      }
+    ],
+    "vendor_id": "zoorix"
+  },
+  "zope": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zope)",
+          "strength": 1.0,
+          "value": "^Zope/"
+        }
+      ]
+    },
+    "vendor_id": "zope"
+  },
+  "zotabox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zotabox)",
+        "strength": 1.0,
+        "value": "Zotabox"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zotabox)",
+        "strength": 1.0,
+        "value": "Zotabox_Init"
+      }
+    ],
+    "vendor_id": "zotabox"
+  },
+  "zowie": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zowie)",
+        "properties": {},
+        "selector": "div#zowieChatbotWrapper",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zowie)",
+        "strength": 1.0,
+        "value": "Zowie"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zowie)",
+        "strength": 1.0,
+        "value": "zowieJsonp"
+      }
+    ],
+    "vendor_id": "zowie"
+  },
+  "zozi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zozi)",
+        "strength": 1.0,
+        "value": "a\\.zozi\\.com"
+      }
+    ],
+    "vendor_id": "zozi"
+  },
+  "zozo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zozo)",
+        "properties": {},
+        "selector": "a[href*='/zozo.vn/'][href*='footerurl'][target='_blank']",
+        "strength": 0.85,
+        "text": {
+          "match_type": "regex",
+          "notes": "dom text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zozo)",
+          "strength": 1.0,
+          "value": "^Zozo"
+        }
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zozo)",
+          "strength": 1.0,
+          "value": "Zozo Ecommerce"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zozo)",
+        "strength": 1.0,
+        "value": "zozo-main\\.min\\.js"
+      }
+    ],
+    "vendor_id": "zozo"
+  },
+  "zuberance": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zuberance)",
+        "properties": {},
+        "selector": "link[href*='static.zuberance.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zuberance)",
+        "strength": 1.0,
+        "value": "\\.zuberance\\.com/"
+      }
+    ],
+    "vendor_id": "zuberance"
+  },
+  "zulip": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zulip)",
+        "strength": 1.0,
+        "value": "zulip\\.futo\\.org"
+      }
+    ],
+    "vendor_id": "zulip"
+  },
+  "zuora": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zuora)",
+        "strength": 1.0,
+        "value": "\\.zuora\\.com/"
+      }
+    ],
+    "vendor_id": "zuora"
+  },
+  "zuppler": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zuppler)",
+        "properties": {},
+        "selector": "link[href*='.zuppler.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "zuppler"
+  },
+  "zurb_foundation": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZURB Foundation)",
+        "properties": {},
+        "selector": "link[href*='foundation'][href*='css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZURB Foundation)",
+        "strength": 1.0,
+        "value": "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZURB Foundation)",
+        "strength": 1.0,
+        "value": "<link[^>]+foundation[^>\"]+css"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ZURB Foundation)",
+        "strength": 1.0,
+        "value": "Foundation.version"
+      }
+    ],
+    "vendor_id": "zurb_foundation"
+  },
+  "zurple": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zurple)",
+        "strength": 1.0,
+        "value": "Zurple.Client"
+      }
+    ],
+    "vendor_id": "zurple"
+  },
+  "zwayam": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zwayam)",
+        "properties": {},
+        "selector": "link[href*='/zwayam.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zwayam)",
+        "strength": 1.0,
+        "value": "/zwayam\\.min\\.js"
+      }
+    ],
+    "vendor_id": "zwayam"
+  },
+  "zyratalk": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Zyratalk)",
+        "strength": 1.0,
+        "value": "\\.zyratalk\\.com"
+      }
+    ],
+    "vendor_id": "zyratalk"
+  }
+}

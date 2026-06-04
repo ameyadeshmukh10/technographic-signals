@@ -1,0 +1,3266 @@
+{
+  "k2": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: K2)",
+        "strength": 1.0,
+        "value": "<!--(?: JoomlaWorks \"K2\"| Start K2)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: K2)",
+        "strength": 1.0,
+        "value": "K2RatingURL"
+      }
+    ],
+    "vendor_id": "k2"
+  },
+  "k_ecommerce": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: k-eCommerce)",
+        "properties": {},
+        "selector": "a[href*='.k-ecommerce.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: k-eCommerce)",
+          "strength": 1.0,
+          "value": "k-eCommerce"
+        }
+      ]
+    },
+    "vendor_id": "k_ecommerce"
+  },
+  "k_sup": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: K-Sup)",
+          "strength": 1.0,
+          "value": "^K-Sup \\(([\\d.R]+)\\)$"
+        }
+      ]
+    },
+    "vendor_id": "k_sup"
+  },
+  "kadence_wp_blocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Blocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/kadence-blocks/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Blocks)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/kadence-blocks/dist/.+/kb-form-block\\.min\\.js(?:\\?ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "kadence_wp_blocks"
+  },
+  "kadence_wp_kadence": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Kadence)",
+        "properties": {},
+        "selector": "link#kadence-global-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Kadence)",
+        "strength": 1.0,
+        "value": "kadence"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Kadence)",
+        "strength": 1.0,
+        "value": "kadenceConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Kadence)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/kadence/.+navigation\\.min\\.js(?:\\?ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "kadence_wp_kadence"
+  },
+  "kadence_wp_virtue": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Virtue)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/virtue/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kadence WP Virtue)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/virtue/.+main-min\\.js(?:\\?ver=([\\d\\.]+))?"
+      }
+    ],
+    "vendor_id": "kadence_wp_virtue"
+  },
+  "kaira_vogue": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaira Vogue)",
+        "properties": {},
+        "selector": "link#vogue-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaira Vogue)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/vogue(?:-child)?/"
+      }
+    ],
+    "vendor_id": "kaira_vogue"
+  },
+  "kaisa": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaisa)",
+        "strength": 1.0,
+        "value": "\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js"
+      }
+    ],
+    "vendor_id": "kaisa"
+  },
+  "kajabi": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kajabi)",
+        "strength": 1.0,
+        "value": "_kjb_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kajabi)",
+        "strength": 1.0,
+        "value": "Kajabi"
+      }
+    ],
+    "vendor_id": "kajabi"
+  },
+  "kakao": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kakao)",
+        "properties": {},
+        "selector": "a[href*='.kakao.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kakao)",
+        "strength": 1.0,
+        "value": "Kakao.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kakao)",
+        "strength": 1.0,
+        "value": "\\.kakao\\.com/"
+      }
+    ],
+    "vendor_id": "kakao"
+  },
+  "kalio": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta Author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kalio)",
+          "strength": 1.0,
+          "value": "^Kalio$"
+        }
+      ]
+    },
+    "vendor_id": "kalio"
+  },
+  "kalix": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kalix)",
+        "strength": 1.0,
+        "value": "app\\.kalixhealth\\.com"
+      }
+    ],
+    "vendor_id": "kalix"
+  },
+  "kaltura": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "properties": {},
+        "selector": "link[href*='.kaltura.com'], div.kaltura-zone",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "kalturaPlayer"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "Kplayer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "kGetKalturaEmbedSettings"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "kGetKalturaPlayerList"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "kalturaIframeEmbed"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "restoreKalturaKDPCallback"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kaltura)",
+        "strength": 1.0,
+        "value": "api\\.kaltura\\.(?:nordu\\.net|com)/"
+      }
+    ],
+    "vendor_id": "kaltura"
+  },
+  "kamar": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KAMAR)",
+        "strength": 1.0,
+        "value": "KAMAR.has_address_ben_found"
+      }
+    ],
+    "vendor_id": "kamar"
+  },
+  "kameleoon": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "kameleoonVisitorCode"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "properties": {},
+        "selector": "link[href*='.kameleoon.eu/kameleoon.js']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "Kameleoon.Gatherer.SCRIPT_VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "kameleoonEndLoadTime"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "kameleoonIframeURL"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "kameleoonS"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kameleoon)",
+        "strength": 1.0,
+        "value": "\\.kameleoon\\.\\w+/kameleoon\\.js"
+      }
+    ],
+    "vendor_id": "kameleoon"
+  },
+  "kamozi": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kamozi)",
+        "strength": 1.0,
+        "value": "\\.kamozi\\.io"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kamozi)",
+        "strength": 1.0,
+        "value": "trust\\.kamozi\\.io"
+      }
+    ],
+    "vendor_id": "kamozi"
+  },
+  "kamva": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kamva)",
+        "strength": 1.0,
+        "value": "Kamva"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kamva)",
+          "strength": 1.0,
+          "value": "[CK]amva"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kamva)",
+        "strength": 1.0,
+        "value": "cdn\\.mykamva\\.ir"
+      }
+    ],
+    "vendor_id": "kamva"
+  },
+  "kangaroo_rewards": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kangaroo Rewards)",
+        "strength": 1.0,
+        "value": "KangarooApps.Loyalties"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kangaroo Rewards)",
+        "strength": 1.0,
+        "value": "www\\.kangaroorewards\\.com/"
+      }
+    ],
+    "vendor_id": "kangaroo_rewards"
+  },
+  "kangle": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kangle)",
+          "strength": 1.0,
+          "value": "^kangle(?:/([\\d\\.]+))?"
+        }
+      ],
+      "x-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kangle)",
+          "strength": 1.0,
+          "value": "^MISS from (?:[\\w& ]+ )?kangle\\b"
+        }
+      ]
+    },
+    "vendor_id": "kangle"
+  },
+  "kanzoboz": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KanzOboz)",
+        "properties": {},
+        "selector": "a[href*='kanzoboz.ru/'] > img[src*='rating.kanzoboz.ru']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kanzoboz"
+  },
+  "kapa_ai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapa.ai)",
+        "strength": 1.0,
+        "value": "Kapa"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapa.ai)",
+        "strength": 1.0,
+        "value": "KapaWidget.init"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapa.ai)",
+        "strength": 1.0,
+        "value": "widget\\.kapa\\.ai"
+      }
+    ],
+    "vendor_id": "kapa_ai"
+  },
+  "kapix_studio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapix Studio)",
+        "strength": 1.0,
+        "value": "__INITIAL_STATE__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapix Studio)",
+        "strength": 1.0,
+        "value": "kapixVersion"
+      }
+    ],
+    "vendor_id": "kapix_studio"
+  },
+  "kapture_crm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapture CRM)",
+        "strength": 1.0,
+        "value": "Kapchat"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapture CRM)",
+        "strength": 1.0,
+        "value": "kap_chat_js"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kapture CRM)",
+        "strength": 1.0,
+        "value": "\\.kapturecrm\\.com/.+\\?ver=([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "kapture_crm"
+  },
+  "karma": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karma)",
+        "strength": 1.0,
+        "value": "karma.vars.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karma)",
+        "strength": 1.0,
+        "value": "karma\\.mdpcdn\\.com"
+      }
+    ],
+    "vendor_id": "karma"
+  },
+  "karoo_chat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karoo Chat)",
+        "strength": 1.0,
+        "value": "_kwp.host"
+      }
+    ],
+    "vendor_id": "karoo_chat"
+  },
+  "karte": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karte)",
+        "strength": 1.0,
+        "value": "__KARTE_REWRITE_ADMIN_CONFIG"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karte)",
+        "strength": 1.0,
+        "value": "__karte_live"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karte)",
+        "strength": 1.0,
+        "value": "__karte_loaded"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Karte)",
+        "strength": 1.0,
+        "value": "__karte_tracker"
+      }
+    ],
+    "vendor_id": "karte"
+  },
+  "kartify": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartify)",
+        "strength": 1.0,
+        "value": "sellup\\.herokuapp\\.com\\/kartifyjs\\/kartify\\.js"
+      }
+    ],
+    "vendor_id": "kartify"
+  },
+  "kartmax": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartmax)",
+        "strength": 1.0,
+        "value": "\\.kartmax\\.in/"
+      }
+    ],
+    "vendor_id": "kartmax"
+  },
+  "kartra": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartra)",
+        "properties": {},
+        "selector": "form[action*='app.kartra.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartra)",
+        "strength": 1.0,
+        "value": "init_kartra_tracking"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartra)",
+        "strength": 1.0,
+        "value": "kartra_tracking_loaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartra)",
+        "strength": 1.0,
+        "value": "app\\.kartra\\.com"
+      }
+    ],
+    "vendor_id": "kartra"
+  },
+  "kartris": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartris)",
+        "strength": 1.0,
+        "value": "AddClassUpward__Kartris"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kartris)",
+        "strength": 1.0,
+        "value": "Hover__KartrisMenu"
+      }
+    ],
+    "vendor_id": "kartris"
+  },
+  "kasada": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kasada)",
+        "strength": 1.0,
+        "value": "KP_UIDz"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kasada)",
+        "strength": 1.0,
+        "value": "KPSDK.configure"
+      }
+    ],
+    "vendor_id": "kasada"
+  },
+  "kasika": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kasika)",
+        "strength": 1.0,
+        "value": "panda\\.kasika\\.io/"
+      }
+    ],
+    "vendor_id": "kasika"
+  },
+  "katex": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KaTeX)",
+            "strength": 1.0,
+            "value": "katex(?:\\.min)?\\.css"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KaTeX)",
+        "properties": {},
+        "selector": "link[href*=katex]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KaTeX)",
+        "strength": 1.0,
+        "value": "katex"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KaTeX)",
+        "strength": 1.0,
+        "value": "katex.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KaTeX)",
+        "strength": 1.0,
+        "value": "katex(@|/)[0-9.]+(?:/dist)?/katex(?:\\.min)?\\.(mjs|js|css)"
+      }
+    ],
+    "vendor_id": "katex"
+  },
+  "kauz": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kauz)",
+        "strength": 1.0,
+        "value": "\\.kauz\\.ai"
+      }
+    ],
+    "vendor_id": "kauz"
+  },
+  "keabuilder": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KeaBuilder)",
+        "properties": {},
+        "selector": "link[href*='assets.keabuilder.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "keabuilder"
+  },
+  "keap": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keap)",
+        "properties": {},
+        "selector": "form[action*='property.infusionsoft.com'], link[href*='.infusionsoft.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keap)",
+        "strength": 1.0,
+        "value": "\\.infusionsoft\\.com/"
+      }
+    ],
+    "vendor_id": "keap",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keap)",
+        "strength": 1.0,
+        "value": "property\\.infusionsoft\\.com"
+      }
+    ]
+  },
+  "keen_delivery": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keen Delivery)",
+        "strength": 1.0,
+        "value": "\\bKeen Delivery\\b"
+      }
+    ],
+    "vendor_id": "keen_delivery"
+  },
+  "keen_slider": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keen-Slider)",
+        "properties": {},
+        "selector": "div.keen-slider, div.keen-slider__slide",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keen-Slider)",
+        "strength": 1.0,
+        "value": "KeenSlider"
+      }
+    ],
+    "vendor_id": "keen_slider"
+  },
+  "keep_archeevo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: keep. archeevo)",
+        "strength": 1.0,
+        "value": "ArcheevoSnippets.mostviewedDocumentsURL"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: keep. archeevo)",
+        "strength": 1.0,
+        "value": "embedArcheevoBasicSearch"
+      }
+    ],
+    "vendor_id": "keep_archeevo"
+  },
+  "keepeek": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keepeek)",
+        "strength": 1.0,
+        "value": "keepeekScrollToName"
+      }
+    ],
+    "vendor_id": "keepeek"
+  },
+  "keloncloud": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KelonCloud)",
+          "strength": 1.0,
+          "value": "^(?:(?:KelonCloud|KC)-Private-CDN|KelonCloud)$"
+        }
+      ]
+    },
+    "vendor_id": "keloncloud"
+  },
+  "kemal": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kemal)",
+          "strength": 1.0,
+          "value": "Kemal"
+        }
+      ]
+    },
+    "vendor_id": "kemal"
+  },
+  "kendo_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+            "strength": 1.0,
+            "value": "/([\\d\\.]+).*/kendo\\.common\\.min\\.css"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+        "properties": {},
+        "selector": "link[href*=kendo]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+        "strength": 1.0,
+        "value": "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+        "strength": 1.0,
+        "value": "kendo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+        "strength": 1.0,
+        "value": "kendo.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kendo UI)",
+        "strength": 1.0,
+        "value": "/kendo/.*-([\\d]{4})%20([\\d\\.]{6})"
+      }
+    ],
+    "vendor_id": "kendo_ui"
+  },
+  "kenect": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kenect)",
+        "properties": {},
+        "selector": "iframe[src*='.kenect.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kenect)",
+        "strength": 1.0,
+        "value": "toggleKenectWidget"
+      }
+    ],
+    "vendor_id": "kenect"
+  },
+  "kenlo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kenlo)",
+        "properties": {},
+        "selector": "div[class*='logo-kenlo__default'] > span[class*='logo-kenlo__text'] ",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kenlo"
+  },
+  "kentico_cms": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "strength": 1.0,
+        "value": "CMSCookieLevel"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "strength": 1.0,
+        "value": "CMSPreferredCulture"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "properties": {},
+        "selector": "link[href*='/kentico/bundles/pageComponents/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "strength": 1.0,
+        "value": "CMS.Application"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+          "strength": 1.0,
+          "value": "Kentico CMS ([\\d.R]+ \\(build [\\d.]+\\))"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "strength": 1.0,
+        "value": "/CMSPages/GetResource\\.ashx"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kentico CMS)",
+        "strength": 1.0,
+        "value": "/kentico\\.resource"
+      }
+    ],
+    "vendor_id": "kentico_cms"
+  },
+  "keptify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keptify)",
+        "strength": 1.0,
+        "value": "KEPTIFY_BASE_URL"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keptify)",
+        "strength": 1.0,
+        "value": "_keptify.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keptify)",
+        "strength": 1.0,
+        "value": "app\\.keptify\\.com/"
+      }
+    ],
+    "vendor_id": "keptify"
+  },
+  "kerberos": {
+    "header_patterns": {
+      "www-authenticate": [
+        {
+          "match_type": "regex",
+          "notes": "header WWW-Authenticate; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kerberos)",
+          "strength": 1.0,
+          "value": "^Kerberos"
+        }
+      ]
+    },
+    "vendor_id": "kerberos"
+  },
+  "kerningjs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KerningJS)",
+        "strength": 1.0,
+        "value": "FLAutoKerning"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KerningJS)",
+        "strength": 1.0,
+        "value": "jquery\\.FLAutoKerning\\.js"
+      }
+    ],
+    "vendor_id": "kerningjs"
+  },
+  "kestrel": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kestrel)",
+          "strength": 1.0,
+          "value": "^Kestrel"
+        }
+      ]
+    },
+    "vendor_id": "kestrel"
+  },
+  "ketch": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ketch)",
+        "strength": 1.0,
+        "value": "\\.ketchcdn\\.com/"
+      }
+    ],
+    "vendor_id": "ketch"
+  },
+  "kevel": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kevel)",
+        "properties": {},
+        "selector": "iframe[src*='adzerk.net'], link[href*='adzerk.net']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kevel)",
+        "strength": 1.0,
+        "value": "ados"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kevel)",
+        "strength": 1.0,
+        "value": "adosResults"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kevel)",
+        "strength": 1.0,
+        "value": "adzerk\\.net/"
+      }
+    ],
+    "vendor_id": "kevel"
+  },
+  "keycdn": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KeyCDN)",
+          "strength": 1.0,
+          "value": "^keycdn-engine$"
+        }
+      ]
+    },
+    "vendor_id": "keycdn"
+  },
+  "keymailer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keymailer)",
+        "strength": 1.0,
+        "value": "Keymailer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keymailer)",
+        "strength": 1.0,
+        "value": "KeymailerJS"
+      }
+    ],
+    "meta_patterns": {
+      "application-name": [
+        {
+          "match_type": "regex",
+          "notes": "meta application-name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keymailer)",
+          "strength": 1.0,
+          "value": "^Keymailer$"
+        }
+      ]
+    },
+    "vendor_id": "keymailer"
+  },
+  "keyreply": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KeyReply)",
+        "strength": 1.0,
+        "value": "keyreply\\.com/chat/widget\\.js"
+      }
+    ],
+    "vendor_id": "keyreply"
+  },
+  "keyvos": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keyvos)",
+          "strength": 1.0,
+          "value": "Keyvos CMS"
+        }
+      ]
+    },
+    "vendor_id": "keyvos"
+  },
+  "keywee": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Keywee)",
+        "strength": 1.0,
+        "value": "cdn\\.keywee\\.co"
+      }
+    ],
+    "vendor_id": "keywee"
+  },
+  "kibana": {
+    "header_patterns": {
+      "kbn-name": [
+        {
+          "match_type": "regex",
+          "notes": "header kbn-name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibana)",
+          "strength": 1.0,
+          "value": "kibana"
+        }
+      ],
+      "kbn-version": [
+        {
+          "match_type": "regex",
+          "notes": "header kbn-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibana)",
+          "strength": 1.0,
+          "value": "^([\\d.]+)$"
+        }
+      ]
+    },
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibana)",
+        "strength": 1.0,
+        "value": "<title>Kibana</title>"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibana)",
+        "strength": 1.0,
+        "value": "kibana#/dashboard/"
+      }
+    ],
+    "vendor_id": "kibana"
+  },
+  "kibo_commerce": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Commerce)",
+        "strength": 1.0,
+        "value": "cdn-tp\\d+\\.mozu\\.com"
+      }
+    ],
+    "vendor_id": "kibo_commerce"
+  },
+  "kibo_personalization": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "BaynoteAPI"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "BaynoteJSVersion"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "certona.recommendations"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "certonaRecommendations"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "\\.baynote\\.net"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kibo Personalization)",
+        "strength": 1.0,
+        "value": "\\.certona\\.net"
+      }
+    ],
+    "vendor_id": "kibo_personalization"
+  },
+  "kickflip": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kickflip)",
+        "strength": 1.0,
+        "value": "gokickflip\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kickflip)",
+        "strength": 1.0,
+        "value": "kickflip.cart"
+      }
+    ],
+    "vendor_id": "kickflip"
+  },
+  "kicksite": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kicksite)",
+        "strength": 1.0,
+        "value": "_kicksite_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kicksite)",
+        "properties": {},
+        "selector": "iframe[src*='.kicksite.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kicksite"
+  },
+  "kilatech": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kilatech)",
+        "strength": 1.0,
+        "value": "cdn\\.kilatechapps\\.com/"
+      }
+    ],
+    "vendor_id": "kilatech"
+  },
+  "kiliba": {
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiliba)",
+        "strength": 1.0,
+        "value": "/modules/kiliba/logo\\.png"
+      }
+    ],
+    "vendor_id": "kiliba"
+  },
+  "kilkaya": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kilkaya)",
+        "strength": 1.0,
+        "value": "Kilkaya"
+      }
+    ],
+    "vendor_id": "kilkaya"
+  },
+  "kimonix": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kimonix)",
+        "strength": 1.0,
+        "value": "\\.kimonix\\.com"
+      }
+    ],
+    "vendor_id": "kimonix"
+  },
+  "kindful": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kindful)",
+        "properties": {},
+        "selector": "a[href*='.kindful.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kindful)",
+        "strength": 1.0,
+        "value": "Bloomerang.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kindful)",
+        "strength": 1.0,
+        "value": "KindfulPaymentsConnect"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kindful)",
+        "strength": 1.0,
+        "value": "bloomerangLoadStarted"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kindful)",
+        "strength": 1.0,
+        "value": "kindful_gtag"
+      }
+    ],
+    "vendor_id": "kindful"
+  },
+  "kineticjs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KineticJS)",
+        "strength": 1.0,
+        "value": "Kinetic"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KineticJS)",
+        "strength": 1.0,
+        "value": "Kinetic.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KineticJS)",
+        "strength": 1.0,
+        "value": "kinetic(?:-v?([\\d.]+))?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "kineticjs"
+  },
+  "kinsta": {
+    "header_patterns": {
+      "x-kinsta-cache": [
+        {
+          "match_type": "regex",
+          "notes": "header x-kinsta-cache; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kinsta)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "kinsta"
+  },
+  "kintone": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kintone)",
+        "properties": {},
+        "selector": "iframe[src*='.kintoneapp.com/'], a[href*='.kintoneapp.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kintone)",
+        "strength": 1.0,
+        "value": "kintoneappHost"
+      }
+    ],
+    "vendor_id": "kintone"
+  },
+  "kiosked": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiosked)",
+        "strength": 1.0,
+        "value": "scripts\\.kiosked\\.com"
+      }
+    ],
+    "vendor_id": "kiosked"
+  },
+  "kiprotect": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiprotect)",
+        "strength": 1.0,
+        "value": "cdn\\.kiprotect\\.com"
+      }
+    ],
+    "vendor_id": "kiprotect"
+  },
+  "kirby": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kirby)",
+        "strength": 1.0,
+        "value": "kirby_session"
+      }
+    ],
+    "vendor_id": "kirby"
+  },
+  "kirki_customizer_framework": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kirki Customizer Framework)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/kirki/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kirki Customizer Framework)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/kirki/"
+      }
+    ],
+    "vendor_id": "kirki_customizer_framework"
+  },
+  "kissmetrics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KISSmetrics)",
+        "strength": 1.0,
+        "value": "KM_COOKIE_DOMAIN"
+      }
+    ],
+    "vendor_id": "kissmetrics"
+  },
+  "kit": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kit)",
+        "strength": 1.0,
+        "value": "www\\.fanbridge\\.com/"
+      }
+    ],
+    "vendor_id": "kit"
+  },
+  "kit_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KIT CMS)",
+          "strength": 1.0,
+          "value": "^Kontrolit KIT CMS$"
+        }
+      ]
+    },
+    "vendor_id": "kit_cms"
+  },
+  "kitcart": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kitcart)",
+        "strength": 1.0,
+        "value": "kitcart_session"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kitcart)",
+        "properties": {},
+        "selector": "form[action*='usekitcart.com/'], form[action*='kitcart.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kitcart"
+  },
+  "kites": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kites)",
+        "strength": 1.0,
+        "value": "kiteInstance.analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kites)",
+        "strength": 1.0,
+        "value": "kiteJS"
+      }
+    ],
+    "vendor_id": "kites"
+  },
+  "kiva": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiva)",
+        "strength": 1.0,
+        "value": "www\\.kiva\\.org"
+      }
+    ],
+    "vendor_id": "kiva"
+  },
+  "kiwi_sizing": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiwi Sizing)",
+        "strength": 1.0,
+        "value": "KiwiSizing"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiwi Sizing)",
+        "strength": 1.0,
+        "value": "cdn\\.static\\.kiwisizing\\.com/"
+      }
+    ],
+    "vendor_id": "kiwi_sizing"
+  },
+  "kiwify": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kiwify)",
+        "strength": 1.0,
+        "value": "\\.kiwify\\.com\\.br"
+      }
+    ],
+    "vendor_id": "kiwify"
+  },
+  "kizen": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kizen)",
+        "properties": {},
+        "selector": "a[data-kizen-track]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kizen)",
+        "strength": 1.0,
+        "value": "KIZEN"
+      }
+    ],
+    "vendor_id": "kizen"
+  },
+  "kktix": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KKTIX)",
+        "strength": 1.0,
+        "value": "assets\\.kktix\\.io"
+      }
+    ],
+    "vendor_id": "kktix"
+  },
+  "klangoo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klangoo)",
+        "strength": 1.0,
+        "value": "\\.klangoo\\.com/"
+      }
+    ],
+    "vendor_id": "klangoo"
+  },
+  "klara": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klara)",
+        "strength": 1.0,
+        "value": "klaraWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klara)",
+        "strength": 1.0,
+        "value": "\\.klara\\.com/"
+      }
+    ],
+    "vendor_id": "klara"
+  },
+  "klarna_checkout": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "strength": 1.0,
+        "value": "ku1-sid"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "strength": 1.0,
+        "value": "ku1-vid"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "properties": {},
+        "selector": "[aria-labelledby='pi-klarna']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+          "strength": 1.0,
+          "value": "\\.klarna(?:cdn|services)\\.(?:net|com)"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "strength": 1.0,
+        "value": "KlarnaOnsiteService"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "strength": 1.0,
+        "value": "_klarnaCheckout"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Checkout)",
+        "strength": 1.0,
+        "value": "\\.klarnaservices\\.com/lib\\.js"
+      }
+    ],
+    "vendor_id": "klarna_checkout"
+  },
+  "klarna_virtual_shopping": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Virtual Shopping)",
+        "strength": 1.0,
+        "value": "HeroWebPluginSettings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klarna Virtual Shopping)",
+        "strength": 1.0,
+        "value": "cdn\\.usehero\\.com"
+      }
+    ],
+    "vendor_id": "klarna_virtual_shopping"
+  },
+  "klaro": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaro)",
+        "strength": 1.0,
+        "value": "klaro"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaro)",
+        "strength": 1.0,
+        "value": "klaroConfig"
+      }
+    ],
+    "vendor_id": "klaro"
+  },
+  "klasha": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klasha)",
+        "strength": 1.0,
+        "value": "KlashaClient"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klasha)",
+        "strength": 1.0,
+        "value": "klasha-integration\\.js"
+      }
+    ],
+    "vendor_id": "klasha"
+  },
+  "klaviyo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)",
+        "strength": 1.0,
+        "value": "KlaviyoSubscribe"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)",
+        "strength": 1.0,
+        "value": "klaviyo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo)",
+        "strength": 1.0,
+        "value": "klaviyo\\.com"
+      }
+    ],
+    "vendor_id": "klaviyo"
+  },
+  "klaviyo_customer_hub": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Customer Hub)",
+        "properties": {},
+        "selector": "div#k-hub",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Customer Hub)",
+        "strength": 1.0,
+        "value": "customerHub"
+      }
+    ],
+    "vendor_id": "klaviyo_customer_hub"
+  },
+  "klaviyo_data_platform": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Data Platform)",
+        "strength": 1.0,
+        "value": "static-tracking\\.klaviyo\\.com/onsite/js/web_personalization"
+      }
+    ],
+    "vendor_id": "klaviyo_data_platform"
+  },
+  "klaviyo_forms": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Forms)",
+        "properties": {},
+        "selector": "div.klaviyo-form",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "klaviyo_forms"
+  },
+  "klaviyo_reviews": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Reviews)",
+        "strength": 1.0,
+        "value": "klaviyoReviewsProductDesignMode"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klaviyo Reviews)",
+        "strength": 1.0,
+        "value": "klaviyo\\.com/onsite/js/reviews"
+      }
+    ],
+    "vendor_id": "klaviyo_reviews"
+  },
+  "kleecks": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kleecks)",
+          "strength": 1.0,
+          "value": "^Kleecks$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kleecks)",
+        "strength": 1.0,
+        "value": "\\.kleecks-stats\\.com"
+      }
+    ],
+    "vendor_id": "kleecks"
+  },
+  "kleeja": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kleeja)",
+        "strength": 1.0,
+        "value": "update_kleeja_captcha"
+      }
+    ],
+    "vendor_id": "kleeja"
+  },
+  "kleer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kleer)",
+        "strength": 1.0,
+        "value": "member\\.kleer\\.com/"
+      }
+    ],
+    "vendor_id": "kleer"
+  },
+  "klevu": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "klevu.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "klevu_apiKey"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "klevu_layout"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "klevu_sessionId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "sendKlevuAnalytics"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klevu)",
+        "strength": 1.0,
+        "value": "js\\.klevu\\.\\w+/klevu-js-v([\\d.]+)"
+      }
+    ],
+    "vendor_id": "klevu"
+  },
+  "klickly": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klickly)",
+        "strength": 1.0,
+        "value": "analytics\\.klickly\\.com/pixel\\.js\\?v=([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "klickly"
+  },
+  "klickpages": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KlickPages)",
+        "strength": 1.0,
+        "value": "klickart.analytics"
+      }
+    ],
+    "meta_patterns": {
+      "klickart:url": [
+        {
+          "match_type": "regex",
+          "notes": "meta klickart:url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KlickPages)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KlickPages)",
+        "strength": 1.0,
+        "value": "\\.klickpages\\.com\\.br/"
+      }
+    ],
+    "vendor_id": "klickpages"
+  },
+  "klicktipp": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KlickTipp)",
+        "properties": {},
+        "selector": "form[action*='app.klicktipp.com/api']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KlickTipp)",
+        "strength": 1.0,
+        "value": "assets\\.klicktipp\\.com/"
+      }
+    ],
+    "vendor_id": "klicktipp"
+  },
+  "kliken": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kliken)",
+        "strength": 1.0,
+        "value": "analytics\\.sitewit\\.com/"
+      }
+    ],
+    "vendor_id": "kliken"
+  },
+  "klip": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klip)",
+        "strength": 1.0,
+        "value": "KLIP_APP_DATA.ATCPath"
+      }
+    ],
+    "vendor_id": "klip"
+  },
+  "klook": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Klook)",
+        "strength": 1.0,
+        "value": "\\.klook\\.com/"
+      }
+    ],
+    "vendor_id": "klook"
+  },
+  "kmk": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KMK)",
+        "properties": {},
+        "selector": "a[href*='.kmk.net.tr/'][target='_blank'], div#kmkCopyright",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kmk"
+  },
+  "knack": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knack)",
+        "strength": 1.0,
+        "value": "Knack"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knack)",
+        "strength": 1.0,
+        "value": "loader\\.knack\\.com/"
+      }
+    ],
+    "vendor_id": "knack"
+  },
+  "knak": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knak)",
+        "properties": {},
+        "selector": "img[src*='.knak.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "knak"
+  },
+  "knit_pay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knit pay)",
+        "strength": 1.0,
+        "value": "knit_pay_payment_button_ajax_object"
+      }
+    ],
+    "vendor_id": "knit_pay"
+  },
+  "knock": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knock)",
+        "strength": 1.0,
+        "value": "knockDoorway"
+      }
+    ],
+    "vendor_id": "knock"
+  },
+  "knock_knock_app": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knock Knock App)",
+        "strength": 1.0,
+        "value": "Knock_knock_user"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knock Knock App)",
+        "strength": 1.0,
+        "value": "knock_widget_init"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knock Knock App)",
+        "strength": 1.0,
+        "value": "api\\.knock-knockapp\\.com"
+      }
+    ],
+    "vendor_id": "knock_knock_app"
+  },
+  "knockout_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knockout.js)",
+        "strength": 1.0,
+        "value": "ko.version"
+      }
+    ],
+    "vendor_id": "knockout_js"
+  },
+  "knocommerce": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KnoCommerce)",
+        "strength": 1.0,
+        "value": "Kno.survey"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KnoCommerce)",
+        "strength": 1.0,
+        "value": "www\\.knocdn\\.com"
+      }
+    ],
+    "vendor_id": "knocommerce"
+  },
+  "knoma": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knoma)",
+        "strength": 1.0,
+        "value": "api\\.knoma\\.io/"
+      }
+    ],
+    "vendor_id": "knoma"
+  },
+  "knorish": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Knorish)",
+        "strength": 1.0,
+        "value": "kn-antiforgery-cookie"
+      }
+    ],
+    "vendor_id": "knorish"
+  },
+  "ko_fi": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ko-fi)",
+        "properties": {},
+        "selector": "a[href*='ko-fi.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ko-fi)",
+        "strength": 1.0,
+        "value": "kofiwidget2"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ko-fi)",
+        "strength": 1.0,
+        "value": "ko-fi\\.com/widgets"
+      }
+    ],
+    "vendor_id": "ko_fi"
+  },
+  "koa": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koa)",
+          "strength": 1.0,
+          "value": "^koa$"
+        }
+      ]
+    },
+    "vendor_id": "koa"
+  },
+  "koala": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koala)",
+        "strength": 1.0,
+        "value": "KoalaSDK"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koala)",
+        "strength": 1.0,
+        "value": "cdn\\.getkoala\\.com/"
+      }
+    ],
+    "vendor_id": "koala",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koala)",
+        "strength": 1.0,
+        "value": "api\\.getkoala\\.com"
+      }
+    ]
+  },
+  "koala_framework": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koala Framework)",
+        "strength": 1.0,
+        "value": "<!--[^>]+This website is powered by Koala Web Framework CMS"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koala Framework)",
+          "strength": 1.0,
+          "value": "^Koala Web Framework CMS"
+        }
+      ]
+    },
+    "vendor_id": "koala_framework"
+  },
+  "kobalte": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kobalte)",
+        "strength": 1.0,
+        "value": "kb-color-mode"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kobalte)",
+        "properties": {},
+        "selector": "div[data-kb-top-layer], html[data-kb-theme]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kobalte"
+  },
+  "kobimaster": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KobiMaster)",
+        "strength": 1.0,
+        "value": "kmGetSession"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KobiMaster)",
+        "strength": 1.0,
+        "value": "kmPageInfo"
+      }
+    ],
+    "vendor_id": "kobimaster"
+  },
+  "kochava": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kochava)",
+        "strength": 1.0,
+        "value": "\\.kochava\\.com"
+      }
+    ],
+    "vendor_id": "kochava"
+  },
+  "koha": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koha)",
+        "properties": {},
+        "selector": "input[name*='koha_login_context'][type='hidden'], a[href*='/cgi-bin/koha/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koha)",
+        "strength": 1.0,
+        "value": "<a href=\"/cgi-bin/koha/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koha)",
+        "strength": 1.0,
+        "value": "<input name=\"koha_login_context\" value=\"intranet\" type=\"hidden\">"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koha)",
+        "strength": 1.0,
+        "value": "KOHA"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koha)",
+          "strength": 1.0,
+          "value": "^Koha ([\\d.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "koha"
+  },
+  "kohana": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kohana)",
+        "strength": 1.0,
+        "value": "kohanasession"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kohana)",
+          "strength": 1.0,
+          "value": "Kohana Framework ([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "kohana"
+  },
+  "koishi_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koishi.js)",
+        "strength": 1.0,
+        "value": "KOISHI_CONFIG"
+      }
+    ],
+    "vendor_id": "koishi_js"
+  },
+  "koken": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koken)",
+        "strength": 1.0,
+        "value": "koken_referrer"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koken)",
+        "properties": {},
+        "selector": "html[lang='en'][class*='k-source-essays']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koken)",
+        "strength": 1.0,
+        "value": "<!--\\s+KOKEN DEBUGGING"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koken)",
+          "strength": 1.0,
+          "value": "Koken ([\\d.]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koken)",
+        "strength": 1.0,
+        "value": "koken(?:\\.js\\?([\\d.]+)|/storage)"
+      }
+    ],
+    "vendor_id": "koken"
+  },
+  "kommand": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kommand)",
+        "strength": 1.0,
+        "value": "kommand-bundle\\.min\\.js"
+      }
+    ],
+    "vendor_id": "kommand"
+  },
+  "kommi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kommi)",
+        "strength": 1.0,
+        "value": "tracker\\.kommi\\.io/"
+      }
+    ],
+    "vendor_id": "kommi"
+  },
+  "komodo_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Komodo CMS)",
+          "strength": 1.0,
+          "value": "^Komodo CMS"
+        }
+      ]
+    },
+    "vendor_id": "komodo_cms"
+  },
+  "konduto": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konduto)",
+        "properties": {},
+        "selector": "link[href*='.konduto.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konduto)",
+        "strength": 1.0,
+        "value": "Konduto"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konduto)",
+        "strength": 1.0,
+        "value": "getKondutoID"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konduto)",
+        "strength": 1.0,
+        "value": "\\.k-analytix\\.com"
+      }
+    ],
+    "vendor_id": "konduto"
+  },
+  "konfidency_reviews": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konfidency Reviews)",
+        "strength": 1.0,
+        "value": "konfidencyCustomer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konfidency Reviews)",
+        "strength": 1.0,
+        "value": "konfidencyLoader"
+      }
+    ],
+    "vendor_id": "konfidency_reviews"
+  },
+  "kong": {
+    "header_patterns": {
+      "via": [
+        {
+          "match_type": "regex",
+          "notes": "header via; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kong)",
+          "strength": 1.0,
+          "value": "^kong/([\\d\\.]+)(?:.+)?$"
+        }
+      ]
+    },
+    "vendor_id": "kong"
+  },
+  "konget": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konget)",
+        "strength": 1.0,
+        "value": "__KONGET_PUBLIC__"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konget)",
+        "strength": 1.0,
+        "value": "\\.konget\\.ru/"
+      }
+    ],
+    "vendor_id": "konget"
+  },
+  "kontent_ai": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kontent.ai)",
+        "properties": {},
+        "selector": "img[src*='.kc-usercontent.com'], link[href*='.kc-usercontent.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kontent.ai)",
+          "strength": 1.0,
+          "value": "\\.kc-usercontent\\.com"
+        }
+      ]
+    },
+    "vendor_id": "kontent_ai"
+  },
+  "konva_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konva.js)",
+        "strength": 1.0,
+        "value": "Konva"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Konva.js)",
+        "strength": 1.0,
+        "value": "Konva.version"
+      }
+    ],
+    "vendor_id": "konva_js"
+  },
+  "koobcamp": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KoobCamp)",
+        "strength": 1.0,
+        "value": "KOOBCAMP_WIDGETS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KoobCamp)",
+        "strength": 1.0,
+        "value": "KoobCampWidgets"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KoobCamp)",
+        "strength": 1.0,
+        "value": "widget\\.koobcamp\\.com"
+      }
+    ],
+    "vendor_id": "koobcamp"
+  },
+  "koobi": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koobi)",
+        "strength": 1.0,
+        "value": "<!--[^K>-]+Koobi ([a-z\\d.]+)"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Koobi)",
+          "strength": 1.0,
+          "value": "Koobi"
+        }
+      ]
+    },
+    "vendor_id": "koobi"
+  },
+  "kooboo_cms": {
+    "header_patterns": {
+      "x-kooboocms-version": [
+        {
+          "match_type": "regex",
+          "notes": "header X-KoobooCMS-Version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kooboo CMS)",
+          "strength": 1.0,
+          "value": "^(.+)$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kooboo CMS)",
+        "strength": 1.0,
+        "value": "/Kooboo"
+      }
+    ],
+    "vendor_id": "kooboo_cms"
+  },
+  "kooomo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kooomo)",
+        "properties": {},
+        "selector": "img[src*='.kooomo-cloud.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kooomo)",
+          "strength": 1.0,
+          "value": "Kooomo(?: v([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "kooomo"
+  },
+  "kopage": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kopage)",
+        "strength": 1.0,
+        "value": "kopageBar"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kopage)",
+        "strength": 1.0,
+        "value": "kopageChatBar"
+      }
+    ],
+    "vendor_id": "kopage"
+  },
+  "kotisivukone": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kotisivukone)",
+        "strength": 1.0,
+        "value": "kotisivukone(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "kotisivukone"
+  },
+  "kount": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kount)",
+        "strength": 1.0,
+        "value": "ka.ClientSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kount)",
+        "strength": 1.0,
+        "value": "ka.collectData"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kount)",
+        "strength": 1.0,
+        "value": "shopify\\.kount\\.net/js"
+      }
+    ],
+    "vendor_id": "kount"
+  },
+  "kphp": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KPHP)",
+          "strength": 1.0,
+          "value": "^KPHP/([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "kphp"
+  },
+  "kqs_store": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KQS.store)",
+        "properties": {},
+        "selector": "#kqs-box,kqs-cookie",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KQS.store)",
+        "properties": {},
+        "selector": "a[href*='kqs.pl'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KQS.store)",
+        "properties": {},
+        "selector": "a[href*='kqsdesign.pl'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KQS.store)",
+        "strength": 1.0,
+        "value": "kqs_box"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KQS.store)",
+        "strength": 1.0,
+        "value": "kqs_off"
+      }
+    ],
+    "vendor_id": "kqs_store"
+  },
+  "kreatio": {
+    "meta_patterns": {
+      "powered by": [
+        {
+          "match_type": "regex",
+          "notes": "meta Powered By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kreatio)",
+          "strength": 1.0,
+          "value": "^Kreatio Platform$"
+        }
+      ]
+    },
+    "vendor_id": "kreatio"
+  },
+  "krible": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Krible)",
+        "strength": 1.0,
+        "value": "\\.krible\\.ru"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Krible)",
+        "strength": 1.0,
+        "value": "\\.krible\\.com"
+      }
+    ],
+    "vendor_id": "krible"
+  },
+  "kross_booking": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kross Booking)",
+        "strength": 1.0,
+        "value": "data\\.krossbooking\\.com/"
+      }
+    ],
+    "vendor_id": "kross_booking"
+  },
+  "kssib": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kssib)",
+        "strength": 1.0,
+        "value": "kssib_session"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kssib)",
+        "strength": 1.0,
+        "value": "cdn\\.kssib\\.co"
+      }
+    ],
+    "vendor_id": "kssib"
+  },
+  "ktor": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ktor)",
+          "strength": 1.0,
+          "value": "^Ktor/debug$"
+        }
+      ],
+      "x-engine": [
+        {
+          "match_type": "regex",
+          "notes": "header x-engine; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ktor)",
+          "strength": 1.0,
+          "value": "^Ktor$"
+        }
+      ]
+    },
+    "vendor_id": "ktor"
+  },
+  "kubernetes_dashboard": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kubernetes Dashboard)",
+        "properties": {},
+        "selector": "[ng-app='kubernetesDashboard']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "kubernetes_dashboard"
+  },
+  "kubio_builder": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kubio Builder)",
+        "strength": 1.0,
+        "value": "kubio.frontend"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kubio Builder)",
+        "strength": 1.0,
+        "value": "kubioFrontendData"
+      }
+    ],
+    "vendor_id": "kubio_builder"
+  },
+  "kudobuzz": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kudobuzz)",
+        "strength": 1.0,
+        "value": "Kudos.apiServer"
+      }
+    ],
+    "vendor_id": "kudobuzz"
+  },
+  "kueez": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kueez)",
+        "strength": 1.0,
+        "value": "\\.kueez\\.net/"
+      }
+    ],
+    "vendor_id": "kueez"
+  },
+  "kueskipay": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KueskiPay)",
+        "strength": 1.0,
+        "value": "kueskypushhead"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KueskiPay)",
+        "strength": 1.0,
+        "value": "cdn\\.kueskipay\\.com"
+      }
+    ],
+    "vendor_id": "kueskipay"
+  },
+  "kukui": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KUKUI)",
+        "strength": 1.0,
+        "value": "\\.kukui\\.com/"
+      }
+    ],
+    "vendor_id": "kukui"
+  },
+  "kulea_marketing": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kulea Marketing)",
+        "strength": 1.0,
+        "value": "\\.prod\\.kulea\\.marketing/"
+      }
+    ],
+    "vendor_id": "kulea_marketing"
+  },
+  "kundo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kundo)",
+        "strength": 1.0,
+        "value": "$kundo_chat.DEFAULT_AVATAR_URL"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kundo)",
+        "strength": 1.0,
+        "value": "static-chat\\.kundo\\.se"
+      }
+    ],
+    "vendor_id": "kundo"
+  },
+  "kuroco": {
+    "header_patterns": {
+      "x-kuroco-edge-log": [
+        {
+          "match_type": "regex",
+          "notes": "header x-kuroco-edge-log; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kuroco)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-rcms-hash": [
+        {
+          "match_type": "regex",
+          "notes": "header x-rcms-hash; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kuroco)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "kuroco"
+  },
+  "kuronekoserver_cdn": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KuronekoServer CDN)",
+        "properties": {},
+        "selector": "link[href*='cdn.krnk.org/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KuronekoServer CDN)",
+        "strength": 1.0,
+        "value": "cdn\\.krnk\\.org/"
+      }
+    ],
+    "vendor_id": "kuronekoserver_cdn"
+  },
+  "kustomer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kustomer)",
+        "strength": 1.0,
+        "value": "Kustomer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kustomer)",
+        "strength": 1.0,
+        "value": "cdn\\.kustomerapp\\.com"
+      }
+    ],
+    "vendor_id": "kustomer"
+  },
+  "kvcore": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KVCore)",
+        "strength": 1.0,
+        "value": "sociallogin\\.kvcore\\.com"
+      }
+    ],
+    "vendor_id": "kvcore"
+  },
+  "kwai_pixel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwai pixel)",
+        "strength": 1.0,
+        "value": "KwaiAnalyticsObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwai pixel)",
+        "strength": 1.0,
+        "value": "kwaiq"
+      }
+    ],
+    "vendor_id": "kwai_pixel"
+  },
+  "kwanko": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwanko)",
+        "strength": 1.0,
+        "value": "kwankoDataPTAG.zone"
+      }
+    ],
+    "vendor_id": "kwanko"
+  },
+  "kwanzoo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwanzoo)",
+        "strength": 1.0,
+        "value": "ads\\.kwanzoo\\.com/"
+      }
+    ],
+    "vendor_id": "kwanzoo"
+  },
+  "kwipped": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwipped)",
+        "strength": 1.0,
+        "value": "init_kwipped_approve_snippet"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwipped)",
+        "strength": 1.0,
+        "value": "kwipped_approve"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kwipped)",
+        "strength": 1.0,
+        "value": "api\\.kwipped\\.com"
+      }
+    ],
+    "vendor_id": "kwipped"
+  },
+  "kyklo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KYKLO)",
+        "strength": 1.0,
+        "value": "Kyklo.Branding"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: KYKLO)",
+        "strength": 1.0,
+        "value": "\\.kyklo\\.co/"
+      }
+    ],
+    "vendor_id": "kyklo"
+  },
+  "kyvio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Kyvio)",
+        "strength": 1.0,
+        "value": "\\.kyvio\\.com"
+      }
+    ],
+    "vendor_id": "kyvio"
+  }
+}

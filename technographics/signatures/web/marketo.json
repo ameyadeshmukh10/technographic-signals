@@ -1,0 +1,34 @@
+{
+  "vendor_id": "marketo",
+  "js_globals": [
+    {
+      "value": "Munchkin",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Marketo)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "munchkin\\.marketo\\.\\w+/(?:([\\d.]+)/)?munchkin\\.js",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Marketo)"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "_mkto_trk",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Marketo)"
+    }
+  ],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

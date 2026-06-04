@@ -1,0 +1,58 @@
+{
+  "vendor_id": "hubspot",
+  "subdomains_to_probe": [
+    "www",
+    "info",
+    "get",
+    "go",
+    "try",
+    "learn",
+    "blog",
+    "email",
+    "email1",
+    "email2",
+    "hs1",
+    "hs2"
+  ],
+  "cname_patterns": [
+    {
+      "value": "hs-sites.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "HubSpot CMS / landing-page connected domains CNAME to *.hs-sites.com"
+    },
+    {
+      "value": "hubspotpagebuilder.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "HubSpot page builder connected domain target"
+    },
+    {
+      "value": "hubspotemail.net",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "HubSpot email DKIM CNAME target (hs1/hs2._domainkey)"
+    },
+    {
+      "value": "hs-domainkey.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "HubSpot email sending DKIM domain"
+    }
+  ],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [
+    {
+      "value": "hubspotemail.net",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Connected email sending domain (DKIM to hubspotemail.net) requires Marketing Hub paid tier"
+    }
+  ],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

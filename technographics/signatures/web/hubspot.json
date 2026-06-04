@@ -1,0 +1,40 @@
+{
+  "vendor_id": "hubspot",
+  "js_globals": [
+    {
+      "value": "_hsq",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)"
+    },
+    {
+      "value": "hubspot",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "\\.hs-scripts\\.com/",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [
+    {
+      "value": "<!-- Start of Async HubSpot",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: HubSpot)"
+    }
+  ],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

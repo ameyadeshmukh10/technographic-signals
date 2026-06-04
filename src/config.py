@@ -43,7 +43,23 @@ HUBSPOT_LIST_ID: str | None = os.getenv("HUBSPOT_LIST_ID") or None
 LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO").upper()
 REQUEST_TIMEOUT_SECONDS: int = _int("REQUEST_TIMEOUT_SECONDS", 15)
 USE_PLAYWRIGHT_FALLBACK: bool = _bool("USE_PLAYWRIGHT_FALLBACK", True)
+# Render every page with Chromium instead of only on the thin/SPA fallback.
+# Maximizes recall — JS globals (window.*) and runtime-injected scripts are
+# only visible after JS executes — at the cost of speed. Off by default.
+ALWAYS_RENDER: bool = _bool("ALWAYS_RENDER", False)
 MAX_CONCURRENT_FETCHES: int = _int("MAX_CONCURRENT_FETCHES", 5)
+
+# Detection backend: "technographics" (DNS + web + fusion, master/curated
+# library scoped by SELECTION_FILE) or "legacy" (the original 4 detector modules).
+DETECTION_ENGINE: str = os.getenv("DETECTION_ENGINE", "technographics").strip().lower()
+SELECTION_FILE: Path = Path(
+    os.getenv(
+        "SELECTION_FILE",
+        str(PROJECT_ROOT / "technographics" / "signatures" / "selection.marketing_sales.json"),
+    )
+)
+ENABLE_DNS: bool = _bool("ENABLE_DNS", True)
+DNS_TIMEOUT: float = float(os.getenv("DNS_TIMEOUT", "3.0"))
 
 LOGS_DIR: Path = PROJECT_ROOT / "logs"
 FIXTURES_DIR: Path = PROJECT_ROOT / "tests" / "fixtures"

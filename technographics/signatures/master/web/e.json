@@ -1,0 +1,5425 @@
+{
+  "e107": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e107)",
+        "strength": 1.0,
+        "value": "e107_tz"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e107)",
+          "strength": 1.0,
+          "value": "e107"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e107)",
+        "strength": 1.0,
+        "value": "[^a-z\\d]e107\\.js"
+      }
+    ],
+    "vendor_id": "e107"
+  },
+  "e37": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: E37)",
+          "strength": 1.0,
+          "value": "E37 Triton ([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "e37"
+  },
+  "e_com_plus": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: E-Com Plus)",
+        "strength": 1.0,
+        "value": "ecomPassport.storageKey"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: E-Com Plus)",
+          "strength": 1.0,
+          "value": "^E-Com\\sPlus\\sStorefront$"
+        }
+      ]
+    },
+    "vendor_id": "e_com_plus"
+  },
+  "e_goi": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e-goi)",
+        "strength": 1.0,
+        "value": "Egoimmerce"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e-goi)",
+        "strength": 1.0,
+        "value": "_egoiaq"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e-goi)",
+        "strength": 1.0,
+        "value": "\\.e-goi\\.com/egoimmerce\\.js"
+      }
+    ],
+    "vendor_id": "e_goi"
+  },
+  "e_monsite": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: E-monsite)",
+          "strength": 1.0,
+          "value": "^e-monsite\\s\\(e-monsite\\.com\\)$"
+        }
+      ]
+    },
+    "vendor_id": "e_monsite"
+  },
+  "e_shop_commerce": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: e-Shop Commerce)",
+        "strength": 1.0,
+        "value": "/template_inc/eshopstoresframework"
+      }
+    ],
+    "vendor_id": "e_shop_commerce"
+  },
+  "ead_plataforma": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EAD Plataforma)",
+        "strength": 1.0,
+        "value": "getEadPlayer"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EAD Plataforma)",
+        "strength": 1.0,
+        "value": "taxa_ead_base_boleto"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EAD Plataforma)",
+        "strength": 1.0,
+        "value": "assets\\.eadplataforma\\.com"
+      }
+    ],
+    "vendor_id": "ead_plataforma"
+  },
+  "eaglecart": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eaglecart)",
+        "strength": 1.0,
+        "value": "eaglecart_timezone"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eaglecart)",
+          "strength": 1.0,
+          "value": "^Eaglecart$"
+        }
+      ],
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eaglecart)",
+          "strength": 1.0,
+          "value": "^Eaglecart$"
+        }
+      ]
+    },
+    "vendor_id": "eaglecart"
+  },
+  "eagleview": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EagleView)",
+        "strength": 1.0,
+        "value": "\\.eagleview\\.com"
+      }
+    ],
+    "vendor_id": "eagleview"
+  },
+  "earlyparrot": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EarlyParrot)",
+        "strength": 1.0,
+        "value": "app\\.earlyparrot\\.com"
+      }
+    ],
+    "vendor_id": "earlyparrot"
+  },
+  "easeljs": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EaselJS)",
+        "strength": 1.0,
+        "value": "/easeljs\\.min\\.js"
+      }
+    ],
+    "vendor_id": "easeljs"
+  },
+  "easichat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasiChat)",
+        "strength": 1.0,
+        "value": "easiChat.widget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasiChat)",
+        "strength": 1.0,
+        "value": "widget\\.easichat\\.co\\.uk"
+      }
+    ],
+    "vendor_id": "easichat"
+  },
+  "easol": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easol)",
+        "strength": 1.0,
+        "value": "static\\.myeasol\\.net"
+      }
+    ],
+    "vendor_id": "easol"
+  },
+  "easy_accordion": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Accordion)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/easy-accordion-free/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Accordion)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/easy-accordion-free/"
+      }
+    ],
+    "vendor_id": "easy_accordion"
+  },
+  "easy_hide_paypal": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Hide PayPal)",
+        "strength": 1.0,
+        "value": "easyhide\\.herculesapps\\.com/"
+      }
+    ],
+    "vendor_id": "easy_hide_paypal"
+  },
+  "easy_orders": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Orders)",
+        "properties": {},
+        "selector": "img[src*='easyorders.fra1.digitaloceanspaces.com/'], link[href*='easyorders.fra1.digitaloceanspaces.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "easy_orders",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Orders)",
+        "strength": 1.0,
+        "value": "api\\.easy-orders\\.net/"
+      }
+    ]
+  },
+  "easy_pie_chart": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Pie Chart)",
+        "strength": 1.0,
+        "value": "[Ee]asy-?[Pp]ie-?[Cc]hart(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "easy_pie_chart"
+  },
+  "easy_redirects": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Redirects)",
+        "strength": 1.0,
+        "value": "easy-redirects\\..+/redirect-app\\.js"
+      }
+    ],
+    "vendor_id": "easy_redirects"
+  },
+  "easy_rez": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Rez)",
+          "strength": 1.0,
+          "value": "^Easy-Rez$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Rez)",
+        "strength": 1.0,
+        "value": "cdn\\.easy-rez\\.com/"
+      }
+    ],
+    "vendor_id": "easy_rez"
+  },
+  "easy_web_editor": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easy Web Editor)",
+          "strength": 1.0,
+          "value": "visualvision\\.com "
+        }
+      ]
+    },
+    "vendor_id": "easy_web_editor"
+  },
+  "easybroker": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyBroker)",
+        "strength": 1.0,
+        "value": "\\.easybroker\\.com/"
+      }
+    ],
+    "vendor_id": "easybroker"
+  },
+  "easydigitaldownloads": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyDigitalDownloads)",
+          "strength": 1.0,
+          "value": "^Easy Digital Downloads v(.*)$"
+        }
+      ]
+    },
+    "vendor_id": "easydigitaldownloads"
+  },
+  "easyengine": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyEngine)",
+          "strength": 1.0,
+          "value": "^EasyEngine (.*)$"
+        }
+      ]
+    },
+    "vendor_id": "easyengine"
+  },
+  "easygift": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyGift)",
+        "strength": 1.0,
+        "value": "EasyGift.nonTargetingRules"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyGift)",
+        "strength": 1.0,
+        "value": "EasyGiftScriptLoaded"
+      }
+    ],
+    "vendor_id": "easygift"
+  },
+  "easyliao": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyLiao)",
+        "strength": 1.0,
+        "value": "easyliaoIsPC"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyLiao)",
+        "strength": 1.0,
+        "value": "easyliao_design_init"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyLiao)",
+        "strength": 1.0,
+        "value": "\\.easyliao\\.com"
+      }
+    ],
+    "vendor_id": "easyliao"
+  },
+  "easyling": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easyling)",
+        "strength": 1.0,
+        "value": "app\\.easyling\\.com"
+      }
+    ],
+    "vendor_id": "easyling"
+  },
+  "easylog": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easylog)",
+        "strength": 1.0,
+        "value": "\\bEasylog\\b"
+      }
+    ],
+    "vendor_id": "easylog"
+  },
+  "easypolls": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyPolls)",
+        "strength": 1.0,
+        "value": "\\.easypolls\\.net"
+      }
+    ],
+    "vendor_id": "easypolls"
+  },
+  "easysize": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easysize)",
+        "strength": 1.0,
+        "value": "EasySize"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easysize)",
+        "strength": 1.0,
+        "value": "EasySizeDebugEnable"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Easysize)",
+        "strength": 1.0,
+        "value": "EasySizeParametersDebug"
+      }
+    ],
+    "vendor_id": "easysize"
+  },
+  "easystore": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyStore)",
+        "strength": 1.0,
+        "value": "EasyStore"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyStore)",
+        "strength": 1.0,
+        "value": "\\.easystore\\.co/"
+      }
+    ],
+    "vendor_id": "easystore"
+  },
+  "easyui": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyUI)",
+        "strength": 1.0,
+        "value": "/jquery\\.easyui\\.min\\.js"
+      }
+    ],
+    "vendor_id": "easyui"
+  },
+  "easywebinar": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyWebinar)",
+        "strength": 1.0,
+        "value": "\\.easywebinar\\.com/"
+      }
+    ],
+    "vendor_id": "easywebinar"
+  },
+  "easyweek": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyWeek)",
+        "strength": 1.0,
+        "value": "EasyWeekWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EasyWeek)",
+        "strength": 1.0,
+        "value": "\\.easyweek\\.io/"
+      }
+    ],
+    "vendor_id": "easyweek"
+  },
+  "eatself": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eatself)",
+        "strength": 1.0,
+        "value": "app\\.eatself\\.com"
+      }
+    ],
+    "vendor_id": "eatself"
+  },
+  "eatstreet": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EatStreet)",
+        "strength": 1.0,
+        "value": "eatstreet-year-session"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EatStreet)",
+        "strength": 1.0,
+        "value": "static\\.eatstreet\\.com"
+      }
+    ],
+    "vendor_id": "eatstreet"
+  },
+  "ebasnet": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ebasnet)",
+          "strength": 1.0,
+          "value": "^Ebasnet Web Solutions$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ebasnet)",
+        "strength": 1.0,
+        "value": "cdnebasnet\\.com/"
+      }
+    ],
+    "vendor_id": "ebasnet"
+  },
+  "ebay_partner_network": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eBay Partner Network)",
+        "strength": 1.0,
+        "value": "epnt\\.ebay\\.com/"
+      }
+    ],
+    "vendor_id": "ebay_partner_network"
+  },
+  "ebay_store": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eBay Store)",
+          "strength": 1.0,
+          "value": "^ebay server$"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eBay Store)",
+        "strength": 1.0,
+        "value": "$ebay.tracking"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eBay Store)",
+        "strength": 1.0,
+        "value": "ebay.gadgetMonitoring"
+      }
+    ],
+    "vendor_id": "ebay_store"
+  },
+  "eber": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eber)",
+        "strength": 1.0,
+        "value": "Eber"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eber)",
+        "strength": 1.0,
+        "value": "EberVars.channelId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eber)",
+        "strength": 1.0,
+        "value": "intervalEberJQuery"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eber)",
+        "strength": 1.0,
+        "value": "widget\\.eber\\.co/"
+      }
+    ],
+    "vendor_id": "eber"
+  },
+  "ebisumart": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ebisumart)",
+        "strength": 1.0,
+        "value": "Ebisu.FontChanger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ebisumart)",
+        "strength": 1.0,
+        "value": "Ebisu.FontChanger.map.L"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ebisumart)",
+        "strength": 1.0,
+        "value": "ebisu_conv"
+      }
+    ],
+    "vendor_id": "ebisumart"
+  },
+  "ec_cube": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EC-CUBE)",
+        "strength": 1.0,
+        "value": "eccube\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EC-CUBE)",
+        "strength": 1.0,
+        "value": "win_op\\.js"
+      }
+    ],
+    "vendor_id": "ec_cube"
+  },
+  "ecal": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecal)",
+        "strength": 1.0,
+        "value": "\\.ecal\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecal)",
+        "strength": 1.0,
+        "value": "\\.ecal\\.com/"
+      }
+    ],
+    "vendor_id": "ecal"
+  },
+  "ecaupo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eCaupo)",
+        "strength": 1.0,
+        "value": "\\.ecaupo\\.(?:at|com)/"
+      }
+    ],
+    "vendor_id": "ecaupo"
+  },
+  "ecbb": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ECBB)",
+        "strength": 1.0,
+        "value": "\\.ecbb\\.jp/"
+      }
+    ],
+    "vendor_id": "ecbb"
+  },
+  "ecbeing": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ecbeing)",
+        "properties": {},
+        "selector": "div[class^='ecbn-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ecbeing)",
+        "strength": 1.0,
+        "value": "ecbn-selection-widget\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ecbeing)",
+        "strength": 1.0,
+        "value": "www\\.ecbeing\\.net"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ecbeing)",
+        "strength": 1.0,
+        "value": "ecUtil"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ecbeing)",
+        "strength": 1.0,
+        "value": "ecblib"
+      }
+    ],
+    "vendor_id": "ecbeing"
+  },
+  "ecforce": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcForce)",
+        "strength": 1.0,
+        "value": "_ec_force_session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcForce)",
+        "strength": 1.0,
+        "value": "EcForce.Models"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcForce)",
+        "strength": 1.0,
+        "value": "EcForce.Models.Shop"
+      }
+    ],
+    "vendor_id": "ecforce"
+  },
+  "echalk": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eChalk)",
+        "properties": {},
+        "selector": "link[href*='echalk-slate-prod.s3.amazonaws']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "echalk"
+  },
+  "echarts": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ECharts)",
+        "properties": {},
+        "selector": "div[_echarts_instance_]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ECharts)",
+        "strength": 1.0,
+        "value": "/echarts(?:\\.simple)?(?:\\.esm)?(?:\\.common)?(?:\\.min)?\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ECharts)",
+        "strength": 1.0,
+        "value": "/echarts\\.min\\.[a-zA-Z0-9]*\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ECharts)",
+        "strength": 1.0,
+        "value": "cdn\\.jsdelivr\\.net/(?:npm|gh/apache)/echarts@([\\d.]+(?:-[^/]+)?|latest)/dist/echarts.*\\.js"
+      }
+    ],
+    "vendor_id": "echarts"
+  },
+  "eclass": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eClass)",
+        "strength": 1.0,
+        "value": "fe_eclass"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eClass)",
+        "strength": 1.0,
+        "value": "fe_eclass_guest"
+      }
+    ],
+    "vendor_id": "eclass"
+  },
+  "ecomartists": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcomArtists)",
+        "strength": 1.0,
+        "value": "ECOMARTISTS_UPLOAD"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcomArtists)",
+        "strength": 1.0,
+        "value": "app\\.ecomartists\\.com/"
+      }
+    ],
+    "vendor_id": "ecomartists"
+  },
+  "ecomcart": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcomCart)",
+          "strength": 1.0,
+          "value": "EcomCart\\.eu"
+        }
+      ]
+    },
+    "vendor_id": "ecomcart"
+  },
+  "ecomchain": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eComchain)",
+        "strength": 1.0,
+        "value": "cdn\\.ecomchain\\.com"
+      }
+    ],
+    "vendor_id": "ecomchain"
+  },
+  "ecommercen": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecommercen)",
+        "strength": 1.0,
+        "value": "EcomnTag.Tag"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecommercen)",
+        "strength": 1.0,
+        "value": "ecomnTag.dataLayer"
+      }
+    ],
+    "vendor_id": "ecommercen"
+  },
+  "ecomscout": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcomScout)",
+        "strength": 1.0,
+        "value": "api\\.ecomscout\\.io/"
+      }
+    ],
+    "vendor_id": "ecomscout"
+  },
+  "ecomtrack": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecomtrack)",
+        "strength": 1.0,
+        "value": "ecomtrack"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecomtrack)",
+        "strength": 1.0,
+        "value": "api\\.ecomtrack\\.io/"
+      }
+    ],
+    "vendor_id": "ecomtrack"
+  },
+  "ecomx": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EcomX)",
+        "properties": {},
+        "selector": "link[href*='app.ecomx.ai/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "ecomx"
+  },
+  "ecomz": {
+    "header_patterns": {
+      "access-control-allow-headers": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Headers; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecomz)",
+          "strength": 1.0,
+          "value": "ecomz_client_id"
+        }
+      ],
+      "x-ecomz-application": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Ecomz-Application; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecomz)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecomz)",
+        "strength": 1.0,
+        "value": "\\.myecomz\\.com/"
+      }
+    ],
+    "vendor_id": "ecomz"
+  },
+  "econda": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Econda)",
+        "strength": 1.0,
+        "value": "econda"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Econda)",
+        "strength": 1.0,
+        "value": "econdaActive"
+      }
+    ],
+    "vendor_id": "econda"
+  },
+  "ecovium": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecovium)",
+        "strength": 1.0,
+        "value": "\\bEcovium\\b"
+      },
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecovium)",
+        "strength": 1.0,
+        "value": "\\bMHP\\b"
+      }
+    ],
+    "vendor_id": "ecovium"
+  },
+  "ecshop": {
+    "header_patterns": {
+      "powered": [
+        {
+          "match_type": "regex",
+          "notes": "header Powered; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eCShop)",
+          "strength": 1.0,
+          "value": "^eCShop$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eCShop)",
+        "strength": 1.0,
+        "value": "cdn\\.ecshop\\.com\\.br"
+      }
+    ],
+    "vendor_id": "ecshop"
+  },
+  "ecwid": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecwid)",
+        "strength": 1.0,
+        "value": "Ecwid"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecwid)",
+        "strength": 1.0,
+        "value": "EcwidCart"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecwid)",
+        "strength": 1.0,
+        "value": "https://app\\.ecwid\\.com/script\\.js"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ecwid)",
+        "strength": 1.0,
+        "value": "https://app\\.multiscreenstore\\.com/script\\.js"
+      }
+    ],
+    "vendor_id": "ecwid"
+  },
+  "edgecast": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EdgeCast)",
+          "strength": 1.0,
+          "value": "^ECD\\s\\(\\S+\\)"
+        }
+      ]
+    },
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EdgeCast)",
+        "strength": 1.0,
+        "value": "https?://(?:[^/]+\\.)?edgecastcdn\\.net/"
+      }
+    ],
+    "vendor_id": "edgecast"
+  },
+  "edgemesh": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgemesh)",
+        "strength": 1.0,
+        "value": "edgemesh"
+      }
+    ],
+    "vendor_id": "edgemesh"
+  },
+  "edgeone": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EdgeOne)",
+          "strength": 1.0,
+          "value": "^TencentEdgeOne$"
+        }
+      ]
+    },
+    "vendor_id": "edgeone"
+  },
+  "edgio": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+        "strength": 1.0,
+        "value": "layer0_bucket"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+        "strength": 1.0,
+        "value": "layer0_destination"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+        "strength": 1.0,
+        "value": "layer0_eid"
+      }
+    ],
+    "header_patterns": {
+      "x-0-status": [
+        {
+          "match_type": "regex",
+          "notes": "header x-0-status; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-0-t": [
+        {
+          "match_type": "regex",
+          "notes": "header x-0-t; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-0-version": [
+        {
+          "match_type": "regex",
+          "notes": "header x-0-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+          "strength": 1.0,
+          "value": "^\\d+ ([\\d.]+) "
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+        "strength": 1.0,
+        "value": "Layer0.Metrics"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edgio)",
+        "strength": 1.0,
+        "value": "/__layer0__/cache-manifest\\.js"
+      }
+    ],
+    "vendor_id": "edgio"
+  },
+  "edirectory": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eDirectory)",
+        "strength": 1.0,
+        "value": "eDirectory.Search"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eDirectory)",
+        "strength": 1.0,
+        "value": "\\.edirectory\\.com"
+      }
+    ],
+    "vendor_id": "edirectory"
+  },
+  "edit_in_place": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edit-in-Place)",
+        "strength": 1.0,
+        "value": "/jquery\\.editinplace\\.js"
+      }
+    ],
+    "vendor_id": "edit_in_place"
+  },
+  "editor_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Editor.js)",
+        "strength": 1.0,
+        "value": "EditorJS"
+      }
+    ],
+    "vendor_id": "editor_js"
+  },
+  "editplus": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta Generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EditPlus)",
+          "strength": 1.0,
+          "value": "^EditPlus$"
+        }
+      ]
+    },
+    "vendor_id": "editplus"
+  },
+  "edlio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edlio)",
+        "strength": 1.0,
+        "value": "edlio.isEdgeToEdge"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edlio)",
+        "strength": 1.0,
+        "value": "edlioCorpDataLayer"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edlio)",
+          "strength": 1.0,
+          "value": "^Edlio CMS$"
+        }
+      ]
+    },
+    "vendor_id": "edlio"
+  },
+  "edmingle": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edmingle)",
+        "strength": 1.0,
+        "value": "edmingle\\.b-cdn\\.net"
+      }
+    ],
+    "vendor_id": "edmingle"
+  },
+  "edokan": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eDokan)",
+        "properties": {},
+        "selector": "img[src*='cdn.edokan.co']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "edokan"
+  },
+  "edrone": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edrone)",
+        "strength": 1.0,
+        "value": "_edrone"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edrone)",
+        "strength": 1.0,
+        "value": "_edrone.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edrone)",
+        "strength": 1.0,
+        "value": "_edrone_send_handler"
+      }
+    ],
+    "vendor_id": "edrone"
+  },
+  "edugram": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edugram)",
+        "properties": {},
+        "selector": "form[action*='edugram.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edugram)",
+        "strength": 1.0,
+        "value": "\\.edugram\\.com/"
+      }
+    ],
+    "vendor_id": "edugram"
+  },
+  "edwiser_bridge": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edwiser Bridge)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/edwiser-bridge']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Edwiser Bridge)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/edwiser-bridge(?:-sso|-pro)?/public/assets/js/.+\\.js\\?ver=(\\d+(?:\\.\\d+)+)"
+      }
+    ],
+    "vendor_id": "edwiser_bridge"
+  },
+  "ef_js": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ef.js)",
+        "strength": 1.0,
+        "value": "ef.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ef.js)",
+        "strength": 1.0,
+        "value": "efCore"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ef.js)",
+        "strength": 1.0,
+        "value": "/ef(?:-core)?(?:\\.min|\\.dev)?\\.js"
+      }
+    ],
+    "vendor_id": "ef_js"
+  },
+  "effiliation": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Effiliation)",
+        "strength": 1.0,
+        "value": "\\.effiliation\\.com/"
+      }
+    ],
+    "vendor_id": "effiliation"
+  },
+  "efilli": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Efilli)",
+        "strength": 1.0,
+        "value": "EFILLI_GLOBAL_OPTIONS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Efilli)",
+        "strength": 1.0,
+        "value": "Efilli"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Efilli)",
+        "strength": 1.0,
+        "value": "efilli.__cookieBlocker"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Efilli)",
+        "strength": 1.0,
+        "value": "efilliSdk"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Efilli)",
+        "strength": 1.0,
+        "value": "efilliSdkConfig"
+      }
+    ],
+    "vendor_id": "efilli"
+  },
+  "egain_conversation": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eGain Conversation)",
+        "strength": 1.0,
+        "value": "egainDockChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eGain Conversation)",
+        "strength": 1.0,
+        "value": "\\.analytics-egain\\.com/"
+      }
+    ],
+    "vendor_id": "egain_conversation"
+  },
+  "eggflow": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eggflow)",
+        "strength": 1.0,
+        "value": "cdn\\.eggflow\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eggflow)",
+        "strength": 1.0,
+        "value": "cdn\\.eggflow\\.com"
+      }
+    ],
+    "vendor_id": "eggflow"
+  },
+  "eggplant": {
+    "header_patterns": {
+      "content-security-policy": [
+        {
+          "match_type": "regex",
+          "notes": "header content-security-policy; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eggplant)",
+          "strength": 1.0,
+          "value": "\\.eggplant\\.cloud"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eggplant)",
+        "strength": 1.0,
+        "value": "\\.eggplant\\.cloud/"
+      }
+    ],
+    "vendor_id": "eggplant"
+  },
+  "ekm": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EKM)",
+        "strength": 1.0,
+        "value": "ekmpowershop"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EKM)",
+        "strength": 1.0,
+        "value": "_ekmpinpoint"
+      }
+    ],
+    "vendor_id": "ekm"
+  },
+  "ekomi": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eKomi)",
+        "properties": {},
+        "selector": ".ekomi-widget-container",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eKomi)",
+        "strength": 1.0,
+        "value": "ekomiWidgetMain"
+      }
+    ],
+    "vendor_id": "ekomi"
+  },
+  "ekonsilio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eKonsilio)",
+        "strength": 1.0,
+        "value": "script\\.ekonsilio\\.com"
+      }
+    ],
+    "vendor_id": "ekonsilio"
+  },
+  "ektron_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ektron CMS)",
+        "strength": 1.0,
+        "value": "Ektron"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ektron CMS)",
+        "strength": 1.0,
+        "value": "/ektron\\.javascript\\.ashx"
+      }
+    ],
+    "vendor_id": "ektron_cms"
+  },
+  "elastic_apm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elastic APM)",
+        "strength": 1.0,
+        "value": "elasticApm"
+      }
+    ],
+    "vendor_id": "elastic_apm"
+  },
+  "elastic_path": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elastic Path)",
+        "strength": 1.0,
+        "value": "Moltin"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elastic Path)",
+        "strength": 1.0,
+        "value": "\\.moltin\\.com/"
+      }
+    ],
+    "vendor_id": "elastic_path"
+  },
+  "elasticpress": {
+    "header_patterns": {
+      "x-elasticpress-query": [
+        {
+          "match_type": "regex",
+          "notes": "header x-elasticpress-query; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticPress)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "elasticpress"
+  },
+  "elasticsearch": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elasticsearch)",
+        "properties": {},
+        "selector": "div#topsearchelastic_widget",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "elasticsearch"
+  },
+  "elasticsuite": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticSuite)",
+        "strength": 1.0,
+        "value": "STUID"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticSuite)",
+        "strength": 1.0,
+        "value": "STVID"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticSuite)",
+        "strength": 1.0,
+        "value": "(?:\\.elasticsuite\\.io\\/|\\/elasticsuite-tracker\\/)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticSuite)",
+        "strength": 1.0,
+        "value": "smileTracker"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElasticSuite)",
+        "strength": 1.0,
+        "value": "/Smile_ElasticsuiteTracker/"
+      }
+    ],
+    "vendor_id": "elasticsuite"
+  },
+  "elcodi": {
+    "header_patterns": {
+      "x-elcodi": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Elcodi; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elcodi)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "elcodi"
+  },
+  "elcom": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elcom)",
+          "strength": 1.0,
+          "value": "^elcomCMS"
+        }
+      ]
+    },
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elcom)",
+        "strength": 1.0,
+        "value": "Web CMS by Elcom"
+      }
+    ],
+    "vendor_id": "elcom"
+  },
+  "eleanor_cms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eleanor CMS)",
+          "strength": 1.0,
+          "value": "Eleanor"
+        }
+      ]
+    },
+    "vendor_id": "eleanor_cms"
+  },
+  "element": {
+    "meta_patterns": {
+      "application-name": [
+        {
+          "match_type": "regex",
+          "notes": "meta application-name; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Element)",
+          "strength": 1.0,
+          "value": "^Element$"
+        }
+      ]
+    },
+    "vendor_id": "element"
+  },
+  "element_ui": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "class": {
+            "match_type": "regex",
+            "notes": "dom attr class; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Element UI)",
+            "strength": 1.0,
+            "value": "el-(?:table-column|table-filter|popper|pagination|pager|select-group|form|form-item|color-predefine|color-hue-slider|color-svpanel|color-alpha-slider|color-dropdown|color-picker|badge|tree|tree-node|select|message|dialog|checkbox|checkbox-button|checkbox-group|container|steps|carousel|menu|menu-item|submenu|menu-item-group|button|button-group|card|table|select-dropdown|row|tabs|notification|radio|progress|progress-bar|tag|popover|tooltip|cascader|cascader-menus|cascader-menu|time-spinner|spinner|spinner-inner|transfer|transfer-panel|rate|slider|dropdown|dropdown-menu|textarea|input|input-group|popup-parent|radio-group|main|breadcrumb|time-range-picker|date-range-picker|year-table|date-editor|range-editor|time-spinner|date-picker|time-panel|date-table|month-table|picker-panel|collapse|collapse-item|alert|select-dropdown|select-dropdown__empty|select-dropdown__wrap|select-dropdown__list|scrollbar|switch|carousel|upload|upload-dragger|upload-list|upload-cover|aside|input-number|header|message-box|footer|radio-button|step|autocomplete|autocomplete-suggestion|loading-parent|loading-mask|loading-spinner)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Element UI)",
+        "properties": {},
+        "selector": "[class*='el-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "element_ui"
+  },
+  "elementor": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "elementor_pro_login"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/elementor/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "ElementorProFrontendConfig"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "ElementsKit_Helper.ajaxLoading"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "elementorFrontend.getElements"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "elementorFrontendConfig.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "elementorModules"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "elementorProFrontend"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+          "strength": 1.0,
+          "value": "^Elementor\\s([\\d\\.]+)"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/elementor(?:-pro)?/.+frontend-modules\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "elementor"
+  },
+  "elementor_addon_elements": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor Addon Elements)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/addon-elements-for-elementor-page-builder/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor Addon Elements)",
+        "strength": 1.0,
+        "value": "addon-elements-for-elementor-page-builder(?:\\/assets)?(?:\\/js)?(?:\\/lib)?(?:\\/animated-main)?(?:\\/build)?(?:\\/eae)?(?:\\/iconHelper)?(?:\\/index)?(?:\\/magnific)?(?:\\/particles)?(?:\\/vegas){0,2}(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "elementor_addon_elements"
+  },
+  "elementor_cloud": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header x-powered-by; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor Cloud)",
+          "strength": 1.0,
+          "value": "Elementor Cloud"
+        }
+      ]
+    },
+    "vendor_id": "elementor_cloud"
+  },
+  "elementor_header_footer_builder": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elementor Header & Footer Builder)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/header-footer-elementor/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "elementor_header_footer_builder"
+  },
+  "elementskit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElementsKit)",
+        "strength": 1.0,
+        "value": "ElementsKit_Helper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElementsKit)",
+        "strength": 1.0,
+        "value": "elementskit"
+      }
+    ],
+    "vendor_id": "elementskit"
+  },
+  "elenore": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elenore)",
+        "strength": 1.0,
+        "value": "app\\.elenore\\.io"
+      }
+    ],
+    "vendor_id": "elenore"
+  },
+  "elevar": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elevar)",
+        "strength": 1.0,
+        "value": "ElevarGtmSuite"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elevar)",
+        "strength": 1.0,
+        "value": "elevar_gtm_errors"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elevar)",
+        "strength": 1.0,
+        "value": "webpackChunkelevar_gtm_suite_scripts"
+      }
+    ],
+    "vendor_id": "elevar"
+  },
+  "eleventy": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eleventy)",
+          "strength": 1.0,
+          "value": "^Eleventy\\sv([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "eleventy"
+  },
+  "elevio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elevio)",
+        "strength": 1.0,
+        "value": "_elev"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elevio)",
+        "strength": 1.0,
+        "value": "cdn\\.elev\\.io/"
+      }
+    ],
+    "vendor_id": "elevio"
+  },
+  "elexio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elexio)",
+        "strength": 1.0,
+        "value": "//elexiocms\\.com/"
+      }
+    ],
+    "vendor_id": "elexio"
+  },
+  "elfsight": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elfsight)",
+        "strength": 1.0,
+        "value": "\\.elfsight\\.com/"
+      }
+    ],
+    "vendor_id": "elfsight"
+  },
+  "elgg": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elgg)",
+        "strength": 1.0,
+        "value": "elgg"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elgg)",
+        "strength": 1.0,
+        "value": "elgg(?:_dataTables)?(?:\\/Ajax)?(?:\\/Plugin)?(?:\\/require_config)?(?:\\/spinner)?(?:\\/dev)?(?:\\.\\w{0,10})?\\.js"
+      }
+    ],
+    "vendor_id": "elgg"
+  },
+  "elina_pms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elina PMS)",
+        "strength": 1.0,
+        "value": "elinaGlobalConst"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elina PMS)",
+        "strength": 1.0,
+        "value": "\\.elinapms\\.com"
+      }
+    ],
+    "vendor_id": "elina_pms"
+  },
+  "eliseai": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EliseAI)",
+        "properties": {},
+        "selector": "div#meetelise-chat-launcher-container",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EliseAI)",
+        "strength": 1.0,
+        "value": "eliseAi"
+      }
+    ],
+    "vendor_id": "eliseai"
+  },
+  "elkarte": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElkArte)",
+        "strength": 1.0,
+        "value": "elk_forum_action"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ElkArte)",
+        "strength": 1.0,
+        "value": "elk_iso_case_folding"
+      }
+    ],
+    "vendor_id": "elkarte"
+  },
+  "elliptic": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elliptic)",
+        "strength": 1.0,
+        "value": "elliptic(?:[\\w\\.-]{0,27})?(?:\\.bundle)?(?:\\.chunk)?(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "elliptic"
+  },
+  "elloha": {
+    "header_patterns": {
+      "access-control-allow-headers": [
+        {
+          "match_type": "regex",
+          "notes": "header Access-Control-Allow-Headers; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elloha)",
+          "strength": 1.0,
+          "value": "\\.elloha\\.com"
+        }
+      ]
+    },
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elloha)",
+        "strength": 1.0,
+        "value": "\\.elloha\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elloha)",
+        "strength": 1.0,
+        "value": "IsEllohaPointOfSale"
+      }
+    ],
+    "vendor_id": "elloha"
+  },
+  "ellucian_crm_recruit": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ellucian CRM Recruit)",
+        "properties": {},
+        "selector": " a[href*='.elluciancrmrecruit.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ellucian CRM Recruit)",
+        "strength": 1.0,
+        "value": "Ellucian.Recruit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ellucian CRM Recruit)",
+        "strength": 1.0,
+        "value": "ellucianAddressChooseLabel"
+      }
+    ],
+    "vendor_id": "ellucian_crm_recruit"
+  },
+  "elm": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elm)",
+        "strength": 1.0,
+        "value": "Elm.Main.embed"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elm)",
+        "strength": 1.0,
+        "value": "Elm.Main.init"
+      }
+    ],
+    "vendor_id": "elm"
+  },
+  "elm_ui": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elm-ui)",
+        "strength": 1.0,
+        "value": "<style>[\\s\\S]*\\.explain > \\.s[\\s\\S]*\\.explain > \\.ctr > \\.s"
+      }
+    ],
+    "vendor_id": "elm_ui"
+  },
+  "elog": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ELOG)",
+        "strength": 1.0,
+        "value": "<title>ELOG Logbook Selection</title>"
+      }
+    ],
+    "vendor_id": "elog"
+  },
+  "elog_http": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ELOG HTTP)",
+          "strength": 1.0,
+          "value": "ELOG HTTP ?([\\d.-]+)?"
+        }
+      ]
+    },
+    "vendor_id": "elog_http"
+  },
+  "eloomi": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloomi)",
+        "strength": 1.0,
+        "value": "//cdn\\.eloomi\\.com/"
+      }
+    ],
+    "vendor_id": "eloomi"
+  },
+  "elopage": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elopage)",
+        "properties": {},
+        "selector": "iframe[src*='elopage.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elopage)",
+        "strength": 1.0,
+        "value": "\\.myelopage\\.com/"
+      }
+    ],
+    "vendor_id": "elopage"
+  },
+  "eloqua": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "ELOQUA"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "_elq"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "_elqQ"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "eloqContactData"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "eloquaActionSettings"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elqCookieValue"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elqCurESite"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elqLoad"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elqSiteID"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elq_global"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eloqua)",
+        "strength": 1.0,
+        "value": "elqCfg\\.js"
+      }
+    ],
+    "vendor_id": "eloqua"
+  },
+  "elromco": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elromco)",
+        "strength": 1.0,
+        "value": "ElromcoAPI"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Elromco)",
+        "strength": 1.0,
+        "value": "embed\\.elromco\\.com/"
+      }
+    ],
+    "vendor_id": "elromco"
+  },
+  "email_encoder_for_wordpress": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Email Encoder for Wordpress)",
+        "properties": {},
+        "selector": "link#eeb-css-frontend-css, link[href*='/wp-content/plugins/email-encoder-bundle/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Email Encoder for Wordpress)",
+        "strength": 1.0,
+        "value": "email-encoder-bundle(?:\\/core)?(?:\\/includes)?(?:\\/assets)?(?:\\/js)?(?:\\/custom)?(?:\\/encoder-form)?\\.js"
+      }
+    ],
+    "vendor_id": "email_encoder_for_wordpress"
+  },
+  "emaileri": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emaileri)",
+        "properties": {},
+        "selector": "iframe[src*='static.emaileri.fi']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emaileri)",
+        "strength": 1.0,
+        "value": "static\\.emaileri\\.fi"
+      }
+    ],
+    "vendor_id": "emaileri"
+  },
+  "emailjs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmailJS)",
+        "strength": 1.0,
+        "value": "emailjs.sendForm"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmailJS)",
+        "strength": 1.0,
+        "value": "([\\d\\.]+)?(?:/dist)?/email\\.min\\.js"
+      }
+    ],
+    "vendor_id": "emailjs"
+  },
+  "emanda": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emanda)",
+        "strength": 1.0,
+        "value": "linkEmanda"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emanda)",
+        "strength": 1.0,
+        "value": "srcEmaScript"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emanda)",
+        "strength": 1.0,
+        "value": "\\.emanda\\.com\\.br/"
+      }
+    ],
+    "vendor_id": "emanda"
+  },
+  "emarsys": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emarsys)",
+        "strength": 1.0,
+        "value": "Scarab"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emarsys)",
+        "strength": 1.0,
+        "value": "ScarabQueue"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emarsys)",
+        "strength": 1.0,
+        "value": "(?:static|cdn)\\.scarabresearch\\.com"
+      }
+    ],
+    "vendor_id": "emarsys"
+  },
+  "ematic_solutions": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ematic Solutions)",
+        "strength": 1.0,
+        "value": "EmaticsObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ematic Solutions)",
+        "strength": 1.0,
+        "value": "ematicApikey"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ematic Solutions)",
+        "strength": 1.0,
+        "value": "ematics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ematic Solutions)",
+        "strength": 1.0,
+        "value": "ematicsSubscribe"
+      }
+    ],
+    "vendor_id": "ematic_solutions"
+  },
+  "embed_any_document": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embed Any Document)",
+        "properties": {},
+        "selector": "#awsm-ead-public-css, link[href*='/wp-content/plugins/embed-any-document/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embed Any Document)",
+        "strength": 1.0,
+        "value": "embed-any-document(?:\\/js)?(?:\\/embed-public)?(?:\\/pdfobject)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "embed_any_document"
+  },
+  "embed_optimizer": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embed Optimizer)",
+          "strength": 1.0,
+          "value": "^embed-optimizer ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "embed_optimizer"
+  },
+  "embed_pdf_viewer": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embed PDF Viewer)",
+        "properties": {},
+        "selector": "#embed-pdf-viewer-css, link[href*='/wp-content/plugins/embed-pdf-viewer/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "embed_pdf_viewer"
+  },
+  "embedly": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embedly)",
+        "properties": {},
+        "selector": "div.w-embed > iframe.embedly-embed",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embedly)",
+        "strength": 1.0,
+        "value": "embedly"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Embedly)",
+        "strength": 1.0,
+        "value": "cdn\\.embedly\\.com/"
+      }
+    ],
+    "vendor_id": "embedly"
+  },
+  "embedplus": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedPlus)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/youtube-embed-plus(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "embedplus"
+  },
+  "embedpress": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedPress)",
+        "properties": {},
+        "selector": "#embedpress-css, #embedpress-elementor-css-css, #embedpress_blocks-cgb-style-css-css, link[href*='/wp-content/plugins/embedpress/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedPress)",
+        "strength": 1.0,
+        "value": "embedpress(?:\\/assets)?(?:\\/js)?(?:\\/ads)?(?:\\/pdfobject)?(?:\\/front)?(?:\\/documents-viewer-script)?(?:\\/vimeo-player)?(?:\\/initplyr)?(?:\\/plyr)?(?:\\.polyfilled)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "embedpress"
+  },
+  "embedsocial": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedSocial)",
+        "strength": 1.0,
+        "value": "EMBEDSOCIALHASHTAG"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedSocial)",
+        "strength": 1.0,
+        "value": "EmbedSocialIframeLightbox"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedSocial)",
+        "strength": 1.0,
+        "value": "embedsocial\\.com/"
+      }
+    ],
+    "vendor_id": "embedsocial"
+  },
+  "embedthis_appweb": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EmbedThis Appweb)",
+          "strength": 1.0,
+          "value": "Mbedthis-Appweb(?:/([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "embedthis_appweb"
+  },
+  "ember_js": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ember.js)",
+        "strength": 1.0,
+        "value": "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ember.js)",
+        "strength": 1.0,
+        "value": "Ember"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ember.js)",
+        "strength": 1.0,
+        "value": "Ember.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ember.js)",
+        "strength": 1.0,
+        "value": "EmberENV"
+      }
+    ],
+    "vendor_id": "ember_js"
+  },
+  "emblue": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: emBlue)",
+        "strength": 1.0,
+        "value": "emblueOnSiteApp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: emBlue)",
+        "strength": 1.0,
+        "value": "\\.embluemail\\.com/(?:library/([\\d.]+))?"
+      }
+    ],
+    "vendor_id": "emblue"
+  },
+  "emergent": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emergent)",
+        "strength": 1.0,
+        "value": "assets\\.emergent\\.sh"
+      }
+    ],
+    "vendor_id": "emergent"
+  },
+  "emfont": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emfont)",
+        "strength": 1.0,
+        "value": "emfont.Emfont"
+      }
+    ],
+    "vendor_id": "emfont"
+  },
+  "emojicom": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emojicom)",
+        "strength": 1.0,
+        "value": "$emojicom"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emojicom)",
+        "strength": 1.0,
+        "value": "EMOJICOM_BASE_PATH"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emojicom)",
+        "strength": 1.0,
+        "value": "emojicom"
+      }
+    ],
+    "vendor_id": "emojicom"
+  },
+  "emotion": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emotion)",
+        "properties": {},
+        "selector": "style[data-emotion], style[data-emotion-css]",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "emotion"
+  },
+  "emotive": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emotive)",
+        "strength": 1.0,
+        "value": "emotivePopupInitializing"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emotive)",
+        "strength": 1.0,
+        "value": "emotivecdn\\.io/"
+      }
+    ],
+    "vendor_id": "emotive"
+  },
+  "emplifi_ugc": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emplifi UGC)",
+        "strength": 1.0,
+        "value": "Pixlee"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emplifi UGC)",
+        "strength": 1.0,
+        "value": "Pixlee_Analytics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emplifi UGC)",
+        "strength": 1.0,
+        "value": "TurnTo"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emplifi UGC)",
+        "strength": 1.0,
+        "value": "turnToConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Emplifi UGC)",
+        "strength": 1.0,
+        "value": "assets\\.pixlee\\.com"
+      }
+    ],
+    "vendor_id": "emplifi_ugc"
+  },
+  "employment_hero": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Employment Hero)",
+        "strength": 1.0,
+        "value": "employmenthero\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Employment Hero)",
+        "strength": 1.0,
+        "value": "emhTheme.siteSlug"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Employment Hero)",
+        "strength": 1.0,
+        "value": "emhTracking.token"
+      }
+    ],
+    "vendor_id": "employment_hero"
+  },
+  "empretienda": {
+    "header_patterns": {
+      "set-cookie": [
+        {
+          "match_type": "regex",
+          "notes": "header set-cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Empretienda)",
+          "strength": 1.0,
+          "value": "^EMPRETIENDA_SESSION"
+        }
+      ]
+    },
+    "vendor_id": "empretienda"
+  },
+  "enabase": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enabase)",
+        "strength": 1.0,
+        "value": "Enabase.platform"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enabase)",
+          "strength": 1.0,
+          "value": "^Enabase$"
+        }
+      ],
+      "publisher": [
+        {
+          "match_type": "regex",
+          "notes": "meta publisher; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enabase)",
+          "strength": 1.0,
+          "value": "^Enabase$"
+        }
+      ]
+    },
+    "vendor_id": "enabase"
+  },
+  "enable": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enable)",
+        "strength": 1.0,
+        "value": "enable_toolbar.is_premium"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enable)",
+        "strength": 1.0,
+        "value": "cdn\\.enable\\.co\\.il/"
+      }
+    ],
+    "vendor_id": "enable"
+  },
+  "enagic": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enagic)",
+        "strength": 1.0,
+        "value": "www\\.enagicwebsystem\\.com"
+      }
+    ],
+    "vendor_id": "enagic"
+  },
+  "enalyzer": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enalyzer)",
+        "strength": 1.0,
+        "value": "surveys\\.enalyzer\\.com/"
+      }
+    ],
+    "vendor_id": "enalyzer"
+  },
+  "enamad": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eNamad)",
+        "properties": {},
+        "selector": "a[href*='.enamad.ir/'][target='_blank'], div.e-namad-widget-wrapper, img[src*='.enamad.ir/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "enamad": [
+        {
+          "match_type": "regex",
+          "notes": "meta enamad; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eNamad)",
+          "strength": 1.0,
+          "value": "^\\d+$"
+        }
+      ]
+    },
+    "vendor_id": "enamad"
+  },
+  "endurance_page_cache": {
+    "header_patterns": {
+      "x-endurance-cache-level": [
+        {
+          "match_type": "regex",
+          "notes": "header x-endurance-cache-level; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Endurance Page Cache)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "endurance_page_cache"
+  },
+  "enduro_js": {
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: enduro.js)",
+          "strength": 1.0,
+          "value": "^enduro\\.js"
+        }
+      ]
+    },
+    "vendor_id": "enduro_js"
+  },
+  "enecto": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enecto)",
+        "strength": 1.0,
+        "value": "trk\\.enecto\\.com"
+      }
+    ],
+    "vendor_id": "enecto"
+  },
+  "engaga": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Engaga)",
+        "strength": 1.0,
+        "value": "spark\\.engaga\\.com"
+      }
+    ],
+    "vendor_id": "engaga"
+  },
+  "engagementhq": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EngagementHQ)",
+        "properties": {},
+        "selector": "link[href*='ehq-production-']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "engagementhq"
+  },
+  "engagio": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Engagio)",
+        "strength": 1.0,
+        "value": "web-analytics\\.engagio\\.com/api/"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Engagio)",
+        "strength": 1.0,
+        "value": "web-analytics\\.engagio\\.com/js/ei\\.js"
+      }
+    ],
+    "vendor_id": "engagio"
+  },
+  "engati": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Engati)",
+        "strength": 1.0,
+        "value": "app\\.engati\\.com/"
+      }
+    ],
+    "vendor_id": "engati"
+  },
+  "engintron": {
+    "header_patterns": {
+      "x-server-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Server-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Engintron)",
+          "strength": 1.0,
+          "value": "^Engintron$"
+        }
+      ]
+    },
+    "vendor_id": "engintron"
+  },
+  "enhanced_responsive_images": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enhanced Responsive Images)",
+          "strength": 1.0,
+          "value": "^auto-sizes ([\\d.]+)?"
+        }
+      ]
+    },
+    "vendor_id": "enhanced_responsive_images"
+  },
+  "enigma": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enigma)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/enigma/"
+      }
+    ],
+    "vendor_id": "enigma"
+  },
+  "enjin_cms": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enjin CMS)",
+        "strength": 1.0,
+        "value": "Enjin_Core_Storage_Cache"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enjin CMS)",
+        "strength": 1.0,
+        "value": "Enjin_UI"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enjin CMS)",
+        "strength": 1.0,
+        "value": "\\.enjin\\.com/"
+      }
+    ],
+    "vendor_id": "enjin_cms"
+  },
+  "enjore": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enjore)",
+        "properties": {},
+        "selector": "link[href*='cdn.enjore.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "enjore"
+  },
+  "enkod": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enkod)",
+        "strength": 1.0,
+        "value": "enKodBox.token"
+      }
+    ],
+    "vendor_id": "enkod"
+  },
+  "enlistly": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enlistly)",
+        "strength": 1.0,
+        "value": "cdn\\.enlistly\\.com/"
+      }
+    ],
+    "vendor_id": "enlistly"
+  },
+  "enonic": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enonic)",
+        "strength": 1.0,
+        "value": "com-enonic-app-ga_disabled"
+      }
+    ],
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enonic)",
+          "strength": 1.0,
+          "value": "^Enonic$"
+        }
+      ]
+    },
+    "vendor_id": "enonic"
+  },
+  "enquire_js": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enquire.js)",
+        "strength": 1.0,
+        "value": "enquire(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?"
+      }
+    ],
+    "vendor_id": "enquire_js"
+  },
+  "enquisite": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enquisite)",
+        "strength": 1.0,
+        "value": "log\\.enquisite\\.com"
+      }
+    ],
+    "vendor_id": "enquisite"
+  },
+  "enrollware": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enrollware)",
+        "strength": 1.0,
+        "value": "jquery\\.enrollware\\.js"
+      }
+    ],
+    "vendor_id": "enrollware"
+  },
+  "ensi": {
+    "header_patterns": {
+      "x-ensi-platform": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Ensi-Platform; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ensi)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ensi)",
+          "strength": 1.0,
+          "value": "Ensi Platform"
+        }
+      ]
+    },
+    "vendor_id": "ensi"
+  },
+  "ensighten": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ensighten)",
+        "strength": 1.0,
+        "value": "//nexus\\.ensighten\\.com/"
+      }
+    ],
+    "vendor_id": "ensighten"
+  },
+  "enterprise_bot": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enterprise Bot)",
+        "strength": 1.0,
+        "value": "\\.enterprisebot\\.co/"
+      }
+    ],
+    "vendor_id": "enterprise_bot"
+  },
+  "entresoft": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Entresoft)",
+        "strength": 1.0,
+        "value": "\\.entresoft\\.com"
+      }
+    ],
+    "vendor_id": "entresoft"
+  },
+  "entrust": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Entrust)",
+        "strength": 1.0,
+        "value": "goEntrust"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Entrust)",
+        "strength": 1.0,
+        "value": "seal\\.entrust\\.net/"
+      }
+    ],
+    "vendor_id": "entrust"
+  },
+  "envialia": {
+    "text_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "text; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envialia)",
+        "strength": 1.0,
+        "value": "\\bEnvialia\\b"
+      }
+    ],
+    "vendor_id": "envialia"
+  },
+  "enviopack": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enviopack)",
+        "strength": 1.0,
+        "value": "api\\.enviopack\\.com"
+      }
+    ],
+    "vendor_id": "enviopack"
+  },
+  "envo_ecommerce": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envo eCommerce)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/envo-ecommerce/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "envo_ecommerce"
+  },
+  "envo_shop": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envo Shop)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/envo-shop/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "envo_shop"
+  },
+  "envo_storefront": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envo Storefront)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/envo-storefront/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "envo_storefront"
+  },
+  "envoke": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envoke)",
+        "strength": 1.0,
+        "value": "\\.envoke\\.com/"
+      }
+    ],
+    "vendor_id": "envoke"
+  },
+  "envolve_tech": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envolve Tech)",
+        "strength": 1.0,
+        "value": "envolveChatInitialized"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envolve Tech)",
+        "strength": 1.0,
+        "value": "envolveJsonp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envolve Tech)",
+        "strength": 1.0,
+        "value": "\\.envolvetech\\.com"
+      }
+    ],
+    "vendor_id": "envolve_tech"
+  },
+  "envoy": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envoy)",
+          "strength": 1.0,
+          "value": "^envoy$"
+        }
+      ],
+      "x-envoy-upstream-service-time": [
+        {
+          "match_type": "regex",
+          "notes": "header x-envoy-upstream-service-time; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envoy)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "vendor_id": "envoy"
+  },
+  "envybox": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envybox)",
+        "strength": 1.0,
+        "value": "EnvyWidget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Envybox)",
+        "strength": 1.0,
+        "value": "static\\.saas-support\\.com/"
+      }
+    ],
+    "vendor_id": "envybox"
+  },
+  "enyo": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enyo)",
+        "strength": 1.0,
+        "value": "enyo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enyo)",
+        "strength": 1.0,
+        "value": "enyo\\.js"
+      }
+    ],
+    "vendor_id": "enyo"
+  },
+  "enzuzo": {
+    "header_patterns": {
+      "x-enzuzo-city": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Enzuzo-City; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enzuzo)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ],
+      "x-enzuzo-country": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Enzuzo-Country; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enzuzo)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enzuzo)",
+        "strength": 1.0,
+        "value": "__ENZUZO_STARTED__"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enzuzo)",
+        "strength": 1.0,
+        "value": "enzuzoGtmConsentObj"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Enzuzo)",
+        "strength": 1.0,
+        "value": "app\\.enzuzo\\.com"
+      }
+    ],
+    "vendor_id": "enzuzo"
+  },
+  "eola": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eola)",
+        "strength": 1.0,
+        "value": "_eola_session_eola"
+      }
+    ],
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eola)",
+        "properties": {},
+        "selector": "link[href*='backend.eola.co/'][rel*='stylesheet']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "eola"
+  },
+  "epages": {
+    "header_patterns": {
+      "x-epages-requestid": [
+        {
+          "match_type": "regex",
+          "notes": "header X-epages-RequestId; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ePages)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ePages)",
+        "strength": 1.0,
+        "value": "epages"
+      }
+    ],
+    "vendor_id": "epages"
+  },
+  "epicor": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epicor)",
+        "strength": 1.0,
+        "value": "Epicor_Common"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epicor)",
+        "strength": 1.0,
+        "value": "Epicor_SalesrepPricing"
+      }
+    ],
+    "vendor_id": "epicor"
+  },
+  "eploy": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eploy)",
+        "strength": 1.0,
+        "value": "Eploy.Session"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eploy)",
+        "strength": 1.0,
+        "value": "$Eploy"
+      }
+    ],
+    "vendor_id": "eploy"
+  },
+  "epoch": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epoch)",
+        "properties": {},
+        "selector": "link[href*='epoch.css']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epoch)",
+        "properties": {},
+        "selector": "link[href*='epoch.min.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epoch)",
+        "strength": 1.0,
+        "value": "<link[^>]+?href=\"[^\"]+epoch(?:\\.min)?\\.css"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epoch)",
+        "strength": 1.0,
+        "value": "epoch(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "epoch"
+  },
+  "epom": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epom)",
+        "strength": 1.0,
+        "value": "epomCustomParams"
+      }
+    ],
+    "url_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "url; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epom)",
+        "strength": 1.0,
+        "value": "^https?://(?:[^/]+\\.)?ad(?:op)?shost1\\.com/"
+      }
+    ],
+    "vendor_id": "epom"
+  },
+  "epoq": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Epoq)",
+        "strength": 1.0,
+        "value": "\\.epoq\\.de"
+      }
+    ],
+    "vendor_id": "epoq"
+  },
+  "eprints": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EPrints)",
+        "strength": 1.0,
+        "value": "EPJS_menu_template"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EPrints)",
+        "strength": 1.0,
+        "value": "EPrints"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EPrints)",
+          "strength": 1.0,
+          "value": "EPrints ([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "eprints"
+  },
+  "epublishing": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ePublishing)",
+        "strength": 1.0,
+        "value": "Ellington.Admin"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ePublishing)",
+        "strength": 1.0,
+        "value": "EllingtonMap"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ePublishing)",
+        "strength": 1.0,
+        "value": "EllingtonPlateLoader.cache"
+      }
+    ],
+    "vendor_id": "epublishing"
+  },
+  "equalweb": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EqualWeb)",
+        "strength": 1.0,
+        "value": "cdn\\.equalweb\\.com.*\\.js"
+      }
+    ],
+    "vendor_id": "equalweb"
+  },
+  "eraofecom_cartroids": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EraofEcom Cartroids)",
+        "strength": 1.0,
+        "value": "cartroids.appBase"
+      }
+    ],
+    "vendor_id": "eraofecom_cartroids"
+  },
+  "eraofecom_mtl": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EraofEcom MTL)",
+        "strength": 1.0,
+        "value": "mtl\\.eraofecom\\.org"
+      }
+    ],
+    "vendor_id": "eraofecom_mtl"
+  },
+  "eraofecom_winads": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EraofEcom WinAds)",
+        "properties": {},
+        "selector": "link[href*='winads.eraofecom.org']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EraofEcom WinAds)",
+        "strength": 1.0,
+        "value": "win_ads.baseURL"
+      }
+    ],
+    "vendor_id": "eraofecom_winads"
+  },
+  "erate": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eRate)",
+        "properties": {},
+        "selector": "iframe[src*='rep.erate.co']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "erate"
+  },
+  "erlang": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Erlang)",
+          "strength": 1.0,
+          "value": "Erlang(?: OTP/([\\d.ABR-]+))?"
+        }
+      ]
+    },
+    "vendor_id": "erlang"
+  },
+  "erpnext": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ERPNext)",
+        "strength": 1.0,
+        "value": "erpnext.shopping_cart"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ERPNext)",
+        "strength": 1.0,
+        "value": "erpnext.subscribe_to_newsletter"
+      }
+    ],
+    "vendor_id": "erpnext"
+  },
+  "errorception": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Errorception)",
+        "strength": 1.0,
+        "value": "_errs"
+      }
+    ],
+    "vendor_id": "errorception"
+  },
+  "erxes": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Erxes)",
+        "strength": 1.0,
+        "value": "Erxes.showMessenger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Erxes)",
+        "strength": 1.0,
+        "value": "erxesEnv"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Erxes)",
+        "strength": 1.0,
+        "value": ".app\\.erxes\\.io"
+      }
+    ],
+    "vendor_id": "erxes"
+  },
+  "eshopcrm": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eShopCRM)",
+        "strength": 1.0,
+        "value": "eshopcrm\\.com/"
+      }
+    ],
+    "vendor_id": "eshopcrm"
+  },
+  "espocrm": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EspoCRM)",
+        "properties": {},
+        "selector": "meta[content*='EspoCRM'], link[href*='/espo/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EspoCRM)",
+        "strength": 1.0,
+        "value": "Espo"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EspoCRM)",
+        "strength": 1.0,
+        "value": "espo(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "espocrm"
+  },
+  "esputnik": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSputnik)",
+        "strength": 1.0,
+        "value": "esSdk"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSputnik)",
+        "strength": 1.0,
+        "value": "(?://|\\.)esputnik\\.com/"
+      }
+    ],
+    "vendor_id": "esputnik"
+  },
+  "essent_sitebuilder_pro": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essent SiteBuilder Pro)",
+        "properties": {},
+        "selector": "a[href*='www.essent.com'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta GENERATOR; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essent SiteBuilder Pro)",
+          "strength": 1.0,
+          "value": "^Essent\u00ae SiteBuilder Pro$"
+        }
+      ]
+    },
+    "vendor_id": "essent_sitebuilder_pro"
+  },
+  "essential_accessibility": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSSENTIAL Accessibility)",
+        "properties": {},
+        "selector": " a[href*='.essentialaccessibility.com'] > img",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "essential_accessibility"
+  },
+  "essential_addons_for_elementor": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential Addons for Elementor)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/uploads/essential-addons-elementor/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential Addons for Elementor)",
+        "strength": 1.0,
+        "value": "/wp-content/uploads/essential-addons-elementor/"
+      }
+    ],
+    "vendor_id": "essential_addons_for_elementor"
+  },
+  "essential_blocks": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential Blocks)",
+        "properties": {},
+        "selector": "link#essential-blocks-frontend-style-css",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential Blocks)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/uploads/eb-style/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential Blocks)",
+        "strength": 1.0,
+        "value": "<div[^>]+class=[\"']wp-block-essential-blocks-*"
+      }
+    ],
+    "vendor_id": "essential_blocks"
+  },
+  "essential_js_2": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential JS 2)",
+        "properties": {},
+        "selector": "[class*='e-control'][class~='e-lib']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Essential JS 2)",
+        "strength": 1.0,
+        "value": "<[^>]+ class ?= ?\"(?:e-control|[^\"]+ e-control)(?: )[^\"]* e-lib\\b"
+      }
+    ],
+    "vendor_id": "essential_js_2"
+  },
+  "estate_track": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Estate Track)",
+        "strength": 1.0,
+        "value": "\\.estate-track\\.co\\.uk"
+      }
+    ],
+    "vendor_id": "estate_track"
+  },
+  "estore_compare": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Estore Compare)",
+        "strength": 1.0,
+        "value": "cdn\\d+\\.estore\\.jp/"
+      }
+    ],
+    "vendor_id": "estore_compare"
+  },
+  "estore_shopserve": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Estore Shopserve)",
+        "strength": 1.0,
+        "value": "cart\\d+\\.shopserve\\.jp/"
+      }
+    ],
+    "vendor_id": "estore_shopserve"
+  },
+  "esw": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ESW)",
+        "strength": 1.0,
+        "value": "eshopworld"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ESW)",
+        "strength": 1.0,
+        "value": "eswRetailerDisplayConfiguration"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ESW)",
+        "strength": 1.0,
+        "value": "Eswhooks\\.js"
+      }
+    ],
+    "vendor_id": "esw"
+  },
+  "esyndicat": {
+    "header_patterns": {
+      "x-drectory-script": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Drectory-Script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSyndiCat)",
+          "strength": 1.0,
+          "value": "^eSyndiCat"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSyndiCat)",
+        "strength": 1.0,
+        "value": "esyndicat"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eSyndiCat)",
+          "strength": 1.0,
+          "value": "^eSyndiCat "
+        }
+      ]
+    },
+    "vendor_id": "esyndicat"
+  },
+  "etail_systems": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etail Systems)",
+        "strength": 1.0,
+        "value": "EtailAlert"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etail Systems)",
+        "strength": 1.0,
+        "value": "EtailEncodePersText"
+      }
+    ],
+    "vendor_id": "etail_systems"
+  },
+  "etch": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etch)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/plugins/etch/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "etch"
+  },
+  "etermio": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etermio)",
+        "strength": 1.0,
+        "value": "$eTermio"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etermio)",
+        "strength": 1.0,
+        "value": "eTermio_autoOpenWindow"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etermio)",
+        "strength": 1.0,
+        "value": "etermio_handler"
+      }
+    ],
+    "vendor_id": "etermio"
+  },
+  "etherpad": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etherpad)",
+          "strength": 1.0,
+          "value": "^Etherpad"
+        }
+      ]
+    },
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etherpad)",
+        "strength": 1.0,
+        "value": "padeditbar"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etherpad)",
+        "strength": 1.0,
+        "value": "padimpexp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etherpad)",
+        "strength": 1.0,
+        "value": "/ep_etherpad-lite/"
+      }
+    ],
+    "vendor_id": "etherpad"
+  },
+  "ethers": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ethers)",
+        "strength": 1.0,
+        "value": "_ethers"
+      }
+    ],
+    "vendor_id": "ethers"
+  },
+  "ethicalads": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EthicalAds)",
+        "strength": 1.0,
+        "value": "media\\.ethicalads\\.io"
+      }
+    ],
+    "vendor_id": "ethicalads"
+  },
+  "eticex": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eticex)",
+        "strength": 1.0,
+        "value": "\\.eticex\\.com/"
+      }
+    ],
+    "vendor_id": "eticex"
+  },
+  "etika": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: etika)",
+        "strength": 1.0,
+        "value": "EtikaProductJsHelper"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: etika)",
+        "strength": 1.0,
+        "value": "etikaBannerInject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: etika)",
+        "strength": 1.0,
+        "value": "etikaGlobal"
+      }
+    ],
+    "vendor_id": "etika"
+  },
+  "etix": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etix)",
+        "properties": {},
+        "selector": "a[href*='.etix.com/ticket/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etix)",
+        "strength": 1.0,
+        "value": "Etix.javaContext"
+      }
+    ],
+    "vendor_id": "etix"
+  },
+  "etracker": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etracker)",
+        "strength": 1.0,
+        "value": "_etracker"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Etracker)",
+        "strength": 1.0,
+        "value": "\\.etracker\\.com"
+      }
+    ],
+    "vendor_id": "etracker"
+  },
+  "etrigue": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eTrigue)",
+        "strength": 1.0,
+        "value": "trk\\.etrigue\\.com"
+      }
+    ],
+    "vendor_id": "etrigue"
+  },
+  "eucookie_eu": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eucookie.eu)",
+        "strength": 1.0,
+        "value": "eucookie\\.eu/public/gdpr-cookie-consent\\.js"
+      }
+    ],
+    "vendor_id": "eucookie_eu"
+  },
+  "eveho": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eveho)",
+        "strength": 1.0,
+        "value": "app\\.eveho\\.io"
+      }
+    ],
+    "vendor_id": "eveho"
+  },
+  "eventlink": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eventlink)",
+        "properties": {},
+        "selector": "link[href*='.eventlink.com/'], iframe[src*='.eventlink.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eventlink)",
+        "strength": 1.0,
+        "value": "eventlink.organizationID"
+      }
+    ],
+    "vendor_id": "eventlink"
+  },
+  "eventon": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EventOn)",
+        "properties": {},
+        "selector": "link#eventon_dynamic_styles-css, link[href*='/css/eventon_styles\\.css']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "eventon"
+  },
+  "everflow": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Everflow)",
+        "strength": 1.0,
+        "value": "everflow\\.js"
+      }
+    ],
+    "vendor_id": "everflow"
+  },
+  "evermos": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evermos)",
+        "strength": 1.0,
+        "value": "assets\\.evermos\\.com"
+      }
+    ],
+    "vendor_id": "evermos"
+  },
+  "evernote": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evernote)",
+        "strength": 1.0,
+        "value": "Evernote.Ajax"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evernote)",
+        "strength": 1.0,
+        "value": "static\\.evernote\\.com"
+      }
+    ],
+    "vendor_id": "evernote"
+  },
+  "everviz": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Everviz)",
+        "strength": 1.0,
+        "value": "everviz.beforePrint"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Everviz)",
+        "strength": 1.0,
+        "value": "app\\.everviz\\.com/"
+      }
+    ],
+    "vendor_id": "everviz"
+  },
+  "everweb": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EverWeb)",
+          "strength": 1.0,
+          "value": "EverWeb ([\\d.]+)"
+        }
+      ]
+    },
+    "vendor_id": "everweb"
+  },
+  "everwondr": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EverWondr)",
+        "strength": 1.0,
+        "value": "api\\.everwondr\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EverWondr)",
+        "strength": 1.0,
+        "value": "api\\.everwondr\\.com"
+      }
+    ],
+    "vendor_id": "everwondr"
+  },
+  "everyaction": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EveryAction)",
+        "properties": {},
+        "selector": "a[href*='secure.everyaction.com/'], div[data-form-url*='secure.everyaction.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EveryAction)",
+        "strength": 1.0,
+        "value": "\\.everyaction\\.com/"
+      }
+    ],
+    "vendor_id": "everyaction"
+  },
+  "eveve": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eveve)",
+        "properties": {},
+        "selector": "iframe[src*='.eveve.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eveve)",
+        "strength": 1.0,
+        "value": "<iframe[^>]*[\\w]+\\.eveve\\.com"
+      }
+    ],
+    "vendor_id": "eveve"
+  },
+  "evidence": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidence)",
+        "strength": 1.0,
+        "value": "EvidenceLoaded"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidence)",
+        "strength": 1.0,
+        "value": "code\\.evidence\\.io/"
+      }
+    ],
+    "vendor_id": "evidence"
+  },
+  "evidon": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidon)",
+        "properties": {},
+        "selector": "a[href*='info.evidon.com/pub_info/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidon)",
+        "strength": 1.0,
+        "value": "EB.EvidonConsent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidon)",
+        "strength": 1.0,
+        "value": "evidon"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evidon)",
+        "strength": 1.0,
+        "value": "\\.evidon\\.com/"
+      }
+    ],
+    "vendor_id": "evidon"
+  },
+  "eviivo": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eviivo)",
+        "strength": 1.0,
+        "value": "eviivo_lang"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Eviivo)",
+        "strength": 1.0,
+        "value": "eviivo.announcement"
+      }
+    ],
+    "vendor_id": "eviivo"
+  },
+  "evolok": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evolok)",
+        "strength": 1.0,
+        "value": "evo_client"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evolok)",
+        "strength": 1.0,
+        "value": "evo_endpoint"
+      }
+    ],
+    "vendor_id": "evolok"
+  },
+  "evolve_media": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evolve Media)",
+        "strength": 1.0,
+        "value": "EvolveGtagId"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evolve Media)",
+        "strength": 1.0,
+        "value": "EvolveMediaMainSettings"
+      }
+    ],
+    "vendor_id": "evolve_media"
+  },
+  "evvnt": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evvnt)",
+        "properties": {},
+        "selector": "script[data-source*='evvnt']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Evvnt)",
+        "strength": 1.0,
+        "value": "evvnt_require"
+      }
+    ],
+    "vendor_id": "evvnt"
+  },
+  "eway_payments": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com"
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "api\\.ewaypayments\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "eWAY.eventHandler"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "eWAYUtils"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "ewayVars"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eWAY Payments)",
+        "strength": 1.0,
+        "value": "secure\\.ewaypayments\\.com"
+      }
+    ],
+    "vendor_id": "eway_payments"
+  },
+  "ewiz_commerce": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ewiz commerce)",
+        "strength": 1.0,
+        "value": "\\.ewizsaas\\.com"
+      }
+    ],
+    "vendor_id": "ewiz_commerce"
+  },
+  "ewww_image_optimizer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EWWW Image Optimizer)",
+        "strength": 1.0,
+        "value": "ewww_webp_supported"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EWWW Image Optimizer)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/ewww-image-optimizer/"
+      }
+    ],
+    "vendor_id": "ewww_image_optimizer"
+  },
+  "ex_co": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "__EXCO"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "__EXCO_INTEGRATION_TYPE"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "excoPixelUrl"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "\\.ex\\.co"
+      },
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "\\.playbuzz\\.com"
+      }
+    ],
+    "vendor_id": "ex_co",
+    "xhr_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "xhr; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EX.CO)",
+        "strength": 1.0,
+        "value": "prd-collector-anon\\.ex\\.co"
+      }
+    ]
+  },
+  "exactmetrics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExactMetrics)",
+        "strength": 1.0,
+        "value": "ExactMetrics"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExactMetrics)",
+        "strength": 1.0,
+        "value": "exactmetrics_frontend"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExactMetrics)",
+        "strength": 1.0,
+        "value": "/wp-content/plugins/google-analytics-dashboard-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?"
+      }
+    ],
+    "vendor_id": "exactmetrics"
+  },
+  "exactvisitor": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExactVisitor)",
+        "strength": 1.0,
+        "value": "track\\.exactvisitor\\.com"
+      }
+    ],
+    "vendor_id": "exactvisitor"
+  },
+  "excel_impact": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Excel Impact)",
+        "properties": {},
+        "selector": "link[href*='api.excelimpact.com'][rel='preconnect']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "excel_impact"
+  },
+  "excentos": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Excentos)",
+        "strength": 1.0,
+        "value": "_excentosPAQ"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Excentos)",
+        "strength": 1.0,
+        "value": "service\\.excentos\\.com"
+      }
+    ],
+    "vendor_id": "excentos"
+  },
+  "exemptify": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exemptify)",
+        "strength": 1.0,
+        "value": "ExemptifyTriggerUpdate"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exemptify)",
+        "strength": 1.0,
+        "value": "m4u_ex_vat_postfix_txt"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exemptify)",
+        "strength": 1.0,
+        "value": "\\.modules4u\\.biz/shopify/exemptify"
+      }
+    ],
+    "vendor_id": "exemptify"
+  },
+  "exhibit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exhibit)",
+        "strength": 1.0,
+        "value": "Exhibit"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exhibit)",
+        "strength": 1.0,
+        "value": "Exhibit.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exhibit)",
+        "strength": 1.0,
+        "value": "exhibit.*\\.js"
+      }
+    ],
+    "vendor_id": "exhibit"
+  },
+  "exit_bee": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exit Bee)",
+        "strength": 1.0,
+        "value": "cdn\\.exitbee\\.com"
+      }
+    ],
+    "vendor_id": "exit_bee"
+  },
+  "exitintel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExitIntel)",
+        "strength": 1.0,
+        "value": "exitintel.VERSION"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExitIntel)",
+        "strength": 1.0,
+        "value": "exitintelAccount"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExitIntel)",
+        "strength": 1.0,
+        "value": "exitintelConfig"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExitIntel)",
+        "strength": 1.0,
+        "value": "(?:get.)?exitintel\\.com"
+      }
+    ],
+    "vendor_id": "exitintel"
+  },
+  "exitshop": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exitshop)",
+        "strength": 1.0,
+        "value": "www\\.exitshop\\.cz"
+      }
+    ],
+    "vendor_id": "exitshop"
+  },
+  "exo_platform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exo Platform)",
+        "strength": 1.0,
+        "value": "eXo.core"
+      }
+    ],
+    "vendor_id": "exo_platform"
+  },
+  "exoclick": {
+    "meta_patterns": {
+      "exoclick-site-verification": [
+        {
+          "match_type": "regex",
+          "notes": "meta exoclick-site-verification; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExoClick)",
+          "strength": 1.0,
+          "value": ".*"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExoClick)",
+        "strength": 1.0,
+        "value": "\\.exoclick\\.com/"
+      }
+    ],
+    "vendor_id": "exoclick"
+  },
+  "experiencedcms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: experiencedCMS)",
+          "strength": 1.0,
+          "value": "^experiencedCMS$"
+        }
+      ]
+    },
+    "vendor_id": "experiencedcms"
+  },
+  "expertrec": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExpertRec)",
+        "strength": 1.0,
+        "value": "_er_config"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExpertRec)",
+        "strength": 1.0,
+        "value": "expertrec\\.com/api/js/ci_common\\.js\\?id=.*"
+      }
+    ],
+    "vendor_id": "expertrec"
+  },
+  "expivi": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Expivi)",
+        "properties": {},
+        "selector": "iframe[src*='.expivi.net/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Expivi)",
+        "strength": 1.0,
+        "value": "ExpiviComponent"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Expivi)",
+        "strength": 1.0,
+        "value": "expivi"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Expivi)",
+        "strength": 1.0,
+        "value": "\\.expivi\\.(?:com|net)/"
+      }
+    ],
+    "vendor_id": "expivi"
+  },
+  "exponea": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exponea)",
+        "strength": 1.0,
+        "value": "exponea.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Exponea)",
+        "strength": 1.0,
+        "value": "(?:\\.exponea\\.com)?/js/exponea\\.min\\.js"
+      }
+    ],
+    "vendor_id": "exponea"
+  },
+  "express": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Express)",
+        "strength": 1.0,
+        "value": "connect\\.sid"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Express)",
+          "strength": 1.0,
+          "value": "^Express(?:$|,)"
+        }
+      ]
+    },
+    "vendor_id": "express"
+  },
+  "expressionengine": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExpressionEngine)",
+        "strength": 1.0,
+        "value": "exp_csrf_token"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExpressionEngine)",
+        "strength": 1.0,
+        "value": "exp_last_activity"
+      },
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExpressionEngine)",
+        "strength": 1.0,
+        "value": "exp_tracker"
+      }
+    ],
+    "vendor_id": "expressionengine"
+  },
+  "extend": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extend)",
+        "strength": 1.0,
+        "value": "Extend"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extend)",
+        "strength": 1.0,
+        "value": "sdk\\.helloextend\\.com/extend-sdk-client/v([\\d.]+)/extend-sdk-client\\.min\\.js"
+      }
+    ],
+    "vendor_id": "extend"
+  },
+  "extendify": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extendify)",
+        "properties": {},
+        "selector": "link[href*='/plugins/extendify/'], #extendify-utility-styles-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "extendify"
+  },
+  "extendthemes_calliope": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Calliope)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/calliope/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Calliope)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/calliope/"
+      }
+    ],
+    "vendor_id": "extendthemes_calliope"
+  },
+  "extendthemes_empowerwp": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes EmpowerWP)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/empowerwp']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes EmpowerWP)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/empowerwp(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "extendthemes_empowerwp"
+  },
+  "extendthemes_highlight": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Highlight)",
+        "properties": {},
+        "selector": "link[href*='/wp-content/themes/highlight/'], link[href*='/wp-content/themes/highlight-pro/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Highlight)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/highlight(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "extendthemes_highlight"
+  },
+  "extendthemes_materialis": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Materialis)",
+        "properties": {},
+        "selector": "link#materialis-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Materialis)",
+        "strength": 1.0,
+        "value": "MaterialisTheme"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Materialis)",
+        "strength": 1.0,
+        "value": "materialisSetHeaderTopSpacing"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Materialis)",
+        "strength": 1.0,
+        "value": "materialis_theme_pro_settings"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Materialis)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/materialis(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "extendthemes_materialis"
+  },
+  "extendthemes_mesmerize": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "properties": {},
+        "selector": "link#mesmerize-style-css",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "strength": 1.0,
+        "value": "MesmerizeKube"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "strength": 1.0,
+        "value": "mesmerizeDomReady"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "strength": 1.0,
+        "value": "mesmerizeFooterParalax"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "strength": 1.0,
+        "value": "mesmerizeMenuSticky"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtendThemes Mesmerize)",
+        "strength": 1.0,
+        "value": "/wp-content/themes/mesmerize(?:-pro)?/"
+      }
+    ],
+    "vendor_id": "extendthemes_mesmerize"
+  },
+  "extjs": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtJS)",
+        "strength": 1.0,
+        "value": "Ext"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtJS)",
+        "strength": 1.0,
+        "value": "Ext.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtJS)",
+        "strength": 1.0,
+        "value": "Ext.versions.extjs.version"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtJS)",
+        "strength": 1.0,
+        "value": "ext-base\\.js"
+      }
+    ],
+    "vendor_id": "extjs"
+  },
+  "extole": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extole)",
+        "properties": {},
+        "selector": "li > a[href*='.extole.com/'][target='_blank']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extole)",
+        "strength": 1.0,
+        "value": "extole.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Extole)",
+        "strength": 1.0,
+        "value": "\\.(?:extole|xtlo)\\.(?:com|net)/"
+      }
+    ],
+    "vendor_id": "extole"
+  },
+  "extrawatch": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtraWatch)",
+        "strength": 1.0,
+        "value": "extraWatchAjaxLink"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ExtraWatch)",
+        "strength": 1.0,
+        "value": "extrawatch_createRequestObject"
+      }
+    ],
+    "vendor_id": "extrawatch"
+  },
+  "eyefitu": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EyeFitU)",
+        "strength": 1.0,
+        "value": "web-sdk\\.eyefitu\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EyeFitU)",
+        "strength": 1.0,
+        "value": "eyefitu.version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EyeFitU)",
+        "strength": 1.0,
+        "value": "eyefituCalls"
+      }
+    ],
+    "vendor_id": "eyefitu"
+  },
+  "eyoucms": {
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EyouCMS)",
+          "strength": 1.0,
+          "value": "^eyoucms$"
+        }
+      ]
+    },
+    "vendor_id": "eyoucms"
+  },
+  "ez_publish": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eZ Publish)",
+        "strength": 1.0,
+        "value": "eZSESSID"
+      }
+    ],
+    "header_patterns": {
+      "x-powered-by": [
+        {
+          "match_type": "regex",
+          "notes": "header X-Powered-By; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eZ Publish)",
+          "strength": 1.0,
+          "value": "^eZ Publish"
+        }
+      ]
+    },
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eZ Publish)",
+          "strength": 1.0,
+          "value": "eZ Publish"
+        }
+      ]
+    },
+    "vendor_id": "ez_publish"
+  },
+  "ezcater": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: eZCater)",
+        "strength": 1.0,
+        "value": "www\\.ezcater\\.com"
+      }
+    ],
+    "vendor_id": "ezcater"
+  },
+  "ezlynx": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EZLynx)",
+          "strength": 1.0,
+          "value": "^EZLynx$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EZLynx)",
+        "strength": 1.0,
+        "value": "\\.ezlynx\\.com/"
+      }
+    ],
+    "vendor_id": "ezlynx"
+  },
+  "ezoic": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ezoic)",
+        "strength": 1.0,
+        "value": "EzoicA"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ezoic)",
+        "strength": 1.0,
+        "value": "EzoicBanger"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ezoic)",
+        "strength": 1.0,
+        "value": "ezoicTestActive"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Ezoic)",
+        "strength": 1.0,
+        "value": "\\.ezo(?:js|ic|dn)\\.(?:com|net)"
+      }
+    ],
+    "vendor_id": "ezoic"
+  },
+  "ezproxy": {
+    "header_patterns": {
+      "server": [
+        {
+          "match_type": "regex",
+          "notes": "header server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EZproxy)",
+          "strength": 1.0,
+          "value": "^EZproxy$"
+        }
+      ]
+    },
+    "vendor_id": "ezproxy"
+  },
+  "eztix": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EzTix)",
+        "properties": {},
+        "selector": "script#eztixKioskLinkId",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: EzTix)",
+        "strength": 1.0,
+        "value": "kiosk\\.eztix\\.co/"
+      }
+    ],
+    "vendor_id": "eztix"
+  },
+  "ezyvet": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: ezyVet)",
+        "strength": 1.0,
+        "value": "\\.ezyvet\\.com/"
+      }
+    ],
+    "vendor_id": "ezyvet"
+  }
+}

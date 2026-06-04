@@ -1,0 +1,41 @@
+{
+  "vendor_id": "apollo",
+  "js_globals": [
+    {
+      "value": "__APOLLO_CLIENT__",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apollo)"
+    },
+    {
+      "value": "__APOLLO_CLIENT__.version",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apollo)"
+    },
+    {
+      "value": "__NEXT_DATA__.props.pageProps.__APOLLO_STATE__",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apollo)"
+    }
+  ],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {
+    "access-control-allow-headers": [
+      {
+        "value": "^x-apollo-tracing",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header Access-Control-Allow-Headers; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Apollo)"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

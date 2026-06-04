@@ -1,0 +1,46 @@
+{
+  "vendor_id": "pardot",
+  "js_globals": [
+    {
+      "value": "piTracker",
+      "match_type": "exact",
+      "strength": 0.85,
+      "notes": "Pardot tracking function global (vendor tracking-code docs)"
+    },
+    {
+      "value": "piAId",
+      "match_type": "exact",
+      "strength": 0.85,
+      "notes": "Pardot account id global set by tracking snippet"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "pi\\.pardot\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "Pardot tracker script/pixel host (vendor docs)"
+    },
+    {
+      "value": "pd\\.pardot\\.com",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "Pardot tracker host variant"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "visitor_id",
+      "match_type": "prefix",
+      "strength": 0.6,
+      "notes": "Pardot visitor cookie prefix (visitor_id<account>) - moderate, name is somewhat generic"
+    }
+  ],
+  "header_patterns": {},
+  "html_patterns": [],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

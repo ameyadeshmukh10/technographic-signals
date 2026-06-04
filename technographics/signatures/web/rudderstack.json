@@ -1,0 +1,33 @@
+{
+  "vendor_id": "rudderstack",
+  "js_globals": [
+    {
+      "value": "rudderanalytics",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "RudderStack JS SDK global (vendor docs: rudderstack.com/docs)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "cdn\\.rudderlabs\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "RudderStack JS SDK CDN host (vendor docs)"
+    },
+    {
+      "value": "rudderstack\\.com",
+      "match_type": "regex",
+      "strength": 0.6,
+      "notes": "RudderStack host reference - moderate, could appear in non-SDK contexts"
+    }
+  ],
+  "cookie_patterns": [],
+  "header_patterns": {},
+  "html_patterns": [],
+  "meta_patterns": {},
+  "url_patterns": [],
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

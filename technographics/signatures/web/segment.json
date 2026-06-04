@@ -1,0 +1,45 @@
+{
+  "vendor_id": "segment",
+  "js_globals": [
+    {
+      "value": "__SEGMENT_INSPECTOR__",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)"
+    },
+    {
+      "value": "analytics.SNIPPET_VERSION",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)"
+    },
+    {
+      "value": "analytics.VERSION",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)"
+    }
+  ],
+  "script_src_patterns": [
+    {
+      "value": "cdn\\.segment\\.com/analytics\\.js",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)"
+    },
+    {
+      "value": "/segment-wrapper\\.min\\.js",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Segment)"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "last_verified": null,
+  "verified_domains": []
+}

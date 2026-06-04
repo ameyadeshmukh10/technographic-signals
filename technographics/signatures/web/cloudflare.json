@@ -1,0 +1,61 @@
+{
+  "vendor_id": "cloudflare",
+  "js_globals": [
+    {
+      "value": "CloudFlare",
+      "match_type": "exact",
+      "strength": 1.0,
+      "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+    }
+  ],
+  "script_src_patterns": [],
+  "cookie_patterns": [
+    {
+      "value": "__cfduid",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+    }
+  ],
+  "html_patterns": [],
+  "url_patterns": [],
+  "paid_indicators": [],
+  "header_patterns": {
+    "server": [
+      {
+        "value": "^cloudflare$",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header Server; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+      }
+    ],
+    "cf-cache-status": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header cf-cache-status; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+      }
+    ],
+    "cf-ray": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "header cf-ray; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+      }
+    ]
+  },
+  "meta_patterns": {
+    "image": [
+      {
+        "value": "//cdn\\.cloudflare",
+        "match_type": "regex",
+        "strength": 1.0,
+        "notes": "meta image; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Cloudflare)"
+      }
+    ]
+  },
+  "last_verified": null,
+  "verified_domains": []
+}

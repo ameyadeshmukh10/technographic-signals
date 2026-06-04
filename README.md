@@ -6,7 +6,52 @@ marketing tools, sales tools), and writes the results back to a custom HubSpot
 property called `technographic_signals`.
 
 Detection is signature-based — no third-party enrichment API like BuiltWith
-is used. The signature library lives in [src/detectors/signatures.py](src/detectors/signatures.py).
+is used.
+
+> 📖 **[Signal Catalogue](technographics/docs/SIGNAL_CATALOGUE.md)** — the
+> complete inventory of all 7,500+ detectable vendors, the taxonomy, why
+> detection is accurate, and how a client is configured to a signal subset.
+
+## Detection engines
+
+Two backends, selectable via the `DETECTION_ENGINE` env var:
+
+- **`technographics`** (default) — delegates to the `technographics/` package:
+  a **DNS pipeline** (CNAME/TXT/MX/NS/SOA — e.g. detecting Marketo via a
+  `*.mktoweb.com` CNAME or SendGrid via an SPF `include:sendgrid.net`) **plus**
+  a web pipeline, fused together. Scoped to a focused marketing/sales vendor set
+  in [`technographics/signatures/selection.marketing_sales.json`](technographics/signatures/selection.marketing_sales.json)
+  (~65 vendors drawn from the 7,500-vendor master catalogue + curated signatures).
+  Detections are mapped back into the four output buckets by
+  [src/detectors/category_map.py](src/detectors/category_map.py); the adapter is
+  [src/detectors/engine.py](src/detectors/engine.py).
+- **`legacy`** — the original hand-coded 4-module detector
+  ([src/detectors/signatures.py](src/detectors/signatures.py)), web signals only.
+
+Relevant env vars: `DETECTION_ENGINE` (`technographics`|`legacy`),
+`SELECTION_FILE` (path to the selection JSON), `ENABLE_DNS` (default `true`),
+`DNS_TIMEOUT` (seconds, default `3.0`), `ALWAYS_RENDER` (default `false`).
+
+**Recall vs speed — `ALWAYS_RENDER`.** Many vendors (Microsoft Clarity, Hotjar,
+Demandbase, Chili Piper, Meta Pixel…) are only visible via a `window.*` JS global
+or a runtime-injected script, which require executing JS. By default the fetcher
+only renders with Chromium as a thin/SPA fallback, so those globals are usually
+missed. Set `ALWAYS_RENDER=true` to render every page and capture JS globals +
+response headers + meta tags on every scan — much higher recall, slower batches.
+Example: `gong.io` returns *no* signals on a static fetch but 14 vendors
+(across all four buckets) with `ALWAYS_RENDER=true`.
+
+To change which vendors are detected, edit the `selected` list in the selection
+file — no code change needed. To re-pull the master catalogue:
+`python -m technographics.cli import-master` (run from `technographics/`).
+
+Tune detection on one site with DNS:
+
+```bash
+python -m src.cli detect-one https://www.drift.com --domain drift.com
+# -> Ad Pixels: Google Tag Manager | Martech: Marketo Engage, Sendgrid
+python -m src.cli detect-one https://example.com --legacy   # force old engine
+```
 
 **See also:**
 - [AGENTS.md](AGENTS.md) — entry doc for agents / contributors working on the codebase.

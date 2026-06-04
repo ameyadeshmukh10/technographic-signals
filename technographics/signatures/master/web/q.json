@@ -1,0 +1,1209 @@
+{
+  "q1media": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Q1Media)",
+        "strength": 1.0,
+        "value": "//q1mediahydraplatform\\.com/"
+      }
+    ],
+    "vendor_id": "q1media"
+  },
+  "q4": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Q4)",
+        "strength": 1.0,
+        "value": "q4App.a11yAnnouncement"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Q4)",
+        "strength": 1.0,
+        "value": "q4Defaults.fancySignup"
+      }
+    ],
+    "vendor_id": "q4"
+  },
+  "q4_cookie_monster": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Q4 Cookie Monster)",
+        "strength": 1.0,
+        "value": "widgets\\.q4app\\.com/widgets/q4\\.cookiemonster\\.([\\d\\.]+)\\.min\\.js"
+      }
+    ],
+    "vendor_id": "q4_cookie_monster"
+  },
+  "qbrick": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qbrick)",
+        "strength": 1.0,
+        "value": "Qbrick"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qbrick)",
+        "strength": 1.0,
+        "value": "\\.qbrick\\.com/"
+      }
+    ],
+    "vendor_id": "qbrick"
+  },
+  "qform": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QForm)",
+        "strength": 1.0,
+        "value": "cdn\\.qform(?:24\\.com|\\.io)/"
+      }
+    ],
+    "vendor_id": "qform"
+  },
+  "qgiv": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qgiv)",
+        "properties": {},
+        "selector": "a[href*='//secure.qgiv.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qgiv)",
+        "strength": 1.0,
+        "value": "//secure\\.qgiv\\.com/"
+      }
+    ],
+    "vendor_id": "qgiv"
+  },
+  "qiankun": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "data-version": {
+            "match_type": "regex",
+            "notes": "dom attr data-version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: qiankun)",
+            "strength": 1.0,
+            "value": "([\\d\\.]+)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: qiankun)",
+        "properties": {},
+        "selector": "div[id^='__qiankun_']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: qiankun)",
+        "strength": 1.0,
+        "value": "__POWERED_BY_QIANKUN__"
+      }
+    ],
+    "vendor_id": "qiankun"
+  },
+  "qikify": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qikify)",
+        "strength": 1.0,
+        "value": "sdk\\.qikify\\.com/"
+      }
+    ],
+    "vendor_id": "qikify"
+  },
+  "qiscus": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qiscus)",
+        "strength": 1.0,
+        "value": "QiscusSDK"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qiscus)",
+        "strength": 1.0,
+        "value": "qiscusWidgetshowBadge"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qiscus)",
+        "strength": 1.0,
+        "value": "\\.qiscus\\.com/js/qiscus-sdk\\.([\\d\\.]+)\\.js\\?v=([\\d\\.]+)"
+      }
+    ],
+    "vendor_id": "qiscus"
+  },
+  "qiyeku": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qiyeku)",
+        "strength": 1.0,
+        "value": "\\.qiyeku\\.cn"
+      }
+    ],
+    "vendor_id": "qiyeku"
+  },
+  "qomon": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qomon)",
+        "strength": 1.0,
+        "value": "scripts\\.qomon\\.org"
+      }
+    ],
+    "vendor_id": "qomon"
+  },
+  "qonnex": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qonnex)",
+        "strength": 1.0,
+        "value": "QonnexQS"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qonnex)",
+        "strength": 1.0,
+        "value": "QonnexQSloader"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qonnex)",
+        "strength": 1.0,
+        "value": "\\.qonnex\\.nl/"
+      }
+    ],
+    "vendor_id": "qonnex"
+  },
+  "qooqie": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qooqie)",
+        "strength": 1.0,
+        "value": "api\\.qooqie\\.com"
+      }
+    ],
+    "vendor_id": "qooqie"
+  },
+  "qoreai": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QoreAI)",
+        "strength": 1.0,
+        "value": "QoreAI.execute"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QoreAI)",
+        "strength": 1.0,
+        "value": "app\\.qoreai\\.com"
+      }
+    ],
+    "vendor_id": "qoreai"
+  },
+  "qpien": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qpien)",
+        "strength": 1.0,
+        "value": "QpienWidget"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qpien)",
+        "strength": 1.0,
+        "value": "qpienIframeAction"
+      }
+    ],
+    "vendor_id": "qpien"
+  },
+  "qshop": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qshop)",
+        "strength": 1.0,
+        "value": "cdn\\.qshop\\.ai"
+      }
+    ],
+    "vendor_id": "qshop"
+  },
+  "qstomizer": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qstomizer)",
+        "strength": 1.0,
+        "value": "jQueryQSMZ"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qstomizer)",
+        "strength": 1.0,
+        "value": "loadScript_qsmz"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qstomizer)",
+        "strength": 1.0,
+        "value": "qstomizer_script"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qstomizer)",
+        "strength": 1.0,
+        "value": "/qsmz-scripttag/qstomizer_st(?:\\.min)?\\.js"
+      }
+    ],
+    "vendor_id": "qstomizer"
+  },
+  "quadran": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quadran)",
+        "strength": 1.0,
+        "value": "tracker\\.quadran\\.eu"
+      }
+    ],
+    "vendor_id": "quadran"
+  },
+  "qualaroo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualaroo)",
+        "properties": {},
+        "selector": "link[href*='.qualaroo.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualaroo)",
+        "strength": 1.0,
+        "value": "QUALAROO_DNT"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualaroo)",
+        "strength": 1.0,
+        "value": "\\.qualaroo\\.com"
+      }
+    ],
+    "vendor_id": "qualaroo"
+  },
+  "qualified": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualified)",
+        "strength": 1.0,
+        "value": "QualifiedObject"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualified)",
+        "strength": 1.0,
+        "value": "qualified"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualified)",
+        "strength": 1.0,
+        "value": "\\.qualified\\.com/"
+      }
+    ],
+    "vendor_id": "qualified"
+  },
+  "qualitando": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitando)",
+        "strength": 1.0,
+        "value": "\\.qualitando\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitando)",
+        "strength": 1.0,
+        "value": "\\.qualitando\\.com"
+      }
+    ],
+    "vendor_id": "qualitando"
+  },
+  "qualitelis": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitelis)",
+        "strength": 1.0,
+        "value": "InitWidgetQualitelis"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitelis)",
+        "strength": 1.0,
+        "value": "resizeWidgetQualitelis"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitelis)",
+        "strength": 1.0,
+        "value": "showHideWidgetQualitelis"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualitelis)",
+        "strength": 1.0,
+        "value": "widgetQualitelisFixed"
+      }
+    ],
+    "vendor_id": "qualitelis"
+  },
+  "quality_unit_help_desk": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quality Unit Help Desk)",
+        "strength": 1.0,
+        "value": "\\.qualityunit\\.liveagent"
+      }
+    ],
+    "vendor_id": "quality_unit_help_desk"
+  },
+  "qualtrics": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualtrics)",
+        "strength": 1.0,
+        "value": "QSI.ClientSideTargeting"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualtrics)",
+        "strength": 1.0,
+        "value": "\\.qualtrics\\.com/"
+      }
+    ],
+    "vendor_id": "qualtrics"
+  },
+  "qualva": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualva)",
+        "strength": 1.0,
+        "value": "qualva.Widget"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qualva)",
+        "strength": 1.0,
+        "value": "form\\.qualva\\.com"
+      }
+    ],
+    "vendor_id": "qualva"
+  },
+  "quandoo": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quandoo)",
+        "strength": 1.0,
+        "value": "booking-widget\\.quandoo\\.com"
+      }
+    ],
+    "vendor_id": "quandoo"
+  },
+  "quant": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quant)",
+        "strength": 1.0,
+        "value": "\\.quant\\.jp/"
+      }
+    ],
+    "vendor_id": "quant"
+  },
+  "quanta": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quanta)",
+        "strength": 1.0,
+        "value": "_qta_rum"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quanta)",
+        "strength": 1.0,
+        "value": "QUANTA.app_id"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quanta)",
+        "strength": 1.0,
+        "value": "QuantaTagRUMSpeedIndex"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quanta)",
+        "strength": 1.0,
+        "value": "\\.quanta\\.io/(?:.+/quanta-rum-v([\\d\\.]+)\\.min\\.js)?"
+      }
+    ],
+    "vendor_id": "quanta"
+  },
+  "quantcast_choice": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quantcast Choice)",
+        "strength": 1.0,
+        "value": "quantcast\\.mgr\\.consensu\\.org"
+      }
+    ],
+    "vendor_id": "quantcast_choice"
+  },
+  "quantcast_measure": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quantcast Measure)",
+        "properties": {},
+        "selector": "link[href*='.quantserve.com']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quantcast Measure)",
+        "strength": 1.0,
+        "value": "quantserve"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quantcast Measure)",
+        "strength": 1.0,
+        "value": "\\.quantserve\\.com/quant\\.js"
+      }
+    ],
+    "vendor_id": "quantcast_measure"
+  },
+  "quantum_metric": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quantum Metric)",
+        "strength": 1.0,
+        "value": "cdn\\.quantummetric\\.com"
+      }
+    ],
+    "vendor_id": "quantum_metric"
+  },
+  "quarto": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quarto)",
+        "strength": 1.0,
+        "value": "quartoOpenSearch"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quarto)",
+        "strength": 1.0,
+        "value": "quartoToggleHeadroom"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quarto)",
+        "strength": 1.0,
+        "value": "quartoToggleReader"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quarto)",
+          "strength": 1.0,
+          "value": "^quarto-([\\d\\.]+)$"
+        }
+      ]
+    },
+    "vendor_id": "quarto"
+  },
+  "quasar": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "id": {
+            "match_type": "regex",
+            "notes": "dom attr id; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+            "strength": 0.5,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+        "properties": {},
+        "selector": "div#q-app",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+        "properties": {},
+        "selector": "div.q-notifications",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "class": {
+            "match_type": "regex",
+            "notes": "dom attr class; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+            "strength": 0.5,
+            "value": ".*"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+        "properties": {},
+        "selector": "div.q-page-container",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quasar)",
+        "properties": {},
+        "selector": "span.q-focus-helper",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "quasar"
+  },
+  "qubit": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qubit)",
+        "strength": 1.0,
+        "value": "QUBIT_WORKER"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qubit)",
+        "strength": 1.0,
+        "value": "\\.goqubit\\.com"
+      }
+    ],
+    "vendor_id": "qubit"
+  },
+  "querlo": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Querlo)",
+        "properties": {},
+        "selector": "#querloEmbd",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "querlo"
+  },
+  "queryly": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Queryly)",
+        "strength": 1.0,
+        "value": "queryly"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Queryly)",
+        "strength": 1.0,
+        "value": "\\.queryly\\.com/js/queryly\\.v([\\d\\.]+)\\.js"
+      }
+    ],
+    "vendor_id": "queryly"
+  },
+  "question2answer": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Question2Answer)",
+        "strength": 1.0,
+        "value": "<!-- Powered by Question2Answer"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Question2Answer)",
+        "strength": 1.0,
+        "value": "\\./qa-content/qa-page\\.js\\?([0-9.]+)"
+      }
+    ],
+    "vendor_id": "question2answer"
+  },
+  "queue_it": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Queue-it)",
+        "strength": 1.0,
+        "value": "QueueIt.Javascript.Version"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Queue-it)",
+        "strength": 1.0,
+        "value": "queueit_clientside_config"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Queue-it)",
+        "strength": 1.0,
+        "value": "\\.queue-it\\.net/"
+      }
+    ],
+    "vendor_id": "queue_it"
+  },
+  "quform": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quform)",
+        "strength": 1.0,
+        "value": "Quform.captchaRefreshFormQueue"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quform)",
+        "strength": 1.0,
+        "value": "QuformRecaptchaLoaded"
+      }
+    ],
+    "vendor_id": "quform"
+  },
+  "quick_cart": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quick.Cart)",
+        "strength": 1.0,
+        "value": "<a href=\"[^>]+opensolution\\.org/\">(?:Shopping cart by|Sklep internetowy)"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quick.Cart)",
+          "strength": 1.0,
+          "value": "Quick\\.Cart(?: v([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "quick_cart"
+  },
+  "quick_cms": {
+    "html_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "html; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quick.CMS)",
+        "strength": 1.0,
+        "value": "<a href=\"[^>]+opensolution\\.org/\">CMS by"
+      }
+    ],
+    "meta_patterns": {
+      "generator": [
+        {
+          "match_type": "regex",
+          "notes": "meta generator; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quick.CMS)",
+          "strength": 1.0,
+          "value": "Quick\\.CMS(?: v([\\d.]+))?"
+        }
+      ]
+    },
+    "vendor_id": "quick_cms"
+  },
+  "quickblog": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickblog)",
+        "strength": 1.0,
+        "value": "\\.quickblog\\.co/"
+      }
+    ],
+    "vendor_id": "quickblog"
+  },
+  "quickbutik": {
+    "meta_patterns": {
+      "author": [
+        {
+          "match_type": "regex",
+          "notes": "meta author; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickbutik)",
+          "strength": 1.0,
+          "value": "^Quickbutik$"
+        }
+      ]
+    },
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickbutik)",
+        "strength": 1.0,
+        "value": "\\.quickbutik\\.com/"
+      }
+    ],
+    "vendor_id": "quickbutik"
+  },
+  "quickcep": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QuickCEP)",
+        "strength": 1.0,
+        "value": "\\.quickcep\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QuickCEP)",
+        "strength": 1.0,
+        "value": "\\.quickcep\\.com/"
+      }
+    ],
+    "vendor_id": "quickcep"
+  },
+  "quickchat_ai": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickchat AI)",
+        "properties": {},
+        "selector": "link[href*='/quickchat-files/appquickchat/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickchat AI)",
+        "strength": 1.0,
+        "value": "quickchat"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quickchat AI)",
+        "strength": 1.0,
+        "value": "quickchat_busy"
+      }
+    ],
+    "vendor_id": "quickchat_ai"
+  },
+  "quicklink": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicklink)",
+        "strength": 1.0,
+        "value": "drupalSettings.quicklink"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicklink)",
+        "strength": 1.0,
+        "value": "quicklink"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicklink)",
+        "strength": 1.0,
+        "value": "quicklink@([\\d.]+)/dist/quicklink.*\\.js"
+      }
+    ],
+    "vendor_id": "quicklink"
+  },
+  "quicksell": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QuickSell)",
+        "strength": 1.0,
+        "value": "\\.quicksell\\.co/"
+      }
+    ],
+    "vendor_id": "quicksell"
+  },
+  "quicksprout": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicksprout)",
+        "strength": 1.0,
+        "value": "cdn\\.quicksprout\\.com"
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicksprout)",
+        "strength": 1.0,
+        "value": "_QS.CDN"
+      }
+    ],
+    "vendor_id": "quicksprout"
+  },
+  "quicktext": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicktext)",
+        "strength": 1.0,
+        "value": "cdn\\.quicktext\\.im/"
+      }
+    ],
+    "vendor_id": "quicktext"
+  },
+  "quicq": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quicq)",
+        "properties": {},
+        "selector": "img[src*='.qcqcdn.com/'], img[data-src*='.qcqcdn.com/'], img[src*='cdn.quicq.io/'], img[data-src*='cdn.quicq.io/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "quicq"
+  },
+  "quill": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quill)",
+        "properties": {},
+        "selector": "div[class*='ql-editor'], div[class*='quill']",
+        "strength": 0.85,
+        "text": null
+      },
+      {
+        "attributes": {
+          "href": {
+            "match_type": "regex",
+            "notes": "dom attr href; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quill)",
+            "strength": 1.0,
+            "value": "cdn\\.quilljs\\.com/([\\d\\.]+)/"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quill)",
+        "properties": {},
+        "selector": "link[href*='cdn.quilljs.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quill)",
+        "strength": 1.0,
+        "value": "Quill"
+      }
+    ],
+    "vendor_id": "quill"
+  },
+  "quintype": {
+    "cookie_patterns": [
+      {
+        "match_type": "prefix",
+        "notes": "cookie; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quintype)",
+        "strength": 1.0,
+        "value": "qtype-session"
+      }
+    ],
+    "header_patterns": {
+      "link": [
+        {
+          "match_type": "regex",
+          "notes": "header link; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quintype)",
+          "strength": 1.0,
+          "value": "fea\\.assettype\\.com/quintype-ace"
+        }
+      ]
+    },
+    "vendor_id": "quintype"
+  },
+  "quiq_messaging": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quiq Messaging)",
+        "strength": 1.0,
+        "value": "Quiq"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quiq Messaging)",
+        "strength": 1.0,
+        "value": "QuiqUtils"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quiq Messaging)",
+        "strength": 1.0,
+        "value": "QuiqUtils._.VERSION"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quiq Messaging)",
+        "strength": 1.0,
+        "value": "\\.goquiq\\.com"
+      }
+    ],
+    "vendor_id": "quiq_messaging"
+  },
+  "quixchat": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quixchat)",
+        "strength": 1.0,
+        "value": "QuixChatClearChat"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quixchat)",
+        "strength": 1.0,
+        "value": "api\\.quixchat\\.com/assets/js/quixchat\\.js\\?ver=(\\d+\\.\\d+)(?:\\.\\d+)*"
+      }
+    ],
+    "vendor_id": "quixchat"
+  },
+  "quizitri": {
+    "inline_script_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "inline script; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quizitri)",
+        "strength": 1.0,
+        "value": "app\\.quizitri\\.com"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quizitri)",
+        "strength": 1.0,
+        "value": "app\\.quizitri\\.com"
+      }
+    ],
+    "vendor_id": "quizitri"
+  },
+  "qukasoft": {
+    "dom_patterns": [
+      {
+        "attributes": {},
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qukasoft)",
+        "properties": {},
+        "selector": "link[href*='cdn.qukasoft.com/']",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "qukasoft"
+  },
+  "qumra": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qumra)",
+        "strength": 1.0,
+        "value": "Qumra.cart"
+      },
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qumra)",
+        "strength": 1.0,
+        "value": "__qumra__"
+      }
+    ],
+    "vendor_id": "qumra"
+  },
+  "quoli": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quoli)",
+        "strength": 1.0,
+        "value": "\\.quoli\\.io/"
+      }
+    ],
+    "vendor_id": "quoli"
+  },
+  "quon": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quon)",
+        "strength": 1.0,
+        "value": "counter\\.quon\\.ru/"
+      }
+    ],
+    "vendor_id": "quon"
+  },
+  "quora_pixel": {
+    "js_globals": [
+      {
+        "match_type": "exact",
+        "notes": "js global; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quora Pixel)",
+        "strength": 1.0,
+        "value": "qp.qp"
+      }
+    ],
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quora Pixel)",
+        "strength": 1.0,
+        "value": "\\.quora\\.com/"
+      }
+    ],
+    "vendor_id": "quora_pixel"
+  },
+  "quotemedia": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Quotemedia)",
+        "strength": 1.0,
+        "value": "qmod\\.quotemedia\\.com/"
+      }
+    ],
+    "vendor_id": "quotemedia"
+  },
+  "quv": {
+    "script_src_patterns": [
+      {
+        "match_type": "regex",
+        "notes": "scriptSrc; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: QUV)",
+        "strength": 1.0,
+        "value": "\\.quv\\.kr/"
+      }
+    ],
+    "vendor_id": "quv"
+  },
+  "qwik": {
+    "dom_patterns": [
+      {
+        "attributes": {
+          "q:version": {
+            "match_type": "regex",
+            "notes": "dom attr q:version; imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qwik)",
+            "strength": 1.0,
+            "value": "^([\\d\\.]+(?:-\\d+)?)"
+          }
+        },
+        "exists": true,
+        "notes": "imported from Wappalyzer (https://github.com/enthec/webappanalyzer :: Qwik)",
+        "properties": {},
+        "selector": "*",
+        "strength": 0.85,
+        "text": null
+      }
+    ],
+    "vendor_id": "qwik"
+  }
+}
