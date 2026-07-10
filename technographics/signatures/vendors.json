@@ -435,5 +435,31 @@
     "typically_replaces": [],
     "typically_replaced_by": [],
     "source": "curated"
+  },
+  "campaign_monitor": {
+    "vendor_id": "campaign_monitor",
+    "vendor_name": "Campaign Monitor",
+    "vendor_url": "https://www.campaignmonitor.com",
+    "category": "marketing_automation",
+    "subcategory": "email_marketing",
+    "typical_buyer": ["Email Marketing Manager", "Marketing"],
+    "company_stage": ["seed", "series_a", "growth"],
+    "price_tier": "smb",
+    "typically_replaces": ["mailchimp"],
+    "typically_replaced_by": [],
+    "source": "curated"
+  },
+  "postmark": {
+    "vendor_id": "postmark",
+    "vendor_name": "Postmark",
+    "vendor_url": "https://postmarkapp.com",
+    "category": "marketing_automation",
+    "subcategory": "transactional_email",
+    "typical_buyer": ["Engineering", "Product"],
+    "company_stage": ["seed", "series_a", "growth"],
+    "price_tier": "smb",
+    "typically_replaces": ["sendgrid"],
+    "typically_replaced_by": [],
+    "source": "curated"
   }
 }

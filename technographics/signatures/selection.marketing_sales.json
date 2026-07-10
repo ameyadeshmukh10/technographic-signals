@@ -31,6 +31,8 @@
     "convertkit",
     "drip",
     "sendgrid",
+    "campaign_monitor",
+    "postmark",
     "segment",
     "rudderstack",
     "mparticle",
