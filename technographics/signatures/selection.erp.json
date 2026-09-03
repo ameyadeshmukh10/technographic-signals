@@ -1,0 +1,9 @@
+{
+  "_notes": "ERP-only selection: scopes detection to the four probe-enabled ERP suites (detected via the subdomain portal-probe pipeline, not the marketing site). Use for clients who sell against ERP estates and don't care about GTM tooling — e.g. SELECTION_FILE=technographics/signatures/selection.erp.json.",
+  "selected": [
+    "oracle_ebs",
+    "oracle_fusion_cloud_erp",
+    "peoplesoft",
+    "jd_edwards"
+  ]
+}

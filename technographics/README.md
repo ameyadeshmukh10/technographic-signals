@@ -51,8 +51,11 @@ The library has two tiers, loaded together by default:
 `"curated"` or `"wappalyzer"` so you can tell where each entry came from.
 
 A `selection.json` file lets you scope detection to just the vendors a
-customer cares about — huge perf win at scan time (7,500 → 50). The
-forthcoming onboarding/config agent will write this file.
+customer cares about — huge perf win at scan time (7,500 → 50). Two ship
+with the package: `selection.marketing_sales.json` (the default ~65-vendor
+GTM set) and `selection.erp.json` (only the four probe-enabled ERP suites,
+for clients that sell against ERP estates). The forthcoming
+onboarding/config agent will write per-client files like these.
 
 ## Architecture
 

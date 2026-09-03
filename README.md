@@ -71,7 +71,10 @@ Two detection engines are selectable via `DETECTION_ENGINE`:
   the standalone [`technographics/`](technographics/) package. Scoped by default
   to a focused marketing/sales vendor set
   ([`selection.marketing_sales.json`](technographics/signatures/selection.marketing_sales.json),
-  65 vendors drawn from the full catalogue). Detections map into the four output
+  65 vendors drawn from the full catalogue). An ERP-only selection
+  ([`selection.erp.json`](technographics/signatures/selection.erp.json), the four
+  probe-enabled ERP suites) ships alongside it for clients that sell against ERP
+  estates rather than GTM tooling. Detections map into the output
   buckets via [src/detectors/category_map.py](src/detectors/category_map.py);
   the adapter is [src/detectors/engine.py](src/detectors/engine.py).
 - **`legacy`** — the original hand-coded 4-module detector
