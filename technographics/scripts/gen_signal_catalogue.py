@@ -344,7 +344,9 @@ under *Analytics/Marketing automation*, a per-vendor override map
 
 This ~70-vendor set is the default `selection.marketing_sales.json`. A different
 client gets a different selection (next section) — the five buckets and the
-override map are reused.
+override map are reused. One such alternative ships with the package:
+`selection.erp.json` scopes detection to just the four probe-enabled ERP suites,
+for clients that sell against ERP estates rather than GTM tooling.
 """
 
 
@@ -570,6 +572,7 @@ signatures/
   vendors.json  categories.json          # curated taxonomy
   dns/<id>.json  web/<id>.json            # curated signatures (one per vendor)
   selection.marketing_sales.json          # default GTM selection
+  selection.erp.json                       # ERP-only selection (probe-enabled suites)
   master/
     vendors.json  categories.json  _meta.json
     dns/all.json  web/<letter>.json       # imported Wappalyzer library (sharded)
