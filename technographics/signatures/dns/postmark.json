@@ -1,0 +1,39 @@
+{
+  "vendor_id": "postmark",
+  "subdomains_to_probe": [
+    "pm-bounces",
+    "pm",
+    "email",
+    "e"
+  ],
+  "cname_patterns": [
+    {
+      "value": "mtasv.net",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Postmark return-path (pm-bounces) and DKIM CNAMEs target *.mtasv.net"
+    }
+  ],
+  "txt_patterns": [
+    {
+      "value": "include:spf.mtasv.net",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Postmark SPF include"
+    }
+  ],
+  "mx_patterns": [
+    {
+      "value": "inbound.postmarkapp.com",
+      "match_type": "suffix",
+      "strength": 0.6,
+      "notes": "Postmark inbound email processing MX (only set when inbound is used)"
+    }
+  ],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

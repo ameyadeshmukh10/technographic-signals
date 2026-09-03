@@ -1,0 +1,41 @@
+{
+  "vendor_id": "campaign_monitor",
+  "subdomains_to_probe": [
+    "email",
+    "e",
+    "news",
+    "link",
+    "click",
+    "marketing",
+    "cm"
+  ],
+  "cname_patterns": [
+    {
+      "value": "createsend.com",
+      "match_type": "suffix",
+      "strength": 0.85,
+      "notes": "Campaign Monitor branded sending/link domains CNAME to *.createsend.com"
+    },
+    {
+      "value": "cmail",
+      "match_type": "contains",
+      "strength": 0.6,
+      "notes": "Campaign Monitor open/click tracking host (cmail1.com .. cmail20.com)"
+    }
+  ],
+  "txt_patterns": [
+    {
+      "value": "include:_spf.createsend.com",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "Campaign Monitor SPF include"
+    }
+  ],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}
