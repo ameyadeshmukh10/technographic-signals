@@ -60,6 +60,11 @@ SELECTION_FILE: Path = Path(
 )
 ENABLE_DNS: bool = _bool("ENABLE_DNS", True)
 DNS_TIMEOUT: float = float(os.getenv("DNS_TIMEOUT", "3.0"))
+# Probe-then-fetch: static GETs against well-known portal paths on named
+# subdomains (e.g. erp.<domain>/OA_HTML/AppsLogin for Oracle EBS) for vendors
+# whose signatures opt in via subdomains_to_probe + probe_paths.
+ENABLE_SUBDOMAIN_PROBES: bool = _bool("ENABLE_SUBDOMAIN_PROBES", True)
+PROBE_TIMEOUT: float = float(os.getenv("PROBE_TIMEOUT", "4.0"))
 
 LOGS_DIR: Path = PROJECT_ROOT / "logs"
 FIXTURES_DIR: Path = PROJECT_ROOT / "tests" / "fixtures"

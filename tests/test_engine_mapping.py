@@ -58,6 +58,9 @@ class TestBucketFor:
         assert bucket_for("some_random_cms", "cms") is None
         assert bucket_for("nginx", "web_servers") is None
 
+    def test_erp_bucket(self):
+        assert bucket_for("oracle_ebs", "erp") == "erp"
+
 
 class TestEnginePageMapping:
     """Exercise the FetchResult->PageData->DetectionHit path without network."""
@@ -75,7 +78,7 @@ class TestEnginePageMapping:
             cookies = ["intercom-id-xyz"]
             error = None
 
-        engine = TechEngine(enable_dns=False)
+        engine = TechEngine(enable_dns=False, enable_probes=False)
         hits = engine.detect(None, "https://acme.example/", FR())
         by_name = {h.name: h for h in hits}
 
@@ -90,3 +93,44 @@ class TestEnginePageMapping:
         assert all(h.confidence in ("high", "medium", "low") for h in hits)
         # evidence capped at 3
         assert all(len(h.evidence) <= 3 for h in hits)
+
+    def test_probe_detections_fused_into_hits(self, monkeypatch):
+        from detectors import engine as engine_mod
+        from technographics.schema import Detection
+
+        class FR:
+            url = "https://acme.example/"
+            html = "<html><body>marketing</body></html>"
+            script_srcs = []
+            cookies = []
+            error = None
+
+        probe_det = Detection(
+            vendor_id="oracle_ebs",
+            vendor_name="Oracle E-Business Suite",
+            category="erp",
+            source="probe",
+            confidence=1.0,
+            evidence=["probe https://erp.acme.example/OA_HTML/AppsLogin", "html /OA_HTML/cabo/ ~ /OA_HTML/cabo/"],
+        )
+        monkeypatch.setattr(engine_mod, "probe_subdomains", lambda *a, **kw: [probe_det])
+
+        engine = engine_mod.TechEngine(enable_dns=False, enable_probes=True)
+        hits = engine.detect("acme.example", "https://acme.example/", FR())
+        ebs = [h for h in hits if h.name == "Oracle E-Business Suite"]
+        assert len(ebs) == 1
+        assert ebs[0].category == "erp"
+        assert ebs[0].confidence == "high"
+        assert ebs[0].evidence[0].startswith("probe https://erp.acme.example/")
+
+    def test_erp_rendered_in_output_string(self):
+        from src.detectors import DetectionHit
+        from src.orchestrator import format_signals
+
+        hits = [
+            DetectionHit(name="HubSpot", category="crm", confidence="high", evidence=[]),
+            DetectionHit(
+                name="Oracle E-Business Suite", category="erp", confidence="high", evidence=[]
+            ),
+        ]
+        assert format_signals(hits) == "CRM: HubSpot | ERP: Oracle E-Business Suite"

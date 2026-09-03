@@ -21,6 +21,7 @@ from technographics.dns_matcher import DNSMatcher
 from technographics.fusion import fuse
 from technographics.loader import load_library, load_selection
 from technographics.schema import Detection
+from technographics.subdomain_prober import probe_subdomains_async
 from technographics.web_collector import collect_web_async
 from technographics.web_matcher import WebMatcher
 
@@ -46,6 +47,11 @@ async def _scan_async(domain: str, library, dns_only: bool, web_only: bool):
     if not dns_only:
         page = await collect_web_async(domain)
         web_dets = WebMatcher(library.web_signatures, library.vendors).match(page)
+        web_dets.extend(
+            await probe_subdomains_async(
+                domain, library.dns_signatures, library.web_signatures, library.vendors
+            )
+        )
 
     return dns_dets, web_dets
 

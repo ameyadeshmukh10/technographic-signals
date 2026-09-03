@@ -1,0 +1,51 @@
+{
+  "vendor_id": "oracle_fusion_cloud_erp",
+  "js_globals": [],
+  "script_src_patterns": [],
+  "cookie_patterns": [],
+  "html_patterns": [
+    {
+      "value": "/fscmUI/",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Fusion Financials/SCM UI application path referenced in redirect/loopback markup"
+    },
+    {
+      "value": "AtkHomePageWelcome",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "Fusion Applications ATK home page id"
+    }
+  ],
+  "url_patterns": [
+    {
+      "value": "\\.fa\\.ocs\\.oraclecloud\\.com",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "Fusion Applications SaaS pod hostname; seen as the organic redirect target of erp.<domain> hosts (e.g. erp.bk.rw)"
+    },
+    {
+      "value": "/(fscmUI|hcmUI|crmUI)/faces/",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "Fusion Applications UI shell paths (Financials/SCM, HCM, CRM)"
+    }
+  ],
+  "header_patterns": {
+    "x-oracle-dms-ecid": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 0.3,
+        "notes": "Oracle Dynamic Monitoring Service correlation id; Fusion Middleware generally, not Fusion-Apps-specific"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "probe_paths": {
+    "/": []
+  },
+  "paid_indicators": [],
+  "last_verified": "2026-09-03",
+  "verified_domains": ["bk.rw"]
+}

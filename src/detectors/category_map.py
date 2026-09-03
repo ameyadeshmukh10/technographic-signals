@@ -1,9 +1,9 @@
 """Map technographics detections onto the 4 output buckets.
 
 The technographics library categorizes vendors with its own taxonomy
-(curated 10-bucket + the full 108-category Wappalyzer set). The HubSpot
-output string only has four buckets: ``crm``, ``ad_pixel``, ``martech``,
-``salestech`` (see ``_CATEGORY_DISPLAY`` in ``orchestrator.py``).
+(curated 11-bucket + the full 108-category Wappalyzer set). The HubSpot
+output string only has five buckets: ``crm``, ``ad_pixel``, ``martech``,
+``salestech``, ``erp`` (see ``_CATEGORY_DISPLAY`` in ``orchestrator.py``).
 
 Master frequently files ad pixels under "Analytics"/"Advertising" and
 intent tools under "Analytics"/"Marketing automation", so a pure
@@ -41,6 +41,8 @@ CATEGORY_TO_BUCKET: dict[str, str] = {
     "customer_support": "salestech",
     "appointment_scheduling": "salestech",
     "sales_engagement": "salestech",
+    # ERP suites (detected via the subdomain probe step, not the marketing site)
+    "erp": "erp",
 }
 
 # vendor_id -> bucket. Wins over CATEGORY_TO_BUCKET. Used where master's

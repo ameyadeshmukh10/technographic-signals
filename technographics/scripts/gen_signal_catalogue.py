@@ -57,7 +57,7 @@ DOMAINS: list[tuple[str, str, list[str]]] = [
      ["Security", "Cookie compliance", "Authentication", "SSL/TLS certificate authorities",
       "Browser fingerprinting", "Cryptominers"]),
     ("Business Operations", "Back-office and engineering operations.",
-     ["Accounting", "Recruitment & staffing", "Issue trackers", "Development", "Search engines"]),
+     ["ERP", "Accounting", "Recruitment & staffing", "Issue trackers", "Development", "Search engines"]),
     ("Miscellaneous", "Everything else.", ["Miscellaneous"]),
 ]
 
@@ -73,6 +73,7 @@ CURATED_CAT = {
     "analytics": "Analytics",
     "email_productivity": "Webmail",
     "cdn_security": "CDN",
+    "erp": "ERP",
 }
 
 # Well-known vendor_ids surfaced first in "notable" lists (deterministic).
@@ -182,10 +183,12 @@ Two independent detection pipelines share one vendor taxonomy:
 2. **JS / Web pipeline** — inspects script `src` URLs, JS `window.*` globals,
    cookies, response headers, HTML, and meta tags from the rendered page.
 
-A vendor can be detected by **both** pipelines; results are fused. The two tiers
-of signatures — a hand-curated core and the imported Wappalyzer master library —
-are merged at load time, with **curated signatures overriding** the master entry
-for the same vendor (so hand-tuned precision always wins).
+A vendor can be detected by **both** pipelines; results are fused. A third path —
+**portal probes** — extends the web matcher to internal ERP systems that never
+appear on the marketing site (see *Portal probes — the ERP bucket*). The two
+tiers of signatures — a hand-curated core and the imported Wappalyzer master
+library — are merged at load time, with **curated signatures overriding** the
+master entry for the same vendor (so hand-tuned precision always wins).
 
 _Generated from the live library (upstream commit `{commit}`). Regenerate with
 `PYTHONPATH=src python scripts/gen_signal_catalogue.py`._
@@ -317,7 +320,7 @@ def taxonomy_section(vendors, catname):
 
 GTM_LENS = """## The GTM lens (how the configured agent buckets signals)
 
-The marketing/sales configuration collapses the master taxonomy into **four
+The marketing/sales configuration collapses the master taxonomy into **five
 output buckets** written to HubSpot's `technographic_signals` property. Because
 the master library files ad pixels under *Analytics/Advertising* and intent tools
 under *Analytics/Marketing automation*, a per-vendor override map
@@ -335,11 +338,83 @@ under *Analytics/Marketing automation*, a per-vendor override map
 - **Salestech** — Outreach, Salesloft, Apollo · 6sense, Demandbase, ZoomInfo,
   Leadfeeder, Clearbit Reveal, Albacross, Warmly, Koala, Gong · Drift, Intercom,
   Qualified · Chili Piper, Calendly · G2, Factors.ai, Reo.dev, AiSDR
+- **ERP** — Oracle E-Business Suite, Oracle Fusion Cloud ERP, Oracle PeopleSoft,
+  Oracle JD Edwards EnterpriseOne. Never on the marketing page — surfaced by the
+  portal-probe step (see *Portal probes — the ERP bucket*).
 
-This 65-vendor set is the default `selection.marketing_sales.json`. A different
-client gets a different selection (next section) — the four buckets and the
+This ~70-vendor set is the default `selection.marketing_sales.json`. A different
+client gets a different selection (next section) — the five buckets and the
 override map are reused.
 """
+
+
+PORTAL_PROBES_INTRO = """## Portal probes — the ERP bucket
+
+Enterprise ERP suites are invisible to both the web and DNS pipelines: they run
+on internal hosts, never on the marketing site the scanner fetches. A third
+detection path — **probe-then-fetch** — closes that gap for systems that expose a
+web login on a conventionally-named host.
+
+A vendor opts in by declaring **both** `subdomains_to_probe` (in its
+`dns/<vendor>.json` — candidate hosts) and `probe_paths` (in its
+`web/<vendor>.json` — well-known paths). For each `https://<sub>.<domain><path>`
+the engine issues a cheap static GET (no Chromium) and matches **only that
+vendor's** web signature against the response. Two guards keep catch-all servers
+from producing false positives:
+
+1. **4xx/5xx responses are discarded.**
+2. **A match whose only evidence is the probe URL we constructed is discarded** —
+   *unless* the server organically redirected the probe off the probed site (e.g.
+   `erp.bk.rw` → `*.fa.ocs.oraclecloud.com`), which is genuine evidence. A
+   redirect back to the apex/`www` marketing site does not count.
+
+The per-vendor probe budget is capped (`MAX_PROBES_PER_VENDOR`, path-major: the
+primary path covers every candidate host before secondary paths). All failures
+(NXDOMAIN, TLS, timeout, firewall) are swallowed — probing never blocks the main
+pipelines. Detections carry `source="probe"` and land in the **ERP** bucket. The
+signatures key on **structural** artifacts (auth cookies, servlet paths, SaaS pod
+hostnames), never editorial mentions — a page that says "we run PeopleSoft" does
+not match — and their fingerprints are disjoint, so the suites are told apart.
+
+**Reach and limits.** The probe finds portals only on *conventionally-named*
+hosts; a custom host (e.g. `gullnet.<domain>`) is missed by blind guessing but is
+identified with certainty when the pipeline is pointed straight at it
+(`detect-one <url>`). Behind a firewall or SSO, nothing is externally detectable.
+The internal data-plane tools around an ERP (ETL, replication, archiving) leave
+no public footprint and are not signature-detectable — they need enrichment data.
+"""
+
+
+def portal_probes_section(vendors):
+    rows = []
+    for f in sorted(glob.glob(str(SIG / "web" / "*.json"))):
+        w = read_json(Path(f))
+        paths = w.get("probe_paths") or {}
+        if not paths:
+            continue
+        vid = w["vendor_id"]
+        dns = read_json(SIG / "dns" / f"{vid}.json") if (SIG / "dns" / f"{vid}.json").is_file() else {}
+        subs = dns.get("subdomains_to_probe") or []
+        if not subs:
+            continue
+        # definitive (strength 1.0) signals, across the channels the matcher reads
+        signals = []
+        for key in ("cookie_patterns", "html_patterns", "url_patterns", "script_src_patterns"):
+            for p in w.get(key) or []:
+                if float(p.get("strength", 0)) >= 1.0:
+                    signals.append(p["value"])
+        name = vendors.get(vid, {}).get("name", vid)
+        sub_str = ",".join(subs[:6]) + ("…" if len(subs) > 6 else "")
+        rows.append((name, vid, "`" + "`, `".join(signals[:3]) + "`" if signals else "—",
+                     f"`{sub_str}` @ `{'`, `'.join(paths)}`"))
+
+    out = [PORTAL_PROBES_INTRO, f"### Probe-enabled vendors ({len(rows)})", "",
+           "| Vendor | vendor_id | Confirmed by (definitive signals) | Probe hosts / paths |",
+           "|---|---|---|---|"]
+    for name, vid, sig, hp in rows:
+        out.append(f"| {name} | `{vid}` | {sig} | {hp} |")
+    out.append("")
+    return "\n".join(out)
 
 
 def dns_section(vendors):
@@ -521,6 +596,7 @@ def main() -> int:
         taxonomy_section(vendors, catname),
         GTM_LENS,
         dns_section(vendors),
+        portal_probes_section(vendors),
         CONFIG_SECTION,
         appendix_a(vendors, catname),
         APPENDIX_B,

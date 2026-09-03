@@ -1,0 +1,86 @@
+{
+  "vendor_id": "oracle_ebs",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "/OA_HTML/cabo/jsLibs/",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "OA Framework (UIX) JS libraries served from the EBS web tier"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "oracle.uix",
+      "match_type": "exact",
+      "strength": 0.6,
+      "notes": "UIX framework cookie set by OA Framework pages; also seen on other Oracle UIX apps"
+    }
+  ],
+  "html_patterns": [
+    {
+      "value": "/OA_HTML/cabo/",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "OA Framework asset root; effectively unique to E-Business Suite"
+    },
+    {
+      "value": "OA\\.jsp\\?page=/oracle/apps/",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "OA Framework page dispatcher with an EBS apps module path"
+    },
+    {
+      "value": "/OA_MEDIA/",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "EBS media/image asset root"
+    },
+    {
+      "value": "AppsLocalLogin",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "EBS local login page name in links/redirect markup"
+    }
+  ],
+  "url_patterns": [
+    {
+      "value": "/OA_HTML/(AppsLogin|AppsLocalLogin\\.jsp|RF\\.jsp|OA\\.jsp)",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "canonical EBS entry points; on probes this only counts alongside response evidence (the prober discards URL-only matches)"
+    }
+  ],
+  "header_patterns": {
+    "server": [
+      {
+        "value": "Oracle-HTTP-Server",
+        "match_type": "contains",
+        "strength": 0.6,
+        "notes": "EBS web tier runs Oracle HTTP Server; OHS alone is any Fusion Middleware host"
+      }
+    ],
+    "x-oracle-dms-ecid": [
+      {
+        "value": ".*",
+        "match_type": "regex",
+        "strength": 0.3,
+        "notes": "Oracle Dynamic Monitoring Service correlation id; Fusion Middleware generally, not EBS-specific"
+      }
+    ]
+  },
+  "meta_patterns": {},
+  "probe_paths": {
+    "/OA_HTML/AppsLogin": [
+      {
+        "value": "fndvald|FNDSSOWF|/OA_HTML/AppsLocalLogin\\.jsp",
+        "match_type": "regex",
+        "strength": 0.85,
+        "notes": "FND login artifacts in the AppsLogin response body"
+      }
+    ]
+  },
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

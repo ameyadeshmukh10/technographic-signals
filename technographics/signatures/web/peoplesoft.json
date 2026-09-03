@@ -1,0 +1,74 @@
+{
+  "vendor_id": "peoplesoft",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "/cs/[^/]+/cache/",
+      "match_type": "regex",
+      "strength": 0.85,
+      "notes": "PeopleTools content-server cache path for portal assets"
+    }
+  ],
+  "cookie_patterns": [
+    {
+      "value": "PS_TOKEN",
+      "match_type": "prefix",
+      "strength": 1.0,
+      "notes": "PeopleSoft Internet Architecture auth token (PS_TOKEN / PS_TOKENEXPIRE); definitive"
+    },
+    {
+      "value": "PS_LOGINLIST",
+      "match_type": "exact",
+      "strength": 0.85,
+      "notes": "PIA sign-on list cookie"
+    },
+    {
+      "value": "PS_LASTSITE",
+      "match_type": "exact",
+      "strength": 0.85,
+      "notes": "PIA last-site cookie"
+    },
+    {
+      "value": "PS_DEVICEFEATURES",
+      "match_type": "exact",
+      "strength": 0.85,
+      "notes": "PIA device-features cookie"
+    }
+  ],
+  "html_patterns": [
+    {
+      "value": "/psp/",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "PIA portal servlet path; structural, near-unique to PeopleSoft"
+    },
+    {
+      "value": "/psc/",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "PIA content servlet path"
+    },
+    {
+      "value": "ptStyle",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "PeopleTools stylesheet class prefix"
+    }
+  ],
+  "url_patterns": [
+    {
+      "value": "/(psp|psc|PSIGW)/",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "PIA servlet paths; counts as evidence when the probe organically redirects here off the probed host"
+    }
+  ],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "probe_paths": {
+    "/": []
+  },
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

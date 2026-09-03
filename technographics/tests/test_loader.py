@@ -15,6 +15,8 @@ CURATED_VENDORS = {
     "cloudflare", "akamai", "fastly",
     # ported gap signatures (marketing/sales config)
     "google_ads", "g2", "factors_ai", "reo", "aisdr",
+    # portal-probe signatures
+    "oracle_ebs", "oracle_fusion_cloud_erp", "peoplesoft", "jd_edwards",
 }
 
 
@@ -29,7 +31,7 @@ def test_curated_only_mode():
     lib = load_library(include_master=False)
     assert set(lib.vendors) == CURATED_VENDORS
     assert lib.stats()["master"] == 0
-    assert lib.stats()["curated"] == 36
+    assert lib.stats()["curated"] == 40
 
 
 def test_master_tier_loads():
@@ -100,7 +102,7 @@ def test_load_library_missing_dir(tmp_path):
 
 def test_stats_split_curated_and_master():
     stats = load_library().stats()
-    assert stats["curated"] == 36
+    assert stats["curated"] == 40
     assert stats["master"] >= 7000
     assert stats["total_vendors"] == stats["curated"] + stats["master"]
     assert stats["with_dns"] >= 31  # at least the curated DNS sigs

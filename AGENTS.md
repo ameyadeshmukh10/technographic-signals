@@ -14,13 +14,20 @@ responsibility, schemas, error taxonomy, extension points — see
 
 The pipeline pulls a list of companies from HubSpot, visits each
 company's website, signature-matches the HTML/JS for go-to-market
-technologies (CRM, ad pixels, marketing tools, sales tools), and writes
+technologies (CRM, ad pixels, marketing tools, sales tools, ERP), and writes
 the result back to a custom HubSpot company property,
 `technographic_signals`, formatted as:
 
 ```
-CRM: HubSpot | Ad Pixels: Meta Pixel, LinkedIn Insight Tag | Martech: Segment | Salestech: Calendly
+CRM: HubSpot | Ad Pixels: Meta Pixel, LinkedIn Insight Tag | Martech: Segment | Salestech: Calendly | ERP: Oracle PeopleSoft
 ```
+
+The **ERP** bucket is filled by a *portal-probe* step, not the marketing-page
+scan: for Oracle EBS / Fusion / PeopleSoft / JD Edwards the engine probes
+conventionally-named subdomains (`erp.<domain>`, `careers.<domain>`, …) at
+well-known login paths. See the default (technographics) engine in
+[`src/detectors/engine.py`](src/detectors/engine.py) and the
+[Signal Catalogue](technographics/docs/SIGNAL_CATALOGUE.md) (§ *Portal probes*).
 
 Detection is **signature-based, not third-party-enriched** — no BuiltWith,
 no Wappalyzer. The signature library lives at

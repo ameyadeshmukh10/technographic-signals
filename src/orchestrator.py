@@ -70,6 +70,7 @@ _CATEGORY_DISPLAY: list[tuple[str, str]] = [
     ("ad_pixel", "Ad Pixels"),
     ("martech", "Martech"),
     ("salestech", "Salestech"),
+    ("erp", "ERP"),
 ]
 
 
@@ -130,6 +131,8 @@ class Orchestrator:
                 selection_path=config.SELECTION_FILE,
                 enable_dns=config.ENABLE_DNS,
                 dns_timeout=config.DNS_TIMEOUT,
+                enable_probes=config.ENABLE_SUBDOMAIN_PROBES,
+                probe_timeout=config.PROBE_TIMEOUT,
             )
             _logger.info(
                 "engine=technographics vendors=%d dns=%s",

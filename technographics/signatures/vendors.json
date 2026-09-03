@@ -435,5 +435,57 @@
     "typically_replaces": [],
     "typically_replaced_by": [],
     "source": "curated"
+  },
+  "oracle_ebs": {
+    "vendor_id": "oracle_ebs",
+    "vendor_name": "Oracle E-Business Suite",
+    "vendor_url": "https://www.oracle.com/applications/e-business-suite/",
+    "category": "erp",
+    "subcategory": "erp_suite",
+    "typical_buyer": ["CIO", "CFO", "VP IT"],
+    "company_stage": ["mid_market", "enterprise"],
+    "price_tier": "enterprise",
+    "typically_replaces": [],
+    "typically_replaced_by": [],
+    "source": "curated"
+  },
+  "oracle_fusion_cloud_erp": {
+    "vendor_id": "oracle_fusion_cloud_erp",
+    "vendor_name": "Oracle Fusion Cloud ERP",
+    "vendor_url": "https://www.oracle.com/erp/",
+    "category": "erp",
+    "subcategory": "erp_suite",
+    "typical_buyer": ["CIO", "CFO", "VP IT"],
+    "company_stage": ["mid_market", "enterprise"],
+    "price_tier": "enterprise",
+    "typically_replaces": ["oracle_ebs"],
+    "typically_replaced_by": [],
+    "source": "curated"
+  },
+  "peoplesoft": {
+    "vendor_id": "peoplesoft",
+    "vendor_name": "Oracle PeopleSoft",
+    "vendor_url": "https://www.oracle.com/applications/peoplesoft/",
+    "category": "erp",
+    "subcategory": "erp_suite",
+    "typical_buyer": ["CIO", "CHRO", "VP IT"],
+    "company_stage": ["mid_market", "enterprise"],
+    "price_tier": "enterprise",
+    "typically_replaces": [],
+    "typically_replaced_by": ["oracle_fusion_cloud_erp"],
+    "source": "curated"
+  },
+  "jd_edwards": {
+    "vendor_id": "jd_edwards",
+    "vendor_name": "Oracle JD Edwards EnterpriseOne",
+    "vendor_url": "https://www.oracle.com/applications/jd-edwards-enterpriseone/",
+    "category": "erp",
+    "subcategory": "erp_suite",
+    "typical_buyer": ["CIO", "CFO", "VP IT"],
+    "company_stage": ["mid_market", "enterprise"],
+    "price_tier": "enterprise",
+    "typically_replaces": [],
+    "typically_replaced_by": ["oracle_fusion_cloud_erp"],
+    "source": "curated"
   }
 }

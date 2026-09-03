@@ -1,0 +1,18 @@
+{
+  "vendor_id": "oracle_fusion_cloud_erp",
+  "cname_patterns": [],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "soa_patterns": [],
+  "subdomains_to_probe": [
+    "erp",
+    "ebs",
+    "fusion"
+  ],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": "2026-09-03",
+  "verified_domains": ["bk.rw"]
+}
