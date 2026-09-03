@@ -1,7 +1,8 @@
 """Technographics-backed detection engine.
 
 Adapter that delegates per-company detection to the `technographics`
-package (DNS + web + noisy-OR fusion), scoped by a selection file, and
+package (DNS + web + subdomain probes + noisy-OR fusion), scoped by a
+selection file, and
 maps the results back into the legacy `DetectionHit` shape so the rest of
 the orchestrator (filtering, formatting, HubSpot writes) is unchanged.
 
@@ -28,6 +29,7 @@ from technographics.dns_collector import collect_dns  # noqa: E402
 from technographics.dns_matcher import DNSMatcher  # noqa: E402
 from technographics.fusion import fuse  # noqa: E402
 from technographics.loader import load_library, load_selection  # noqa: E402
+from technographics.subdomain_prober import probe_specs, probe_subdomains  # noqa: E402
 from technographics.web_matcher import PageData, WebMatcher  # noqa: E402
 
 DEFAULT_SELECTION = _REPO_ROOT / "technographics" / "signatures" / "selection.marketing_sales.json"
@@ -53,6 +55,8 @@ class TechEngine:
         selection_path: str | Path | None = None,
         enable_dns: bool = True,
         dns_timeout: float = 3.0,
+        enable_probes: bool = True,
+        probe_timeout: float = 4.0,
     ) -> None:
         path = Path(selection_path) if selection_path else DEFAULT_SELECTION
         selection = load_selection(path) if path.is_file() else None
@@ -61,6 +65,11 @@ class TechEngine:
         self.dns_matcher = DNSMatcher(self.library.dns_signatures, self.library.vendors)
         self.enable_dns = enable_dns
         self.dns_timeout = dns_timeout
+        self.enable_probes = enable_probes
+        self.probe_timeout = probe_timeout
+        self._has_probe_specs = bool(
+            probe_specs(self.library.dns_signatures, self.library.web_signatures)
+        )
         self._subdomains = sorted(
             {
                 sub
@@ -97,7 +106,20 @@ class TechEngine:
             except Exception:
                 dns_dets = []  # DNS is best-effort; never block web detection
 
-        fused = fuse(dns_dets, web_dets)
+        probe_dets = []
+        if self.enable_probes and self._has_probe_specs and host:
+            try:
+                probe_dets = probe_subdomains(
+                    host,
+                    self.library.dns_signatures,
+                    self.library.web_signatures,
+                    self.library.vendors,
+                    timeout=self.probe_timeout,
+                )
+            except Exception:
+                probe_dets = []  # probes are best-effort too
+
+        fused = fuse(dns_dets, [*web_dets, *probe_dets])
 
         hits: list[DetectionHit] = []
         for det in fused:

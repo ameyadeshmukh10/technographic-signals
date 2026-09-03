@@ -114,6 +114,8 @@ def detect_one_cmd(url: str, domain: str | None, legacy: bool) -> None:
             selection_path=config.SELECTION_FILE,
             enable_dns=config.ENABLE_DNS,
             dns_timeout=config.DNS_TIMEOUT,
+            enable_probes=config.ENABLE_SUBDOMAIN_PROBES,
+            probe_timeout=config.PROBE_TIMEOUT,
         )
         all_hits = engine.detect(domain or url, url, fr)
     else:

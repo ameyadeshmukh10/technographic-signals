@@ -20,6 +20,16 @@ in separate files (`signatures/dns/intercom.json`, `signatures/web/intercom.json
 but reference the same stable `vendor_id`, and a fusion step combines their
 signals.
 
+A third path, **portal probes** (`subdomain_prober.py`), extends the web
+pipeline to internal systems that never appear on the marketing site — chiefly
+ERP suites. A vendor opts in by declaring both `subdomains_to_probe` (DNS side)
+and `probe_paths` (web side); the prober issues static GETs to
+`https://<sub>.<domain><path>` and runs that vendor's web signature against the
+response, guarding against catch-all false positives (4xx/5xx dropped; a
+URL-only match counts only on an organic off-site redirect). Currently
+`oracle_ebs`, `oracle_fusion_cloud_erp`, `peoplesoft`, and `jd_edwards`. See the
+Signal Catalogue's *Portal probes — the ERP bucket* section.
+
 ## Two tiers: curated + master
 
 The library has two tiers, loaded together by default:
@@ -174,8 +184,9 @@ The schema captures upstream's full signal surface (`dom_patterns`,
 `inline_script_patterns`, `text_patterns`, `css_patterns`, `xhr_patterns`,
 `robots_patterns`, `cert_issuer_patterns`, `probe_paths`). The current
 matchers act on the subset they understand (js, scriptSrc, cookies, headers,
-html, meta, url for web; A/MX/TXT/NS/SOA/CNAME for DNS). Future matcher
-passes for DOM / inline scripts / probes won't require a re-import.
+html, meta, url for web; A/MX/TXT/NS/SOA/CNAME for DNS) — plus `probe_paths`,
+now consumed by the portal-probe path (`subdomain_prober.py`). Future matcher
+passes for DOM / inline scripts won't require a re-import.
 
 See `src/technographics/schema.py` for the full dataclass definitions.
 

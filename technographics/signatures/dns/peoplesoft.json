@@ -1,0 +1,23 @@
+{
+  "vendor_id": "peoplesoft",
+  "cname_patterns": [],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "soa_patterns": [],
+  "subdomains_to_probe": [
+    "careers",
+    "jobs",
+    "hr",
+    "hcm",
+    "hrms",
+    "ps",
+    "portal",
+    "erp"
+  ],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

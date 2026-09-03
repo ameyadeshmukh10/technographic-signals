@@ -8,5 +8,6 @@
   "analytics": {"name": "Analytics", "description": "Product and web analytics"},
   "data_infrastructure": {"name": "Data Infrastructure", "description": "Warehouses, ELT/ETL, and reverse-ETL"},
   "cdn_security": {"name": "CDN & Security", "description": "Content delivery networks, edge, and web security"},
-  "advertising": {"name": "Advertising", "description": "Paid media, ad pixels, and conversion tracking"}
+  "advertising": {"name": "Advertising", "description": "Paid media, ad pixels, and conversion tracking"},
+  "erp": {"name": "ERP", "description": "Enterprise resource planning suites (finance, supply chain, HR)"}
 }

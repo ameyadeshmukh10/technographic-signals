@@ -8,10 +8,10 @@
 
 | Metric | Count |
 |---|---:|
-| **Total vendors in the library** | **7,528** |
-| Detectable via the **JS / Web pipeline** | 7,444 |
+| **Total vendors in the library** | **7,532** |
+| Detectable via the **JS / Web pipeline** | 7,448 |
 | Detectable via the **DNS pipeline** | 88 |
-| Hand-curated, high-precision signatures | 36 |
+| Hand-curated, high-precision signatures | 40 |
 | Wappalyzer categories | 108 |
 | Top-level domains (this document's taxonomy) | 12 |
 
@@ -24,10 +24,12 @@ Two independent detection pipelines share one vendor taxonomy:
 2. **JS / Web pipeline** — inspects script `src` URLs, JS `window.*` globals,
    cookies, response headers, HTML, and meta tags from the rendered page.
 
-A vendor can be detected by **both** pipelines; results are fused. The two tiers
-of signatures — a hand-curated core and the imported Wappalyzer master library —
-are merged at load time, with **curated signatures overriding** the master entry
-for the same vendor (so hand-tuned precision always wins).
+A vendor can be detected by **both** pipelines; results are fused. A third path —
+**portal probes** — extends the web matcher to internal ERP systems that never
+appear on the marketing site (see *Portal probes — the ERP bucket*). The two
+tiers of signatures — a hand-curated core and the imported Wappalyzer master
+library — are merged at load time, with **curated signatures overriding** the
+master entry for the same vendor (so hand-tuned precision always wins).
 
 _Generated from the live library (upstream commit `c2855b4652`). Regenerate with
 `PYTHONPATH=src python scripts/gen_signal_catalogue.py`._
@@ -107,7 +109,7 @@ Implementation lives in `schema.py`, `dns_matcher.py`, `web_matcher.py`,
 
 ## The signal taxonomy
 
-All 108 categories (plus two curated additions — *Sales engagement*, *Data infrastructure*) roll up into 12 domains. ★ marks a hand-curated signature. Full per-vendor lists are in [Appendix A](#appendix-a--full-vendor-enumeration).
+All 108 Wappalyzer categories (plus two curated additions — *Sales engagement*, *Data infrastructure*) roll up into 12 domains. ★ marks a hand-curated signature. Full per-vendor lists are in [Appendix A](#appendix-a--full-vendor-enumeration).
 
 ### Sales & CRM  ·  443 vendors
 _Pipeline, accounts, and revenue tooling._  (web: 442 · DNS: 3)
@@ -270,11 +272,12 @@ _Protection, consent, and authentication._  (web: 227 · DNS: 5)
 | SSL/TLS certificate authorities | 7 |  | AWS Certificate Manager, DigiCert, Entrust, Identrust, Let's Encrypt, Sectigo, Thawte |
 | Cryptominers | 8 |  | Coinhave, CoinHive, Coinimp, Crypto-Loot, deepMiner, JSEcoin, Minero.cc, Minerstat |
 
-### Business Operations  ·  281 vendors
-_Back-office and engineering operations._  (web: 281 · DNS: 1)
+### Business Operations  ·  285 vendors
+_Back-office and engineering operations._  (web: 285 · DNS: 1)
 
 | Category | Vendors | DNS | Notable |
 |---|---:|---:|---|
+| ERP | 4 |  | Oracle E-Business Suite★, Oracle Fusion Cloud ERP★, Oracle JD Edwards EnterpriseOne★, Oracle PeopleSoft★ |
 | Accounting | 9 |  | Akaunting, Carta, Epicor, Ignition, Iress, Lendi, Liscio, Taxdome, Tiller |
 | Recruitment & staffing | 69 |  | 7Shifts, Agorize, Appcast, ApplicantStack, Avature, BambooHR, Beamery, BITE, Breezy HR, CATS, Converzee, Dover |
 | Issue trackers | 68 | 1 | Atlassian Statuspage, Asana, Atlassian Jira, Atlassian Jira Issue Collector, Better Stack, BugHerd, Buglog, Bugzilla, Cachet, Canny, Checkly, Combodo iTop |
@@ -290,7 +293,7 @@ _Everything else._  (web: 113 · DNS: 1)
 
 ## The GTM lens (how the configured agent buckets signals)
 
-The marketing/sales configuration collapses the master taxonomy into **four
+The marketing/sales configuration collapses the master taxonomy into **five
 output buckets** written to HubSpot's `technographic_signals` property. Because
 the master library files ad pixels under *Analytics/Advertising* and intent tools
 under *Analytics/Marketing automation*, a per-vendor override map
@@ -308,9 +311,12 @@ under *Analytics/Marketing automation*, a per-vendor override map
 - **Salestech** — Outreach, Salesloft, Apollo · 6sense, Demandbase, ZoomInfo,
   Leadfeeder, Clearbit Reveal, Albacross, Warmly, Koala, Gong · Drift, Intercom,
   Qualified · Chili Piper, Calendly · G2, Factors.ai, Reo.dev, AiSDR
+- **ERP** — Oracle E-Business Suite, Oracle Fusion Cloud ERP, Oracle PeopleSoft,
+  Oracle JD Edwards EnterpriseOne. Never on the marketing page — surfaced by the
+  portal-probe step (see *Portal probes — the ERP bucket*).
 
-This 65-vendor set is the default `selection.marketing_sales.json`. A different
-client gets a different selection (next section) — the four buckets and the
+This ~70-vendor set is the default `selection.marketing_sales.json`. A different
+client gets a different selection (next section) — the five buckets and the
 override map are reused.
 
 ## DNS signature catalogue
@@ -427,6 +433,50 @@ Imported from Wappalyzer — predominantly hosting/email/CDN providers.
 | Zendesk | `zendesk` | TXT |
 | Zoho | `zoho` | TXT |
 | Zoho Mail | `zoho_mail` | TXT |
+
+## Portal probes — the ERP bucket
+
+Enterprise ERP suites are invisible to both the web and DNS pipelines: they run
+on internal hosts, never on the marketing site the scanner fetches. A third
+detection path — **probe-then-fetch** — closes that gap for systems that expose a
+web login on a conventionally-named host.
+
+A vendor opts in by declaring **both** `subdomains_to_probe` (in its
+`dns/<vendor>.json` — candidate hosts) and `probe_paths` (in its
+`web/<vendor>.json` — well-known paths). For each `https://<sub>.<domain><path>`
+the engine issues a cheap static GET (no Chromium) and matches **only that
+vendor's** web signature against the response. Two guards keep catch-all servers
+from producing false positives:
+
+1. **4xx/5xx responses are discarded.**
+2. **A match whose only evidence is the probe URL we constructed is discarded** —
+   *unless* the server organically redirected the probe off the probed site (e.g.
+   `erp.bk.rw` → `*.fa.ocs.oraclecloud.com`), which is genuine evidence. A
+   redirect back to the apex/`www` marketing site does not count.
+
+The per-vendor probe budget is capped (`MAX_PROBES_PER_VENDOR`, path-major: the
+primary path covers every candidate host before secondary paths). All failures
+(NXDOMAIN, TLS, timeout, firewall) are swallowed — probing never blocks the main
+pipelines. Detections carry `source="probe"` and land in the **ERP** bucket. The
+signatures key on **structural** artifacts (auth cookies, servlet paths, SaaS pod
+hostnames), never editorial mentions — a page that says "we run PeopleSoft" does
+not match — and their fingerprints are disjoint, so the suites are told apart.
+
+**Reach and limits.** The probe finds portals only on *conventionally-named*
+hosts; a custom host (e.g. `gullnet.<domain>`) is missed by blind guessing but is
+identified with certainty when the pipeline is pointed straight at it
+(`detect-one <url>`). Behind a firewall or SSO, nothing is externally detectable.
+The internal data-plane tools around an ERP (ETL, replication, archiving) leave
+no public footprint and are not signature-detectable — they need enrichment data.
+
+### Probe-enabled vendors (4)
+
+| Vendor | vendor_id | Confirmed by (definitive signals) | Probe hosts / paths |
+|---|---|---|---|
+| Oracle JD Edwards EnterpriseOne | `jd_edwards` | `E1Menu.maf`, `com.jdedwards`, `/jde/(E1Menu\.maf|E1Login|servlet/com\.jdedwards)` | `jde,e1,erp,apps` @ `/jde/E1Menu.maf`, `/jde/` |
+| Oracle E-Business Suite | `oracle_ebs` | `/OA_HTML/cabo/`, `OA\.jsp\?page=/oracle/apps/`, `/OA_HTML/(AppsLogin|AppsLocalLogin\.jsp|RF\.jsp|OA\.jsp)` | `ebs,erp,isupplier,istore,iprocurement,irecruitment…` @ `/OA_HTML/AppsLogin` |
+| Oracle Fusion Cloud ERP | `oracle_fusion_cloud_erp` | `\.fa\.ocs\.oraclecloud\.com`, `/(fscmUI|hcmUI|crmUI)/faces/` | `erp,ebs,fusion` @ `/` |
+| Oracle PeopleSoft | `peoplesoft` | `PS_TOKEN`, `/(psp|psc|PSIGW)/` | `careers,jobs,hr,hcm,hrms,ps…` @ `/` |
 
 ## Configuration — how a client is onboarded
 
@@ -745,7 +795,9 @@ Every vendor in the library, grouped Domain → Category. ★ = curated. Collaps
 </details>
 
 <details>
-<summary><b>Business Operations</b> — 281 vendors</summary>
+<summary><b>Business Operations</b> — 285 vendors</summary>
+
+**ERP** (4): Oracle E-Business Suite★, Oracle Fusion Cloud ERP★, Oracle JD Edwards EnterpriseOne★, Oracle PeopleSoft★
 
 **Accounting** (9): Akaunting, Carta, Epicor, Ignition, Iress, Lendi, Liscio, Taxdome, Tiller
 

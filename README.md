@@ -30,7 +30,8 @@ Two backends, selectable via the `DETECTION_ENGINE` env var:
 
 Relevant env vars: `DETECTION_ENGINE` (`technographics`|`legacy`),
 `SELECTION_FILE` (path to the selection JSON), `ENABLE_DNS` (default `true`),
-`DNS_TIMEOUT` (seconds, default `3.0`), `ALWAYS_RENDER` (default `false`).
+`DNS_TIMEOUT` (seconds, default `3.0`), `ALWAYS_RENDER` (default `false`),
+`ENABLE_SUBDOMAIN_PROBES` (default `true`), `PROBE_TIMEOUT` (seconds, default `4.0`).
 
 **Recall vs speed — `ALWAYS_RENDER`.** Many vendors (Microsoft Clarity, Hotjar,
 Demandbase, Chili Piper, Meta Pixel…) are only visible via a `window.*` JS global
@@ -40,6 +41,26 @@ missed. Set `ALWAYS_RENDER=true` to render every page and capture JS globals +
 response headers + meta tags on every scan — much higher recall, slower batches.
 Example: `gong.io` returns *no* signals on a static fetch but 14 vendors
 (across all four buckets) with `ALWAYS_RENDER=true`.
+
+**Portal probes — `ENABLE_SUBDOMAIN_PROBES`.** Some enterprise systems never
+appear on the marketing site: Oracle E-Business Suite lives on hosts like
+`erp.acme.com` and only reveals itself at well-known paths
+(`/OA_HTML/AppsLogin`). For vendors whose signatures declare both
+`subdomains_to_probe` (DNS side) and `probe_paths` (web side), the engine
+issues cheap static GETs against `https://<sub>.<domain><path>` and matches
+only that vendor's web signature against the response. Two guards prevent
+catch-all servers from faking a hit: 4xx/5xx responses are discarded, and so
+is any detection whose only evidence is the probe URL itself — unless the
+server organically redirected the probe off the probed site (e.g.
+`erp.bk.rw` → `*.fa.ocs.oraclecloud.com`, which is how Oracle Fusion Cloud
+ERP is confirmed). Detections land in a fifth output bucket, `ERP`.
+Probe-enabled vendors: `oracle_ebs`, `oracle_fusion_cloud_erp`, `peoplesoft`
+(PIA — `/psp/`, `PS_TOKEN`; also catches public recruiting portals), and
+`jd_edwards` (EnterpriseOne — `/jde/E1Menu.maf`, `com.jdedwards`). The
+mechanism is generic — opt any vendor in via its signature files, no code
+change needed. Per host the probe budget is capped
+(`MAX_PROBES_PER_VENDOR`, path-major: the primary path covers every candidate
+subdomain before secondary paths are tried).
 
 To change which vendors are detected, edit the `selected` list in the selection
 file — no code change needed. To re-pull the master catalogue:

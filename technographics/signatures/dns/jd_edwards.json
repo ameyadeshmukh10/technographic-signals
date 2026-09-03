@@ -1,0 +1,19 @@
+{
+  "vendor_id": "jd_edwards",
+  "cname_patterns": [],
+  "txt_patterns": [],
+  "mx_patterns": [],
+  "ns_patterns": [],
+  "a_patterns": [],
+  "soa_patterns": [],
+  "subdomains_to_probe": [
+    "jde",
+    "e1",
+    "erp",
+    "apps"
+  ],
+  "paid_indicators": [],
+  "enterprise_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}

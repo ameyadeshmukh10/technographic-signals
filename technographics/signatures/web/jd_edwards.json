@@ -1,0 +1,62 @@
+{
+  "vendor_id": "jd_edwards",
+  "js_globals": [],
+  "script_src_patterns": [
+    {
+      "value": "/jde/",
+      "match_type": "contains",
+      "strength": 0.6,
+      "notes": "JD Edwards EnterpriseOne JAS web-tier asset root"
+    }
+  ],
+  "cookie_patterns": [],
+  "html_patterns": [
+    {
+      "value": "E1Menu.maf",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "EnterpriseOne menu entry point; definitive"
+    },
+    {
+      "value": "com.jdedwards",
+      "match_type": "contains",
+      "strength": 1.0,
+      "notes": "EnterpriseOne Java package name in servlet paths/markup; definitive"
+    },
+    {
+      "value": "jdeLoginTitle",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "EnterpriseOne sign-on page style/id"
+    },
+    {
+      "value": "/jde/owhtml",
+      "match_type": "contains",
+      "strength": 0.85,
+      "notes": "EnterpriseOne OneWorld HTML asset path"
+    },
+    {
+      "value": "/jde/",
+      "match_type": "contains",
+      "strength": 0.6,
+      "notes": "EnterpriseOne web-tier path root (weaker on its own)"
+    }
+  ],
+  "url_patterns": [
+    {
+      "value": "/jde/(E1Menu\\.maf|E1Login|servlet/com\\.jdedwards)",
+      "match_type": "regex",
+      "strength": 1.0,
+      "notes": "EnterpriseOne entry points; counts when the probe organically redirects here off the probed host"
+    }
+  ],
+  "header_patterns": {},
+  "meta_patterns": {},
+  "probe_paths": {
+    "/jde/E1Menu.maf": [],
+    "/jde/": []
+  },
+  "paid_indicators": [],
+  "last_verified": null,
+  "verified_domains": []
+}
